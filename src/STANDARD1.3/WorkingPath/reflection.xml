@@ -1,0 +1,3410 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<reflection xmlns:msxsl="urn:schemas-microsoft-com:xslt" xmlns:ddue="urn:ddue-extensions">
+  <assemblies>
+    <assembly name="XPatchLib">
+      <assemblydata version="3.0.0.1" culture="" key="" hash="SHA1" />
+      <attributes>
+        <attribute>
+          <type api="T:System.Runtime.CompilerServices.ExtensionAttribute" ref="true" />
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyFileVersionAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>3.0.0.1</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyInformationalVersionAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>3.0.0.1</value>
+          </argument>
+        </attribute>
+      </attributes>
+    </assembly>
+  </assemblies>
+  <apis>
+    <api id="N:XPatchLib">
+      <topicdata group="api" />
+      <apidata name="XPatchLib" group="namespace" />
+      <elements>
+        <element api="T:XPatchLib.AttributeMissException" />
+        <element api="T:XPatchLib.DateTimeSerializationMode" />
+        <element api="T:XPatchLib.Formatting" />
+        <element api="T:XPatchLib.ISerializeSetting" />
+        <element api="T:XPatchLib.ITextReader" />
+        <element api="T:XPatchLib.ITextWriter" />
+        <element api="T:XPatchLib.NodeType" />
+        <element api="T:XPatchLib.PrimaryKeyAttribute" />
+        <element api="T:XPatchLib.PrimaryKeyException" />
+        <element api="T:XPatchLib.ReadState" />
+        <element api="T:XPatchLib.Serializer" />
+        <element api="T:XPatchLib.XmlSerializeSetting" />
+        <element api="T:XPatchLib.XmlTextReader" />
+        <element api="T:XPatchLib.XmlTextWriter" />
+      </elements>
+      <file name="683748d6-c9bf-2af3-65d3-7ad60286cfbe" />
+    </api>
+    <api id="T:XPatchLib.AttributeMissException">
+      <topicdata group="api" />
+      <apidata name="AttributeMissException" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="false" />
+      <family>
+        <ancestors>
+          <type api="T:System.Exception" ref="true" />
+          <type api="T:System.Object" ref="true" />
+        </ancestors>
+      </family>
+      <elements>
+        <element api="Overload:XPatchLib.AttributeMissException.#ctor">
+          <element api="M:XPatchLib.AttributeMissException.#ctor" />
+          <element api="M:XPatchLib.AttributeMissException.#ctor(System.String)" />
+          <element api="M:XPatchLib.AttributeMissException.#ctor(System.String,System.Exception)" />
+          <element api="M:XPatchLib.AttributeMissException.#ctor(System.Type,System.String)" />
+        </element>
+        <element api="P:XPatchLib.AttributeMissException.AttributeName" />
+        <element api="P:XPatchLib.AttributeMissException.ErrorType" />
+        <element api="P:XPatchLib.AttributeMissException.Message" />
+      </elements>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="3.0.0.1" />
+        </library>
+        <namespace api="N:XPatchLib" />
+      </containers>
+      <file name="afe4f0a4-bfde-6276-d62a-5e9acc5ba12d" />
+    </api>
+    <api id="Properties.T:XPatchLib.AttributeMissException">
+      <topicdata name="AttributeMissException" group="list" subgroup="Properties" typeTopicId="T:XPatchLib.AttributeMissException" />
+      <apidata name="AttributeMissException" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="false" />
+      <elements>
+        <element api="P:XPatchLib.AttributeMissException.AttributeName" />
+        <element api="P:XPatchLib.AttributeMissException.ErrorType" />
+        <element api="P:XPatchLib.AttributeMissException.Message" />
+      </elements>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="3.0.0.1" />
+        </library>
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.AttributeMissException" />
+      </containers>
+      <file name="6b765150-3e43-1a0f-9d5c-621f0bc45111" />
+    </api>
+    <api id="Overload:XPatchLib.AttributeMissException.#ctor">
+      <topicdata name=".ctor" group="list" subgroup="overload" memberSubgroup="constructor" pseudo="true" allMembersTopicId="" />
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <elements>
+        <element api="M:XPatchLib.AttributeMissException.#ctor" />
+        <element api="M:XPatchLib.AttributeMissException.#ctor(System.String)" />
+        <element api="M:XPatchLib.AttributeMissException.#ctor(System.String,System.Exception)" />
+        <element api="M:XPatchLib.AttributeMissException.#ctor(System.Type,System.String)" />
+      </elements>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="3.0.0.1" />
+        </library>
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.AttributeMissException" ref="true" />
+      </containers>
+      <file name="5cf556f7-bc9c-57c0-3f10-7aa76716ddbf" />
+    </api>
+    <api id="M:XPatchLib.AttributeMissException.#ctor">
+      <topicdata group="api" />
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <memberdata visibility="public" special="true" overload="Overload:XPatchLib.AttributeMissException.#ctor" />
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="3.0.0.1" />
+          <noAptca />
+        </library>
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.AttributeMissException" ref="true" />
+      </containers>
+      <file name="bc53e76b-3090-c94b-6685-5b5c0c02a3c7" />
+    </api>
+    <api id="M:XPatchLib.AttributeMissException.#ctor(System.String)">
+      <topicdata group="api" />
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <memberdata visibility="public" special="true" overload="Overload:XPatchLib.AttributeMissException.#ctor" />
+      <parameters>
+        <parameter name="message">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="3.0.0.1" />
+          <noAptca />
+        </library>
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.AttributeMissException" ref="true" />
+      </containers>
+      <file name="f0e65a12-e7fd-39a0-de42-c6359a98e68c" />
+    </api>
+    <api id="M:XPatchLib.AttributeMissException.#ctor(System.String,System.Exception)">
+      <topicdata group="api" />
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <memberdata visibility="public" special="true" overload="Overload:XPatchLib.AttributeMissException.#ctor" />
+      <parameters>
+        <parameter name="message">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+        <parameter name="innerException">
+          <type api="T:System.Exception" ref="true" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="3.0.0.1" />
+          <noAptca />
+        </library>
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.AttributeMissException" ref="true" />
+      </containers>
+      <file name="8871c610-5974-b14f-5887-6c855e74cdc9" />
+    </api>
+    <api id="M:XPatchLib.AttributeMissException.#ctor(System.Type,System.String)">
+      <topicdata group="api" />
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <memberdata visibility="public" special="true" overload="Overload:XPatchLib.AttributeMissException.#ctor" />
+      <parameters>
+        <parameter name="pType">
+          <type api="T:System.Type" ref="true" />
+        </parameter>
+        <parameter name="pAttrName">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="3.0.0.1" />
+          <noAptca />
+        </library>
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.AttributeMissException" ref="true" />
+      </containers>
+      <file name="d77596ca-2b6f-b01d-9b8c-fe86db2fbf8c" />
+    </api>
+    <api id="P:XPatchLib.AttributeMissException.AttributeName">
+      <topicdata group="api" />
+      <apidata name="AttributeName" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <propertydata get="true" />
+      <getter name="get_AttributeName" />
+      <returns>
+        <type api="T:System.String" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="3.0.0.1" />
+          <noAptca />
+        </library>
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.AttributeMissException" ref="true" />
+      </containers>
+      <file name="0f49e3a1-379e-0eb5-01e8-b5c9a395d533" />
+    </api>
+    <api id="P:XPatchLib.AttributeMissException.ErrorType">
+      <topicdata group="api" />
+      <apidata name="ErrorType" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <propertydata get="true" />
+      <getter name="get_ErrorType" />
+      <returns>
+        <type api="T:System.Type" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="3.0.0.1" />
+          <noAptca />
+        </library>
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.AttributeMissException" ref="true" />
+      </containers>
+      <file name="6e2a9653-0369-26fc-2576-a86bf05d02cc" />
+    </api>
+    <api id="P:XPatchLib.AttributeMissException.Message">
+      <topicdata group="api" />
+      <apidata name="Message" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" />
+      <overrides>
+        <member api="P:System.Exception.Message">
+          <type api="T:System.Exception" ref="true" />
+        </member>
+      </overrides>
+      <propertydata get="true" />
+      <getter name="get_Message" />
+      <returns>
+        <type api="T:System.String" ref="true" />
+      </returns>
+      <implements>
+        <member api="P:System.Runtime.InteropServices._Exception.Message">
+          <type api="T:System.Runtime.InteropServices._Exception" ref="true" />
+        </member>
+      </implements>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="3.0.0.1" />
+          <noAptca />
+        </library>
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.AttributeMissException" ref="true" />
+      </containers>
+      <file name="521f9dbf-16dc-f314-5277-67071d420fd4" />
+    </api>
+    <api id="T:XPatchLib.DateTimeSerializationMode">
+      <topicdata group="api" />
+      <apidata name="DateTimeSerializationMode" group="type" subgroup="enumeration" />
+      <typedata visibility="public" sealed="true" serializable="false" />
+      <elements>
+        <element api="F:XPatchLib.DateTimeSerializationMode.Local" />
+        <element api="F:XPatchLib.DateTimeSerializationMode.Utc" />
+        <element api="F:XPatchLib.DateTimeSerializationMode.Unspecified" />
+        <element api="F:XPatchLib.DateTimeSerializationMode.RoundtripKind" />
+      </elements>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="3.0.0.1" />
+        </library>
+        <namespace api="N:XPatchLib" />
+      </containers>
+      <file name="68b3b5cc-fbc3-5d97-6944-8a3f714a3ca4" />
+    </api>
+    <api id="F:XPatchLib.DateTimeSerializationMode.Local">
+      <topicdata group="api" notopic="" />
+      <apidata name="Local" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:XPatchLib.DateTimeSerializationMode" ref="false" />
+      </returns>
+      <value>0</value>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="3.0.0.1" />
+          <noAptca />
+        </library>
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.DateTimeSerializationMode" ref="false" />
+      </containers>
+      <file name="d223798b-2a85-8e2b-bba4-57d31fd75616" />
+    </api>
+    <api id="F:XPatchLib.DateTimeSerializationMode.RoundtripKind">
+      <topicdata group="api" notopic="" />
+      <apidata name="RoundtripKind" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:XPatchLib.DateTimeSerializationMode" ref="false" />
+      </returns>
+      <value>3</value>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="3.0.0.1" />
+          <noAptca />
+        </library>
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.DateTimeSerializationMode" ref="false" />
+      </containers>
+      <file name="d2700d9d-8212-9ab1-d22b-9b9eabfe4dab" />
+    </api>
+    <api id="F:XPatchLib.DateTimeSerializationMode.Unspecified">
+      <topicdata group="api" notopic="" />
+      <apidata name="Unspecified" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:XPatchLib.DateTimeSerializationMode" ref="false" />
+      </returns>
+      <value>2</value>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="3.0.0.1" />
+          <noAptca />
+        </library>
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.DateTimeSerializationMode" ref="false" />
+      </containers>
+      <file name="49371019-33fc-5e0f-d4fa-41bc10c54ccd" />
+    </api>
+    <api id="F:XPatchLib.DateTimeSerializationMode.Utc">
+      <topicdata group="api" notopic="" />
+      <apidata name="Utc" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:XPatchLib.DateTimeSerializationMode" ref="false" />
+      </returns>
+      <value>1</value>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="3.0.0.1" />
+          <noAptca />
+        </library>
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.DateTimeSerializationMode" ref="false" />
+      </containers>
+      <file name="fb6e69f0-d49f-96a1-331f-a5b9537454bf" />
+    </api>
+    <api id="T:XPatchLib.Formatting">
+      <topicdata group="api" />
+      <apidata name="Formatting" group="type" subgroup="enumeration" />
+      <typedata visibility="public" sealed="true" serializable="false" />
+      <elements>
+        <element api="F:XPatchLib.Formatting.Indented" />
+        <element api="F:XPatchLib.Formatting.None" />
+      </elements>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="3.0.0.1" />
+        </library>
+        <namespace api="N:XPatchLib" />
+      </containers>
+      <file name="abe58c98-83be-f4dc-482f-93358e4ce5ab" />
+    </api>
+    <api id="F:XPatchLib.Formatting.Indented">
+      <topicdata group="api" notopic="" />
+      <apidata name="Indented" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:XPatchLib.Formatting" ref="false" />
+      </returns>
+      <value>1</value>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="3.0.0.1" />
+          <noAptca />
+        </library>
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.Formatting" ref="false" />
+      </containers>
+      <file name="d4c1bbb4-cb46-ac3c-1dc7-eb01e3c69912" />
+    </api>
+    <api id="F:XPatchLib.Formatting.None">
+      <topicdata group="api" notopic="" />
+      <apidata name="None" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:XPatchLib.Formatting" ref="false" />
+      </returns>
+      <value>0</value>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="3.0.0.1" />
+          <noAptca />
+        </library>
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.Formatting" ref="false" />
+      </containers>
+      <file name="7826c71a-0954-8e2d-603a-b140095f573a" />
+    </api>
+    <api id="T:XPatchLib.ISerializeSetting">
+      <topicdata group="api" />
+      <apidata name="ISerializeSetting" group="type" subgroup="interface" />
+      <typedata visibility="public" abstract="true" serializable="false" />
+      <implementors>
+        <type api="T:XPatchLib.XmlSerializeSetting" ref="true" />
+      </implementors>
+      <elements>
+        <element api="P:XPatchLib.ISerializeSetting.ActionName" />
+        <element api="P:XPatchLib.ISerializeSetting.Mode" />
+        <element api="P:XPatchLib.ISerializeSetting.SerializeDefalutValue" />
+      </elements>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="3.0.0.1" />
+        </library>
+        <namespace api="N:XPatchLib" />
+      </containers>
+      <file name="f514ec07-2110-e684-17df-b1734167ed9c" />
+    </api>
+    <api id="Properties.T:XPatchLib.ISerializeSetting">
+      <topicdata name="ISerializeSetting" group="list" subgroup="Properties" typeTopicId="T:XPatchLib.ISerializeSetting" />
+      <apidata name="ISerializeSetting" group="type" subgroup="interface" />
+      <typedata visibility="public" abstract="true" serializable="false" />
+      <elements>
+        <element api="P:XPatchLib.ISerializeSetting.ActionName" />
+        <element api="P:XPatchLib.ISerializeSetting.Mode" />
+        <element api="P:XPatchLib.ISerializeSetting.SerializeDefalutValue" />
+      </elements>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="3.0.0.1" />
+        </library>
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.ISerializeSetting" />
+      </containers>
+      <file name="d4503238-5da7-03b0-9bec-a61195136444" />
+    </api>
+    <api id="P:XPatchLib.ISerializeSetting.ActionName">
+      <topicdata group="api" />
+      <apidata name="ActionName" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <propertydata get="true" set="true" />
+      <getter name="get_ActionName" />
+      <setter name="set_ActionName" />
+      <returns>
+        <type api="T:System.String" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="3.0.0.1" />
+          <noAptca />
+        </library>
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.ISerializeSetting" ref="true" />
+      </containers>
+      <file name="55afd651-3062-333b-b9c6-3d68ae94e0c3" />
+    </api>
+    <api id="P:XPatchLib.ISerializeSetting.Mode">
+      <topicdata group="api" />
+      <apidata name="Mode" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <propertydata get="true" set="true" />
+      <getter name="get_Mode" />
+      <setter name="set_Mode" />
+      <returns>
+        <type api="T:XPatchLib.DateTimeSerializationMode" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="3.0.0.1" />
+          <noAptca />
+        </library>
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.ISerializeSetting" ref="true" />
+      </containers>
+      <file name="4f213626-c391-daac-0da9-e31f7f24b4be" />
+    </api>
+    <api id="P:XPatchLib.ISerializeSetting.SerializeDefalutValue">
+      <topicdata group="api" />
+      <apidata name="SerializeDefalutValue" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <propertydata get="true" set="true" />
+      <getter name="get_SerializeDefalutValue" />
+      <setter name="set_SerializeDefalutValue" />
+      <returns>
+        <type api="T:System.Boolean" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="3.0.0.1" />
+          <noAptca />
+        </library>
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.ISerializeSetting" ref="true" />
+      </containers>
+      <file name="08b1d89e-1f80-5c11-319b-55fbcd78e888" />
+    </api>
+    <api id="T:XPatchLib.ITextReader">
+      <topicdata group="api" />
+      <apidata name="ITextReader" group="type" subgroup="interface" />
+      <typedata visibility="public" abstract="true" serializable="false" />
+      <implements>
+        <type api="T:System.IDisposable" ref="true" />
+      </implements>
+      <implementors>
+        <type api="T:XPatchLib.XmlTextReader" ref="true" />
+      </implementors>
+      <elements>
+        <element api="P:XPatchLib.ITextReader.AttributeCount" />
+        <element api="P:XPatchLib.ITextReader.EOF" />
+        <element api="M:XPatchLib.ITextReader.MoveToCurrentElementEnd(System.String)" />
+        <element api="M:XPatchLib.ITextReader.MoveToElement" />
+        <element api="M:XPatchLib.ITextReader.MoveToNextAttribute" />
+        <element api="M:XPatchLib.ITextReader.MoveToNextElement(System.String,System.String)" />
+        <element api="P:XPatchLib.ITextReader.Name" />
+        <element api="P:XPatchLib.ITextReader.NodeType" />
+        <element api="Overload:XPatchLib.ITextReader.Read">
+          <element api="M:XPatchLib.ITextReader.Read" />
+          <element api="M:XPatchLib.ITextReader.Read``1" />
+        </element>
+        <element api="P:XPatchLib.ITextReader.ReadState" />
+        <element api="M:XPatchLib.ITextReader.ReadString" />
+        <element api="P:XPatchLib.ITextReader.Setting" />
+        <element api="P:XPatchLib.ITextReader.Value" />
+      </elements>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="3.0.0.1" />
+        </library>
+        <namespace api="N:XPatchLib" />
+      </containers>
+      <file name="6abf9cf3-d85a-44a0-839e-e46de7e4e201" />
+    </api>
+    <api id="Methods.T:XPatchLib.ITextReader">
+      <topicdata name="ITextReader" group="list" subgroup="Methods" typeTopicId="T:XPatchLib.ITextReader" />
+      <apidata name="ITextReader" group="type" subgroup="interface" />
+      <typedata visibility="public" abstract="true" serializable="false" />
+      <elements>
+        <element api="M:XPatchLib.ITextReader.MoveToCurrentElementEnd(System.String)" />
+        <element api="M:XPatchLib.ITextReader.MoveToElement" />
+        <element api="M:XPatchLib.ITextReader.MoveToNextAttribute" />
+        <element api="M:XPatchLib.ITextReader.MoveToNextElement(System.String,System.String)" />
+        <element api="Overload:XPatchLib.ITextReader.Read">
+          <element api="M:XPatchLib.ITextReader.Read" />
+          <element api="M:XPatchLib.ITextReader.Read``1" />
+        </element>
+        <element api="M:XPatchLib.ITextReader.ReadString" />
+      </elements>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="3.0.0.1" />
+        </library>
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.ITextReader" />
+      </containers>
+      <file name="0a328d47-f7b8-3382-0fbc-db98ce13e61a" />
+    </api>
+    <api id="Properties.T:XPatchLib.ITextReader">
+      <topicdata name="ITextReader" group="list" subgroup="Properties" typeTopicId="T:XPatchLib.ITextReader" />
+      <apidata name="ITextReader" group="type" subgroup="interface" />
+      <typedata visibility="public" abstract="true" serializable="false" />
+      <elements>
+        <element api="P:XPatchLib.ITextReader.AttributeCount" />
+        <element api="P:XPatchLib.ITextReader.EOF" />
+        <element api="P:XPatchLib.ITextReader.Name" />
+        <element api="P:XPatchLib.ITextReader.NodeType" />
+        <element api="P:XPatchLib.ITextReader.ReadState" />
+        <element api="P:XPatchLib.ITextReader.Setting" />
+        <element api="P:XPatchLib.ITextReader.Value" />
+      </elements>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="3.0.0.1" />
+        </library>
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.ITextReader" />
+      </containers>
+      <file name="365751f1-2891-c653-acf4-1ab12b8e4536" />
+    </api>
+    <api id="Overload:XPatchLib.ITextReader.Read">
+      <topicdata name="Read" group="list" subgroup="overload" memberSubgroup="method" pseudo="true" allMembersTopicId="" />
+      <apidata name="Read" group="member" subgroup="method" />
+      <elements>
+        <element api="M:XPatchLib.ITextReader.Read" />
+        <element api="M:XPatchLib.ITextReader.Read``1" />
+      </elements>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="3.0.0.1" />
+        </library>
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.ITextReader" ref="true" />
+      </containers>
+      <file name="f76016a7-675b-e905-8264-5e50aff4ab9e" />
+    </api>
+    <api id="P:XPatchLib.ITextReader.AttributeCount">
+      <topicdata group="api" />
+      <apidata name="AttributeCount" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <propertydata get="true" />
+      <getter name="get_AttributeCount" />
+      <returns>
+        <type api="T:System.Int32" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="3.0.0.1" />
+          <noAptca />
+        </library>
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.ITextReader" ref="true" />
+      </containers>
+      <file name="ab1d8f8c-3bc4-4e59-5142-95e2002b5eba" />
+    </api>
+    <api id="P:XPatchLib.ITextReader.EOF">
+      <topicdata group="api" />
+      <apidata name="EOF" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <propertydata get="true" />
+      <getter name="get_EOF" />
+      <returns>
+        <type api="T:System.Boolean" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="3.0.0.1" />
+          <noAptca />
+        </library>
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.ITextReader" ref="true" />
+      </containers>
+      <file name="5dfde33c-46e8-abcd-f812-7e7981011972" />
+    </api>
+    <api id="M:XPatchLib.ITextReader.MoveToCurrentElementEnd(System.String)">
+      <topicdata group="api" />
+      <apidata name="MoveToCurrentElementEnd" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <parameters>
+        <parameter name="currentElementName">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="3.0.0.1" />
+          <noAptca />
+        </library>
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.ITextReader" ref="true" />
+      </containers>
+      <file name="5a99d531-0307-fe24-3873-879a78c9dfda" />
+    </api>
+    <api id="M:XPatchLib.ITextReader.MoveToElement">
+      <topicdata group="api" />
+      <apidata name="MoveToElement" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <returns>
+        <type api="T:System.Boolean" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="3.0.0.1" />
+          <noAptca />
+        </library>
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.ITextReader" ref="true" />
+      </containers>
+      <file name="6b1f38d0-1a2c-e836-4819-f38033417b26" />
+    </api>
+    <api id="M:XPatchLib.ITextReader.MoveToNextAttribute">
+      <topicdata group="api" />
+      <apidata name="MoveToNextAttribute" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <returns>
+        <type api="T:System.Boolean" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="3.0.0.1" />
+          <noAptca />
+        </library>
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.ITextReader" ref="true" />
+      </containers>
+      <file name="4f9e0fae-c70e-e1de-bcb4-c85df8bf8009" />
+    </api>
+    <api id="M:XPatchLib.ITextReader.MoveToNextElement(System.String,System.String)">
+      <topicdata group="api" />
+      <apidata name="MoveToNextElement" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <parameters>
+        <parameter name="nextElementName">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+        <parameter name="parentElementName">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+      </parameters>
+      <returns>
+        <type api="T:System.Boolean" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="3.0.0.1" />
+          <noAptca />
+        </library>
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.ITextReader" ref="true" />
+      </containers>
+      <file name="dbd44563-0db0-3794-c655-cff8a7b336b5" />
+    </api>
+    <api id="P:XPatchLib.ITextReader.Name">
+      <topicdata group="api" />
+      <apidata name="Name" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <propertydata get="true" />
+      <getter name="get_Name" />
+      <returns>
+        <type api="T:System.String" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="3.0.0.1" />
+          <noAptca />
+        </library>
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.ITextReader" ref="true" />
+      </containers>
+      <file name="0c8a438e-1ed4-f1ea-3139-2c40246eb320" />
+    </api>
+    <api id="P:XPatchLib.ITextReader.NodeType">
+      <topicdata group="api" />
+      <apidata name="NodeType" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <propertydata get="true" />
+      <getter name="get_NodeType" />
+      <returns>
+        <type api="T:XPatchLib.NodeType" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="3.0.0.1" />
+          <noAptca />
+        </library>
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.ITextReader" ref="true" />
+      </containers>
+      <file name="8b0f8c1d-ab73-e2c9-2db0-df71c59922e5" />
+    </api>
+    <api id="M:XPatchLib.ITextReader.Read">
+      <topicdata group="api" />
+      <apidata name="Read" group="member" subgroup="method" />
+      <memberdata visibility="public" overload="Overload:XPatchLib.ITextReader.Read" />
+      <proceduredata abstract="true" virtual="true" />
+      <returns>
+        <type api="T:System.Boolean" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="3.0.0.1" />
+          <noAptca />
+        </library>
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.ITextReader" ref="true" />
+      </containers>
+      <file name="2013486c-3eb3-a54b-5d8b-abffe847b3f5" />
+    </api>
+    <api id="M:XPatchLib.ITextReader.Read``1">
+      <topicdata group="api" />
+      <apidata name="Read" group="member" subgroup="method" />
+      <memberdata visibility="public" overload="Overload:XPatchLib.ITextReader.Read" />
+      <proceduredata abstract="true" virtual="true" />
+      <templates>
+        <template name="T" />
+      </templates>
+      <returns>
+        <template name="T" index="0" api="M:XPatchLib.ITextReader.Read``1" />
+      </returns>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="3.0.0.1" />
+          <noAptca />
+        </library>
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.ITextReader" ref="true" />
+      </containers>
+      <file name="91edeb56-385b-d781-9e07-b8d328583d75" />
+    </api>
+    <api id="P:XPatchLib.ITextReader.ReadState">
+      <topicdata group="api" />
+      <apidata name="ReadState" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <propertydata get="true" />
+      <getter name="get_ReadState" />
+      <returns>
+        <type api="T:XPatchLib.ReadState" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="3.0.0.1" />
+          <noAptca />
+        </library>
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.ITextReader" ref="true" />
+      </containers>
+      <file name="22d86a2a-e04c-2ac3-b381-eff363dd0923" />
+    </api>
+    <api id="M:XPatchLib.ITextReader.ReadString">
+      <topicdata group="api" />
+      <apidata name="ReadString" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <returns>
+        <type api="T:System.String" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="3.0.0.1" />
+          <noAptca />
+        </library>
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.ITextReader" ref="true" />
+      </containers>
+      <file name="05b3502e-9314-8d66-7b63-b4f71b184d51" />
+    </api>
+    <api id="P:XPatchLib.ITextReader.Setting">
+      <topicdata group="api" />
+      <apidata name="Setting" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <propertydata get="true" set="true" />
+      <getter name="get_Setting" />
+      <setter name="set_Setting" />
+      <returns>
+        <type api="T:XPatchLib.ISerializeSetting" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="3.0.0.1" />
+          <noAptca />
+        </library>
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.ITextReader" ref="true" />
+      </containers>
+      <file name="c05f72f9-7350-f3f9-bc8e-2bac5465b958" />
+    </api>
+    <api id="P:XPatchLib.ITextReader.Value">
+      <topicdata group="api" />
+      <apidata name="Value" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <propertydata get="true" />
+      <getter name="get_Value" />
+      <returns>
+        <type api="T:System.String" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="3.0.0.1" />
+          <noAptca />
+        </library>
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.ITextReader" ref="true" />
+      </containers>
+      <file name="ecef304c-5f4d-2287-4377-78b205f376f5" />
+    </api>
+    <api id="T:XPatchLib.ITextWriter">
+      <topicdata group="api" />
+      <apidata name="ITextWriter" group="type" subgroup="interface" />
+      <typedata visibility="public" abstract="true" serializable="false" />
+      <implements>
+        <type api="T:System.IDisposable" ref="true" />
+      </implements>
+      <implementors>
+        <type api="T:XPatchLib.XmlTextWriter" ref="true" />
+      </implementors>
+      <elements>
+        <element api="M:XPatchLib.ITextWriter.Flush" />
+        <element api="P:XPatchLib.ITextWriter.IgnoreAttributeType" />
+        <element api="P:XPatchLib.ITextWriter.Setting" />
+        <element api="M:XPatchLib.ITextWriter.WriteAttribute(System.String,System.String)" />
+        <element api="M:XPatchLib.ITextWriter.WriteEndArray" />
+        <element api="M:XPatchLib.ITextWriter.WriteEndArrayItem" />
+        <element api="M:XPatchLib.ITextWriter.WriteEndDocument" />
+        <element api="M:XPatchLib.ITextWriter.WriteEndObject" />
+        <element api="M:XPatchLib.ITextWriter.WriteEndProperty" />
+        <element api="M:XPatchLib.ITextWriter.WriteProperty(System.String,System.String)" />
+        <element api="M:XPatchLib.ITextWriter.WriteStartArray(System.String)" />
+        <element api="M:XPatchLib.ITextWriter.WriteStartArrayItem(System.String)" />
+        <element api="M:XPatchLib.ITextWriter.WriteStartDocument" />
+        <element api="M:XPatchLib.ITextWriter.WriteStartObject(System.String)" />
+        <element api="M:XPatchLib.ITextWriter.WriteStartProperty(System.String)" />
+        <element api="M:XPatchLib.ITextWriter.WriteValue(System.String)" />
+      </elements>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="3.0.0.1" />
+        </library>
+        <namespace api="N:XPatchLib" />
+      </containers>
+      <file name="ea9c2cea-fb3c-0dcd-6dad-a54f7f0f476d" />
+    </api>
+    <api id="Methods.T:XPatchLib.ITextWriter">
+      <topicdata name="ITextWriter" group="list" subgroup="Methods" typeTopicId="T:XPatchLib.ITextWriter" />
+      <apidata name="ITextWriter" group="type" subgroup="interface" />
+      <typedata visibility="public" abstract="true" serializable="false" />
+      <elements>
+        <element api="M:XPatchLib.ITextWriter.Flush" />
+        <element api="M:XPatchLib.ITextWriter.WriteAttribute(System.String,System.String)" />
+        <element api="M:XPatchLib.ITextWriter.WriteEndArray" />
+        <element api="M:XPatchLib.ITextWriter.WriteEndArrayItem" />
+        <element api="M:XPatchLib.ITextWriter.WriteEndDocument" />
+        <element api="M:XPatchLib.ITextWriter.WriteEndObject" />
+        <element api="M:XPatchLib.ITextWriter.WriteEndProperty" />
+        <element api="M:XPatchLib.ITextWriter.WriteProperty(System.String,System.String)" />
+        <element api="M:XPatchLib.ITextWriter.WriteStartArray(System.String)" />
+        <element api="M:XPatchLib.ITextWriter.WriteStartArrayItem(System.String)" />
+        <element api="M:XPatchLib.ITextWriter.WriteStartDocument" />
+        <element api="M:XPatchLib.ITextWriter.WriteStartObject(System.String)" />
+        <element api="M:XPatchLib.ITextWriter.WriteStartProperty(System.String)" />
+        <element api="M:XPatchLib.ITextWriter.WriteValue(System.String)" />
+      </elements>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="3.0.0.1" />
+        </library>
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.ITextWriter" />
+      </containers>
+      <file name="db3fd399-688d-3ac2-a2ba-271bf2d47437" />
+    </api>
+    <api id="Properties.T:XPatchLib.ITextWriter">
+      <topicdata name="ITextWriter" group="list" subgroup="Properties" typeTopicId="T:XPatchLib.ITextWriter" />
+      <apidata name="ITextWriter" group="type" subgroup="interface" />
+      <typedata visibility="public" abstract="true" serializable="false" />
+      <elements>
+        <element api="P:XPatchLib.ITextWriter.IgnoreAttributeType" />
+        <element api="P:XPatchLib.ITextWriter.Setting" />
+      </elements>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="3.0.0.1" />
+        </library>
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.ITextWriter" />
+      </containers>
+      <file name="7499c13c-0653-a765-fe99-f4f4214bec3e" />
+    </api>
+    <api id="M:XPatchLib.ITextWriter.Flush">
+      <topicdata group="api" />
+      <apidata name="Flush" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="3.0.0.1" />
+          <noAptca />
+        </library>
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.ITextWriter" ref="true" />
+      </containers>
+      <file name="00ed78a0-290c-28c3-81b4-4b9fcd8a5046" />
+    </api>
+    <api id="P:XPatchLib.ITextWriter.IgnoreAttributeType">
+      <topicdata group="api" />
+      <apidata name="IgnoreAttributeType" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <propertydata get="true" set="true" />
+      <getter name="get_IgnoreAttributeType" />
+      <setter name="set_IgnoreAttributeType" />
+      <returns>
+        <type api="T:System.Type" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="3.0.0.1" />
+          <noAptca />
+        </library>
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.ITextWriter" ref="true" />
+      </containers>
+      <file name="3b6ecafa-83a3-3cdd-568d-848b70f3f234" />
+    </api>
+    <api id="P:XPatchLib.ITextWriter.Setting">
+      <topicdata group="api" />
+      <apidata name="Setting" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <propertydata get="true" set="true" />
+      <getter name="get_Setting" />
+      <setter name="set_Setting" />
+      <returns>
+        <type api="T:XPatchLib.ISerializeSetting" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="3.0.0.1" />
+          <noAptca />
+        </library>
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.ITextWriter" ref="true" />
+      </containers>
+      <file name="554d4bcd-a959-0a61-9e10-d379e7dd6389" />
+    </api>
+    <api id="M:XPatchLib.ITextWriter.WriteAttribute(System.String,System.String)">
+      <topicdata group="api" />
+      <apidata name="WriteAttribute" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <parameters>
+        <parameter name="pName">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+        <parameter name="pValue">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="3.0.0.1" />
+          <noAptca />
+        </library>
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.ITextWriter" ref="true" />
+      </containers>
+      <file name="647c24c5-c100-a01b-64fa-ca9beed2014e" />
+    </api>
+    <api id="M:XPatchLib.ITextWriter.WriteEndArray">
+      <topicdata group="api" />
+      <apidata name="WriteEndArray" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="3.0.0.1" />
+          <noAptca />
+        </library>
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.ITextWriter" ref="true" />
+      </containers>
+      <file name="a9183197-0e2a-f77d-4ebc-3c15f15636c1" />
+    </api>
+    <api id="M:XPatchLib.ITextWriter.WriteEndArrayItem">
+      <topicdata group="api" />
+      <apidata name="WriteEndArrayItem" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="3.0.0.1" />
+          <noAptca />
+        </library>
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.ITextWriter" ref="true" />
+      </containers>
+      <file name="87cf9589-2eb3-4137-8f3b-5ecbde92f15e" />
+    </api>
+    <api id="M:XPatchLib.ITextWriter.WriteEndDocument">
+      <topicdata group="api" />
+      <apidata name="WriteEndDocument" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="3.0.0.1" />
+          <noAptca />
+        </library>
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.ITextWriter" ref="true" />
+      </containers>
+      <file name="36af8d37-6f11-d54c-6aad-532ba0554b57" />
+    </api>
+    <api id="M:XPatchLib.ITextWriter.WriteEndObject">
+      <topicdata group="api" />
+      <apidata name="WriteEndObject" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="3.0.0.1" />
+          <noAptca />
+        </library>
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.ITextWriter" ref="true" />
+      </containers>
+      <file name="f36b8a8b-1819-bffd-0cdc-1f06a2f09b56" />
+    </api>
+    <api id="M:XPatchLib.ITextWriter.WriteEndProperty">
+      <topicdata group="api" />
+      <apidata name="WriteEndProperty" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="3.0.0.1" />
+          <noAptca />
+        </library>
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.ITextWriter" ref="true" />
+      </containers>
+      <file name="227286a6-1c36-a01f-15ee-b83708279fd5" />
+    </api>
+    <api id="M:XPatchLib.ITextWriter.WriteProperty(System.String,System.String)">
+      <topicdata group="api" />
+      <apidata name="WriteProperty" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <parameters>
+        <parameter name="pName">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+        <parameter name="pValue">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="3.0.0.1" />
+          <noAptca />
+        </library>
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.ITextWriter" ref="true" />
+      </containers>
+      <file name="d128df2c-bf0a-3c6d-97d2-c50dd705c93f" />
+    </api>
+    <api id="M:XPatchLib.ITextWriter.WriteStartArray(System.String)">
+      <topicdata group="api" />
+      <apidata name="WriteStartArray" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <parameters>
+        <parameter name="pName">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="3.0.0.1" />
+          <noAptca />
+        </library>
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.ITextWriter" ref="true" />
+      </containers>
+      <file name="2030ac4c-0fe6-d495-83c8-58f79c6370f9" />
+    </api>
+    <api id="M:XPatchLib.ITextWriter.WriteStartArrayItem(System.String)">
+      <topicdata group="api" />
+      <apidata name="WriteStartArrayItem" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <parameters>
+        <parameter name="pName">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="3.0.0.1" />
+          <noAptca />
+        </library>
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.ITextWriter" ref="true" />
+      </containers>
+      <file name="5bd4413e-d28f-0bb3-4e72-690f2d23adb1" />
+    </api>
+    <api id="M:XPatchLib.ITextWriter.WriteStartDocument">
+      <topicdata group="api" />
+      <apidata name="WriteStartDocument" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="3.0.0.1" />
+          <noAptca />
+        </library>
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.ITextWriter" ref="true" />
+      </containers>
+      <file name="81c1955a-fcde-1463-48c0-0b892a525d6b" />
+    </api>
+    <api id="M:XPatchLib.ITextWriter.WriteStartObject(System.String)">
+      <topicdata group="api" />
+      <apidata name="WriteStartObject" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <parameters>
+        <parameter name="pName">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="3.0.0.1" />
+          <noAptca />
+        </library>
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.ITextWriter" ref="true" />
+      </containers>
+      <file name="99e73450-e4da-8a4f-f930-8c9658e90014" />
+    </api>
+    <api id="M:XPatchLib.ITextWriter.WriteStartProperty(System.String)">
+      <topicdata group="api" />
+      <apidata name="WriteStartProperty" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <parameters>
+        <parameter name="pName">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="3.0.0.1" />
+          <noAptca />
+        </library>
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.ITextWriter" ref="true" />
+      </containers>
+      <file name="93ed79e8-d1c9-2704-ff43-d4bda9d60efd" />
+    </api>
+    <api id="M:XPatchLib.ITextWriter.WriteValue(System.String)">
+      <topicdata group="api" />
+      <apidata name="WriteValue" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <parameters>
+        <parameter name="pValue">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="3.0.0.1" />
+          <noAptca />
+        </library>
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.ITextWriter" ref="true" />
+      </containers>
+      <file name="2573a4f2-afbf-4832-5fc4-1e9864c14cd5" />
+    </api>
+    <api id="T:XPatchLib.NodeType">
+      <topicdata group="api" />
+      <apidata name="NodeType" group="type" subgroup="enumeration" />
+      <typedata visibility="public" sealed="true" serializable="false" />
+      <elements>
+        <element api="F:XPatchLib.NodeType.Attribute" />
+        <element api="F:XPatchLib.NodeType.CDATA" />
+        <element api="F:XPatchLib.NodeType.Comment" />
+        <element api="F:XPatchLib.NodeType.Document" />
+        <element api="F:XPatchLib.NodeType.DocumentFragment" />
+        <element api="F:XPatchLib.NodeType.DocumentType" />
+        <element api="F:XPatchLib.NodeType.Element" />
+        <element api="F:XPatchLib.NodeType.EndElement" />
+        <element api="F:XPatchLib.NodeType.EndEntity" />
+        <element api="F:XPatchLib.NodeType.Entity" />
+        <element api="F:XPatchLib.NodeType.EntityReference" />
+        <element api="F:XPatchLib.NodeType.None" />
+        <element api="F:XPatchLib.NodeType.Notation" />
+        <element api="F:XPatchLib.NodeType.ProcessingInstruction" />
+        <element api="F:XPatchLib.NodeType.SignificantWhitespace" />
+        <element api="F:XPatchLib.NodeType.Text" />
+        <element api="F:XPatchLib.NodeType.Whitespace" />
+        <element api="F:XPatchLib.NodeType.XmlDeclaration" />
+      </elements>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="3.0.0.1" />
+        </library>
+        <namespace api="N:XPatchLib" />
+      </containers>
+      <file name="d26514da-b1b6-ab56-4861-ea10f7f0ef24" />
+    </api>
+    <api id="F:XPatchLib.NodeType.Attribute">
+      <topicdata group="api" notopic="" />
+      <apidata name="Attribute" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:XPatchLib.NodeType" ref="false" />
+      </returns>
+      <value>0</value>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="3.0.0.1" />
+          <noAptca />
+        </library>
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.NodeType" ref="false" />
+      </containers>
+      <file name="bca6d80f-d05b-3602-e566-b83777ca2d98" />
+    </api>
+    <api id="F:XPatchLib.NodeType.CDATA">
+      <topicdata group="api" notopic="" />
+      <apidata name="CDATA" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:XPatchLib.NodeType" ref="false" />
+      </returns>
+      <value>1</value>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="3.0.0.1" />
+          <noAptca />
+        </library>
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.NodeType" ref="false" />
+      </containers>
+      <file name="9fdbba79-e475-a2a4-9a37-efa7e258d6e5" />
+    </api>
+    <api id="F:XPatchLib.NodeType.Comment">
+      <topicdata group="api" notopic="" />
+      <apidata name="Comment" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:XPatchLib.NodeType" ref="false" />
+      </returns>
+      <value>2</value>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="3.0.0.1" />
+          <noAptca />
+        </library>
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.NodeType" ref="false" />
+      </containers>
+      <file name="dff4300d-565a-9663-5a0e-6dd6c95ae427" />
+    </api>
+    <api id="F:XPatchLib.NodeType.Document">
+      <topicdata group="api" notopic="" />
+      <apidata name="Document" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:XPatchLib.NodeType" ref="false" />
+      </returns>
+      <value>3</value>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="3.0.0.1" />
+          <noAptca />
+        </library>
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.NodeType" ref="false" />
+      </containers>
+      <file name="e8f6c1be-8693-eb08-b20e-f4cb233514e9" />
+    </api>
+    <api id="F:XPatchLib.NodeType.DocumentFragment">
+      <topicdata group="api" notopic="" />
+      <apidata name="DocumentFragment" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:XPatchLib.NodeType" ref="false" />
+      </returns>
+      <value>4</value>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="3.0.0.1" />
+          <noAptca />
+        </library>
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.NodeType" ref="false" />
+      </containers>
+      <file name="082b4c30-af6a-ec44-e289-8f6a5b319963" />
+    </api>
+    <api id="F:XPatchLib.NodeType.DocumentType">
+      <topicdata group="api" notopic="" />
+      <apidata name="DocumentType" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:XPatchLib.NodeType" ref="false" />
+      </returns>
+      <value>5</value>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="3.0.0.1" />
+          <noAptca />
+        </library>
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.NodeType" ref="false" />
+      </containers>
+      <file name="befcfaa2-73fa-d6cf-9bd9-095feb7c8900" />
+    </api>
+    <api id="F:XPatchLib.NodeType.Element">
+      <topicdata group="api" notopic="" />
+      <apidata name="Element" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:XPatchLib.NodeType" ref="false" />
+      </returns>
+      <value>6</value>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="3.0.0.1" />
+          <noAptca />
+        </library>
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.NodeType" ref="false" />
+      </containers>
+      <file name="5dec9474-236b-5d6d-f0ea-c9b83b7f3f18" />
+    </api>
+    <api id="F:XPatchLib.NodeType.EndElement">
+      <topicdata group="api" notopic="" />
+      <apidata name="EndElement" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:XPatchLib.NodeType" ref="false" />
+      </returns>
+      <value>7</value>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="3.0.0.1" />
+          <noAptca />
+        </library>
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.NodeType" ref="false" />
+      </containers>
+      <file name="0aff50d5-690f-f495-8556-5c022fe078ab" />
+    </api>
+    <api id="F:XPatchLib.NodeType.EndEntity">
+      <topicdata group="api" notopic="" />
+      <apidata name="EndEntity" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:XPatchLib.NodeType" ref="false" />
+      </returns>
+      <value>8</value>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="3.0.0.1" />
+          <noAptca />
+        </library>
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.NodeType" ref="false" />
+      </containers>
+      <file name="8541ee2f-20ef-a9bc-944f-596e7907267d" />
+    </api>
+    <api id="F:XPatchLib.NodeType.Entity">
+      <topicdata group="api" notopic="" />
+      <apidata name="Entity" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:XPatchLib.NodeType" ref="false" />
+      </returns>
+      <value>9</value>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="3.0.0.1" />
+          <noAptca />
+        </library>
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.NodeType" ref="false" />
+      </containers>
+      <file name="5dc20126-66a4-1457-8e5c-01e1211d8d0c" />
+    </api>
+    <api id="F:XPatchLib.NodeType.EntityReference">
+      <topicdata group="api" notopic="" />
+      <apidata name="EntityReference" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:XPatchLib.NodeType" ref="false" />
+      </returns>
+      <value>10</value>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="3.0.0.1" />
+          <noAptca />
+        </library>
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.NodeType" ref="false" />
+      </containers>
+      <file name="2597f72d-b890-db30-8c63-de9c96a377be" />
+    </api>
+    <api id="F:XPatchLib.NodeType.None">
+      <topicdata group="api" notopic="" />
+      <apidata name="None" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:XPatchLib.NodeType" ref="false" />
+      </returns>
+      <value>11</value>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="3.0.0.1" />
+          <noAptca />
+        </library>
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.NodeType" ref="false" />
+      </containers>
+      <file name="f7ddcfb2-c4fd-c1e1-bb63-38363005877d" />
+    </api>
+    <api id="F:XPatchLib.NodeType.Notation">
+      <topicdata group="api" notopic="" />
+      <apidata name="Notation" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:XPatchLib.NodeType" ref="false" />
+      </returns>
+      <value>12</value>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="3.0.0.1" />
+          <noAptca />
+        </library>
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.NodeType" ref="false" />
+      </containers>
+      <file name="72637818-defa-3a1e-dc85-abc4ec072103" />
+    </api>
+    <api id="F:XPatchLib.NodeType.ProcessingInstruction">
+      <topicdata group="api" notopic="" />
+      <apidata name="ProcessingInstruction" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:XPatchLib.NodeType" ref="false" />
+      </returns>
+      <value>13</value>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="3.0.0.1" />
+          <noAptca />
+        </library>
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.NodeType" ref="false" />
+      </containers>
+      <file name="57b64077-7b02-d070-73cf-2966b8c91384" />
+    </api>
+    <api id="F:XPatchLib.NodeType.SignificantWhitespace">
+      <topicdata group="api" notopic="" />
+      <apidata name="SignificantWhitespace" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:XPatchLib.NodeType" ref="false" />
+      </returns>
+      <value>14</value>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="3.0.0.1" />
+          <noAptca />
+        </library>
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.NodeType" ref="false" />
+      </containers>
+      <file name="3547a503-0084-a137-7e1a-e74b73c27c5b" />
+    </api>
+    <api id="F:XPatchLib.NodeType.Text">
+      <topicdata group="api" notopic="" />
+      <apidata name="Text" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:XPatchLib.NodeType" ref="false" />
+      </returns>
+      <value>15</value>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="3.0.0.1" />
+          <noAptca />
+        </library>
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.NodeType" ref="false" />
+      </containers>
+      <file name="e91c9f4b-4024-5b6d-e196-df49ff917ae2" />
+    </api>
+    <api id="F:XPatchLib.NodeType.Whitespace">
+      <topicdata group="api" notopic="" />
+      <apidata name="Whitespace" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:XPatchLib.NodeType" ref="false" />
+      </returns>
+      <value>16</value>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="3.0.0.1" />
+          <noAptca />
+        </library>
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.NodeType" ref="false" />
+      </containers>
+      <file name="2456ff77-b5a7-d4e3-48b9-782f17967933" />
+    </api>
+    <api id="F:XPatchLib.NodeType.XmlDeclaration">
+      <topicdata group="api" notopic="" />
+      <apidata name="XmlDeclaration" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:XPatchLib.NodeType" ref="false" />
+      </returns>
+      <value>17</value>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="3.0.0.1" />
+          <noAptca />
+        </library>
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.NodeType" ref="false" />
+      </containers>
+      <file name="ae258b8b-0763-64b7-4b07-e416097aef8a" />
+    </api>
+    <api id="T:XPatchLib.PrimaryKeyAttribute">
+      <topicdata group="api" />
+      <apidata name="PrimaryKeyAttribute" group="type" subgroup="class" />
+      <typedata visibility="public" sealed="true" serializable="false" />
+      <family>
+        <ancestors>
+          <type api="T:System.Attribute" ref="true" />
+          <type api="T:System.Object" ref="true" />
+        </ancestors>
+      </family>
+      <elements>
+        <element api="M:XPatchLib.PrimaryKeyAttribute.#ctor(System.String[])" />
+        <element api="M:XPatchLib.PrimaryKeyAttribute.GetPrimaryKeys" />
+      </elements>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="3.0.0.1" />
+        </library>
+        <namespace api="N:XPatchLib" />
+      </containers>
+      <file name="53117201-5b8a-2b64-a6c8-d27fbcaed554" />
+    </api>
+    <api id="Methods.T:XPatchLib.PrimaryKeyAttribute">
+      <topicdata name="PrimaryKeyAttribute" group="list" subgroup="Methods" typeTopicId="T:XPatchLib.PrimaryKeyAttribute" />
+      <apidata name="PrimaryKeyAttribute" group="type" subgroup="class" />
+      <typedata visibility="public" sealed="true" serializable="false" />
+      <elements>
+        <element api="M:XPatchLib.PrimaryKeyAttribute.GetPrimaryKeys" />
+      </elements>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="3.0.0.1" />
+        </library>
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.PrimaryKeyAttribute" />
+      </containers>
+      <file name="d4a85981-f88b-1be4-cd39-047348f9e245" />
+    </api>
+    <api id="M:XPatchLib.PrimaryKeyAttribute.#ctor(System.String[])">
+      <topicdata group="api" />
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <memberdata visibility="public" special="true" />
+      <parameters>
+        <parameter name="pPrimaryKeys" params="true">
+          <arrayOf rank="1">
+            <type api="T:System.String" ref="true" />
+          </arrayOf>
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="3.0.0.1" />
+          <noAptca />
+        </library>
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.PrimaryKeyAttribute" ref="true" />
+      </containers>
+      <file name="9e8d7267-6f12-e4df-6094-9c1c7b312bfd" />
+    </api>
+    <api id="M:XPatchLib.PrimaryKeyAttribute.GetPrimaryKeys">
+      <topicdata group="api" />
+      <apidata name="GetPrimaryKeys" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <returns>
+        <arrayOf rank="1">
+          <type api="T:System.String" ref="true" />
+        </arrayOf>
+      </returns>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="3.0.0.1" />
+          <noAptca />
+        </library>
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.PrimaryKeyAttribute" ref="true" />
+      </containers>
+      <file name="5d1f9571-c71e-327e-e5f7-17963b67c145" />
+    </api>
+    <api id="T:XPatchLib.PrimaryKeyException">
+      <topicdata group="api" />
+      <apidata name="PrimaryKeyException" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="false" />
+      <family>
+        <ancestors>
+          <type api="T:System.Exception" ref="true" />
+          <type api="T:System.Object" ref="true" />
+        </ancestors>
+      </family>
+      <elements>
+        <element api="Overload:XPatchLib.PrimaryKeyException.#ctor">
+          <element api="M:XPatchLib.PrimaryKeyException.#ctor" />
+          <element api="M:XPatchLib.PrimaryKeyException.#ctor(System.String)" />
+          <element api="M:XPatchLib.PrimaryKeyException.#ctor(System.String,System.Exception)" />
+          <element api="M:XPatchLib.PrimaryKeyException.#ctor(System.Type,System.String)" />
+        </element>
+        <element api="P:XPatchLib.PrimaryKeyException.ErrorType" />
+        <element api="P:XPatchLib.PrimaryKeyException.Message" />
+        <element api="P:XPatchLib.PrimaryKeyException.PrimaryKeyName" />
+      </elements>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="3.0.0.1" />
+        </library>
+        <namespace api="N:XPatchLib" />
+      </containers>
+      <file name="fb00a62c-c33a-842b-37ed-4474e0fc7cf2" />
+    </api>
+    <api id="Properties.T:XPatchLib.PrimaryKeyException">
+      <topicdata name="PrimaryKeyException" group="list" subgroup="Properties" typeTopicId="T:XPatchLib.PrimaryKeyException" />
+      <apidata name="PrimaryKeyException" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="false" />
+      <elements>
+        <element api="P:XPatchLib.PrimaryKeyException.ErrorType" />
+        <element api="P:XPatchLib.PrimaryKeyException.Message" />
+        <element api="P:XPatchLib.PrimaryKeyException.PrimaryKeyName" />
+      </elements>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="3.0.0.1" />
+        </library>
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.PrimaryKeyException" />
+      </containers>
+      <file name="1b84df85-7abb-0eed-ee1f-72c5e3ad4e04" />
+    </api>
+    <api id="Overload:XPatchLib.PrimaryKeyException.#ctor">
+      <topicdata name=".ctor" group="list" subgroup="overload" memberSubgroup="constructor" pseudo="true" allMembersTopicId="" />
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <elements>
+        <element api="M:XPatchLib.PrimaryKeyException.#ctor" />
+        <element api="M:XPatchLib.PrimaryKeyException.#ctor(System.String)" />
+        <element api="M:XPatchLib.PrimaryKeyException.#ctor(System.String,System.Exception)" />
+        <element api="M:XPatchLib.PrimaryKeyException.#ctor(System.Type,System.String)" />
+      </elements>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="3.0.0.1" />
+        </library>
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.PrimaryKeyException" ref="true" />
+      </containers>
+      <file name="1369b550-e009-9c9c-87e8-b896ee2bb385" />
+    </api>
+    <api id="M:XPatchLib.PrimaryKeyException.#ctor">
+      <topicdata group="api" />
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <memberdata visibility="public" special="true" overload="Overload:XPatchLib.PrimaryKeyException.#ctor" />
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="3.0.0.1" />
+          <noAptca />
+        </library>
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.PrimaryKeyException" ref="true" />
+      </containers>
+      <file name="97207fdb-9b83-c2fe-eda8-be9fa756289f" />
+    </api>
+    <api id="M:XPatchLib.PrimaryKeyException.#ctor(System.String)">
+      <topicdata group="api" />
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <memberdata visibility="public" special="true" overload="Overload:XPatchLib.PrimaryKeyException.#ctor" />
+      <parameters>
+        <parameter name="pMessage">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="3.0.0.1" />
+          <noAptca />
+        </library>
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.PrimaryKeyException" ref="true" />
+      </containers>
+      <file name="94ee0bad-7336-5a21-c573-ad74d98711d2" />
+    </api>
+    <api id="M:XPatchLib.PrimaryKeyException.#ctor(System.String,System.Exception)">
+      <topicdata group="api" />
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <memberdata visibility="public" special="true" overload="Overload:XPatchLib.PrimaryKeyException.#ctor" />
+      <parameters>
+        <parameter name="pMessage">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+        <parameter name="pInnerException">
+          <type api="T:System.Exception" ref="true" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="3.0.0.1" />
+          <noAptca />
+        </library>
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.PrimaryKeyException" ref="true" />
+      </containers>
+      <file name="d88e47b8-ddac-0377-2f40-67b2b8d94b6b" />
+    </api>
+    <api id="M:XPatchLib.PrimaryKeyException.#ctor(System.Type,System.String)">
+      <topicdata group="api" />
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <memberdata visibility="public" special="true" overload="Overload:XPatchLib.PrimaryKeyException.#ctor" />
+      <parameters>
+        <parameter name="pType">
+          <type api="T:System.Type" ref="true" />
+        </parameter>
+        <parameter name="pKeyName">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="3.0.0.1" />
+          <noAptca />
+        </library>
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.PrimaryKeyException" ref="true" />
+      </containers>
+      <file name="494911e4-5948-9b63-c381-b5893dc0fb1e" />
+    </api>
+    <api id="P:XPatchLib.PrimaryKeyException.ErrorType">
+      <topicdata group="api" />
+      <apidata name="ErrorType" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <propertydata get="true" set="true" />
+      <getter name="get_ErrorType" />
+      <setter name="set_ErrorType" />
+      <returns>
+        <type api="T:System.Type" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="3.0.0.1" />
+          <noAptca />
+        </library>
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.PrimaryKeyException" ref="true" />
+      </containers>
+      <file name="e8b0570e-b291-e0f3-8834-8f08bc0c29c5" />
+    </api>
+    <api id="P:XPatchLib.PrimaryKeyException.Message">
+      <topicdata group="api" />
+      <apidata name="Message" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" />
+      <overrides>
+        <member api="P:System.Exception.Message">
+          <type api="T:System.Exception" ref="true" />
+        </member>
+      </overrides>
+      <propertydata get="true" />
+      <getter name="get_Message" />
+      <returns>
+        <type api="T:System.String" ref="true" />
+      </returns>
+      <implements>
+        <member api="P:System.Runtime.InteropServices._Exception.Message">
+          <type api="T:System.Runtime.InteropServices._Exception" ref="true" />
+        </member>
+      </implements>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="3.0.0.1" />
+          <noAptca />
+        </library>
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.PrimaryKeyException" ref="true" />
+      </containers>
+      <file name="d11f378b-20d2-2818-a9f7-f9aa4a3f7bbb" />
+    </api>
+    <api id="P:XPatchLib.PrimaryKeyException.PrimaryKeyName">
+      <topicdata group="api" />
+      <apidata name="PrimaryKeyName" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <propertydata get="true" set="true" />
+      <getter name="get_PrimaryKeyName" />
+      <setter name="set_PrimaryKeyName" />
+      <returns>
+        <type api="T:System.String" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="3.0.0.1" />
+          <noAptca />
+        </library>
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.PrimaryKeyException" ref="true" />
+      </containers>
+      <file name="c67f7c66-087a-b592-ee62-3d74d2d3f144" />
+    </api>
+    <api id="T:XPatchLib.ReadState">
+      <topicdata group="api" />
+      <apidata name="ReadState" group="type" subgroup="enumeration" />
+      <typedata visibility="public" sealed="true" serializable="false" />
+      <elements>
+        <element api="F:XPatchLib.ReadState.Closed" />
+        <element api="F:XPatchLib.ReadState.EndOfFile" />
+        <element api="F:XPatchLib.ReadState.Error" />
+        <element api="F:XPatchLib.ReadState.Initial" />
+        <element api="F:XPatchLib.ReadState.Interactive" />
+      </elements>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="3.0.0.1" />
+        </library>
+        <namespace api="N:XPatchLib" />
+      </containers>
+      <file name="a1d978a6-b678-c947-31c9-02b6a0db408d" />
+    </api>
+    <api id="F:XPatchLib.ReadState.Closed">
+      <topicdata group="api" notopic="" />
+      <apidata name="Closed" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:XPatchLib.ReadState" ref="false" />
+      </returns>
+      <value>0</value>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="3.0.0.1" />
+          <noAptca />
+        </library>
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.ReadState" ref="false" />
+      </containers>
+      <file name="2b72e856-3450-6c23-de48-0028ec6a2870" />
+    </api>
+    <api id="F:XPatchLib.ReadState.EndOfFile">
+      <topicdata group="api" notopic="" />
+      <apidata name="EndOfFile" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:XPatchLib.ReadState" ref="false" />
+      </returns>
+      <value>1</value>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="3.0.0.1" />
+          <noAptca />
+        </library>
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.ReadState" ref="false" />
+      </containers>
+      <file name="189f0c4e-bfe1-4740-bfa9-043ad2877be5" />
+    </api>
+    <api id="F:XPatchLib.ReadState.Error">
+      <topicdata group="api" notopic="" />
+      <apidata name="Error" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:XPatchLib.ReadState" ref="false" />
+      </returns>
+      <value>2</value>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="3.0.0.1" />
+          <noAptca />
+        </library>
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.ReadState" ref="false" />
+      </containers>
+      <file name="7545a13f-7c62-8e2d-f59b-2e4fdd4bc27f" />
+    </api>
+    <api id="F:XPatchLib.ReadState.Initial">
+      <topicdata group="api" notopic="" />
+      <apidata name="Initial" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:XPatchLib.ReadState" ref="false" />
+      </returns>
+      <value>3</value>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="3.0.0.1" />
+          <noAptca />
+        </library>
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.ReadState" ref="false" />
+      </containers>
+      <file name="cd2b95b7-b1f9-bfff-4448-4c10e5081005" />
+    </api>
+    <api id="F:XPatchLib.ReadState.Interactive">
+      <topicdata group="api" notopic="" />
+      <apidata name="Interactive" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:XPatchLib.ReadState" ref="false" />
+      </returns>
+      <value>4</value>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="3.0.0.1" />
+          <noAptca />
+        </library>
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.ReadState" ref="false" />
+      </containers>
+      <file name="21ec8bb8-d636-560b-b913-1c32b83d6861" />
+    </api>
+    <api id="T:XPatchLib.Serializer">
+      <topicdata group="api" />
+      <apidata name="Serializer" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="false" />
+      <family>
+        <ancestors>
+          <type api="T:System.Object" ref="true" />
+        </ancestors>
+      </family>
+      <elements>
+        <element api="M:XPatchLib.Serializer.#ctor(System.Type)" />
+        <element api="Overload:XPatchLib.Serializer.Combine">
+          <element api="M:XPatchLib.Serializer.Combine(XPatchLib.ITextReader,System.Object)" />
+          <element api="M:XPatchLib.Serializer.Combine(XPatchLib.ITextReader,System.Object,System.Boolean)" />
+        </element>
+        <element api="M:XPatchLib.Serializer.Divide(XPatchLib.ITextWriter,System.Object,System.Object)" />
+        <element api="M:XPatchLib.Serializer.RegisterTypes(System.Collections.Generic.IDictionary{System.Type,System.String[]})" />
+      </elements>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="3.0.0.1" />
+        </library>
+        <namespace api="N:XPatchLib" />
+      </containers>
+      <file name="7ed2eca1-d11b-c466-dc5b-cd04008966ee" />
+    </api>
+    <api id="Methods.T:XPatchLib.Serializer">
+      <topicdata name="Serializer" group="list" subgroup="Methods" typeTopicId="T:XPatchLib.Serializer" />
+      <apidata name="Serializer" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="false" />
+      <elements>
+        <element api="Overload:XPatchLib.Serializer.Combine">
+          <element api="M:XPatchLib.Serializer.Combine(XPatchLib.ITextReader,System.Object)" />
+          <element api="M:XPatchLib.Serializer.Combine(XPatchLib.ITextReader,System.Object,System.Boolean)" />
+        </element>
+        <element api="M:XPatchLib.Serializer.Divide(XPatchLib.ITextWriter,System.Object,System.Object)" />
+        <element api="M:XPatchLib.Serializer.RegisterTypes(System.Collections.Generic.IDictionary{System.Type,System.String[]})" />
+      </elements>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="3.0.0.1" />
+        </library>
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.Serializer" />
+      </containers>
+      <file name="b649727d-4604-25ec-d488-d4638470293b" />
+    </api>
+    <api id="Overload:XPatchLib.Serializer.Combine">
+      <topicdata name="Combine" group="list" subgroup="overload" memberSubgroup="method" pseudo="true" allMembersTopicId="" />
+      <apidata name="Combine" group="member" subgroup="method" />
+      <elements>
+        <element api="M:XPatchLib.Serializer.Combine(XPatchLib.ITextReader,System.Object)" />
+        <element api="M:XPatchLib.Serializer.Combine(XPatchLib.ITextReader,System.Object,System.Boolean)" />
+      </elements>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="3.0.0.1" />
+        </library>
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.Serializer" ref="true" />
+      </containers>
+      <file name="cbbe5e2a-ab13-596a-4515-833ae721bf51" />
+    </api>
+    <api id="M:XPatchLib.Serializer.#ctor(System.Type)">
+      <topicdata group="api" />
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <memberdata visibility="public" special="true" />
+      <parameters>
+        <parameter name="pType">
+          <type api="T:System.Type" ref="true" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="3.0.0.1" />
+          <noAptca />
+        </library>
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.Serializer" ref="true" />
+      </containers>
+      <file name="ef9bc8c5-dc45-f16e-2694-f037c589673d" />
+    </api>
+    <api id="M:XPatchLib.Serializer.Combine(XPatchLib.ITextReader,System.Object)">
+      <topicdata group="api" />
+      <apidata name="Combine" group="member" subgroup="method" />
+      <memberdata visibility="public" overload="Overload:XPatchLib.Serializer.Combine" />
+      <proceduredata virtual="false" />
+      <parameters>
+        <parameter name="pReader">
+          <type api="T:XPatchLib.ITextReader" ref="true" />
+        </parameter>
+        <parameter name="pOriValue">
+          <type api="T:System.Object" ref="true" />
+        </parameter>
+      </parameters>
+      <returns>
+        <type api="T:System.Object" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="3.0.0.1" />
+          <noAptca />
+        </library>
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.Serializer" ref="true" />
+      </containers>
+      <file name="df89ca0d-a07e-9139-34f1-fa70a4e90b1d" />
+    </api>
+    <api id="M:XPatchLib.Serializer.Combine(XPatchLib.ITextReader,System.Object,System.Boolean)">
+      <topicdata group="api" />
+      <apidata name="Combine" group="member" subgroup="method" />
+      <memberdata visibility="public" overload="Overload:XPatchLib.Serializer.Combine" />
+      <proceduredata virtual="false" />
+      <parameters>
+        <parameter name="pReader">
+          <type api="T:XPatchLib.ITextReader" ref="true" />
+        </parameter>
+        <parameter name="pOriValue">
+          <type api="T:System.Object" ref="true" />
+        </parameter>
+        <parameter name="pOverride">
+          <type api="T:System.Boolean" ref="false" />
+        </parameter>
+      </parameters>
+      <returns>
+        <type api="T:System.Object" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="3.0.0.1" />
+          <noAptca />
+        </library>
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.Serializer" ref="true" />
+      </containers>
+      <file name="53419995-c511-593f-d74c-3089a16fdc72" />
+    </api>
+    <api id="M:XPatchLib.Serializer.Divide(XPatchLib.ITextWriter,System.Object,System.Object)">
+      <topicdata group="api" />
+      <apidata name="Divide" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <parameters>
+        <parameter name="pWriter">
+          <type api="T:XPatchLib.ITextWriter" ref="true" />
+        </parameter>
+        <parameter name="pOriValue">
+          <type api="T:System.Object" ref="true" />
+        </parameter>
+        <parameter name="pRevValue">
+          <type api="T:System.Object" ref="true" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="3.0.0.1" />
+          <noAptca />
+        </library>
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.Serializer" ref="true" />
+      </containers>
+      <file name="08160979-d0b7-0d98-dc68-ad063bbf89d3" />
+    </api>
+    <api id="M:XPatchLib.Serializer.RegisterTypes(System.Collections.Generic.IDictionary{System.Type,System.String[]})">
+      <topicdata group="api" />
+      <apidata name="RegisterTypes" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <parameters>
+        <parameter name="pTypes">
+          <type api="T:System.Collections.Generic.IDictionary`2" ref="true">
+            <specialization>
+              <type api="T:System.Type" ref="true" />
+              <arrayOf rank="1">
+                <type api="T:System.String" ref="true" />
+              </arrayOf>
+            </specialization>
+          </type>
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="3.0.0.1" />
+          <noAptca />
+        </library>
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.Serializer" ref="true" />
+      </containers>
+      <file name="26487e8f-eeb7-0812-23e2-0133a6f217fb" />
+    </api>
+    <api id="T:XPatchLib.XmlSerializeSetting">
+      <topicdata group="api" />
+      <apidata name="XmlSerializeSetting" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="false" />
+      <family>
+        <ancestors>
+          <type api="T:System.Object" ref="true" />
+        </ancestors>
+      </family>
+      <implements>
+        <type api="T:XPatchLib.ISerializeSetting" ref="true" />
+        <type api="T:System.ComponentModel.INotifyPropertyChanged" ref="true" />
+      </implements>
+      <elements>
+        <element api="M:XPatchLib.XmlSerializeSetting.#ctor" />
+        <element api="P:XPatchLib.XmlSerializeSetting.ActionName" />
+        <element api="P:XPatchLib.XmlSerializeSetting.Mode" />
+        <element api="E:XPatchLib.XmlSerializeSetting.PropertyChanged" />
+        <element api="P:XPatchLib.XmlSerializeSetting.SerializeDefalutValue" />
+      </elements>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="3.0.0.1" />
+        </library>
+        <namespace api="N:XPatchLib" />
+      </containers>
+      <file name="80f918a6-2ba9-c1f7-44e2-cc1fa46be1b4" />
+    </api>
+    <api id="Properties.T:XPatchLib.XmlSerializeSetting">
+      <topicdata name="XmlSerializeSetting" group="list" subgroup="Properties" typeTopicId="T:XPatchLib.XmlSerializeSetting" />
+      <apidata name="XmlSerializeSetting" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="false" />
+      <elements>
+        <element api="P:XPatchLib.XmlSerializeSetting.ActionName" />
+        <element api="P:XPatchLib.XmlSerializeSetting.Mode" />
+        <element api="P:XPatchLib.XmlSerializeSetting.SerializeDefalutValue" />
+      </elements>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="3.0.0.1" />
+        </library>
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.XmlSerializeSetting" />
+      </containers>
+      <file name="a8fb20ce-757f-3dba-7a02-6087e16493a7" />
+    </api>
+    <api id="Events.T:XPatchLib.XmlSerializeSetting">
+      <topicdata name="XmlSerializeSetting" group="list" subgroup="Events" typeTopicId="T:XPatchLib.XmlSerializeSetting" />
+      <apidata name="XmlSerializeSetting" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="false" />
+      <elements>
+        <element api="E:XPatchLib.XmlSerializeSetting.PropertyChanged" />
+      </elements>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="3.0.0.1" />
+        </library>
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.XmlSerializeSetting" />
+      </containers>
+      <file name="876104d5-ce2b-9c81-1731-5fa3315e90f8" />
+    </api>
+    <api id="M:XPatchLib.XmlSerializeSetting.#ctor">
+      <topicdata group="api" />
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <memberdata visibility="public" special="true" />
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="3.0.0.1" />
+          <noAptca />
+        </library>
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.XmlSerializeSetting" ref="true" />
+      </containers>
+      <file name="f6f5d84e-4deb-db73-436a-887933c47470" />
+    </api>
+    <api id="P:XPatchLib.XmlSerializeSetting.ActionName">
+      <topicdata group="api" />
+      <apidata name="ActionName" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" final="true" />
+      <propertydata get="true" set="true" />
+      <getter name="get_ActionName" />
+      <setter name="set_ActionName" />
+      <returns>
+        <type api="T:System.String" ref="true" />
+      </returns>
+      <implements>
+        <member api="P:XPatchLib.ISerializeSetting.ActionName">
+          <type api="T:XPatchLib.ISerializeSetting" ref="true" />
+        </member>
+      </implements>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="3.0.0.1" />
+          <noAptca />
+        </library>
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.XmlSerializeSetting" ref="true" />
+      </containers>
+      <file name="1c7bd8f3-1fd1-f26c-9b0e-54335b95f73e" />
+    </api>
+    <api id="P:XPatchLib.XmlSerializeSetting.Mode">
+      <topicdata group="api" />
+      <apidata name="Mode" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" final="true" />
+      <propertydata get="true" set="true" />
+      <getter name="get_Mode" />
+      <setter name="set_Mode" />
+      <returns>
+        <type api="T:XPatchLib.DateTimeSerializationMode" ref="false" />
+      </returns>
+      <implements>
+        <member api="P:XPatchLib.ISerializeSetting.Mode">
+          <type api="T:XPatchLib.ISerializeSetting" ref="true" />
+        </member>
+      </implements>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="3.0.0.1" />
+          <noAptca />
+        </library>
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.XmlSerializeSetting" ref="true" />
+      </containers>
+      <file name="07af392d-30a5-efb3-7865-3b0b634e2d9a" />
+    </api>
+    <api id="E:XPatchLib.XmlSerializeSetting.PropertyChanged">
+      <topicdata group="api" />
+      <apidata name="PropertyChanged" group="member" subgroup="event" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" final="true" />
+      <eventdata add="true" remove="true" />
+      <adder name="add_PropertyChanged" />
+      <remover name="remove_PropertyChanged" />
+      <eventhandler>
+        <type api="T:System.ComponentModel.PropertyChangedEventHandler" ref="true" />
+      </eventhandler>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="3.0.0.1" />
+          <noAptca />
+        </library>
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.XmlSerializeSetting" ref="true" />
+      </containers>
+      <file name="eb9d8bdc-27f1-67b6-ef07-94d4bcaf380f" />
+    </api>
+    <api id="P:XPatchLib.XmlSerializeSetting.SerializeDefalutValue">
+      <topicdata group="api" />
+      <apidata name="SerializeDefalutValue" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" final="true" />
+      <propertydata get="true" set="true" />
+      <getter name="get_SerializeDefalutValue" />
+      <setter name="set_SerializeDefalutValue" />
+      <returns>
+        <type api="T:System.Boolean" ref="false" />
+      </returns>
+      <implements>
+        <member api="P:XPatchLib.ISerializeSetting.SerializeDefalutValue">
+          <type api="T:XPatchLib.ISerializeSetting" ref="true" />
+        </member>
+      </implements>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="3.0.0.1" />
+          <noAptca />
+        </library>
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.XmlSerializeSetting" ref="true" />
+      </containers>
+      <file name="fe3319d3-bdea-09eb-57ec-e60e5d6573bb" />
+    </api>
+    <api id="T:XPatchLib.XmlTextReader">
+      <topicdata group="api" />
+      <apidata name="XmlTextReader" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="false" />
+      <family>
+        <ancestors>
+          <type api="T:System.Object" ref="true" />
+        </ancestors>
+      </family>
+      <implements>
+        <type api="T:XPatchLib.ITextReader" ref="true" />
+        <type api="T:System.IDisposable" ref="true" />
+      </implements>
+      <elements>
+        <element api="M:XPatchLib.XmlTextReader.#ctor(System.Xml.XmlReader)" />
+        <element api="P:XPatchLib.XmlTextReader.AttributeCount" />
+        <element api="M:XPatchLib.XmlTextReader.Dispose" />
+        <element api="P:XPatchLib.XmlTextReader.EOF" />
+        <element api="M:XPatchLib.XmlTextReader.MoveToCurrentElementEnd(System.String)" />
+        <element api="M:XPatchLib.XmlTextReader.MoveToElement" />
+        <element api="M:XPatchLib.XmlTextReader.MoveToNextAttribute" />
+        <element api="M:XPatchLib.XmlTextReader.MoveToNextElement(System.String,System.String)" />
+        <element api="P:XPatchLib.XmlTextReader.Name" />
+        <element api="P:XPatchLib.XmlTextReader.NodeType" />
+        <element api="Overload:XPatchLib.XmlTextReader.Read">
+          <element api="M:XPatchLib.XmlTextReader.Read" />
+          <element api="M:XPatchLib.XmlTextReader.Read``1" />
+        </element>
+        <element api="P:XPatchLib.XmlTextReader.ReadState" />
+        <element api="M:XPatchLib.XmlTextReader.ReadString" />
+        <element api="P:XPatchLib.XmlTextReader.Setting" />
+        <element api="P:XPatchLib.XmlTextReader.Value" />
+      </elements>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="3.0.0.1" />
+        </library>
+        <namespace api="N:XPatchLib" />
+      </containers>
+      <file name="2d011dc9-b3ea-1713-e8c1-2488c143a33c" />
+    </api>
+    <api id="Methods.T:XPatchLib.XmlTextReader">
+      <topicdata name="XmlTextReader" group="list" subgroup="Methods" typeTopicId="T:XPatchLib.XmlTextReader" />
+      <apidata name="XmlTextReader" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="false" />
+      <elements>
+        <element api="M:XPatchLib.XmlTextReader.Dispose" />
+        <element api="M:XPatchLib.XmlTextReader.MoveToCurrentElementEnd(System.String)" />
+        <element api="M:XPatchLib.XmlTextReader.MoveToElement" />
+        <element api="M:XPatchLib.XmlTextReader.MoveToNextAttribute" />
+        <element api="M:XPatchLib.XmlTextReader.MoveToNextElement(System.String,System.String)" />
+        <element api="Overload:XPatchLib.XmlTextReader.Read">
+          <element api="M:XPatchLib.XmlTextReader.Read" />
+          <element api="M:XPatchLib.XmlTextReader.Read``1" />
+        </element>
+        <element api="M:XPatchLib.XmlTextReader.ReadString" />
+      </elements>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="3.0.0.1" />
+        </library>
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.XmlTextReader" />
+      </containers>
+      <file name="69fad85a-030f-0153-8dab-ec2698f54142" />
+    </api>
+    <api id="Properties.T:XPatchLib.XmlTextReader">
+      <topicdata name="XmlTextReader" group="list" subgroup="Properties" typeTopicId="T:XPatchLib.XmlTextReader" />
+      <apidata name="XmlTextReader" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="false" />
+      <elements>
+        <element api="P:XPatchLib.XmlTextReader.AttributeCount" />
+        <element api="P:XPatchLib.XmlTextReader.EOF" />
+        <element api="P:XPatchLib.XmlTextReader.Name" />
+        <element api="P:XPatchLib.XmlTextReader.NodeType" />
+        <element api="P:XPatchLib.XmlTextReader.ReadState" />
+        <element api="P:XPatchLib.XmlTextReader.Setting" />
+        <element api="P:XPatchLib.XmlTextReader.Value" />
+      </elements>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="3.0.0.1" />
+        </library>
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.XmlTextReader" />
+      </containers>
+      <file name="62285820-e62d-4370-1f4e-845f17237934" />
+    </api>
+    <api id="Overload:XPatchLib.XmlTextReader.Read">
+      <topicdata name="Read" group="list" subgroup="overload" memberSubgroup="method" pseudo="true" allMembersTopicId="" />
+      <apidata name="Read" group="member" subgroup="method" />
+      <elements>
+        <element api="M:XPatchLib.XmlTextReader.Read" />
+        <element api="M:XPatchLib.XmlTextReader.Read``1" />
+      </elements>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="3.0.0.1" />
+        </library>
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.XmlTextReader" ref="true" />
+      </containers>
+      <file name="60736f45-50fc-bb5e-b103-a3f07d71a9da" />
+    </api>
+    <api id="M:XPatchLib.XmlTextReader.#ctor(System.Xml.XmlReader)">
+      <topicdata group="api" />
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <memberdata visibility="public" special="true" />
+      <parameters>
+        <parameter name="pReader">
+          <type api="T:System.Xml.XmlReader" ref="true" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="3.0.0.1" />
+          <noAptca />
+        </library>
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.XmlTextReader" ref="true" />
+      </containers>
+      <file name="e4dbdbf7-d0f3-c694-97c8-f52fd5883202" />
+    </api>
+    <api id="P:XPatchLib.XmlTextReader.AttributeCount">
+      <topicdata group="api" />
+      <apidata name="AttributeCount" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" final="true" />
+      <propertydata get="true" />
+      <getter name="get_AttributeCount" />
+      <returns>
+        <type api="T:System.Int32" ref="false" />
+      </returns>
+      <implements>
+        <member api="P:XPatchLib.ITextReader.AttributeCount">
+          <type api="T:XPatchLib.ITextReader" ref="true" />
+        </member>
+      </implements>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="3.0.0.1" />
+          <noAptca />
+        </library>
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.XmlTextReader" ref="true" />
+      </containers>
+      <file name="6ff36278-a3b2-6ac5-2795-420c6ca8968b" />
+    </api>
+    <api id="M:XPatchLib.XmlTextReader.Dispose">
+      <topicdata group="api" />
+      <apidata name="Dispose" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" final="true" />
+      <implements>
+        <member api="M:System.IDisposable.Dispose">
+          <type api="T:System.IDisposable" ref="true" />
+        </member>
+      </implements>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="3.0.0.1" />
+          <noAptca />
+        </library>
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.XmlTextReader" ref="true" />
+      </containers>
+      <file name="89128139-84aa-571e-9999-8e33f6b0a9b3" />
+    </api>
+    <api id="P:XPatchLib.XmlTextReader.EOF">
+      <topicdata group="api" />
+      <apidata name="EOF" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" final="true" />
+      <propertydata get="true" />
+      <getter name="get_EOF" />
+      <returns>
+        <type api="T:System.Boolean" ref="false" />
+      </returns>
+      <implements>
+        <member api="P:XPatchLib.ITextReader.EOF">
+          <type api="T:XPatchLib.ITextReader" ref="true" />
+        </member>
+      </implements>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="3.0.0.1" />
+          <noAptca />
+        </library>
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.XmlTextReader" ref="true" />
+      </containers>
+      <file name="0461518b-3c04-d2f3-8755-0e8218fca3de" />
+    </api>
+    <api id="M:XPatchLib.XmlTextReader.MoveToCurrentElementEnd(System.String)">
+      <topicdata group="api" />
+      <apidata name="MoveToCurrentElementEnd" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" final="true" />
+      <parameters>
+        <parameter name="currentElementName">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+      </parameters>
+      <implements>
+        <member api="M:XPatchLib.ITextReader.MoveToCurrentElementEnd(System.String)">
+          <type api="T:XPatchLib.ITextReader" ref="true" />
+        </member>
+      </implements>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="3.0.0.1" />
+          <noAptca />
+        </library>
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.XmlTextReader" ref="true" />
+      </containers>
+      <file name="1d9a21c7-3634-42fa-9eb6-7be246db6fe9" />
+    </api>
+    <api id="M:XPatchLib.XmlTextReader.MoveToElement">
+      <topicdata group="api" />
+      <apidata name="MoveToElement" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" final="true" />
+      <returns>
+        <type api="T:System.Boolean" ref="false" />
+      </returns>
+      <implements>
+        <member api="M:XPatchLib.ITextReader.MoveToElement">
+          <type api="T:XPatchLib.ITextReader" ref="true" />
+        </member>
+      </implements>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="3.0.0.1" />
+          <noAptca />
+        </library>
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.XmlTextReader" ref="true" />
+      </containers>
+      <file name="08855d65-64ff-65a5-c204-22bd41904bd6" />
+    </api>
+    <api id="M:XPatchLib.XmlTextReader.MoveToNextAttribute">
+      <topicdata group="api" />
+      <apidata name="MoveToNextAttribute" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" final="true" />
+      <returns>
+        <type api="T:System.Boolean" ref="false" />
+      </returns>
+      <implements>
+        <member api="M:XPatchLib.ITextReader.MoveToNextAttribute">
+          <type api="T:XPatchLib.ITextReader" ref="true" />
+        </member>
+      </implements>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="3.0.0.1" />
+          <noAptca />
+        </library>
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.XmlTextReader" ref="true" />
+      </containers>
+      <file name="53db2bb0-59c5-9d2b-1cb4-74d9a27ceb6d" />
+    </api>
+    <api id="M:XPatchLib.XmlTextReader.MoveToNextElement(System.String,System.String)">
+      <topicdata group="api" />
+      <apidata name="MoveToNextElement" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" final="true" />
+      <parameters>
+        <parameter name="nextElementName">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+        <parameter name="parentElementName">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+      </parameters>
+      <returns>
+        <type api="T:System.Boolean" ref="false" />
+      </returns>
+      <implements>
+        <member api="M:XPatchLib.ITextReader.MoveToNextElement(System.String,System.String)">
+          <type api="T:XPatchLib.ITextReader" ref="true" />
+        </member>
+      </implements>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="3.0.0.1" />
+          <noAptca />
+        </library>
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.XmlTextReader" ref="true" />
+      </containers>
+      <file name="924a99dc-eb3d-3a8c-6ef6-f8afb577d3bb" />
+    </api>
+    <api id="P:XPatchLib.XmlTextReader.Name">
+      <topicdata group="api" />
+      <apidata name="Name" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" final="true" />
+      <propertydata get="true" />
+      <getter name="get_Name" />
+      <returns>
+        <type api="T:System.String" ref="true" />
+      </returns>
+      <implements>
+        <member api="P:XPatchLib.ITextReader.Name">
+          <type api="T:XPatchLib.ITextReader" ref="true" />
+        </member>
+      </implements>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="3.0.0.1" />
+          <noAptca />
+        </library>
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.XmlTextReader" ref="true" />
+      </containers>
+      <file name="25d76d4b-cb20-2e6d-343b-658c8f81acfd" />
+    </api>
+    <api id="P:XPatchLib.XmlTextReader.NodeType">
+      <topicdata group="api" />
+      <apidata name="NodeType" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" final="true" />
+      <propertydata get="true" />
+      <getter name="get_NodeType" />
+      <returns>
+        <type api="T:XPatchLib.NodeType" ref="false" />
+      </returns>
+      <implements>
+        <member api="P:XPatchLib.ITextReader.NodeType">
+          <type api="T:XPatchLib.ITextReader" ref="true" />
+        </member>
+      </implements>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="3.0.0.1" />
+          <noAptca />
+        </library>
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.XmlTextReader" ref="true" />
+      </containers>
+      <file name="672e2885-2d73-1ef8-3712-aff4ec8d9e27" />
+    </api>
+    <api id="M:XPatchLib.XmlTextReader.Read">
+      <topicdata group="api" />
+      <apidata name="Read" group="member" subgroup="method" />
+      <memberdata visibility="public" overload="Overload:XPatchLib.XmlTextReader.Read" />
+      <proceduredata virtual="true" final="true" />
+      <returns>
+        <type api="T:System.Boolean" ref="false" />
+      </returns>
+      <implements>
+        <member api="M:XPatchLib.ITextReader.Read">
+          <type api="T:XPatchLib.ITextReader" ref="true" />
+        </member>
+      </implements>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="3.0.0.1" />
+          <noAptca />
+        </library>
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.XmlTextReader" ref="true" />
+      </containers>
+      <file name="9a588e91-4262-df2c-1022-e652c16c6a41" />
+    </api>
+    <api id="M:XPatchLib.XmlTextReader.Read``1">
+      <topicdata group="api" />
+      <apidata name="Read" group="member" subgroup="method" />
+      <memberdata visibility="public" overload="Overload:XPatchLib.XmlTextReader.Read" />
+      <proceduredata virtual="true" final="true" />
+      <templates>
+        <template name="T" />
+      </templates>
+      <returns>
+        <template name="T" index="0" api="M:XPatchLib.XmlTextReader.Read``1" />
+      </returns>
+      <implements>
+        <member api="M:XPatchLib.ITextReader.Read``1">
+          <type api="T:XPatchLib.ITextReader" ref="true" />
+        </member>
+      </implements>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="3.0.0.1" />
+          <noAptca />
+        </library>
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.XmlTextReader" ref="true" />
+      </containers>
+      <file name="b6771d43-e981-37f9-42ae-365b97e85d6c" />
+    </api>
+    <api id="P:XPatchLib.XmlTextReader.ReadState">
+      <topicdata group="api" />
+      <apidata name="ReadState" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" final="true" />
+      <propertydata get="true" />
+      <getter name="get_ReadState" />
+      <returns>
+        <type api="T:XPatchLib.ReadState" ref="false" />
+      </returns>
+      <implements>
+        <member api="P:XPatchLib.ITextReader.ReadState">
+          <type api="T:XPatchLib.ITextReader" ref="true" />
+        </member>
+      </implements>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="3.0.0.1" />
+          <noAptca />
+        </library>
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.XmlTextReader" ref="true" />
+      </containers>
+      <file name="846e2a8f-8295-15bb-b701-23f3546cb84d" />
+    </api>
+    <api id="M:XPatchLib.XmlTextReader.ReadString">
+      <topicdata group="api" />
+      <apidata name="ReadString" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" final="true" />
+      <returns>
+        <type api="T:System.String" ref="true" />
+      </returns>
+      <implements>
+        <member api="M:XPatchLib.ITextReader.ReadString">
+          <type api="T:XPatchLib.ITextReader" ref="true" />
+        </member>
+      </implements>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="3.0.0.1" />
+          <noAptca />
+        </library>
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.XmlTextReader" ref="true" />
+      </containers>
+      <file name="2b73f434-2dbb-f9ab-005f-eb471b751462" />
+    </api>
+    <api id="P:XPatchLib.XmlTextReader.Setting">
+      <topicdata group="api" />
+      <apidata name="Setting" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" final="true" />
+      <propertydata get="true" set="true" />
+      <getter name="get_Setting" />
+      <setter name="set_Setting" />
+      <returns>
+        <type api="T:XPatchLib.ISerializeSetting" ref="true" />
+      </returns>
+      <implements>
+        <member api="P:XPatchLib.ITextReader.Setting">
+          <type api="T:XPatchLib.ITextReader" ref="true" />
+        </member>
+      </implements>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="3.0.0.1" />
+          <noAptca />
+        </library>
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.XmlTextReader" ref="true" />
+      </containers>
+      <file name="b5208d59-8fe6-0dc9-36af-83c3c7d65148" />
+    </api>
+    <api id="P:XPatchLib.XmlTextReader.Value">
+      <topicdata group="api" />
+      <apidata name="Value" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" final="true" />
+      <propertydata get="true" />
+      <getter name="get_Value" />
+      <returns>
+        <type api="T:System.String" ref="true" />
+      </returns>
+      <implements>
+        <member api="P:XPatchLib.ITextReader.Value">
+          <type api="T:XPatchLib.ITextReader" ref="true" />
+        </member>
+      </implements>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="3.0.0.1" />
+          <noAptca />
+        </library>
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.XmlTextReader" ref="true" />
+      </containers>
+      <file name="cc34c2a4-5d2a-8a8b-5e4f-3de8043bb940" />
+    </api>
+    <api id="T:XPatchLib.XmlTextWriter">
+      <topicdata group="api" />
+      <apidata name="XmlTextWriter" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="false" />
+      <family>
+        <ancestors>
+          <type api="T:System.Object" ref="true" />
+        </ancestors>
+      </family>
+      <implements>
+        <type api="T:XPatchLib.ITextWriter" ref="true" />
+        <type api="T:System.IDisposable" ref="true" />
+      </implements>
+      <elements>
+        <element api="M:XPatchLib.XmlTextWriter.#ctor(System.Xml.XmlWriter)" />
+        <element api="M:XPatchLib.XmlTextWriter.Dispose" />
+        <element api="M:XPatchLib.XmlTextWriter.Flush" />
+        <element api="P:XPatchLib.XmlTextWriter.IgnoreAttributeType" />
+        <element api="P:XPatchLib.XmlTextWriter.Setting" />
+        <element api="M:XPatchLib.XmlTextWriter.WriteAttribute(System.String,System.String)" />
+        <element api="M:XPatchLib.XmlTextWriter.WriteEndArray" />
+        <element api="M:XPatchLib.XmlTextWriter.WriteEndArrayItem" />
+        <element api="M:XPatchLib.XmlTextWriter.WriteEndDocument" />
+        <element api="M:XPatchLib.XmlTextWriter.WriteEndObject" />
+        <element api="M:XPatchLib.XmlTextWriter.WriteEndProperty" />
+        <element api="M:XPatchLib.XmlTextWriter.WriteProperty(System.String,System.String)" />
+        <element api="M:XPatchLib.XmlTextWriter.WriteStartArray(System.String)" />
+        <element api="M:XPatchLib.XmlTextWriter.WriteStartArrayItem(System.String)" />
+        <element api="M:XPatchLib.XmlTextWriter.WriteStartDocument" />
+        <element api="M:XPatchLib.XmlTextWriter.WriteStartObject(System.String)" />
+        <element api="M:XPatchLib.XmlTextWriter.WriteStartProperty(System.String)" />
+        <element api="M:XPatchLib.XmlTextWriter.WriteValue(System.String)" />
+      </elements>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="3.0.0.1" />
+        </library>
+        <namespace api="N:XPatchLib" />
+      </containers>
+      <file name="498babb9-7293-5749-a9c5-d6f351d4facd" />
+    </api>
+    <api id="Methods.T:XPatchLib.XmlTextWriter">
+      <topicdata name="XmlTextWriter" group="list" subgroup="Methods" typeTopicId="T:XPatchLib.XmlTextWriter" />
+      <apidata name="XmlTextWriter" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="false" />
+      <elements>
+        <element api="M:XPatchLib.XmlTextWriter.Dispose" />
+        <element api="M:XPatchLib.XmlTextWriter.Flush" />
+        <element api="M:XPatchLib.XmlTextWriter.WriteAttribute(System.String,System.String)" />
+        <element api="M:XPatchLib.XmlTextWriter.WriteEndArray" />
+        <element api="M:XPatchLib.XmlTextWriter.WriteEndArrayItem" />
+        <element api="M:XPatchLib.XmlTextWriter.WriteEndDocument" />
+        <element api="M:XPatchLib.XmlTextWriter.WriteEndObject" />
+        <element api="M:XPatchLib.XmlTextWriter.WriteEndProperty" />
+        <element api="M:XPatchLib.XmlTextWriter.WriteProperty(System.String,System.String)" />
+        <element api="M:XPatchLib.XmlTextWriter.WriteStartArray(System.String)" />
+        <element api="M:XPatchLib.XmlTextWriter.WriteStartArrayItem(System.String)" />
+        <element api="M:XPatchLib.XmlTextWriter.WriteStartDocument" />
+        <element api="M:XPatchLib.XmlTextWriter.WriteStartObject(System.String)" />
+        <element api="M:XPatchLib.XmlTextWriter.WriteStartProperty(System.String)" />
+        <element api="M:XPatchLib.XmlTextWriter.WriteValue(System.String)" />
+      </elements>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="3.0.0.1" />
+        </library>
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.XmlTextWriter" />
+      </containers>
+      <file name="4cc9f3fa-1afe-f05d-35e4-203e48c338dc" />
+    </api>
+    <api id="Properties.T:XPatchLib.XmlTextWriter">
+      <topicdata name="XmlTextWriter" group="list" subgroup="Properties" typeTopicId="T:XPatchLib.XmlTextWriter" />
+      <apidata name="XmlTextWriter" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="false" />
+      <elements>
+        <element api="P:XPatchLib.XmlTextWriter.IgnoreAttributeType" />
+        <element api="P:XPatchLib.XmlTextWriter.Setting" />
+      </elements>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="3.0.0.1" />
+        </library>
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.XmlTextWriter" />
+      </containers>
+      <file name="7daf2fb5-04e2-aa6a-3b99-90a0ef98b60e" />
+    </api>
+    <api id="M:XPatchLib.XmlTextWriter.#ctor(System.Xml.XmlWriter)">
+      <topicdata group="api" />
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <memberdata visibility="public" special="true" />
+      <parameters>
+        <parameter name="pWriter">
+          <type api="T:System.Xml.XmlWriter" ref="true" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="3.0.0.1" />
+          <noAptca />
+        </library>
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.XmlTextWriter" ref="true" />
+      </containers>
+      <file name="a5fb4425-57fa-9b70-e8e7-7139bfb205fd" />
+    </api>
+    <api id="M:XPatchLib.XmlTextWriter.Dispose">
+      <topicdata group="api" />
+      <apidata name="Dispose" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" final="true" />
+      <implements>
+        <member api="M:System.IDisposable.Dispose">
+          <type api="T:System.IDisposable" ref="true" />
+        </member>
+      </implements>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="3.0.0.1" />
+          <noAptca />
+        </library>
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.XmlTextWriter" ref="true" />
+      </containers>
+      <file name="d37d2ed7-fdae-6d50-9a96-92966f437ff0" />
+    </api>
+    <api id="M:XPatchLib.XmlTextWriter.Flush">
+      <topicdata group="api" />
+      <apidata name="Flush" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" final="true" />
+      <implements>
+        <member api="M:XPatchLib.ITextWriter.Flush">
+          <type api="T:XPatchLib.ITextWriter" ref="true" />
+        </member>
+      </implements>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="3.0.0.1" />
+          <noAptca />
+        </library>
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.XmlTextWriter" ref="true" />
+      </containers>
+      <file name="e8c3d45e-299b-4870-f012-85e99301b00e" />
+    </api>
+    <api id="P:XPatchLib.XmlTextWriter.IgnoreAttributeType">
+      <topicdata group="api" />
+      <apidata name="IgnoreAttributeType" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" final="true" />
+      <propertydata get="true" set="true" />
+      <getter name="get_IgnoreAttributeType" />
+      <setter name="set_IgnoreAttributeType" />
+      <returns>
+        <type api="T:System.Type" ref="true" />
+      </returns>
+      <implements>
+        <member api="P:XPatchLib.ITextWriter.IgnoreAttributeType">
+          <type api="T:XPatchLib.ITextWriter" ref="true" />
+        </member>
+      </implements>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="3.0.0.1" />
+          <noAptca />
+        </library>
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.XmlTextWriter" ref="true" />
+      </containers>
+      <file name="c93887bb-a453-dc88-84a6-a0f44c764d13" />
+    </api>
+    <api id="P:XPatchLib.XmlTextWriter.Setting">
+      <topicdata group="api" />
+      <apidata name="Setting" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" final="true" />
+      <propertydata get="true" set="true" />
+      <getter name="get_Setting" />
+      <setter name="set_Setting" />
+      <returns>
+        <type api="T:XPatchLib.ISerializeSetting" ref="true" />
+      </returns>
+      <implements>
+        <member api="P:XPatchLib.ITextWriter.Setting">
+          <type api="T:XPatchLib.ITextWriter" ref="true" />
+        </member>
+      </implements>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="3.0.0.1" />
+          <noAptca />
+        </library>
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.XmlTextWriter" ref="true" />
+      </containers>
+      <file name="593dfde9-4120-5a93-45c7-450f14778cc4" />
+    </api>
+    <api id="M:XPatchLib.XmlTextWriter.WriteAttribute(System.String,System.String)">
+      <topicdata group="api" />
+      <apidata name="WriteAttribute" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" final="true" />
+      <parameters>
+        <parameter name="pName">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+        <parameter name="pValue">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+      </parameters>
+      <implements>
+        <member api="M:XPatchLib.ITextWriter.WriteAttribute(System.String,System.String)">
+          <type api="T:XPatchLib.ITextWriter" ref="true" />
+        </member>
+      </implements>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="3.0.0.1" />
+          <noAptca />
+        </library>
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.XmlTextWriter" ref="true" />
+      </containers>
+      <file name="829a2b3a-00bd-9d9d-2ffd-d420aa8fb0e5" />
+    </api>
+    <api id="M:XPatchLib.XmlTextWriter.WriteEndArray">
+      <topicdata group="api" />
+      <apidata name="WriteEndArray" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" final="true" />
+      <implements>
+        <member api="M:XPatchLib.ITextWriter.WriteEndArray">
+          <type api="T:XPatchLib.ITextWriter" ref="true" />
+        </member>
+      </implements>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="3.0.0.1" />
+          <noAptca />
+        </library>
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.XmlTextWriter" ref="true" />
+      </containers>
+      <file name="641aec44-cc0b-457f-6d02-484f9121ce07" />
+    </api>
+    <api id="M:XPatchLib.XmlTextWriter.WriteEndArrayItem">
+      <topicdata group="api" />
+      <apidata name="WriteEndArrayItem" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" final="true" />
+      <implements>
+        <member api="M:XPatchLib.ITextWriter.WriteEndArrayItem">
+          <type api="T:XPatchLib.ITextWriter" ref="true" />
+        </member>
+      </implements>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="3.0.0.1" />
+          <noAptca />
+        </library>
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.XmlTextWriter" ref="true" />
+      </containers>
+      <file name="4e71747b-2abc-d59c-8d78-0d9d4df21e7d" />
+    </api>
+    <api id="M:XPatchLib.XmlTextWriter.WriteEndDocument">
+      <topicdata group="api" />
+      <apidata name="WriteEndDocument" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" final="true" />
+      <implements>
+        <member api="M:XPatchLib.ITextWriter.WriteEndDocument">
+          <type api="T:XPatchLib.ITextWriter" ref="true" />
+        </member>
+      </implements>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="3.0.0.1" />
+          <noAptca />
+        </library>
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.XmlTextWriter" ref="true" />
+      </containers>
+      <file name="e860c98a-41b2-b399-db1b-2366ea3261f1" />
+    </api>
+    <api id="M:XPatchLib.XmlTextWriter.WriteEndObject">
+      <topicdata group="api" />
+      <apidata name="WriteEndObject" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" final="true" />
+      <implements>
+        <member api="M:XPatchLib.ITextWriter.WriteEndObject">
+          <type api="T:XPatchLib.ITextWriter" ref="true" />
+        </member>
+      </implements>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="3.0.0.1" />
+          <noAptca />
+        </library>
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.XmlTextWriter" ref="true" />
+      </containers>
+      <file name="d5c39421-573b-51de-5ded-2d3a7d81c810" />
+    </api>
+    <api id="M:XPatchLib.XmlTextWriter.WriteEndProperty">
+      <topicdata group="api" />
+      <apidata name="WriteEndProperty" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" final="true" />
+      <implements>
+        <member api="M:XPatchLib.ITextWriter.WriteEndProperty">
+          <type api="T:XPatchLib.ITextWriter" ref="true" />
+        </member>
+      </implements>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="3.0.0.1" />
+          <noAptca />
+        </library>
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.XmlTextWriter" ref="true" />
+      </containers>
+      <file name="e4913634-0fb5-5eae-6e6d-122ef36c25db" />
+    </api>
+    <api id="M:XPatchLib.XmlTextWriter.WriteProperty(System.String,System.String)">
+      <topicdata group="api" />
+      <apidata name="WriteProperty" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" final="true" />
+      <parameters>
+        <parameter name="pName">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+        <parameter name="pValue">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+      </parameters>
+      <implements>
+        <member api="M:XPatchLib.ITextWriter.WriteProperty(System.String,System.String)">
+          <type api="T:XPatchLib.ITextWriter" ref="true" />
+        </member>
+      </implements>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="3.0.0.1" />
+          <noAptca />
+        </library>
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.XmlTextWriter" ref="true" />
+      </containers>
+      <file name="b524e909-ff86-56b5-62bb-809f77018e41" />
+    </api>
+    <api id="M:XPatchLib.XmlTextWriter.WriteStartArray(System.String)">
+      <topicdata group="api" />
+      <apidata name="WriteStartArray" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" final="true" />
+      <parameters>
+        <parameter name="pName">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+      </parameters>
+      <implements>
+        <member api="M:XPatchLib.ITextWriter.WriteStartArray(System.String)">
+          <type api="T:XPatchLib.ITextWriter" ref="true" />
+        </member>
+      </implements>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="3.0.0.1" />
+          <noAptca />
+        </library>
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.XmlTextWriter" ref="true" />
+      </containers>
+      <file name="ba2d35d0-1060-4477-c37c-e6b3386cbb23" />
+    </api>
+    <api id="M:XPatchLib.XmlTextWriter.WriteStartArrayItem(System.String)">
+      <topicdata group="api" />
+      <apidata name="WriteStartArrayItem" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" final="true" />
+      <parameters>
+        <parameter name="pName">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+      </parameters>
+      <implements>
+        <member api="M:XPatchLib.ITextWriter.WriteStartArrayItem(System.String)">
+          <type api="T:XPatchLib.ITextWriter" ref="true" />
+        </member>
+      </implements>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="3.0.0.1" />
+          <noAptca />
+        </library>
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.XmlTextWriter" ref="true" />
+      </containers>
+      <file name="07f5f3e7-fdf2-2304-52a3-0ee1c3fd11bc" />
+    </api>
+    <api id="M:XPatchLib.XmlTextWriter.WriteStartDocument">
+      <topicdata group="api" />
+      <apidata name="WriteStartDocument" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" final="true" />
+      <implements>
+        <member api="M:XPatchLib.ITextWriter.WriteStartDocument">
+          <type api="T:XPatchLib.ITextWriter" ref="true" />
+        </member>
+      </implements>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="3.0.0.1" />
+          <noAptca />
+        </library>
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.XmlTextWriter" ref="true" />
+      </containers>
+      <file name="a0c8fde1-c820-783c-342f-70a46ccd8e97" />
+    </api>
+    <api id="M:XPatchLib.XmlTextWriter.WriteStartObject(System.String)">
+      <topicdata group="api" />
+      <apidata name="WriteStartObject" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" final="true" />
+      <parameters>
+        <parameter name="pName">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+      </parameters>
+      <implements>
+        <member api="M:XPatchLib.ITextWriter.WriteStartObject(System.String)">
+          <type api="T:XPatchLib.ITextWriter" ref="true" />
+        </member>
+      </implements>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="3.0.0.1" />
+          <noAptca />
+        </library>
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.XmlTextWriter" ref="true" />
+      </containers>
+      <file name="6aabddc0-24a0-1cb5-8886-28b06c420971" />
+    </api>
+    <api id="M:XPatchLib.XmlTextWriter.WriteStartProperty(System.String)">
+      <topicdata group="api" />
+      <apidata name="WriteStartProperty" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" final="true" />
+      <parameters>
+        <parameter name="pName">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+      </parameters>
+      <implements>
+        <member api="M:XPatchLib.ITextWriter.WriteStartProperty(System.String)">
+          <type api="T:XPatchLib.ITextWriter" ref="true" />
+        </member>
+      </implements>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="3.0.0.1" />
+          <noAptca />
+        </library>
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.XmlTextWriter" ref="true" />
+      </containers>
+      <file name="10b876f2-2eb4-6a5d-105b-a4816a18b350" />
+    </api>
+    <api id="M:XPatchLib.XmlTextWriter.WriteValue(System.String)">
+      <topicdata group="api" />
+      <apidata name="WriteValue" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" final="true" />
+      <parameters>
+        <parameter name="pValue">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+      </parameters>
+      <implements>
+        <member api="M:XPatchLib.ITextWriter.WriteValue(System.String)">
+          <type api="T:XPatchLib.ITextWriter" ref="true" />
+        </member>
+      </implements>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="3.0.0.1" />
+          <noAptca />
+        </library>
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.XmlTextWriter" ref="true" />
+      </containers>
+      <file name="ce81b781-ff23-720f-c232-7d4b95c972a1" />
+    </api>
+    <api id="R:Project_XPatchLib_Helper">
+      <topicdata group="root" />
+      <elements>
+        <element api="N:XPatchLib" />
+      </elements>
+      <file name="9afec0dc-3356-d067-ab5e-a67445fcf631" />
+    </api>
+  </apis>
+</reflection>
