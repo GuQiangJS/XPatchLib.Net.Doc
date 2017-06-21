@@ -26,7 +26,95 @@
         使用 Divide 方法将原始对象与更新后对象之间差异内容的的公共字段和读/写属性转换为 增量数据。它不转换方法、索引器、私有字段或只读属性。
       </p><p>
                     使用 Combine 方法将读取增量内容，并将增量数据与待合并的原始对象的数据合并，产生新的对象实例。（也可以使用重载方法，直接在原始对象上附加数据，这样将不会产生新的对象实例）
-                </p></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID6RB')" onkeypress="SectionExpandCollapse_CheckKey('ID6RB', event)" tabindex="0"><img id="ID6RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />示例</span></div><div id="ID6RBSection" class="collapsibleSection"><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID1EAEABA_tab1" class="codeSnippetContainerTabSingle">C#</div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EAEABA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EAEABA');return false;" title="复制">复制</a></div></div><div id="ID1EAEABA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-keyword">using</span> System;
+                </p></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID6RB')" onkeypress="SectionExpandCollapse_CheckKey('ID6RB', event)" tabindex="0"><img id="ID6RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />示例</span></div><div id="ID6RBSection" class="collapsibleSection"><p>简单对象增量序列化/反序列化示例</p><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID1EAKABA_tab1" class="codeSnippetContainerTabSingle">C#</div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EAKABA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EAKABA');return false;" title="复制">复制</a></div></div><div id="ID1EAKABA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-keyword">using</span> System;
+<span class="highlight-keyword">using</span> System.Text;
+<span class="highlight-keyword">using</span> XPatchLib;
+<span class="highlight-keyword">using</span> System.IO;
+
+<span class="highlight-keyword">namespace</span> XPatchLib.Example
+{
+    <span class="highlight-keyword">public</span> <span class="highlight-keyword">class</span> SimpleExample
+    {
+        <span class="highlight-keyword">public</span> <span class="highlight-keyword">static</span> <span class="highlight-keyword">void</span> Main(<span class="highlight-keyword">string</span>[] args)
+        {
+            Book OriBook = <span class="highlight-keyword">new</span> Book() { ISBN = <span class="highlight-literal">"0-385-50420-9"</span>, Name = <span class="highlight-literal">"The Da Vinci Code"</span>, Author = <span class="highlight-keyword">new</span> Author() { FirstName = <span class="highlight-literal">"Dan"</span>, LastName = <span class="highlight-literal">"Brown"</span> } };
+
+            Book RevBook = <span class="highlight-keyword">new</span> Book() { ISBN = <span class="highlight-literal">"0-385-50420-9"</span>, Name = <span class="highlight-literal">"达芬奇密码"</span>, Author = <span class="highlight-keyword">new</span> Author() { FirstName = <span class="highlight-literal">"丹"</span>, LastName = <span class="highlight-literal">"布朗"</span> } };
+
+            StringBuilder context = <span class="highlight-keyword">new</span> StringBuilder();
+
+            System.Xml.XmlWriterSettings settings = <span class="highlight-keyword">new</span> System.Xml.XmlWriterSettings();
+            settings.Encoding = <span class="highlight-keyword">new</span> UTF8Encoding(<span class="highlight-keyword">false</span>);
+            settings.OmitXmlDeclaration = <span class="highlight-keyword">true</span>;
+            settings.ConformanceLevel = System.Xml.ConformanceLevel.Document;
+            Serializer serializer = <span class="highlight-keyword">new</span> Serializer(<span class="highlight-keyword">typeof</span>(Book));
+
+            <span class="highlight-keyword">using</span> (System.Xml.XmlWriter xmlWriter = System.Xml.XmlWriter.Create(context, settings))
+            {
+                <span class="highlight-keyword">using</span> (XmlTextWriter writer = <span class="highlight-keyword">new</span> XmlTextWriter(xmlWriter))
+                {
+                    serializer.Divide(writer, OriBook, RevBook);
+                }
+            }
+
+            Book NewBook = <span class="highlight-keyword">null</span>;
+
+            <span class="highlight-keyword">using</span> (System.Xml.XmlReader xmlReader = System.Xml.XmlReader.Create(<span class="highlight-keyword">new</span> StringReader(context.ToString())))
+            {
+                <span class="highlight-keyword">using</span> (XmlTextReader reader = <span class="highlight-keyword">new</span> XmlTextReader(xmlReader))
+                {
+                    NewBook = serializer.Combine(reader, OriBook, <span class="highlight-keyword">false</span>) <span class="highlight-keyword">as</span> Book;
+                }
+            }
+
+            Console.WriteLine(NewBook);
+        }
+    }
+
+    [PrimaryKey(<span class="highlight-literal">"ISBN"</span>)]
+    <span class="highlight-keyword">public</span> <span class="highlight-keyword">class</span> Book
+    {
+        <span class="highlight-keyword">static</span> <span class="highlight-keyword">string</span> OUTPUT;
+
+        <span class="highlight-keyword">static</span> Book()
+        {
+            StringBuilder output = <span class="highlight-keyword">new</span> StringBuilder();
+            output.AppendLine(<span class="highlight-literal">"ISBN:{0}"</span>);
+            output.AppendLine(<span class="highlight-literal">"Name:{1}"</span>);
+            output.AppendLine(<span class="highlight-literal">"Author:{2} {3}"</span>);
+            OUTPUT = output.ToString();
+        }
+
+        <span class="highlight-keyword">public</span> <span class="highlight-keyword">string</span> ISBN { <span class="highlight-keyword">get</span>; <span class="highlight-keyword">set</span>; }
+
+        <span class="highlight-keyword">public</span> <span class="highlight-keyword">string</span> Name { <span class="highlight-keyword">get</span>; <span class="highlight-keyword">set</span>; }
+
+        <span class="highlight-keyword">public</span> Author Author { <span class="highlight-keyword">get</span>; <span class="highlight-keyword">set</span>; }
+
+        <span class="highlight-keyword">public</span> <span class="highlight-keyword">override</span> <span class="highlight-keyword">string</span> ToString()
+        {
+            <span class="highlight-keyword">return</span> <span class="highlight-keyword">string</span>.Format(OUTPUT, <span class="highlight-keyword">this</span>.ISBN, <span class="highlight-keyword">this</span>.Name, <span class="highlight-keyword">this</span>.Author.FirstName, <span class="highlight-keyword">this</span>.Author.LastName);
+        }
+    }
+
+    <span class="highlight-keyword">public</span> <span class="highlight-keyword">class</span> Author
+    {
+        <span class="highlight-keyword">public</span> <span class="highlight-keyword">string</span> FirstName { <span class="highlight-keyword">get</span>; <span class="highlight-keyword">set</span>; }
+        <span class="highlight-keyword">public</span> <span class="highlight-keyword">string</span> LastName { <span class="highlight-keyword">get</span>; <span class="highlight-keyword">set</span>; }
+    }
+}</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EAKABA");</script><p>
+        序列化增量内容如下所示：
+      </p><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID1EAIABA_tab1" class="codeSnippetContainerTabSingle">context</div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EAIABA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EAIABA');return false;" title="复制">复制</a></div></div><div id="ID1EAIABA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-xml-bracket">&lt;</span><span class="highlight-xml-tag">Book</span><span class="highlight-xml-bracket">&gt;</span>
+  <span class="highlight-xml-bracket">&lt;</span><span class="highlight-xml-tag">Author</span><span class="highlight-xml-bracket">&gt;</span>
+    <span class="highlight-xml-bracket">&lt;</span><span class="highlight-xml-tag">FirstName</span><span class="highlight-xml-bracket">&gt;</span>丹<span class="highlight-xml-bracket">&lt;/</span><span class="highlight-xml-tag">FirstName</span><span class="highlight-xml-bracket">&gt;</span>
+    <span class="highlight-xml-bracket">&lt;</span><span class="highlight-xml-tag">LastName</span><span class="highlight-xml-bracket">&gt;</span>布朗<span class="highlight-xml-bracket">&lt;/</span><span class="highlight-xml-tag">LastName</span><span class="highlight-xml-bracket">&gt;</span>
+  <span class="highlight-xml-bracket">&lt;/</span><span class="highlight-xml-tag">Author</span><span class="highlight-xml-bracket">&gt;</span>
+  <span class="highlight-xml-bracket">&lt;</span><span class="highlight-xml-tag">Name</span><span class="highlight-xml-bracket">&gt;</span>达芬奇密码<span class="highlight-xml-bracket">&lt;/</span><span class="highlight-xml-tag">Name</span><span class="highlight-xml-bracket">&gt;</span>
+<span class="highlight-xml-bracket">&lt;/</span><span class="highlight-xml-tag">Book</span><span class="highlight-xml-bracket">&gt;</span></pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EAIABA");</script><p>
+        输出内容如下：
+      </p><div class="codeSnippetContainer"><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EAGABA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EAGABA');return false;" title="复制">复制</a></div></div><div id="ID1EAGABA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve">ISBN:0-385-50420-9
+Name:达芬奇密码
+Author:丹 布朗</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EAGABA");</script><p>较复杂的对象增量序列化示例</p><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID1EAEABA_tab1" class="codeSnippetContainerTabSingle">C#</div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EAEABA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EAEABA');return false;" title="复制">复制</a></div></div><div id="ID1EAEABA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-keyword">using</span> System;
 <span class="highlight-keyword">using</span> System.IO;
 <span class="highlight-keyword">using</span> System.Text;
 <span class="highlight-keyword">using</span> System.Xml;
