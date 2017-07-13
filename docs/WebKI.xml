@@ -54,6 +54,10 @@
     <HelpKINode Title="ITextWriter.Flush 方法 " Url="html/00ed78a0-290c-28c3-81b4-4b9fcd8a5046.htm" />
     <HelpKINode Title="XmlTextWriter.Flush 方法 " Url="html/e8c3d45e-299b-4870-f012-85e99301b00e.htm" />
   </HelpKINode>
+  <HelpKINode Title="Formatting 属性">
+    <HelpKINode Title="ITextWriter.Formatting 属性 " Url="html/ac38d055-2360-8cd4-d9be-fdd7cbaef8a9.htm" />
+    <HelpKINode Title="XmlTextWriter.Formatting 属性 " Url="html/163fe988-d9d4-4e2b-a9e2-bbd047be5927.htm" />
+  </HelpKINode>
   <HelpKINode Title="Formatting 枚举" Url="html/abe58c98-83be-f4dc-482f-93358e4ce5ab.htm" />
   <HelpKINode Title="GetObjectData 方法">
     <HelpKINode Title="AttributeMissException.GetObjectData 方法 " Url="html/b32dc235-5e3b-a4b4-8f7c-6ca9e50adb0e.htm" />
@@ -63,6 +67,14 @@
   <HelpKINode Title="IgnoreAttributeType 属性">
     <HelpKINode Title="ITextWriter.IgnoreAttributeType 属性 " Url="html/3b6ecafa-83a3-3cdd-568d-848b70f3f234.htm" />
     <HelpKINode Title="XmlTextWriter.IgnoreAttributeType 属性 " Url="html/c93887bb-a453-dc88-84a6-a0f44c764d13.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Indentation 属性">
+    <HelpKINode Title="ITextWriter.Indentation 属性 " Url="html/1db0e37a-c9a4-9c42-98cf-7d525418bb65.htm" />
+    <HelpKINode Title="XmlTextWriter.Indentation 属性 " Url="html/5f48a8cc-9ec5-82e5-c043-1ce3271809a6.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IndentChar 属性">
+    <HelpKINode Title="ITextWriter.IndentChar 属性 " Url="html/6e93b7ff-a1e7-46a9-3d8d-409bd0750889.htm" />
+    <HelpKINode Title="XmlTextWriter.IndentChar 属性 " Url="html/9a6c9bf0-7cc0-1cfc-8242-2855218386f4.htm" />
   </HelpKINode>
   <HelpKINode Title="Indented 枚举成员" Url="html/abe58c98-83be-f4dc-482f-93358e4ce5ab.htm" />
   <HelpKINode Title="Initial 枚举成员" Url="html/a1d978a6-b678-c947-31c9-02b6a0db408d.htm" />
@@ -101,7 +113,11 @@
     <HelpKINode Title="方法" Url="html/db3fd399-688d-3ac2-a2ba-271bf2d47437.htm" />
   </HelpKINode>
   <HelpKINode Title="ITextWriter.Flush 方法" Url="html/00ed78a0-290c-28c3-81b4-4b9fcd8a5046.htm" />
+  <HelpKINode Title="ITextWriter.Formatting 属性" Url="html/ac38d055-2360-8cd4-d9be-fdd7cbaef8a9.htm" />
   <HelpKINode Title="ITextWriter.IgnoreAttributeType 属性" Url="html/3b6ecafa-83a3-3cdd-568d-848b70f3f234.htm" />
+  <HelpKINode Title="ITextWriter.Indentation 属性" Url="html/1db0e37a-c9a4-9c42-98cf-7d525418bb65.htm" />
+  <HelpKINode Title="ITextWriter.IndentChar 属性" Url="html/6e93b7ff-a1e7-46a9-3d8d-409bd0750889.htm" />
+  <HelpKINode Title="ITextWriter.QuoteChar 属性" Url="html/b7a0a46c-0129-5e52-1b36-c22b9152185e.htm" />
   <HelpKINode Title="ITextWriter.Setting 属性" Url="html/554d4bcd-a959-0a61-9e10-d379e7dd6389.htm" />
   <HelpKINode Title="ITextWriter.WriteAttribute 方法" Url="html/647c24c5-c100-a01b-64fa-ca9beed2014e.htm" />
   <HelpKINode Title="ITextWriter.WriteEndArray 方法" Url="html/a9183197-0e2a-f77d-4ebc-3c15f15636c1.htm" />
@@ -178,6 +194,10 @@
   <HelpKINode Title="PrimaryKeyName 属性" Url="html/c67f7c66-087a-b592-ee62-3d74d2d3f144.htm" />
   <HelpKINode Title="ProcessingInstruction 枚举成员" Url="html/d26514da-b1b6-ab56-4861-ea10f7f0ef24.htm" />
   <HelpKINode Title="PropertyChanged 事件" Url="html/eb9d8bdc-27f1-67b6-ef07-94d4bcaf380f.htm" />
+  <HelpKINode Title="QuoteChar 属性">
+    <HelpKINode Title="ITextWriter.QuoteChar 属性 " Url="html/b7a0a46c-0129-5e52-1b36-c22b9152185e.htm" />
+    <HelpKINode Title="XmlTextWriter.QuoteChar 属性 " Url="html/80fff764-22d8-2ca8-46eb-9f703bde20de.htm" />
+  </HelpKINode>
   <HelpKINode Title="Read 方法">
     <HelpKINode Title="ITextReader.Read 方法 " Url="html/f76016a7-675b-e905-8264-5e50aff4ab9e.htm" />
     <HelpKINode Title="XmlTextReader.Read 方法 " Url="html/60736f45-50fc-bb5e-b103-a3f07d71a9da.htm" />
@@ -314,11 +334,15 @@
     <HelpKINode Title="关于 XmlTextWriter 类" Url="html/498babb9-7293-5749-a9c5-d6f351d4facd.htm" />
     <HelpKINode Title="属性" Url="html/7daf2fb5-04e2-aa6a-3b99-90a0ef98b60e.htm" />
     <HelpKINode Title="方法" Url="html/4cc9f3fa-1afe-f05d-35e4-203e48c338dc.htm" />
-    <HelpKINode Title="构造函数" Url="html/a5fb4425-57fa-9b70-e8e7-7139bfb205fd.htm" />
+    <HelpKINode Title="构造函数" Url="html/a6b66888-e44a-c808-4546-e1654b8c05a9.htm" />
   </HelpKINode>
   <HelpKINode Title="XmlTextWriter.Dispose 方法" Url="html/d37d2ed7-fdae-6d50-9a96-92966f437ff0.htm" />
   <HelpKINode Title="XmlTextWriter.Flush 方法" Url="html/e8c3d45e-299b-4870-f012-85e99301b00e.htm" />
+  <HelpKINode Title="XmlTextWriter.Formatting 属性" Url="html/163fe988-d9d4-4e2b-a9e2-bbd047be5927.htm" />
   <HelpKINode Title="XmlTextWriter.IgnoreAttributeType 属性" Url="html/c93887bb-a453-dc88-84a6-a0f44c764d13.htm" />
+  <HelpKINode Title="XmlTextWriter.Indentation 属性" Url="html/5f48a8cc-9ec5-82e5-c043-1ce3271809a6.htm" />
+  <HelpKINode Title="XmlTextWriter.IndentChar 属性" Url="html/9a6c9bf0-7cc0-1cfc-8242-2855218386f4.htm" />
+  <HelpKINode Title="XmlTextWriter.QuoteChar 属性" Url="html/80fff764-22d8-2ca8-46eb-9f703bde20de.htm" />
   <HelpKINode Title="XmlTextWriter.Setting 属性" Url="html/593dfde9-4120-5a93-45c7-450f14778cc4.htm" />
   <HelpKINode Title="XmlTextWriter.WriteAttribute 方法" Url="html/829a2b3a-00bd-9d9d-2ffd-d420aa8fb0e5.htm" />
   <HelpKINode Title="XmlTextWriter.WriteEndArray 方法" Url="html/641aec44-cc0b-457f-6d02-484f9121ce07.htm" />
@@ -333,7 +357,7 @@
   <HelpKINode Title="XmlTextWriter.WriteStartObject 方法" Url="html/6aabddc0-24a0-1cb5-8886-28b06c420971.htm" />
   <HelpKINode Title="XmlTextWriter.WriteStartProperty 方法" Url="html/10b876f2-2eb4-6a5d-105b-a4816a18b350.htm" />
   <HelpKINode Title="XmlTextWriter.WriteValue 方法" Url="html/ce81b781-ff23-720f-c232-7d4b95c972a1.htm" />
-  <HelpKINode Title="XmlTextWriter.XmlTextWriter 构造函数" Url="html/a5fb4425-57fa-9b70-e8e7-7139bfb205fd.htm" />
+  <HelpKINode Title="XmlTextWriter.XmlTextWriter 构造函数" Url="html/a6b66888-e44a-c808-4546-e1654b8c05a9.htm" />
   <HelpKINode Title="XPatchLib 命名空间" Url="html/683748d6-c9bf-2af3-65d3-7ad60286cfbe.htm" />
   <HelpKINode Title="XPatchLib.AttributeMissException 类" Url="html/afe4f0a4-bfde-6276-d62a-5e9acc5ba12d.htm" />
   <HelpKINode Title="XPatchLib.DateTimeSerializationMode 枚举" Url="html/68b3b5cc-fbc3-5d97-6944-8a3f714a3ca4.htm" />
