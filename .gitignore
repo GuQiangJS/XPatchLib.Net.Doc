@@ -251,13 +251,7 @@ paket-files/
 .idea/
 *.sln.iml
 
-src/NET20/bin/*.*
-src/NET20/WorkingPath/*.*
-src/NET35/bin
-src/NET35/WorkingPath
-src/NET40/bin
-src/NET40/WorkingPath
-src/STANDARD1.3/bin
-src/STANDARD1.3/WorkingPath
 /src/NET20/WorkingPath/Output/Website
-/src/NET20/WorkingPath/Output/Website
+/src/NET35/WorkingPath/Output/Website
+/src/NET40/WorkingPath/Output/Website
+/src/STANDARD1.3/WorkingPath/Output/Website

@@ -26,6 +26,15 @@
             <span class="highlight-comment">/*
              * &lt;?xml version=""1.0"" encoding=""utf-16""?&gt;
              * &lt;XmlIgnoreClass&gt;
+             *   &lt;B&gt;D&lt;/B&gt;
+             *   &lt;/XmlIgnoreClass&gt;
+             */</span>
+            Console.WriteLine(UseDefaultIgnoreAttribute(c1, c2));
+
+            <span class="highlight-comment">//输出内容如下：</span>
+            <span class="highlight-comment">/*
+             * &lt;?xml version=""1.0"" encoding=""utf-16""?&gt;
+             * &lt;XmlIgnoreClass&gt;
              *   &lt;A&gt;C&lt;/A&gt;
              *   &lt;B&gt;D&lt;/B&gt;
              *   &lt;/XmlIgnoreClass&gt;
@@ -40,7 +49,21 @@
              *   &lt;/XmlIgnoreClass&gt;
              */</span>
             Console.WriteLine(SetIgnoreAttributeToNull(c1, c2));
+        }
 
+        <span class="highlight-keyword">public</span> <span class="highlight-keyword">static</span> <span class="highlight-keyword">string</span> UseDefaultIgnoreAttribute(XmlIgnoreClass c1, XmlIgnoreClass c2)
+        {
+            StringBuilder result = <span class="highlight-keyword">new</span> StringBuilder();
+            Serializer serializer = <span class="highlight-keyword">new</span> Serializer(<span class="highlight-keyword">typeof</span>(XmlIgnoreClass));
+            <span class="highlight-keyword">using</span> (StringWriter writer = <span class="highlight-keyword">new</span> StringWriter(result))
+            {
+                <span class="highlight-keyword">using</span> (XmlTextWriter xmlWriter = <span class="highlight-keyword">new</span> XmlTextWriter(writer))
+                {
+                    <span class="highlight-comment">//序列化前不变更默认的IgnoreAttributeType设置。</span>
+                    serializer.Divide(xmlWriter, c1, c2);
+                }
+            }
+            <span class="highlight-keyword">return</span> result.ToString();
         }
 
         <span class="highlight-keyword">public</span> <span class="highlight-keyword">static</span> <span class="highlight-keyword">string</span> SetIgnoreAttributeToNull(XmlIgnoreClass c1,XmlIgnoreClass c2)
