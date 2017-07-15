@@ -417,12 +417,13 @@ div.caption {
 	padding: 0px;
 }
 .codeSnippetContainerCode pre {
-	margin: 0px;
-	padding: 5px;
-	overflow: auto;
-	font-style: normal;
-	font-weight: normal;
-	-ms-word-wrap: normal;
+    padding: 5px;
+    margin: 0;
+    font-family: Consolas,Courier,monospace!important;
+    font-style: normal;
+    font-weight: normal;
+    overflow: auto;
+    word-wrap: normal;
 }
 .codeSnippetContainerCode .keyword {
 	color: #0000ff;
