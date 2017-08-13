@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.13
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{7CF6DF6D-3B04-46F8-A40B-537D21BCA0B4}") = "NET20", "NET20\NET20.shfbproj", "{4D0B212C-6065-4DB3-A2A8-FD0619359D5F}"
 EndProject
@@ -10,6 +10,8 @@ EndProject
 Project("{7CF6DF6D-3B04-46F8-A40B-537D21BCA0B4}") = "NET40", "NET40\NET40.shfbproj", "{F4999F14-DA2A-4F6F-81F4-4F7F91711953}"
 EndProject
 Project("{7CF6DF6D-3B04-46F8-A40B-537D21BCA0B4}") = "STANDARD1.3", "STANDARD1.3\STANDARD1.3.shfbproj", "{924D3BAF-9628-4F0D-A110-4C1AC95E39E6}"
+EndProject
+Project("{7CF6DF6D-3B04-46F8-A40B-537D21BCA0B4}") = "STANDARD1.0", "STANDARD1.0\STANDARD1.0.shfbproj", "{956A02F9-3F61-4D6D-A701-2A7EE260056D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{924D3BAF-9628-4F0D-A110-4C1AC95E39E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{924D3BAF-9628-4F0D-A110-4C1AC95E39E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{924D3BAF-9628-4F0D-A110-4C1AC95E39E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{956A02F9-3F61-4D6D-A701-2A7EE260056D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{956A02F9-3F61-4D6D-A701-2A7EE260056D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{956A02F9-3F61-4D6D-A701-2A7EE260056D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{956A02F9-3F61-4D6D-A701-2A7EE260056D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

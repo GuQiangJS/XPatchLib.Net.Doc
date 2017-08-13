@@ -1,7 +1,7 @@
 @ECHO OFF
 
 ::XPatchLib项目路径
-IF EXIST "%~dp0src\XPatchLib.Net.Doc.sln" SET "SLN=%~dp0src\XPatchLib.Net.Doc.sln"
+IF EXIST "%~dp0src\XPatchLib.Net.Doc.sln" SET "SLN=%~dp0src\NET40\NET40.shfbproj"
 ::XPatchLib项目路径
 IF EXIST "%~dp0..\XPatchLib.Net" SET "XPATCHLIB_SRC=%~dp0..\XPatchLib.Net"
 ::XPatchLib.Net的主编译脚本，编译Release版本
@@ -67,7 +67,8 @@ goto CopyResult
 (
 IF NOT EXIST "%~dp0docs\" MD "%~dp0docs\"
 ::默认复制.NET20版本的帮助文档
-xcopy /S /E /Y "%~dp0src\NET20\bin\*.*" "%~dp0docs\"
+xcopy /S /E /Y "%~dp0src\NET40\bin\*.*" "%~dp0docs\"
 )
  
 :End
+pause

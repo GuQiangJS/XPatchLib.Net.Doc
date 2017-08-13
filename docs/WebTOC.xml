@@ -1,28 +1,33 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <HelpTOC>
 
-  <HelpTOCNode Id="fac2225d-1546-46e5-8139-6cb2c3d939d4" Title="命名空间" Url="html/9afec0dc-3356-d067-ab5e-a67445fcf631.htm">
-    <HelpTOCNode Id="9afbf1ef-8f2b-401f-bf20-aadab658fa07" Title="XPatchLib" Url="html/683748d6-c9bf-2af3-65d3-7ad60286cfbe.htm">
-      <HelpTOCNode Id="b052ad1a-bc45-428e-b7e3-68f18bbe5494" Title="AttributeMissException 类" Url="html/afe4f0a4-bfde-6276-d62a-5e9acc5ba12d.htm">
-        <HelpTOCNode Id="0461dca4-5741-4ced-866b-7742e96f9bfc" Title="AttributeMissException 构造函数 " Url="html/5cf556f7-bc9c-57c0-3f10-7aa76716ddbf.htm">
+  <HelpTOCNode Id="8112d29e-1695-4e28-8105-8504f9d68bed" Title="命名空间" Url="html/9afec0dc-3356-d067-ab5e-a67445fcf631.htm">
+    <HelpTOCNode Id="7d152d93-5c9d-428a-b449-a67ce59d0394" Title="XPatchLib" Url="html/683748d6-c9bf-2af3-65d3-7ad60286cfbe.htm">
+      <HelpTOCNode Id="6cf36285-955d-470f-a84e-f4509f0bbe74" Title="AttributeMissException 类" Url="html/afe4f0a4-bfde-6276-d62a-5e9acc5ba12d.htm">
+        <HelpTOCNode Id="4bf19d00-0996-45d5-bae0-95f8927fd031" Title="AttributeMissException 构造函数 " Url="html/5cf556f7-bc9c-57c0-3f10-7aa76716ddbf.htm">
           <HelpTOCNode Title="AttributeMissException 构造函数 " Url="html/bc53e76b-3090-c94b-6685-5b5c0c02a3c7.htm" />
           <HelpTOCNode Title="AttributeMissException 构造函数 (String)" Url="html/f0e65a12-e7fd-39a0-de42-c6359a98e68c.htm" />
           <HelpTOCNode Title="AttributeMissException 构造函数 (String, Exception)" Url="html/8871c610-5974-b14f-5887-6c855e74cdc9.htm" />
           <HelpTOCNode Title="AttributeMissException 构造函数 (Type, String)" Url="html/d77596ca-2b6f-b01d-9b8c-fe86db2fbf8c.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="418dd288-e6d0-4395-8c0c-2bcd356822c7" Title="AttributeMissException 属性" Url="html/6b765150-3e43-1a0f-9d5c-621f0bc45111.htm">
+        <HelpTOCNode Id="4383f961-7b2a-498d-b083-56393dab004f" Title="AttributeMissException 属性" Url="html/6b765150-3e43-1a0f-9d5c-621f0bc45111.htm">
           <HelpTOCNode Title="AttributeName 属性 " Url="html/0f49e3a1-379e-0eb5-01e8-b5c9a395d533.htm" />
           <HelpTOCNode Title="ErrorType 属性 " Url="html/6e2a9653-0369-26fc-2576-a86bf05d02cc.htm" />
           <HelpTOCNode Title="Message 属性 " Url="html/521f9dbf-16dc-f314-5277-67071d420fd4.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="7cbd93c0-ccec-4454-bbce-6dd5893f5230" Title="AttributeMissException 方法" Url="html/e0ed27ee-a426-2d4b-6e5c-708b86f4305f.htm">
+        <HelpTOCNode Id="569bba80-95a8-4563-a650-235ab6b8fa07" Title="AttributeMissException 方法" Url="html/e0ed27ee-a426-2d4b-6e5c-708b86f4305f.htm">
           <HelpTOCNode Title="GetObjectData 方法 " Url="html/b32dc235-5e3b-a4b4-8f7c-6ca9e50adb0e.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
       <HelpTOCNode Title="DateTimeSerializationMode 枚举" Url="html/68b3b5cc-fbc3-5d97-6944-8a3f714a3ca4.htm" />
       <HelpTOCNode Title="Formatting 枚举" Url="html/abe58c98-83be-f4dc-482f-93358e4ce5ab.htm" />
-      <HelpTOCNode Id="329c6795-6740-45e7-a25d-f437b36cb859" Title="ISerializeSetting 接口" Url="html/f514ec07-2110-e684-17df-b1734167ed9c.htm">
-        <HelpTOCNode Id="41bef42e-d578-48e1-9ada-806a34976776" Title="ISerializeSetting 属性" Url="html/d4503238-5da7-03b0-9bec-a61195136444.htm">
+      <HelpTOCNode Id="76631d7e-3288-4ac4-bd84-c2e8d835dc26" Title="ICloneable 接口" Url="html/ba771a17-0852-453c-a2b3-0a3baaf9beab.htm">
+        <HelpTOCNode Id="c4e6e8d8-e656-4d1e-a27e-bc7f2dcd8019" Title="ICloneable 方法" Url="html/de98868b-9511-176c-f8e0-acd75237eece.htm">
+          <HelpTOCNode Title="Clone 方法 " Url="html/b5dfbf6b-0a9b-244d-99dc-13852191b260.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="cac5521d-f174-4ffc-9fae-2d621ee3001f" Title="ISerializeSetting 接口" Url="html/f514ec07-2110-e684-17df-b1734167ed9c.htm">
+        <HelpTOCNode Id="9fe3b7c5-9db5-4ba4-9e28-47aa1e55c667" Title="ISerializeSetting 属性" Url="html/d4503238-5da7-03b0-9bec-a61195136444.htm">
           <HelpTOCNode Title="ActionName 属性 " Url="html/55afd651-3062-333b-b9c6-3d68ae94e0c3.htm" />
           <HelpTOCNode Title="EnableOnDeserializedAttribute 属性 " Url="html/63752b2a-22fc-3bef-6ce6-2f7fd414dc6e.htm" />
           <HelpTOCNode Title="EnableOnDeserializingAttribute 属性 " Url="html/2645e6e0-406d-4e9e-8190-34f4d2d86d42.htm" />
@@ -34,8 +39,8 @@
           <HelpTOCNode Title="SerializeDefalutValue 属性 " Url="html/08b1d89e-1f80-5c11-319b-55fbcd78e888.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="c30a9025-fd4e-4210-b446-1d76f864ce4d" Title="ITextReader 接口" Url="html/6abf9cf3-d85a-44a0-839e-e46de7e4e201.htm">
-        <HelpTOCNode Id="db6e0c28-21c2-4ae5-a055-74cd1db8fcdd" Title="ITextReader 属性" Url="html/365751f1-2891-c653-acf4-1ab12b8e4536.htm">
+      <HelpTOCNode Id="e2021aef-c625-475f-9f03-df62c3d5a5cf" Title="ITextReader 接口" Url="html/6abf9cf3-d85a-44a0-839e-e46de7e4e201.htm">
+        <HelpTOCNode Id="5d6e49b7-c4ba-436f-a53f-14d8064152e4" Title="ITextReader 属性" Url="html/365751f1-2891-c653-acf4-1ab12b8e4536.htm">
           <HelpTOCNode Title="EOF 属性 " Url="html/5dfde33c-46e8-abcd-f812-7e7981011972.htm" />
           <HelpTOCNode Title="HasAttribute 属性 " Url="html/807c8aa7-441d-082c-4a9a-77922cb8981b.htm" />
           <HelpTOCNode Title="Name 属性 " Url="html/0c8a438e-1ed4-f1ea-3139-2c40246eb320.htm" />
@@ -43,14 +48,14 @@
           <HelpTOCNode Title="ReadState 属性 " Url="html/22d86a2a-e04c-2ac3-b381-eff363dd0923.htm" />
           <HelpTOCNode Title="Setting 属性 " Url="html/c05f72f9-7350-f3f9-bc8e-2bac5465b958.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="01a51f12-70b2-4e41-8589-7f217c1569e9" Title="ITextReader 方法" Url="html/0a328d47-f7b8-3382-0fbc-db98ce13e61a.htm">
+        <HelpTOCNode Id="58a3cd70-230b-4bbf-b71a-e78b5818c7c4" Title="ITextReader 方法" Url="html/0a328d47-f7b8-3382-0fbc-db98ce13e61a.htm">
           <HelpTOCNode Title="GetAttributes 方法 " Url="html/cfa5bc06-429f-0702-8661-55b950c70c11.htm" />
           <HelpTOCNode Title="GetValue 方法 " Url="html/020da195-29c5-786b-e1aa-02d0a964d53d.htm" />
           <HelpTOCNode Title="Read 方法 " Url="html/2013486c-3eb3-a54b-5d8b-abffe847b3f5.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="96683ce1-5484-45ca-94d0-8ac5f759d16a" Title="ITextWriter 接口" Url="html/ea9c2cea-fb3c-0dcd-6dad-a54f7f0f476d.htm">
-        <HelpTOCNode Id="456dbc2c-5037-4733-8229-7f7958f81ded" Title="ITextWriter 属性" Url="html/7499c13c-0653-a765-fe99-f4f4214bec3e.htm">
+      <HelpTOCNode Id="bdc1af3a-7215-4c0a-8b04-d3d82934270f" Title="ITextWriter 接口" Url="html/ea9c2cea-fb3c-0dcd-6dad-a54f7f0f476d.htm">
+        <HelpTOCNode Id="4924039f-ddd0-43b1-a817-0f79f28ce713" Title="ITextWriter 属性" Url="html/7499c13c-0653-a765-fe99-f4f4214bec3e.htm">
           <HelpTOCNode Title="Formatting 属性 " Url="html/ac38d055-2360-8cd4-d9be-fdd7cbaef8a9.htm" />
           <HelpTOCNode Title="IgnoreAttributeType 属性 " Url="html/3b6ecafa-83a3-3cdd-568d-848b70f3f234.htm" />
           <HelpTOCNode Title="Indentation 属性 " Url="html/1db0e37a-c9a4-9c42-98cf-7d525418bb65.htm" />
@@ -58,7 +63,7 @@
           <HelpTOCNode Title="QuoteChar 属性 " Url="html/b7a0a46c-0129-5e52-1b36-c22b9152185e.htm" />
           <HelpTOCNode Title="Setting 属性 " Url="html/554d4bcd-a959-0a61-9e10-d379e7dd6389.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="f1699047-7032-42f9-81e9-09db54faeb2c" Title="ITextWriter 方法" Url="html/db3fd399-688d-3ac2-a2ba-271bf2d47437.htm">
+        <HelpTOCNode Id="f95c8870-a603-4640-8237-5af643a06ad1" Title="ITextWriter 方法" Url="html/db3fd399-688d-3ac2-a2ba-271bf2d47437.htm">
           <HelpTOCNode Title="Flush 方法 " Url="html/00ed78a0-290c-28c3-81b4-4b9fcd8a5046.htm" />
           <HelpTOCNode Title="WriteAttribute 方法 " Url="html/647c24c5-c100-a01b-64fa-ca9beed2014e.htm" />
           <HelpTOCNode Title="WriteEndArray 方法 " Url="html/a9183197-0e2a-f77d-4ebc-3c15f15636c1.htm" />
@@ -76,54 +81,44 @@
         </HelpTOCNode>
       </HelpTOCNode>
       <HelpTOCNode Title="NodeType 枚举" Url="html/d26514da-b1b6-ab56-4861-ea10f7f0ef24.htm" />
-      <HelpTOCNode Id="98503037-850d-4f5e-afdb-61e40cd6015b" Title="PrimaryKeyAttribute 类" Url="html/53117201-5b8a-2b64-a6c8-d27fbcaed554.htm">
+      <HelpTOCNode Id="4f184776-fe22-489a-a836-9803bbe32dd2" Title="PrimaryKeyAttribute 类" Url="html/53117201-5b8a-2b64-a6c8-d27fbcaed554.htm">
         <HelpTOCNode Title="PrimaryKeyAttribute 构造函数 " Url="html/9e8d7267-6f12-e4df-6094-9c1c7b312bfd.htm" />
-        <HelpTOCNode Id="903132d6-70cd-45f5-9fd0-4fdcd91a33e4" Title="PrimaryKeyAttribute 方法" Url="html/d4a85981-f88b-1be4-cd39-047348f9e245.htm">
+        <HelpTOCNode Id="ca21af9e-e4af-4be5-82cc-e926becceca9" Title="PrimaryKeyAttribute 方法" Url="html/d4a85981-f88b-1be4-cd39-047348f9e245.htm">
           <HelpTOCNode Title="GetPrimaryKeys 方法 " Url="html/5d1f9571-c71e-327e-e5f7-17963b67c145.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="e1ddf33b-43cf-4f60-ae1d-57d4106200f9" Title="PrimaryKeyException 类" Url="html/fb00a62c-c33a-842b-37ed-4474e0fc7cf2.htm">
-        <HelpTOCNode Id="a8712af0-781b-4f9e-a283-a015242707fc" Title="PrimaryKeyException 构造函数 " Url="html/1369b550-e009-9c9c-87e8-b896ee2bb385.htm">
+      <HelpTOCNode Id="767926c5-528c-422f-a1ac-e12f34dedf4f" Title="PrimaryKeyException 类" Url="html/fb00a62c-c33a-842b-37ed-4474e0fc7cf2.htm">
+        <HelpTOCNode Id="1eb5fa5b-dd3d-4106-b1fb-56ebe1a1e3f8" Title="PrimaryKeyException 构造函数 " Url="html/1369b550-e009-9c9c-87e8-b896ee2bb385.htm">
           <HelpTOCNode Title="PrimaryKeyException 构造函数 " Url="html/97207fdb-9b83-c2fe-eda8-be9fa756289f.htm" />
           <HelpTOCNode Title="PrimaryKeyException 构造函数 (String)" Url="html/94ee0bad-7336-5a21-c573-ad74d98711d2.htm" />
           <HelpTOCNode Title="PrimaryKeyException 构造函数 (String, Exception)" Url="html/d88e47b8-ddac-0377-2f40-67b2b8d94b6b.htm" />
           <HelpTOCNode Title="PrimaryKeyException 构造函数 (Type, String)" Url="html/494911e4-5948-9b63-c381-b5893dc0fb1e.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="d179db93-6dfd-40f9-8aee-4e57964747aa" Title="PrimaryKeyException 属性" Url="html/1b84df85-7abb-0eed-ee1f-72c5e3ad4e04.htm">
+        <HelpTOCNode Id="d054b9e7-21ab-4b5c-af1f-802106310fe3" Title="PrimaryKeyException 属性" Url="html/1b84df85-7abb-0eed-ee1f-72c5e3ad4e04.htm">
           <HelpTOCNode Title="ErrorType 属性 " Url="html/e8b0570e-b291-e0f3-8834-8f08bc0c29c5.htm" />
           <HelpTOCNode Title="Message 属性 " Url="html/d11f378b-20d2-2818-a9f7-f9aa4a3f7bbb.htm" />
           <HelpTOCNode Title="PrimaryKeyName 属性 " Url="html/c67f7c66-087a-b592-ee62-3d74d2d3f144.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="67539b18-6b10-48a1-9f24-cc1ec0e6a3b4" Title="PrimaryKeyException 方法" Url="html/2f251f55-b89d-d0e9-6193-533e8b6b9d53.htm">
+        <HelpTOCNode Id="87c55960-0768-44ea-84c5-9b92d8409ba2" Title="PrimaryKeyException 方法" Url="html/2f251f55-b89d-d0e9-6193-533e8b6b9d53.htm">
           <HelpTOCNode Title="GetObjectData 方法 " Url="html/fdf9080d-8709-cafd-65f8-d8f578bd09a3.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
       <HelpTOCNode Title="ReadState 枚举" Url="html/a1d978a6-b678-c947-31c9-02b6a0db408d.htm" />
       <HelpTOCNode Title="SerializeMemberModifier 枚举" Url="html/b1b7fc7f-ac77-ca79-275e-b0fb29859bf4.htm" />
       <HelpTOCNode Title="SerializeMemberType 枚举" Url="html/c283d1d1-7879-47e0-0787-ff21444a7818.htm" />
-      <HelpTOCNode Id="6de96cb1-2c00-44e0-8441-e1259a6f50ae" Title="Serializer 类" Url="html/7ed2eca1-d11b-c466-dc5b-cd04008966ee.htm">
+      <HelpTOCNode Id="731e423c-42a2-411d-b885-a56c7dca3f02" Title="Serializer 类" Url="html/7ed2eca1-d11b-c466-dc5b-cd04008966ee.htm">
         <HelpTOCNode Title="Serializer 构造函数 " Url="html/ef9bc8c5-dc45-f16e-2694-f037c589673d.htm" />
-        <HelpTOCNode Id="89cfc0fa-3739-421f-95bc-f68d04e5cb0c" Title="Serializer 方法" Url="html/b649727d-4604-25ec-d488-d4638470293b.htm">
-          <HelpTOCNode Id="d03dca85-05df-4137-b46b-bbd44a813035" Title="Combine 方法 " Url="html/cbbe5e2a-ab13-596a-4515-833ae721bf51.htm">
+        <HelpTOCNode Id="20d066af-6b14-42e5-b307-d8380e93dcba" Title="Serializer 方法" Url="html/b649727d-4604-25ec-d488-d4638470293b.htm">
+          <HelpTOCNode Id="7077f4e7-1ed0-4863-8393-3143023b03d6" Title="Combine 方法 " Url="html/cbbe5e2a-ab13-596a-4515-833ae721bf51.htm">
             <HelpTOCNode Title="Combine 方法 (ITextReader, Object)" Url="html/df89ca0d-a07e-9139-34f1-fa70a4e90b1d.htm" />
             <HelpTOCNode Title="Combine 方法 (ITextReader, Object, Boolean)" Url="html/53419995-c511-593f-d74c-3089a16fdc72.htm" />
           </HelpTOCNode>
           <HelpTOCNode Title="Divide 方法 " Url="html/08160979-d0b7-0d98-dc68-ad063bbf89d3.htm" />
-          <HelpTOCNode Id="76b679a1-0190-492c-bdbe-a252de979212" Title="RegisterTypes 方法 " Url="html/d29bf099-eab6-ffdc-e509-b084a666c4e7.htm">
-            <HelpTOCNode Title="RegisterTypes 方法 (Serializer.RegisterType)" Url="html/1f00a84a-c3b4-a260-e024-66bd97afc708.htm" />
-            <HelpTOCNode Title="RegisterTypes 方法 (Serializer.RegisterType[])" Url="html/2cd34b98-893d-4cce-3ba1-a883e8cb8c8a.htm" />
-          </HelpTOCNode>
+          <HelpTOCNode Title="RegisterType 方法 " Url="html/7e32aea6-6373-4580-e2e1-e9d5aa8a8425.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="f3d67827-d33a-4503-907d-05d53106f391" Title="Serializer.RegisterType 结构" Url="html/deee436b-1e78-00cf-bc22-2e0295603308.htm">
-        <HelpTOCNode Title="Serializer.RegisterType 构造函数 " Url="html/b11bd22e-b988-0331-ce5d-e3e151c7bc08.htm" />
-        <HelpTOCNode Id="7f0f60a3-44e5-4bc7-8d61-4d1c7cea3053" Title="RegisterType 属性" Url="html/91d43d8b-9af1-dd91-1143-044a03a49c58.htm">
-          <HelpTOCNode Title="Keys 属性 " Url="html/b836829f-440a-aa0e-4f44-87cfb155fcc3.htm" />
-          <HelpTOCNode Title="Type 属性 " Url="html/4e2163d4-cae0-bc74-2282-7ea38c2d5f4f.htm" />
-        </HelpTOCNode>
-      </HelpTOCNode>
-      <HelpTOCNode Id="790420bb-766e-4806-8dcd-397b0c571c9d" Title="SerializeSetting 类" Url="html/9cb11be6-bba3-df8a-0e97-bd8fc7c9233e.htm">
-        <HelpTOCNode Id="bec2f349-cace-42c4-8581-2a74c5ad1c3f" Title="SerializeSetting 属性" Url="html/5e1094a0-d2df-c134-20ed-258ee5d99d31.htm">
+      <HelpTOCNode Id="60f887d7-a5c1-4f6f-ad49-224ee9ff1d63" Title="SerializeSetting 类" Url="html/9cb11be6-bba3-df8a-0e97-bd8fc7c9233e.htm">
+        <HelpTOCNode Id="852485c7-bac6-4d18-8b1b-a0806da4c73b" Title="SerializeSetting 属性" Url="html/5e1094a0-d2df-c134-20ed-258ee5d99d31.htm">
           <HelpTOCNode Title="ActionName 属性 " Url="html/2612bded-ccc5-e879-05df-0bed6ad7740c.htm" />
           <HelpTOCNode Title="EnableOnDeserializedAttribute 属性 " Url="html/3877cb8b-e83e-6554-7656-7b2dc87a2192.htm" />
           <HelpTOCNode Title="EnableOnDeserializingAttribute 属性 " Url="html/a18bc759-7805-3c00-f7ff-1d0c4dfcb272.htm" />
@@ -134,26 +129,26 @@
           <HelpTOCNode Title="Modifier 属性 " Url="html/7576ea58-a863-ed47-41e9-b00928fb3dfd.htm" />
           <HelpTOCNode Title="SerializeDefalutValue 属性 " Url="html/051ca3c9-700c-bb4a-43cf-6134505c4d5c.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="bd775b96-d61e-481c-a4a4-c725a23a52bc" Title="SerializeSetting 方法" Url="html/cba05ca1-2864-e3a3-4fb7-b8dccb01a4c8.htm">
+        <HelpTOCNode Id="4ded3827-8e91-4a3b-9164-1dc1d963f8df" Title="SerializeSetting 方法" Url="html/cba05ca1-2864-e3a3-4fb7-b8dccb01a4c8.htm">
           <HelpTOCNode Title="Clone 方法 " Url="html/fddf5b40-45f5-f0f9-2677-0630930180bf.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="236f9fc3-8927-48f0-85be-ef1daa116387" Title="SerializeSetting 事件" Url="html/d2c69c16-5167-e2b6-ed9e-7f522329f421.htm">
+        <HelpTOCNode Id="29e28b1f-995c-4d12-a6a5-bf909de846ec" Title="SerializeSetting 事件" Url="html/d2c69c16-5167-e2b6-ed9e-7f522329f421.htm">
           <HelpTOCNode Title="PropertyChanged 事件" Url="html/cc42c69c-dc08-8467-e9e2-306d3373a243.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="ea067159-7d44-4805-93f2-7e22a3c8e2b1" Title="XmlSerializeSetting 类" Url="html/80f918a6-2ba9-c1f7-44e2-cc1fa46be1b4.htm">
+      <HelpTOCNode Id="1ee2cd89-01b5-4a4b-9d17-17254af2250d" Title="XmlSerializeSetting 类" Url="html/80f918a6-2ba9-c1f7-44e2-cc1fa46be1b4.htm">
         <HelpTOCNode Title="XmlSerializeSetting 构造函数 " Url="html/f6f5d84e-4deb-db73-436a-887933c47470.htm" />
-        <HelpTOCNode Id="916cbb47-32b8-4f55-9d2e-2db126c9d2fd" Title="XmlSerializeSetting 方法" Url="html/6b95d52b-0eca-f394-c4ee-17d8795b9c76.htm">
+        <HelpTOCNode Id="59a33cef-3155-47b0-bd69-d1eb94bc11d7" Title="XmlSerializeSetting 方法" Url="html/6b95d52b-0eca-f394-c4ee-17d8795b9c76.htm">
           <HelpTOCNode Title="Clone 方法 " Url="html/97b7ab90-ed24-bf6f-69cf-70d5ce266030.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="12b19bde-52d6-432b-90ce-a0976cf20743" Title="XmlTextReader 类" Url="html/2d011dc9-b3ea-1713-e8c1-2488c143a33c.htm">
-        <HelpTOCNode Id="15119fc9-d594-4ce9-bd99-129e09c74286" Title="XmlTextReader 构造函数 " Url="html/ebf31051-6648-8921-05c7-a4013971c0f0.htm">
+      <HelpTOCNode Id="18a31b15-f060-460c-9a7e-cbd95e7cccaa" Title="XmlTextReader 类" Url="html/2d011dc9-b3ea-1713-e8c1-2488c143a33c.htm">
+        <HelpTOCNode Id="ffdb1f2b-3a9a-41f5-b57e-52ad51648da3" Title="XmlTextReader 构造函数 " Url="html/ebf31051-6648-8921-05c7-a4013971c0f0.htm">
           <HelpTOCNode Title="XmlTextReader 构造函数 (Stream)" Url="html/712b1c96-41d4-6b1e-6732-d96f78690f07.htm" />
           <HelpTOCNode Title="XmlTextReader 构造函数 (TextReader)" Url="html/77f054b9-9033-fcc9-37bf-89f370fc3ad0.htm" />
           <HelpTOCNode Title="XmlTextReader 构造函数 (String)" Url="html/2a2d2400-ad32-aa3e-8211-fda3008eb063.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="6c09648a-6ffe-4b98-ab59-f0d999c87470" Title="XmlTextReader 属性" Url="html/62285820-e62d-4370-1f4e-845f17237934.htm">
+        <HelpTOCNode Id="3ad89ec6-02d1-44c8-bc15-c71073136809" Title="XmlTextReader 属性" Url="html/62285820-e62d-4370-1f4e-845f17237934.htm">
           <HelpTOCNode Title="EOF 属性 " Url="html/0461518b-3c04-d2f3-8755-0e8218fca3de.htm" />
           <HelpTOCNode Title="HasAttribute 属性 " Url="html/1c4264ff-ba8c-f0de-f429-c670d64250ba.htm" />
           <HelpTOCNode Title="Name 属性 " Url="html/25d76d4b-cb20-2e6d-343b-658c8f81acfd.htm" />
@@ -161,20 +156,20 @@
           <HelpTOCNode Title="ReadState 属性 " Url="html/846e2a8f-8295-15bb-b701-23f3546cb84d.htm" />
           <HelpTOCNode Title="Setting 属性 " Url="html/b5208d59-8fe6-0dc9-36af-83c3c7d65148.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="1aa5405b-b539-4e68-a430-67c730ac2ca7" Title="XmlTextReader 方法" Url="html/69fad85a-030f-0153-8dab-ec2698f54142.htm">
+        <HelpTOCNode Id="4c31ebf2-688e-4d6e-8064-c5aec73d34cd" Title="XmlTextReader 方法" Url="html/69fad85a-030f-0153-8dab-ec2698f54142.htm">
           <HelpTOCNode Title="Dispose 方法 " Url="html/89128139-84aa-571e-9999-8e33f6b0a9b3.htm" />
           <HelpTOCNode Title="GetAttributes 方法 " Url="html/13235f70-4a28-af2b-72f6-dfad3eb08f88.htm" />
           <HelpTOCNode Title="GetValue 方法 " Url="html/1de62635-83e8-ea6d-dfdd-86b5941c8534.htm" />
           <HelpTOCNode Title="Read 方法 " Url="html/9a588e91-4262-df2c-1022-e652c16c6a41.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="18f9e0dc-5c3b-4b4e-8ac5-570a1b494332" Title="XmlTextWriter 类" Url="html/498babb9-7293-5749-a9c5-d6f351d4facd.htm">
-        <HelpTOCNode Id="32b19ad7-f1a3-47d7-ae99-aff7146c4cc5" Title="XmlTextWriter 构造函数 " Url="html/a6b66888-e44a-c808-4546-e1654b8c05a9.htm">
+      <HelpTOCNode Id="2215b4ae-d46a-40ae-bd80-e04af47b37e5" Title="XmlTextWriter 类" Url="html/498babb9-7293-5749-a9c5-d6f351d4facd.htm">
+        <HelpTOCNode Id="4873a9e9-1a21-4088-bfc0-fd7fb5efa588" Title="XmlTextWriter 构造函数 " Url="html/a6b66888-e44a-c808-4546-e1654b8c05a9.htm">
           <HelpTOCNode Title="XmlTextWriter 构造函数 (TextWriter)" Url="html/aeecec1f-2382-e835-f77f-f1be60fa52cd.htm" />
           <HelpTOCNode Title="XmlTextWriter 构造函数 (Stream, Encoding)" Url="html/137b8bbb-8b15-576c-2e8b-799f4797c52d.htm" />
           <HelpTOCNode Title="XmlTextWriter 构造函数 (String, Encoding)" Url="html/a2097419-ba2b-4a4f-e3b6-f64c77561a39.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="72a10881-4bcc-495c-b897-a3f05d1db22c" Title="XmlTextWriter 属性" Url="html/7daf2fb5-04e2-aa6a-3b99-90a0ef98b60e.htm">
+        <HelpTOCNode Id="f845e8ac-fc87-4240-9c48-407d8a52f6ac" Title="XmlTextWriter 属性" Url="html/7daf2fb5-04e2-aa6a-3b99-90a0ef98b60e.htm">
           <HelpTOCNode Title="Formatting 属性 " Url="html/163fe988-d9d4-4e2b-a9e2-bbd047be5927.htm" />
           <HelpTOCNode Title="IgnoreAttributeType 属性 " Url="html/c93887bb-a453-dc88-84a6-a0f44c764d13.htm" />
           <HelpTOCNode Title="Indentation 属性 " Url="html/5f48a8cc-9ec5-82e5-c043-1ce3271809a6.htm" />
@@ -182,7 +177,7 @@
           <HelpTOCNode Title="QuoteChar 属性 " Url="html/80fff764-22d8-2ca8-46eb-9f703bde20de.htm" />
           <HelpTOCNode Title="Setting 属性 " Url="html/593dfde9-4120-5a93-45c7-450f14778cc4.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="9be6f4a9-0728-4cd0-b96c-5ecec8cb4b13" Title="XmlTextWriter 方法" Url="html/4cc9f3fa-1afe-f05d-35e4-203e48c338dc.htm">
+        <HelpTOCNode Id="6b9a32ee-420b-49f9-b3d1-a564f6af8d7e" Title="XmlTextWriter 方法" Url="html/4cc9f3fa-1afe-f05d-35e4-203e48c338dc.htm">
           <HelpTOCNode Title="Dispose 方法 " Url="html/d37d2ed7-fdae-6d50-9a96-92966f437ff0.htm" />
           <HelpTOCNode Title="Flush 方法 " Url="html/e8c3d45e-299b-4870-f012-85e99301b00e.htm" />
           <HelpTOCNode Title="WriteAttribute 方法 " Url="html/829a2b3a-00bd-9d9d-2ffd-d420aa8fb0e5.htm" />

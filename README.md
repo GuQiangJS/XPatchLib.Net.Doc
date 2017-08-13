@@ -2,7 +2,9 @@
 
 ## 编译
 
-可以直接使用 `build.bat` 脚本进行编译。该脚本会自动根据设置编译 `XPatchLib.Net` 项目，并编译 `\src\XPatchLib.Net.Doc.sln`，最后将 .NET20 版本的帮助文档复制至 `\docs\` 目录。
+可以直接使用 `build.bat` 脚本进行编译。该脚本会自动根据设置编译 `XPatchLib.Net` 项目，并编译 `\src\NET40\NET40.shfbproj`，最后将帮助文档复制至 `\docs\` 目录。
+
+NET40版本编译时会自动编译其他版本，并将内容合并至结果中。详情见：[Version Builder Plug-In](https://ewsoftware.github.io/SHFB/html/6c03afba-18d0-4270-b521-c2015c4d97b3.htm)
 
 编译 HelperBuilder 相关帮助文档项目时需要使用 [Sandcastle Help File Builder](https://github.com/EWSoftware/SHFB/releases)。
 

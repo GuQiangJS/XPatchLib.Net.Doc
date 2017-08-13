@@ -23,6 +23,7 @@
   <HelpKINode Title="AttributeMissException.Message 属性" Url="html/521f9dbf-16dc-f314-5277-67071d420fd4.htm" />
   <HelpKINode Title="AttributeName 属性" Url="html/0f49e3a1-379e-0eb5-01e8-b5c9a395d533.htm" />
   <HelpKINode Title="Clone 方法">
+    <HelpKINode Title="ICloneable.Clone 方法 " Url="html/b5dfbf6b-0a9b-244d-99dc-13852191b260.htm" />
     <HelpKINode Title="SerializeSetting.Clone 方法 " Url="html/fddf5b40-45f5-f0f9-2677-0630930180bf.htm" />
     <HelpKINode Title="XmlSerializeSetting.Clone 方法 " Url="html/97b7ab90-ed24-bf6f-69cf-70d5ce266030.htm" />
   </HelpKINode>
@@ -90,6 +91,12 @@
     <HelpKINode Title="ITextReader.HasAttribute 属性 " Url="html/807c8aa7-441d-082c-4a9a-77922cb8981b.htm" />
     <HelpKINode Title="XmlTextReader.HasAttribute 属性 " Url="html/1c4264ff-ba8c-f0de-f429-c670d64250ba.htm" />
   </HelpKINode>
+  <HelpKINode Title="ICloneable 接口">
+    <HelpKINode Title="ICloneable 接口" Url="html/ba771a17-0852-453c-a2b3-0a3baaf9beab.htm" />
+    <HelpKINode Title="关于 ICloneable 接口" Url="html/ba771a17-0852-453c-a2b3-0a3baaf9beab.htm" />
+    <HelpKINode Title="方法" Url="html/de98868b-9511-176c-f8e0-acd75237eece.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ICloneable.Clone 方法" Url="html/b5dfbf6b-0a9b-244d-99dc-13852191b260.htm" />
   <HelpKINode Title="IgnoreAttributeType 属性">
     <HelpKINode Title="ITextWriter.IgnoreAttributeType 属性 " Url="html/3b6ecafa-83a3-3cdd-568d-848b70f3f234.htm" />
     <HelpKINode Title="XmlTextWriter.IgnoreAttributeType 属性 " Url="html/c93887bb-a453-dc88-84a6-a0f44c764d13.htm" />
@@ -161,7 +168,6 @@
   <HelpKINode Title="ITextWriter.WriteStartObject 方法" Url="html/99e73450-e4da-8a4f-f930-8c9658e90014.htm" />
   <HelpKINode Title="ITextWriter.WriteStartProperty 方法" Url="html/93ed79e8-d1c9-2704-ff43-d4bda9d60efd.htm" />
   <HelpKINode Title="ITextWriter.WriteValue 方法" Url="html/2573a4f2-afbf-4832-5fc4-1e9864c14cd5.htm" />
-  <HelpKINode Title="Keys 属性" Url="html/b836829f-440a-aa0e-4f44-87cfb155fcc3.htm" />
   <HelpKINode Title="Local 枚举成员" Url="html/68b3b5cc-fbc3-5d97-6944-8a3f714a3ca4.htm" />
   <HelpKINode Title="MemberType 属性">
     <HelpKINode Title="ISerializeSetting.MemberType 属性 " Url="html/d99d22aa-d2ce-68ec-a765-24ccaffd3441.htm" />
@@ -232,10 +238,7 @@
     <HelpKINode Title="XmlTextReader.ReadState 属性 " Url="html/846e2a8f-8295-15bb-b701-23f3546cb84d.htm" />
   </HelpKINode>
   <HelpKINode Title="ReadState 枚举" Url="html/a1d978a6-b678-c947-31c9-02b6a0db408d.htm" />
-  <HelpKINode Title="RegisterType 结构">
-    <HelpKINode Title="属性" Url="html/91d43d8b-9af1-dd91-1143-044a03a49c58.htm" />
-  </HelpKINode>
-  <HelpKINode Title="RegisterTypes 方法" Url="html/d29bf099-eab6-ffdc-e509-b084a666c4e7.htm" />
+  <HelpKINode Title="RegisterType 方法" Url="html/7e32aea6-6373-4580-e2e1-e9d5aa8a8425.htm" />
   <HelpKINode Title="RoundtripKind 枚举成员" Url="html/68b3b5cc-fbc3-5d97-6944-8a3f714a3ca4.htm" />
   <HelpKINode Title="SerializeDefalutValue 属性">
     <HelpKINode Title="ISerializeSetting.SerializeDefalutValue 属性 " Url="html/08b1d89e-1f80-5c11-319b-55fbcd78e888.htm" />
@@ -251,15 +254,7 @@
   </HelpKINode>
   <HelpKINode Title="Serializer.Combine 方法" Url="html/cbbe5e2a-ab13-596a-4515-833ae721bf51.htm" />
   <HelpKINode Title="Serializer.Divide 方法" Url="html/08160979-d0b7-0d98-dc68-ad063bbf89d3.htm" />
-  <HelpKINode Title="Serializer.RegisterType 结构">
-    <HelpKINode Title="Serializer.RegisterType 结构" Url="html/deee436b-1e78-00cf-bc22-2e0295603308.htm" />
-    <HelpKINode Title="关于 Serializer.RegisterType 结构" Url="html/deee436b-1e78-00cf-bc22-2e0295603308.htm" />
-    <HelpKINode Title="构造函数" Url="html/b11bd22e-b988-0331-ce5d-e3e151c7bc08.htm" />
-  </HelpKINode>
-  <HelpKINode Title="Serializer.RegisterType.Keys 属性" Url="html/b836829f-440a-aa0e-4f44-87cfb155fcc3.htm" />
-  <HelpKINode Title="Serializer.RegisterType.RegisterType 构造函数" Url="html/b11bd22e-b988-0331-ce5d-e3e151c7bc08.htm" />
-  <HelpKINode Title="Serializer.RegisterType.Type 属性" Url="html/4e2163d4-cae0-bc74-2282-7ea38c2d5f4f.htm" />
-  <HelpKINode Title="Serializer.RegisterTypes 方法" Url="html/d29bf099-eab6-ffdc-e509-b084a666c4e7.htm" />
+  <HelpKINode Title="Serializer.RegisterType 方法" Url="html/7e32aea6-6373-4580-e2e1-e9d5aa8a8425.htm" />
   <HelpKINode Title="Serializer.Serializer 构造函数" Url="html/ef9bc8c5-dc45-f16e-2694-f037c589673d.htm" />
   <HelpKINode Title="SerializeSetting 类">
     <HelpKINode Title="SerializeSetting 类" Url="html/9cb11be6-bba3-df8a-0e97-bd8fc7c9233e.htm" />
@@ -285,7 +280,6 @@
     <HelpKINode Title="XmlTextReader.Setting 属性 " Url="html/b5208d59-8fe6-0dc9-36af-83c3c7d65148.htm" />
     <HelpKINode Title="XmlTextWriter.Setting 属性 " Url="html/593dfde9-4120-5a93-45c7-450f14778cc4.htm" />
   </HelpKINode>
-  <HelpKINode Title="Type 属性" Url="html/4e2163d4-cae0-bc74-2282-7ea38c2d5f4f.htm" />
   <HelpKINode Title="Unspecified 枚举成员" Url="html/68b3b5cc-fbc3-5d97-6944-8a3f714a3ca4.htm" />
   <HelpKINode Title="Utc 枚举成员" Url="html/68b3b5cc-fbc3-5d97-6944-8a3f714a3ca4.htm" />
   <HelpKINode Title="WriteAttribute 方法">
@@ -400,6 +394,7 @@
   <HelpKINode Title="XPatchLib.AttributeMissException 类" Url="html/afe4f0a4-bfde-6276-d62a-5e9acc5ba12d.htm" />
   <HelpKINode Title="XPatchLib.DateTimeSerializationMode 枚举" Url="html/68b3b5cc-fbc3-5d97-6944-8a3f714a3ca4.htm" />
   <HelpKINode Title="XPatchLib.Formatting 枚举" Url="html/abe58c98-83be-f4dc-482f-93358e4ce5ab.htm" />
+  <HelpKINode Title="XPatchLib.ICloneable 接口" Url="html/ba771a17-0852-453c-a2b3-0a3baaf9beab.htm" />
   <HelpKINode Title="XPatchLib.ISerializeSetting 接口" Url="html/f514ec07-2110-e684-17df-b1734167ed9c.htm" />
   <HelpKINode Title="XPatchLib.ITextReader 接口" Url="html/6abf9cf3-d85a-44a0-839e-e46de7e4e201.htm" />
   <HelpKINode Title="XPatchLib.ITextWriter 接口" Url="html/ea9c2cea-fb3c-0dcd-6dad-a54f7f0f476d.htm" />
@@ -410,7 +405,6 @@
   <HelpKINode Title="XPatchLib.SerializeMemberModifier 枚举" Url="html/b1b7fc7f-ac77-ca79-275e-b0fb29859bf4.htm" />
   <HelpKINode Title="XPatchLib.SerializeMemberType 枚举" Url="html/c283d1d1-7879-47e0-0787-ff21444a7818.htm" />
   <HelpKINode Title="XPatchLib.Serializer 类" Url="html/7ed2eca1-d11b-c466-dc5b-cd04008966ee.htm" />
-  <HelpKINode Title="XPatchLib.Serializer.RegisterType 结构" Url="html/deee436b-1e78-00cf-bc22-2e0295603308.htm" />
   <HelpKINode Title="XPatchLib.SerializeSetting 类" Url="html/9cb11be6-bba3-df8a-0e97-bd8fc7c9233e.htm" />
   <HelpKINode Title="XPatchLib.XmlSerializeSetting 类" Url="html/80f918a6-2ba9-c1f7-44e2-cc1fa46be1b4.htm" />
   <HelpKINode Title="XPatchLib.XmlTextReader 类" Url="html/2d011dc9-b3ea-1713-e8c1-2488c143a33c.htm" />
