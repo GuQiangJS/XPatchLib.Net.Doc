@@ -8,6 +8,10 @@
     <HelpKINode Title="SerializeMemberModifier 枚举" Url="html/b1b7fc7f-ac77-ca79-275e-b0fb29859bf4.htm" />
     <HelpKINode Title="SerializeMemberType 枚举" Url="html/c283d1d1-7879-47e0-0787-ff21444a7818.htm" />
   </HelpKINode>
+  <HelpKINode Title="AssemblyQualifiedName 属性">
+    <HelpKINode Title="ISerializeSetting.AssemblyQualifiedName 属性 " Url="html/b86326c9-a2ec-f636-f280-9c47cd86ea27.htm" />
+    <HelpKINode Title="SerializeSetting.AssemblyQualifiedName 属性 " Url="html/95dddc9a-5421-8e3b-8cf0-bd8a3106c765.htm" />
+  </HelpKINode>
   <HelpKINode Title="Attribute 枚举成员" Url="html/d26514da-b1b6-ab56-4861-ea10f7f0ef24.htm" />
   <HelpKINode Title="AttributeMissException 类">
     <HelpKINode Title="AttributeMissException 类" Url="html/afe4f0a4-bfde-6276-d62a-5e9acc5ba12d.htm" />
@@ -119,6 +123,7 @@
     <HelpKINode Title="属性" Url="html/d4503238-5da7-03b0-9bec-a61195136444.htm" />
   </HelpKINode>
   <HelpKINode Title="ISerializeSetting.ActionName 属性" Url="html/55afd651-3062-333b-b9c6-3d68ae94e0c3.htm" />
+  <HelpKINode Title="ISerializeSetting.AssemblyQualifiedName 属性" Url="html/b86326c9-a2ec-f636-f280-9c47cd86ea27.htm" />
   <HelpKINode Title="ISerializeSetting.EnableOnDeserializedAttribute 属性" Url="html/63752b2a-22fc-3bef-6ce6-2f7fd414dc6e.htm" />
   <HelpKINode Title="ISerializeSetting.EnableOnDeserializingAttribute 属性" Url="html/2645e6e0-406d-4e9e-8190-34f4d2d86d42.htm" />
   <HelpKINode Title="ISerializeSetting.EnableOnSerializedAttribute 属性" Url="html/18a0a8e8-54a4-0c66-a598-21e4fd9dfa4b.htm" />
@@ -264,6 +269,7 @@
     <HelpKINode Title="方法" Url="html/cba05ca1-2864-e3a3-4fb7-b8dccb01a4c8.htm" />
   </HelpKINode>
   <HelpKINode Title="SerializeSetting.ActionName 属性" Url="html/2612bded-ccc5-e879-05df-0bed6ad7740c.htm" />
+  <HelpKINode Title="SerializeSetting.AssemblyQualifiedName 属性" Url="html/95dddc9a-5421-8e3b-8cf0-bd8a3106c765.htm" />
   <HelpKINode Title="SerializeSetting.Clone 方法" Url="html/fddf5b40-45f5-f0f9-2677-0630930180bf.htm" />
   <HelpKINode Title="SerializeSetting.EnableOnDeserializedAttribute 属性" Url="html/3877cb8b-e83e-6554-7656-7b2dc87a2192.htm" />
   <HelpKINode Title="SerializeSetting.EnableOnDeserializingAttribute 属性" Url="html/a18bc759-7805-3c00-f7ff-1d0c4dfcb272.htm" />
