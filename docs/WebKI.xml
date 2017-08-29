@@ -91,10 +91,6 @@
     <HelpKINode Title="ITextReader.GetValue 方法 " Url="html/020da195-29c5-786b-e1aa-02d0a964d53d.htm" />
     <HelpKINode Title="XmlTextReader.GetValue 方法 " Url="html/1de62635-83e8-ea6d-dfdd-86b5941c8534.htm" />
   </HelpKINode>
-  <HelpKINode Title="HasAttribute 属性">
-    <HelpKINode Title="ITextReader.HasAttribute 属性 " Url="html/807c8aa7-441d-082c-4a9a-77922cb8981b.htm" />
-    <HelpKINode Title="XmlTextReader.HasAttribute 属性 " Url="html/1c4264ff-ba8c-f0de-f429-c670d64250ba.htm" />
-  </HelpKINode>
   <HelpKINode Title="ICloneable 接口">
     <HelpKINode Title="ICloneable 接口" Url="html/ba771a17-0852-453c-a2b3-0a3baaf9beab.htm" />
     <HelpKINode Title="关于 ICloneable 接口" Url="html/ba771a17-0852-453c-a2b3-0a3baaf9beab.htm" />
@@ -141,7 +137,6 @@
   <HelpKINode Title="ITextReader.EOF 属性" Url="html/5dfde33c-46e8-abcd-f812-7e7981011972.htm" />
   <HelpKINode Title="ITextReader.GetAttributes 方法" Url="html/cfa5bc06-429f-0702-8661-55b950c70c11.htm" />
   <HelpKINode Title="ITextReader.GetValue 方法" Url="html/020da195-29c5-786b-e1aa-02d0a964d53d.htm" />
-  <HelpKINode Title="ITextReader.HasAttribute 属性" Url="html/807c8aa7-441d-082c-4a9a-77922cb8981b.htm" />
   <HelpKINode Title="ITextReader.Name 属性" Url="html/0c8a438e-1ed4-f1ea-3139-2c40246eb320.htm" />
   <HelpKINode Title="ITextReader.NodeType 属性" Url="html/8b0f8c1d-ab73-e2c9-2db0-df71c59922e5.htm" />
   <HelpKINode Title="ITextReader.Read 方法" Url="html/2013486c-3eb3-a54b-5d8b-abffe847b3f5.htm" />
@@ -360,7 +355,6 @@
   <HelpKINode Title="XmlTextReader.EOF 属性" Url="html/0461518b-3c04-d2f3-8755-0e8218fca3de.htm" />
   <HelpKINode Title="XmlTextReader.GetAttributes 方法" Url="html/13235f70-4a28-af2b-72f6-dfad3eb08f88.htm" />
   <HelpKINode Title="XmlTextReader.GetValue 方法" Url="html/1de62635-83e8-ea6d-dfdd-86b5941c8534.htm" />
-  <HelpKINode Title="XmlTextReader.HasAttribute 属性" Url="html/1c4264ff-ba8c-f0de-f429-c670d64250ba.htm" />
   <HelpKINode Title="XmlTextReader.Name 属性" Url="html/25d76d4b-cb20-2e6d-343b-658c8f81acfd.htm" />
   <HelpKINode Title="XmlTextReader.NodeType 属性" Url="html/672e2885-2d73-1ef8-3712-aff4ec8d9e27.htm" />
   <HelpKINode Title="XmlTextReader.Read 方法" Url="html/9a588e91-4262-df2c-1022-e652c16c6a41.htm" />
