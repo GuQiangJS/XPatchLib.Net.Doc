@@ -1,7 +1,7 @@
 /* Start ZH-CN locale-specific CSS */
-/* 
 body
 {
+    font-family: "Microsoft YaHei UI","Microsoft YaHei","SimSun","Segoe UI","Lucida Grande",Verdana,Arial,Helvetica,sans-serif
 }
 pre
 {
@@ -15,5 +15,4 @@ span.code
 {
     font-family: Consolas, Courier, monospace;
 }
-*/
 /* End locale-specific CSS */

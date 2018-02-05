@@ -20,38 +20,46 @@
       </topic>
       <topic id="T:XPatchLib.DateTimeSerializationMode" project="XPatchLib" file="68b3b5cc-fbc3-5d97-6944-8a3f714a3ca4" />
       <topic id="T:XPatchLib.Formatting" project="XPatchLib" file="abe58c98-83be-f4dc-482f-93358e4ce5ab" />
+      <topic id="T:XPatchLib.ICloneable" project="XPatchLib" file="ba771a17-0852-453c-a2b3-0a3baaf9beab">
+        <topic id="Methods.T:XPatchLib.ICloneable" project="XPatchLib" file="de98868b-9511-176c-f8e0-acd75237eece">
+          <topic id="M:XPatchLib.ICloneable.Clone" project="XPatchLib" file="b5dfbf6b-0a9b-244d-99dc-13852191b260" />
+        </topic>
+      </topic>
       <topic id="T:XPatchLib.ISerializeSetting" project="XPatchLib" file="f514ec07-2110-e684-17df-b1734167ed9c">
         <topic id="Properties.T:XPatchLib.ISerializeSetting" project="XPatchLib" file="d4503238-5da7-03b0-9bec-a61195136444">
           <topic id="P:XPatchLib.ISerializeSetting.ActionName" project="XPatchLib" file="55afd651-3062-333b-b9c6-3d68ae94e0c3" />
+          <topic id="P:XPatchLib.ISerializeSetting.AssemblyQualifiedName" project="XPatchLib" file="b86326c9-a2ec-f636-f280-9c47cd86ea27" />
+          <topic id="P:XPatchLib.ISerializeSetting.EnableOnDeserializedAttribute" project="XPatchLib" file="63752b2a-22fc-3bef-6ce6-2f7fd414dc6e" />
+          <topic id="P:XPatchLib.ISerializeSetting.EnableOnDeserializingAttribute" project="XPatchLib" file="2645e6e0-406d-4e9e-8190-34f4d2d86d42" />
+          <topic id="P:XPatchLib.ISerializeSetting.EnableOnSerializedAttribute" project="XPatchLib" file="18a0a8e8-54a4-0c66-a598-21e4fd9dfa4b" />
+          <topic id="P:XPatchLib.ISerializeSetting.EnableOnSerializingAttribute" project="XPatchLib" file="2415ef52-6307-c846-5843-1aaadea585f0" />
+          <topic id="P:XPatchLib.ISerializeSetting.IgnoreAttributeType" project="XPatchLib" file="ff4f517c-137b-245d-42f7-264c422a9c67" />
+          <topic id="P:XPatchLib.ISerializeSetting.MemberType" project="XPatchLib" file="d99d22aa-d2ce-68ec-a765-24ccaffd3441" />
           <topic id="P:XPatchLib.ISerializeSetting.Mode" project="XPatchLib" file="4f213626-c391-daac-0da9-e31f7f24b4be" />
+          <topic id="P:XPatchLib.ISerializeSetting.Modifier" project="XPatchLib" file="84d9897c-6316-c9d4-90c3-3c80753691a3" />
           <topic id="P:XPatchLib.ISerializeSetting.SerializeDefalutValue" project="XPatchLib" file="08b1d89e-1f80-5c11-319b-55fbcd78e888" />
         </topic>
       </topic>
       <topic id="T:XPatchLib.ITextReader" project="XPatchLib" file="6abf9cf3-d85a-44a0-839e-e46de7e4e201">
         <topic id="Properties.T:XPatchLib.ITextReader" project="XPatchLib" file="365751f1-2891-c653-acf4-1ab12b8e4536">
-          <topic id="P:XPatchLib.ITextReader.AttributeCount" project="XPatchLib" file="ab1d8f8c-3bc4-4e59-5142-95e2002b5eba" />
           <topic id="P:XPatchLib.ITextReader.EOF" project="XPatchLib" file="5dfde33c-46e8-abcd-f812-7e7981011972" />
           <topic id="P:XPatchLib.ITextReader.Name" project="XPatchLib" file="0c8a438e-1ed4-f1ea-3139-2c40246eb320" />
           <topic id="P:XPatchLib.ITextReader.NodeType" project="XPatchLib" file="8b0f8c1d-ab73-e2c9-2db0-df71c59922e5" />
           <topic id="P:XPatchLib.ITextReader.ReadState" project="XPatchLib" file="22d86a2a-e04c-2ac3-b381-eff363dd0923" />
           <topic id="P:XPatchLib.ITextReader.Setting" project="XPatchLib" file="c05f72f9-7350-f3f9-bc8e-2bac5465b958" />
-          <topic id="P:XPatchLib.ITextReader.Value" project="XPatchLib" file="ecef304c-5f4d-2287-4377-78b205f376f5" />
         </topic>
         <topic id="Methods.T:XPatchLib.ITextReader" project="XPatchLib" file="0a328d47-f7b8-3382-0fbc-db98ce13e61a">
-          <topic id="M:XPatchLib.ITextReader.MoveToCurrentElementEnd(System.String)" project="XPatchLib" file="5a99d531-0307-fe24-3873-879a78c9dfda" />
-          <topic id="M:XPatchLib.ITextReader.MoveToElement" project="XPatchLib" file="6b1f38d0-1a2c-e836-4819-f38033417b26" />
-          <topic id="M:XPatchLib.ITextReader.MoveToNextAttribute" project="XPatchLib" file="4f9e0fae-c70e-e1de-bcb4-c85df8bf8009" />
-          <topic id="M:XPatchLib.ITextReader.MoveToNextElement(System.String,System.String)" project="XPatchLib" file="dbd44563-0db0-3794-c655-cff8a7b336b5" />
-          <topic id="Overload:XPatchLib.ITextReader.Read" project="XPatchLib" file="f76016a7-675b-e905-8264-5e50aff4ab9e">
-            <topic id="M:XPatchLib.ITextReader.Read" project="XPatchLib" file="2013486c-3eb3-a54b-5d8b-abffe847b3f5" />
-            <topic id="M:XPatchLib.ITextReader.Read``1" project="XPatchLib" file="91edeb56-385b-d781-9e07-b8d328583d75" />
-          </topic>
-          <topic id="M:XPatchLib.ITextReader.ReadString" project="XPatchLib" file="05b3502e-9314-8d66-7b63-b4f71b184d51" />
+          <topic id="M:XPatchLib.ITextReader.GetAttributes" project="XPatchLib" file="cfa5bc06-429f-0702-8661-55b950c70c11" />
+          <topic id="M:XPatchLib.ITextReader.GetValue" project="XPatchLib" file="020da195-29c5-786b-e1aa-02d0a964d53d" />
+          <topic id="M:XPatchLib.ITextReader.Read" project="XPatchLib" file="2013486c-3eb3-a54b-5d8b-abffe847b3f5" />
         </topic>
       </topic>
       <topic id="T:XPatchLib.ITextWriter" project="XPatchLib" file="ea9c2cea-fb3c-0dcd-6dad-a54f7f0f476d">
         <topic id="Properties.T:XPatchLib.ITextWriter" project="XPatchLib" file="7499c13c-0653-a765-fe99-f4f4214bec3e">
-          <topic id="P:XPatchLib.ITextWriter.IgnoreAttributeType" project="XPatchLib" file="3b6ecafa-83a3-3cdd-568d-848b70f3f234" />
+          <topic id="P:XPatchLib.ITextWriter.Formatting" project="XPatchLib" file="ac38d055-2360-8cd4-d9be-fdd7cbaef8a9" />
+          <topic id="P:XPatchLib.ITextWriter.Indentation" project="XPatchLib" file="1db0e37a-c9a4-9c42-98cf-7d525418bb65" />
+          <topic id="P:XPatchLib.ITextWriter.IndentChar" project="XPatchLib" file="6e93b7ff-a1e7-46a9-3d8d-409bd0750889" />
+          <topic id="P:XPatchLib.ITextWriter.QuoteChar" project="XPatchLib" file="b7a0a46c-0129-5e52-1b36-c22b9152185e" />
           <topic id="P:XPatchLib.ITextWriter.Setting" project="XPatchLib" file="554d4bcd-a959-0a61-9e10-d379e7dd6389" />
         </topic>
         <topic id="Methods.T:XPatchLib.ITextWriter" project="XPatchLib" file="db3fd399-688d-3ac2-a2ba-271bf2d47437">
@@ -95,6 +103,8 @@
         </topic>
       </topic>
       <topic id="T:XPatchLib.ReadState" project="XPatchLib" file="a1d978a6-b678-c947-31c9-02b6a0db408d" />
+      <topic id="T:XPatchLib.SerializeMemberModifier" project="XPatchLib" file="b1b7fc7f-ac77-ca79-275e-b0fb29859bf4" />
+      <topic id="T:XPatchLib.SerializeMemberType" project="XPatchLib" file="c283d1d1-7879-47e0-0787-ff21444a7818" />
       <topic id="T:XPatchLib.Serializer" project="XPatchLib" file="7ed2eca1-d11b-c466-dc5b-cd04008966ee">
         <topic id="M:XPatchLib.Serializer.#ctor(System.Type)" project="XPatchLib" file="ef9bc8c5-dc45-f16e-2694-f037c589673d" />
         <topic id="Methods.T:XPatchLib.Serializer" project="XPatchLib" file="b649727d-4604-25ec-d488-d4638470293b">
@@ -102,49 +112,72 @@
             <topic id="M:XPatchLib.Serializer.Combine(XPatchLib.ITextReader,System.Object)" project="XPatchLib" file="df89ca0d-a07e-9139-34f1-fa70a4e90b1d" />
             <topic id="M:XPatchLib.Serializer.Combine(XPatchLib.ITextReader,System.Object,System.Boolean)" project="XPatchLib" file="53419995-c511-593f-d74c-3089a16fdc72" />
           </topic>
+          <topic id="M:XPatchLib.Serializer.Dispose" project="XPatchLib" file="380dcd3a-3c20-6927-837e-9de0c4fe2e4a" />
           <topic id="M:XPatchLib.Serializer.Divide(XPatchLib.ITextWriter,System.Object,System.Object)" project="XPatchLib" file="08160979-d0b7-0d98-dc68-ad063bbf89d3" />
-          <topic id="M:XPatchLib.Serializer.RegisterTypes(System.Collections.Generic.IDictionary{System.Type,System.String[]})" project="XPatchLib" file="26487e8f-eeb7-0812-23e2-0133a6f217fb" />
+          <topic id="M:XPatchLib.Serializer.RegisterType(System.Type,System.String[])" project="XPatchLib" file="7e32aea6-6373-4580-e2e1-e9d5aa8a8425" />
+        </topic>
+      </topic>
+      <topic id="T:XPatchLib.SerializeSetting" project="XPatchLib" file="9cb11be6-bba3-df8a-0e97-bd8fc7c9233e">
+        <topic id="Properties.T:XPatchLib.SerializeSetting" project="XPatchLib" file="5e1094a0-d2df-c134-20ed-258ee5d99d31">
+          <topic id="P:XPatchLib.SerializeSetting.ActionName" project="XPatchLib" file="2612bded-ccc5-e879-05df-0bed6ad7740c" />
+          <topic id="P:XPatchLib.SerializeSetting.AssemblyQualifiedName" project="XPatchLib" file="95dddc9a-5421-8e3b-8cf0-bd8a3106c765" />
+          <topic id="P:XPatchLib.SerializeSetting.EnableOnDeserializedAttribute" project="XPatchLib" file="3877cb8b-e83e-6554-7656-7b2dc87a2192" />
+          <topic id="P:XPatchLib.SerializeSetting.EnableOnDeserializingAttribute" project="XPatchLib" file="a18bc759-7805-3c00-f7ff-1d0c4dfcb272" />
+          <topic id="P:XPatchLib.SerializeSetting.EnableOnSerializedAttribute" project="XPatchLib" file="1876a2e6-7a17-6ad7-c386-c6b5079607ac" />
+          <topic id="P:XPatchLib.SerializeSetting.EnableOnSerializingAttribute" project="XPatchLib" file="22bda697-b58d-eea3-a299-8b41e8bc8390" />
+          <topic id="P:XPatchLib.SerializeSetting.IgnoreAttributeType" project="XPatchLib" file="e8543054-c605-0e3c-8129-da1d4d30ba01" />
+          <topic id="P:XPatchLib.SerializeSetting.MemberType" project="XPatchLib" file="55c1a248-8a6d-7622-d9a6-716578ffa35f" />
+          <topic id="P:XPatchLib.SerializeSetting.Mode" project="XPatchLib" file="38d8e3c8-ffd2-aa6b-3e4b-c900858d3cb2" />
+          <topic id="P:XPatchLib.SerializeSetting.Modifier" project="XPatchLib" file="7576ea58-a863-ed47-41e9-b00928fb3dfd" />
+          <topic id="P:XPatchLib.SerializeSetting.SerializeDefalutValue" project="XPatchLib" file="051ca3c9-700c-bb4a-43cf-6134505c4d5c" />
+        </topic>
+        <topic id="Methods.T:XPatchLib.SerializeSetting" project="XPatchLib" file="cba05ca1-2864-e3a3-4fb7-b8dccb01a4c8">
+          <topic id="M:XPatchLib.SerializeSetting.Clone" project="XPatchLib" file="fddf5b40-45f5-f0f9-2677-0630930180bf" />
+        </topic>
+        <topic id="Events.T:XPatchLib.SerializeSetting" project="XPatchLib" file="d2c69c16-5167-e2b6-ed9e-7f522329f421">
+          <topic id="E:XPatchLib.SerializeSetting.PropertyChanged" project="XPatchLib" file="cc42c69c-dc08-8467-e9e2-306d3373a243" />
         </topic>
       </topic>
       <topic id="T:XPatchLib.XmlSerializeSetting" project="XPatchLib" file="80f918a6-2ba9-c1f7-44e2-cc1fa46be1b4">
         <topic id="M:XPatchLib.XmlSerializeSetting.#ctor" project="XPatchLib" file="f6f5d84e-4deb-db73-436a-887933c47470" />
         <topic id="Properties.T:XPatchLib.XmlSerializeSetting" project="XPatchLib" file="a8fb20ce-757f-3dba-7a02-6087e16493a7">
-          <topic id="P:XPatchLib.XmlSerializeSetting.ActionName" project="XPatchLib" file="1c7bd8f3-1fd1-f26c-9b0e-54335b95f73e" />
-          <topic id="P:XPatchLib.XmlSerializeSetting.Mode" project="XPatchLib" file="07af392d-30a5-efb3-7865-3b0b634e2d9a" />
-          <topic id="P:XPatchLib.XmlSerializeSetting.SerializeDefalutValue" project="XPatchLib" file="fe3319d3-bdea-09eb-57ec-e60e5d6573bb" />
+          <topic id="P:XPatchLib.XmlSerializeSetting.IgnoreAttributeType" project="XPatchLib" file="dc4e474a-eb8e-b914-522b-e8d834b54ed1" />
         </topic>
-        <topic id="Events.T:XPatchLib.XmlSerializeSetting" project="XPatchLib" file="876104d5-ce2b-9c81-1731-5fa3315e90f8">
-          <topic id="E:XPatchLib.XmlSerializeSetting.PropertyChanged" project="XPatchLib" file="eb9d8bdc-27f1-67b6-ef07-94d4bcaf380f" />
+        <topic id="Methods.T:XPatchLib.XmlSerializeSetting" project="XPatchLib" file="6b95d52b-0eca-f394-c4ee-17d8795b9c76">
+          <topic id="M:XPatchLib.XmlSerializeSetting.Clone" project="XPatchLib" file="97b7ab90-ed24-bf6f-69cf-70d5ce266030" />
         </topic>
       </topic>
       <topic id="T:XPatchLib.XmlTextReader" project="XPatchLib" file="2d011dc9-b3ea-1713-e8c1-2488c143a33c">
-        <topic id="M:XPatchLib.XmlTextReader.#ctor(System.Xml.XmlReader)" project="XPatchLib" file="e4dbdbf7-d0f3-c694-97c8-f52fd5883202" />
+        <topic id="Overload:XPatchLib.XmlTextReader.#ctor" project="XPatchLib" file="ebf31051-6648-8921-05c7-a4013971c0f0">
+          <topic id="M:XPatchLib.XmlTextReader.#ctor(System.IO.Stream)" project="XPatchLib" file="712b1c96-41d4-6b1e-6732-d96f78690f07" />
+          <topic id="M:XPatchLib.XmlTextReader.#ctor(System.IO.TextReader)" project="XPatchLib" file="77f054b9-9033-fcc9-37bf-89f370fc3ad0" />
+          <topic id="M:XPatchLib.XmlTextReader.#ctor(System.String)" project="XPatchLib" file="2a2d2400-ad32-aa3e-8211-fda3008eb063" />
+        </topic>
         <topic id="Properties.T:XPatchLib.XmlTextReader" project="XPatchLib" file="62285820-e62d-4370-1f4e-845f17237934">
-          <topic id="P:XPatchLib.XmlTextReader.AttributeCount" project="XPatchLib" file="6ff36278-a3b2-6ac5-2795-420c6ca8968b" />
           <topic id="P:XPatchLib.XmlTextReader.EOF" project="XPatchLib" file="0461518b-3c04-d2f3-8755-0e8218fca3de" />
           <topic id="P:XPatchLib.XmlTextReader.Name" project="XPatchLib" file="25d76d4b-cb20-2e6d-343b-658c8f81acfd" />
           <topic id="P:XPatchLib.XmlTextReader.NodeType" project="XPatchLib" file="672e2885-2d73-1ef8-3712-aff4ec8d9e27" />
           <topic id="P:XPatchLib.XmlTextReader.ReadState" project="XPatchLib" file="846e2a8f-8295-15bb-b701-23f3546cb84d" />
           <topic id="P:XPatchLib.XmlTextReader.Setting" project="XPatchLib" file="b5208d59-8fe6-0dc9-36af-83c3c7d65148" />
-          <topic id="P:XPatchLib.XmlTextReader.Value" project="XPatchLib" file="cc34c2a4-5d2a-8a8b-5e4f-3de8043bb940" />
         </topic>
         <topic id="Methods.T:XPatchLib.XmlTextReader" project="XPatchLib" file="69fad85a-030f-0153-8dab-ec2698f54142">
           <topic id="M:XPatchLib.XmlTextReader.Dispose" project="XPatchLib" file="89128139-84aa-571e-9999-8e33f6b0a9b3" />
-          <topic id="M:XPatchLib.XmlTextReader.MoveToCurrentElementEnd(System.String)" project="XPatchLib" file="1d9a21c7-3634-42fa-9eb6-7be246db6fe9" />
-          <topic id="M:XPatchLib.XmlTextReader.MoveToElement" project="XPatchLib" file="08855d65-64ff-65a5-c204-22bd41904bd6" />
-          <topic id="M:XPatchLib.XmlTextReader.MoveToNextAttribute" project="XPatchLib" file="53db2bb0-59c5-9d2b-1cb4-74d9a27ceb6d" />
-          <topic id="M:XPatchLib.XmlTextReader.MoveToNextElement(System.String,System.String)" project="XPatchLib" file="924a99dc-eb3d-3a8c-6ef6-f8afb577d3bb" />
-          <topic id="Overload:XPatchLib.XmlTextReader.Read" project="XPatchLib" file="60736f45-50fc-bb5e-b103-a3f07d71a9da">
-            <topic id="M:XPatchLib.XmlTextReader.Read" project="XPatchLib" file="9a588e91-4262-df2c-1022-e652c16c6a41" />
-            <topic id="M:XPatchLib.XmlTextReader.Read``1" project="XPatchLib" file="b6771d43-e981-37f9-42ae-365b97e85d6c" />
-          </topic>
-          <topic id="M:XPatchLib.XmlTextReader.ReadString" project="XPatchLib" file="2b73f434-2dbb-f9ab-005f-eb471b751462" />
+          <topic id="M:XPatchLib.XmlTextReader.GetAttributes" project="XPatchLib" file="13235f70-4a28-af2b-72f6-dfad3eb08f88" />
+          <topic id="M:XPatchLib.XmlTextReader.GetValue" project="XPatchLib" file="1de62635-83e8-ea6d-dfdd-86b5941c8534" />
+          <topic id="M:XPatchLib.XmlTextReader.Read" project="XPatchLib" file="9a588e91-4262-df2c-1022-e652c16c6a41" />
         </topic>
       </topic>
       <topic id="T:XPatchLib.XmlTextWriter" project="XPatchLib" file="498babb9-7293-5749-a9c5-d6f351d4facd">
-        <topic id="M:XPatchLib.XmlTextWriter.#ctor(System.Xml.XmlWriter)" project="XPatchLib" file="a5fb4425-57fa-9b70-e8e7-7139bfb205fd" />
+        <topic id="Overload:XPatchLib.XmlTextWriter.#ctor" project="XPatchLib" file="a6b66888-e44a-c808-4546-e1654b8c05a9">
+          <topic id="M:XPatchLib.XmlTextWriter.#ctor(System.IO.TextWriter)" project="XPatchLib" file="aeecec1f-2382-e835-f77f-f1be60fa52cd" />
+          <topic id="M:XPatchLib.XmlTextWriter.#ctor(System.IO.Stream,System.Text.Encoding)" project="XPatchLib" file="137b8bbb-8b15-576c-2e8b-799f4797c52d" />
+          <topic id="M:XPatchLib.XmlTextWriter.#ctor(System.String,System.Text.Encoding)" project="XPatchLib" file="a2097419-ba2b-4a4f-e3b6-f64c77561a39" />
+        </topic>
         <topic id="Properties.T:XPatchLib.XmlTextWriter" project="XPatchLib" file="7daf2fb5-04e2-aa6a-3b99-90a0ef98b60e">
-          <topic id="P:XPatchLib.XmlTextWriter.IgnoreAttributeType" project="XPatchLib" file="c93887bb-a453-dc88-84a6-a0f44c764d13" />
+          <topic id="P:XPatchLib.XmlTextWriter.Formatting" project="XPatchLib" file="163fe988-d9d4-4e2b-a9e2-bbd047be5927" />
+          <topic id="P:XPatchLib.XmlTextWriter.Indentation" project="XPatchLib" file="5f48a8cc-9ec5-82e5-c043-1ce3271809a6" />
+          <topic id="P:XPatchLib.XmlTextWriter.IndentChar" project="XPatchLib" file="9a6c9bf0-7cc0-1cfc-8242-2855218386f4" />
+          <topic id="P:XPatchLib.XmlTextWriter.QuoteChar" project="XPatchLib" file="80fff764-22d8-2ca8-46eb-9f703bde20de" />
           <topic id="P:XPatchLib.XmlTextWriter.Setting" project="XPatchLib" file="593dfde9-4120-5a93-45c7-450f14778cc4" />
         </topic>
         <topic id="Methods.T:XPatchLib.XmlTextWriter" project="XPatchLib" file="4cc9f3fa-1afe-f05d-35e4-203e48c338dc">

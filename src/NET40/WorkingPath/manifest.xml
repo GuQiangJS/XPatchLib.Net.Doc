@@ -18,31 +18,35 @@
   <topic id="T:XPatchLib.ISerializeSetting" type="API" />
   <topic id="Properties.T:XPatchLib.ISerializeSetting" type="API" />
   <topic id="P:XPatchLib.ISerializeSetting.ActionName" type="API" />
+  <topic id="P:XPatchLib.ISerializeSetting.AssemblyQualifiedName" type="API" />
+  <topic id="P:XPatchLib.ISerializeSetting.EnableOnDeserializedAttribute" type="API" />
+  <topic id="P:XPatchLib.ISerializeSetting.EnableOnDeserializingAttribute" type="API" />
+  <topic id="P:XPatchLib.ISerializeSetting.EnableOnSerializedAttribute" type="API" />
+  <topic id="P:XPatchLib.ISerializeSetting.EnableOnSerializingAttribute" type="API" />
+  <topic id="P:XPatchLib.ISerializeSetting.IgnoreAttributeType" type="API" />
+  <topic id="P:XPatchLib.ISerializeSetting.MemberType" type="API" />
   <topic id="P:XPatchLib.ISerializeSetting.Mode" type="API" />
+  <topic id="P:XPatchLib.ISerializeSetting.Modifier" type="API" />
   <topic id="P:XPatchLib.ISerializeSetting.SerializeDefalutValue" type="API" />
   <topic id="T:XPatchLib.ITextReader" type="API" />
   <topic id="Methods.T:XPatchLib.ITextReader" type="API" />
   <topic id="Properties.T:XPatchLib.ITextReader" type="API" />
-  <topic id="Overload:XPatchLib.ITextReader.Read" type="API" />
-  <topic id="P:XPatchLib.ITextReader.AttributeCount" type="API" />
   <topic id="P:XPatchLib.ITextReader.EOF" type="API" />
-  <topic id="M:XPatchLib.ITextReader.MoveToCurrentElementEnd(System.String)" type="API" />
-  <topic id="M:XPatchLib.ITextReader.MoveToElement" type="API" />
-  <topic id="M:XPatchLib.ITextReader.MoveToNextAttribute" type="API" />
-  <topic id="M:XPatchLib.ITextReader.MoveToNextElement(System.String,System.String)" type="API" />
+  <topic id="M:XPatchLib.ITextReader.GetAttributes" type="API" />
+  <topic id="M:XPatchLib.ITextReader.GetValue" type="API" />
   <topic id="P:XPatchLib.ITextReader.Name" type="API" />
   <topic id="P:XPatchLib.ITextReader.NodeType" type="API" />
   <topic id="M:XPatchLib.ITextReader.Read" type="API" />
-  <topic id="M:XPatchLib.ITextReader.Read``1" type="API" />
   <topic id="P:XPatchLib.ITextReader.ReadState" type="API" />
-  <topic id="M:XPatchLib.ITextReader.ReadString" type="API" />
   <topic id="P:XPatchLib.ITextReader.Setting" type="API" />
-  <topic id="P:XPatchLib.ITextReader.Value" type="API" />
   <topic id="T:XPatchLib.ITextWriter" type="API" />
   <topic id="Methods.T:XPatchLib.ITextWriter" type="API" />
   <topic id="Properties.T:XPatchLib.ITextWriter" type="API" />
   <topic id="M:XPatchLib.ITextWriter.Flush" type="API" />
-  <topic id="P:XPatchLib.ITextWriter.IgnoreAttributeType" type="API" />
+  <topic id="P:XPatchLib.ITextWriter.Formatting" type="API" />
+  <topic id="P:XPatchLib.ITextWriter.Indentation" type="API" />
+  <topic id="P:XPatchLib.ITextWriter.IndentChar" type="API" />
+  <topic id="P:XPatchLib.ITextWriter.QuoteChar" type="API" />
   <topic id="P:XPatchLib.ITextWriter.Setting" type="API" />
   <topic id="M:XPatchLib.ITextWriter.WriteAttribute(System.String,System.String)" type="API" />
   <topic id="M:XPatchLib.ITextWriter.WriteEndArray" type="API" />
@@ -75,49 +79,69 @@
   <topic id="P:XPatchLib.PrimaryKeyException.Message" type="API" />
   <topic id="P:XPatchLib.PrimaryKeyException.PrimaryKeyName" type="API" />
   <topic id="T:XPatchLib.ReadState" type="API" />
+  <topic id="T:XPatchLib.SerializeMemberModifier" type="API" />
+  <topic id="T:XPatchLib.SerializeMemberType" type="API" />
   <topic id="T:XPatchLib.Serializer" type="API" />
   <topic id="Methods.T:XPatchLib.Serializer" type="API" />
   <topic id="Overload:XPatchLib.Serializer.Combine" type="API" />
   <topic id="M:XPatchLib.Serializer.#ctor(System.Type)" type="API" />
   <topic id="M:XPatchLib.Serializer.Combine(XPatchLib.ITextReader,System.Object)" type="API" />
   <topic id="M:XPatchLib.Serializer.Combine(XPatchLib.ITextReader,System.Object,System.Boolean)" type="API" />
+  <topic id="M:XPatchLib.Serializer.Dispose" type="API" />
   <topic id="M:XPatchLib.Serializer.Divide(XPatchLib.ITextWriter,System.Object,System.Object)" type="API" />
-  <topic id="M:XPatchLib.Serializer.RegisterTypes(System.Collections.Generic.IDictionary{System.Type,System.String[]})" type="API" />
+  <topic id="M:XPatchLib.Serializer.RegisterType(System.Type,System.String[])" type="API" />
+  <topic id="T:XPatchLib.SerializeSetting" type="API" />
+  <topic id="Methods.T:XPatchLib.SerializeSetting" type="API" />
+  <topic id="Properties.T:XPatchLib.SerializeSetting" type="API" />
+  <topic id="Events.T:XPatchLib.SerializeSetting" type="API" />
+  <topic id="P:XPatchLib.SerializeSetting.ActionName" type="API" />
+  <topic id="P:XPatchLib.SerializeSetting.AssemblyQualifiedName" type="API" />
+  <topic id="M:XPatchLib.SerializeSetting.Clone" type="API" />
+  <topic id="P:XPatchLib.SerializeSetting.EnableOnDeserializedAttribute" type="API" />
+  <topic id="P:XPatchLib.SerializeSetting.EnableOnDeserializingAttribute" type="API" />
+  <topic id="P:XPatchLib.SerializeSetting.EnableOnSerializedAttribute" type="API" />
+  <topic id="P:XPatchLib.SerializeSetting.EnableOnSerializingAttribute" type="API" />
+  <topic id="P:XPatchLib.SerializeSetting.IgnoreAttributeType" type="API" />
+  <topic id="P:XPatchLib.SerializeSetting.MemberType" type="API" />
+  <topic id="P:XPatchLib.SerializeSetting.Mode" type="API" />
+  <topic id="P:XPatchLib.SerializeSetting.Modifier" type="API" />
+  <topic id="E:XPatchLib.SerializeSetting.PropertyChanged" type="API" />
+  <topic id="P:XPatchLib.SerializeSetting.SerializeDefalutValue" type="API" />
   <topic id="T:XPatchLib.XmlSerializeSetting" type="API" />
+  <topic id="Methods.T:XPatchLib.XmlSerializeSetting" type="API" />
   <topic id="Properties.T:XPatchLib.XmlSerializeSetting" type="API" />
-  <topic id="Events.T:XPatchLib.XmlSerializeSetting" type="API" />
   <topic id="M:XPatchLib.XmlSerializeSetting.#ctor" type="API" />
-  <topic id="P:XPatchLib.XmlSerializeSetting.ActionName" type="API" />
-  <topic id="P:XPatchLib.XmlSerializeSetting.Mode" type="API" />
-  <topic id="E:XPatchLib.XmlSerializeSetting.PropertyChanged" type="API" />
-  <topic id="P:XPatchLib.XmlSerializeSetting.SerializeDefalutValue" type="API" />
+  <topic id="M:XPatchLib.XmlSerializeSetting.Clone" type="API" />
+  <topic id="P:XPatchLib.XmlSerializeSetting.IgnoreAttributeType" type="API" />
   <topic id="T:XPatchLib.XmlTextReader" type="API" />
   <topic id="Methods.T:XPatchLib.XmlTextReader" type="API" />
   <topic id="Properties.T:XPatchLib.XmlTextReader" type="API" />
-  <topic id="Overload:XPatchLib.XmlTextReader.Read" type="API" />
-  <topic id="M:XPatchLib.XmlTextReader.#ctor(System.Xml.XmlReader)" type="API" />
-  <topic id="P:XPatchLib.XmlTextReader.AttributeCount" type="API" />
+  <topic id="Overload:XPatchLib.XmlTextReader.#ctor" type="API" />
+  <topic id="M:XPatchLib.XmlTextReader.#ctor(System.IO.Stream)" type="API" />
+  <topic id="M:XPatchLib.XmlTextReader.#ctor(System.IO.TextReader)" type="API" />
+  <topic id="M:XPatchLib.XmlTextReader.#ctor(System.String)" type="API" />
   <topic id="M:XPatchLib.XmlTextReader.Dispose" type="API" />
   <topic id="P:XPatchLib.XmlTextReader.EOF" type="API" />
-  <topic id="M:XPatchLib.XmlTextReader.MoveToCurrentElementEnd(System.String)" type="API" />
-  <topic id="M:XPatchLib.XmlTextReader.MoveToElement" type="API" />
-  <topic id="M:XPatchLib.XmlTextReader.MoveToNextAttribute" type="API" />
-  <topic id="M:XPatchLib.XmlTextReader.MoveToNextElement(System.String,System.String)" type="API" />
+  <topic id="M:XPatchLib.XmlTextReader.GetAttributes" type="API" />
+  <topic id="M:XPatchLib.XmlTextReader.GetValue" type="API" />
   <topic id="P:XPatchLib.XmlTextReader.Name" type="API" />
   <topic id="P:XPatchLib.XmlTextReader.NodeType" type="API" />
   <topic id="M:XPatchLib.XmlTextReader.Read" type="API" />
-  <topic id="M:XPatchLib.XmlTextReader.Read``1" type="API" />
   <topic id="P:XPatchLib.XmlTextReader.ReadState" type="API" />
-  <topic id="M:XPatchLib.XmlTextReader.ReadString" type="API" />
   <topic id="P:XPatchLib.XmlTextReader.Setting" type="API" />
-  <topic id="P:XPatchLib.XmlTextReader.Value" type="API" />
   <topic id="T:XPatchLib.XmlTextWriter" type="API" />
   <topic id="Methods.T:XPatchLib.XmlTextWriter" type="API" />
   <topic id="Properties.T:XPatchLib.XmlTextWriter" type="API" />
-  <topic id="M:XPatchLib.XmlTextWriter.#ctor(System.Xml.XmlWriter)" type="API" />
+  <topic id="Overload:XPatchLib.XmlTextWriter.#ctor" type="API" />
+  <topic id="M:XPatchLib.XmlTextWriter.#ctor(System.IO.Stream,System.Text.Encoding)" type="API" />
+  <topic id="M:XPatchLib.XmlTextWriter.#ctor(System.IO.TextWriter)" type="API" />
+  <topic id="M:XPatchLib.XmlTextWriter.#ctor(System.String,System.Text.Encoding)" type="API" />
   <topic id="M:XPatchLib.XmlTextWriter.Dispose" type="API" />
   <topic id="M:XPatchLib.XmlTextWriter.Flush" type="API" />
-  <topic id="P:XPatchLib.XmlTextWriter.IgnoreAttributeType" type="API" />
+  <topic id="P:XPatchLib.XmlTextWriter.Formatting" type="API" />
+  <topic id="P:XPatchLib.XmlTextWriter.Indentation" type="API" />
+  <topic id="P:XPatchLib.XmlTextWriter.IndentChar" type="API" />
+  <topic id="P:XPatchLib.XmlTextWriter.QuoteChar" type="API" />
   <topic id="P:XPatchLib.XmlTextWriter.Setting" type="API" />
   <topic id="M:XPatchLib.XmlTextWriter.WriteAttribute(System.String,System.String)" type="API" />
   <topic id="M:XPatchLib.XmlTextWriter.WriteEndArray" type="API" />
@@ -132,5 +156,8 @@
   <topic id="M:XPatchLib.XmlTextWriter.WriteStartObject(System.String)" type="API" />
   <topic id="M:XPatchLib.XmlTextWriter.WriteStartProperty(System.String)" type="API" />
   <topic id="M:XPatchLib.XmlTextWriter.WriteValue(System.String)" type="API" />
+  <topic id="T:XPatchLib.ICloneable" type="API" />
+  <topic id="Methods.T:XPatchLib.ICloneable" type="API" />
+  <topic id="M:XPatchLib.ICloneable.Clone" type="API" />
   <topic id="R:Project_XPatchLib_Helper" type="API" />
 </topics>

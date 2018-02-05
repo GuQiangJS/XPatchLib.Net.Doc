@@ -7,7 +7,7 @@
 	<PropertyGroup>
 		<ConfigurationFile>sandcastle.config</ConfigurationFile>
 		<ManifestFile>manifest.xml</ManifestFile>
-		<WorkingFolder>C:\Users\GuQiang\Documents\Source\Repos\XPatchLib.Net.Doc\src\NET40\WorkingPath\</WorkingFolder>
+		<WorkingFolder>D:\GitHub\XPatchLib.Net.Doc\src\NET40\WorkingPath\</WorkingFolder>
 	</PropertyGroup>
 
 	<!-- This defines the dependencies for the Build target -->

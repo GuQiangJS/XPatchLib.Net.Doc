@@ -2,7 +2,7 @@
 <reflection>
   <assemblies>
     <assembly name="XPatchLib">
-      <assemblydata version="3.0.0.1" culture="" key="" hash="SHA1" />
+      <assemblydata version="4.0.2.3" culture="" key="" hash="SHA1" />
       <attributes>
         <attribute>
           <type api="T:System.Runtime.CompilerServices.ExtensionAttribute" ref="true" />
@@ -11,14 +11,14 @@
           <type api="T:System.Reflection.AssemblyFileVersionAttribute" ref="true" />
           <argument>
             <type api="T:System.String" ref="true" />
-            <value>3.0.0.1</value>
+            <value>4.0.2.3</value>
           </argument>
         </attribute>
         <attribute>
           <type api="T:System.Reflection.AssemblyInformationalVersionAttribute" ref="true" />
           <argument>
             <type api="T:System.String" ref="true" />
-            <value>3.0.0.1</value>
+            <value>4.0.2.3</value>
           </argument>
         </attribute>
       </attributes>
@@ -28,21 +28,36 @@
     <api id="N:XPatchLib">
       <apidata name="XPatchLib" group="namespace" />
       <elements>
-        <element api="T:XPatchLib.AttributeMissException" />
-        <element api="T:XPatchLib.DateTimeSerializationMode" />
-        <element api="T:XPatchLib.Formatting" />
-        <element api="T:XPatchLib.ISerializeSetting" />
-        <element api="T:XPatchLib.ITextReader" />
-        <element api="T:XPatchLib.ITextWriter" />
-        <element api="T:XPatchLib.NodeType" />
-        <element api="T:XPatchLib.PrimaryKeyAttribute" />
-        <element api="T:XPatchLib.PrimaryKeyException" />
-        <element api="T:XPatchLib.ReadState" />
-        <element api="T:XPatchLib.Serializer" />
-        <element api="T:XPatchLib.XmlSerializeSetting" />
-        <element api="T:XPatchLib.XmlTextReader" />
-        <element api="T:XPatchLib.XmlTextWriter" />
+        <element api="T:XPatchLib.AttributeMissException" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" SHFB_VBPI_Lbl_4CFFD8A2="SHFB_VBPI_370927D6" />
+        <element api="T:XPatchLib.DateTimeSerializationMode" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" SHFB_VBPI_Lbl_4CFFD8A2="SHFB_VBPI_370927D6" />
+        <element api="T:XPatchLib.Formatting" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" SHFB_VBPI_Lbl_4CFFD8A2="SHFB_VBPI_370927D6" />
+        <element api="T:XPatchLib.ISerializeSetting" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" SHFB_VBPI_Lbl_4CFFD8A2="SHFB_VBPI_370927D6" />
+        <element api="T:XPatchLib.ITextReader" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" SHFB_VBPI_Lbl_4CFFD8A2="SHFB_VBPI_370927D6" />
+        <element api="T:XPatchLib.ITextWriter" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" SHFB_VBPI_Lbl_4CFFD8A2="SHFB_VBPI_370927D6" />
+        <element api="T:XPatchLib.NodeType" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" SHFB_VBPI_Lbl_4CFFD8A2="SHFB_VBPI_370927D6" />
+        <element api="T:XPatchLib.PrimaryKeyAttribute" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" SHFB_VBPI_Lbl_4CFFD8A2="SHFB_VBPI_370927D6" />
+        <element api="T:XPatchLib.PrimaryKeyException" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" SHFB_VBPI_Lbl_4CFFD8A2="SHFB_VBPI_370927D6" />
+        <element api="T:XPatchLib.ReadState" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" SHFB_VBPI_Lbl_4CFFD8A2="SHFB_VBPI_370927D6" />
+        <element api="T:XPatchLib.SerializeMemberModifier" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" SHFB_VBPI_Lbl_4CFFD8A2="SHFB_VBPI_370927D6" />
+        <element api="T:XPatchLib.SerializeMemberType" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" SHFB_VBPI_Lbl_4CFFD8A2="SHFB_VBPI_370927D6" />
+        <element api="T:XPatchLib.Serializer" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" SHFB_VBPI_Lbl_4CFFD8A2="SHFB_VBPI_370927D6" />
+        <element api="T:XPatchLib.SerializeSetting" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" SHFB_VBPI_Lbl_4CFFD8A2="SHFB_VBPI_370927D6" />
+        <element api="T:XPatchLib.XmlSerializeSetting" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" SHFB_VBPI_Lbl_4CFFD8A2="SHFB_VBPI_370927D6" />
+        <element api="T:XPatchLib.XmlTextReader" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" SHFB_VBPI_Lbl_4CFFD8A2="SHFB_VBPI_370927D6" />
+        <element api="T:XPatchLib.XmlTextWriter" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" SHFB_VBPI_Lbl_4CFFD8A2="SHFB_VBPI_370927D6" />
+        <element api="T:XPatchLib.ICloneable" SHFB_VBPI_Lbl_4CFFD8A2="SHFB_VBPI_370927D6" />
       </elements>
+      <versions>
+        <versions name="SHFB_VBPI_Lbl_19BC2879">
+          <version name="SHFB_VBPI_7AAB446" />
+          <version name="SHFB_VBPI_A9D4B446" />
+          <version name="SHFB_VBPI_1E74B446" />
+        </versions>
+        <versions name="SHFB_VBPI_Lbl_4CFFD8A2">
+          <version name="SHFB_VBPI_370927D6" />
+          <version name="SHFB_VBPI_370927D5" />
+        </versions>
+      </versions>
     </api>
     <api id="T:XPatchLib.AttributeMissException">
       <apidata name="AttributeMissException" group="type" subgroup="class" />
@@ -54,19 +69,30 @@
         </ancestors>
       </family>
       <elements>
-        <element api="M:XPatchLib.AttributeMissException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)" />
-        <element api="M:XPatchLib.AttributeMissException.#ctor(System.Type,System.String)" />
-        <element api="M:XPatchLib.AttributeMissException.#ctor" />
-        <element api="M:XPatchLib.AttributeMissException.#ctor(System.String)" />
-        <element api="M:XPatchLib.AttributeMissException.#ctor(System.String,System.Exception)" />
-        <element api="P:XPatchLib.AttributeMissException.AttributeName" />
-        <element api="P:XPatchLib.AttributeMissException.ErrorType" />
-        <element api="P:XPatchLib.AttributeMissException.Message" />
+        <element api="M:XPatchLib.AttributeMissException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" />
+        <element api="M:XPatchLib.AttributeMissException.#ctor(System.Type,System.String)" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" SHFB_VBPI_Lbl_4CFFD8A2="SHFB_VBPI_370927D6" />
+        <element api="M:XPatchLib.AttributeMissException.#ctor" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" SHFB_VBPI_Lbl_4CFFD8A2="SHFB_VBPI_370927D6" />
+        <element api="M:XPatchLib.AttributeMissException.#ctor(System.String)" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" SHFB_VBPI_Lbl_4CFFD8A2="SHFB_VBPI_370927D6" />
+        <element api="M:XPatchLib.AttributeMissException.#ctor(System.String,System.Exception)" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" SHFB_VBPI_Lbl_4CFFD8A2="SHFB_VBPI_370927D6" />
+        <element api="P:XPatchLib.AttributeMissException.AttributeName" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" SHFB_VBPI_Lbl_4CFFD8A2="SHFB_VBPI_370927D6" />
+        <element api="P:XPatchLib.AttributeMissException.ErrorType" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" SHFB_VBPI_Lbl_4CFFD8A2="SHFB_VBPI_370927D6" />
+        <element api="P:XPatchLib.AttributeMissException.Message" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" SHFB_VBPI_Lbl_4CFFD8A2="SHFB_VBPI_370927D6" />
       </elements>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary" />
         <namespace api="N:XPatchLib" />
       </containers>
+      <versions>
+        <versions name="SHFB_VBPI_Lbl_19BC2879">
+          <version name="SHFB_VBPI_7AAB446" />
+          <version name="SHFB_VBPI_A9D4B446" />
+          <version name="SHFB_VBPI_1E74B446" />
+        </versions>
+        <versions name="SHFB_VBPI_Lbl_4CFFD8A2">
+          <version name="SHFB_VBPI_370927D6" />
+          <version name="SHFB_VBPI_370927D5" />
+        </versions>
+      </versions>
     </api>
     <api id="M:XPatchLib.AttributeMissException.#ctor">
       <apidata name=".ctor" group="member" subgroup="constructor" />
@@ -76,6 +102,17 @@
         <namespace api="N:XPatchLib" />
         <type api="T:XPatchLib.AttributeMissException" ref="true" />
       </containers>
+      <versions>
+        <versions name="SHFB_VBPI_Lbl_19BC2879">
+          <version name="SHFB_VBPI_7AAB446" />
+          <version name="SHFB_VBPI_A9D4B446" />
+          <version name="SHFB_VBPI_1E74B446" />
+        </versions>
+        <versions name="SHFB_VBPI_Lbl_4CFFD8A2">
+          <version name="SHFB_VBPI_370927D6" />
+          <version name="SHFB_VBPI_370927D5" />
+        </versions>
+      </versions>
     </api>
     <api id="M:XPatchLib.AttributeMissException.#ctor(System.String)">
       <apidata name=".ctor" group="member" subgroup="constructor" />
@@ -90,6 +127,17 @@
         <namespace api="N:XPatchLib" />
         <type api="T:XPatchLib.AttributeMissException" ref="true" />
       </containers>
+      <versions>
+        <versions name="SHFB_VBPI_Lbl_19BC2879">
+          <version name="SHFB_VBPI_7AAB446" />
+          <version name="SHFB_VBPI_A9D4B446" />
+          <version name="SHFB_VBPI_1E74B446" />
+        </versions>
+        <versions name="SHFB_VBPI_Lbl_4CFFD8A2">
+          <version name="SHFB_VBPI_370927D6" />
+          <version name="SHFB_VBPI_370927D5" />
+        </versions>
+      </versions>
     </api>
     <api id="M:XPatchLib.AttributeMissException.#ctor(System.String,System.Exception)">
       <apidata name=".ctor" group="member" subgroup="constructor" />
@@ -107,6 +155,17 @@
         <namespace api="N:XPatchLib" />
         <type api="T:XPatchLib.AttributeMissException" ref="true" />
       </containers>
+      <versions>
+        <versions name="SHFB_VBPI_Lbl_19BC2879">
+          <version name="SHFB_VBPI_7AAB446" />
+          <version name="SHFB_VBPI_A9D4B446" />
+          <version name="SHFB_VBPI_1E74B446" />
+        </versions>
+        <versions name="SHFB_VBPI_Lbl_4CFFD8A2">
+          <version name="SHFB_VBPI_370927D6" />
+          <version name="SHFB_VBPI_370927D5" />
+        </versions>
+      </versions>
     </api>
     <api id="M:XPatchLib.AttributeMissException.#ctor(System.Type,System.String)">
       <apidata name=".ctor" group="member" subgroup="constructor" />
@@ -124,6 +183,17 @@
         <namespace api="N:XPatchLib" />
         <type api="T:XPatchLib.AttributeMissException" ref="true" />
       </containers>
+      <versions>
+        <versions name="SHFB_VBPI_Lbl_19BC2879">
+          <version name="SHFB_VBPI_7AAB446" />
+          <version name="SHFB_VBPI_A9D4B446" />
+          <version name="SHFB_VBPI_1E74B446" />
+        </versions>
+        <versions name="SHFB_VBPI_Lbl_4CFFD8A2">
+          <version name="SHFB_VBPI_370927D6" />
+          <version name="SHFB_VBPI_370927D5" />
+        </versions>
+      </versions>
     </api>
     <api id="P:XPatchLib.AttributeMissException.AttributeName">
       <apidata name="AttributeName" group="member" subgroup="property" />
@@ -139,6 +209,17 @@
         <namespace api="N:XPatchLib" />
         <type api="T:XPatchLib.AttributeMissException" ref="true" />
       </containers>
+      <versions>
+        <versions name="SHFB_VBPI_Lbl_19BC2879">
+          <version name="SHFB_VBPI_7AAB446" />
+          <version name="SHFB_VBPI_A9D4B446" />
+          <version name="SHFB_VBPI_1E74B446" />
+        </versions>
+        <versions name="SHFB_VBPI_Lbl_4CFFD8A2">
+          <version name="SHFB_VBPI_370927D6" />
+          <version name="SHFB_VBPI_370927D5" />
+        </versions>
+      </versions>
     </api>
     <api id="P:XPatchLib.AttributeMissException.ErrorType">
       <apidata name="ErrorType" group="member" subgroup="property" />
@@ -154,6 +235,17 @@
         <namespace api="N:XPatchLib" />
         <type api="T:XPatchLib.AttributeMissException" ref="true" />
       </containers>
+      <versions>
+        <versions name="SHFB_VBPI_Lbl_19BC2879">
+          <version name="SHFB_VBPI_7AAB446" />
+          <version name="SHFB_VBPI_A9D4B446" />
+          <version name="SHFB_VBPI_1E74B446" />
+        </versions>
+        <versions name="SHFB_VBPI_Lbl_4CFFD8A2">
+          <version name="SHFB_VBPI_370927D6" />
+          <version name="SHFB_VBPI_370927D5" />
+        </versions>
+      </versions>
     </api>
     <api id="M:XPatchLib.AttributeMissException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
       <apidata name="GetObjectData" group="member" subgroup="method" />
@@ -185,6 +277,14 @@
         <namespace api="N:XPatchLib" />
         <type api="T:XPatchLib.AttributeMissException" ref="true" />
       </containers>
+      <versions>
+        <versions name="SHFB_VBPI_Lbl_19BC2879">
+          <version name="SHFB_VBPI_7AAB446" />
+          <version name="SHFB_VBPI_A9D4B446" />
+          <version name="SHFB_VBPI_1E74B446" />
+        </versions>
+        <versions name="SHFB_VBPI_Lbl_4CFFD8A2" />
+      </versions>
     </api>
     <api id="P:XPatchLib.AttributeMissException.Message">
       <apidata name="Message" group="member" subgroup="property" />
@@ -210,20 +310,42 @@
         <namespace api="N:XPatchLib" />
         <type api="T:XPatchLib.AttributeMissException" ref="true" />
       </containers>
+      <versions>
+        <versions name="SHFB_VBPI_Lbl_19BC2879">
+          <version name="SHFB_VBPI_7AAB446" />
+          <version name="SHFB_VBPI_A9D4B446" />
+          <version name="SHFB_VBPI_1E74B446" />
+        </versions>
+        <versions name="SHFB_VBPI_Lbl_4CFFD8A2">
+          <version name="SHFB_VBPI_370927D6" />
+          <version name="SHFB_VBPI_370927D5" />
+        </versions>
+      </versions>
     </api>
     <api id="T:XPatchLib.DateTimeSerializationMode">
       <apidata name="DateTimeSerializationMode" group="type" subgroup="enumeration" />
       <typedata visibility="public" sealed="true" serializable="false" />
       <elements>
-        <element api="F:XPatchLib.DateTimeSerializationMode.Local" />
-        <element api="F:XPatchLib.DateTimeSerializationMode.Utc" />
-        <element api="F:XPatchLib.DateTimeSerializationMode.Unspecified" />
-        <element api="F:XPatchLib.DateTimeSerializationMode.RoundtripKind" />
+        <element api="F:XPatchLib.DateTimeSerializationMode.Local" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" SHFB_VBPI_Lbl_4CFFD8A2="SHFB_VBPI_370927D6" />
+        <element api="F:XPatchLib.DateTimeSerializationMode.Utc" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" SHFB_VBPI_Lbl_4CFFD8A2="SHFB_VBPI_370927D6" />
+        <element api="F:XPatchLib.DateTimeSerializationMode.Unspecified" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" SHFB_VBPI_Lbl_4CFFD8A2="SHFB_VBPI_370927D6" />
+        <element api="F:XPatchLib.DateTimeSerializationMode.RoundtripKind" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" SHFB_VBPI_Lbl_4CFFD8A2="SHFB_VBPI_370927D6" />
       </elements>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary" />
         <namespace api="N:XPatchLib" />
       </containers>
+      <versions>
+        <versions name="SHFB_VBPI_Lbl_19BC2879">
+          <version name="SHFB_VBPI_7AAB446" />
+          <version name="SHFB_VBPI_A9D4B446" />
+          <version name="SHFB_VBPI_1E74B446" />
+        </versions>
+        <versions name="SHFB_VBPI_Lbl_4CFFD8A2">
+          <version name="SHFB_VBPI_370927D6" />
+          <version name="SHFB_VBPI_370927D5" />
+        </versions>
+      </versions>
     </api>
     <api id="F:XPatchLib.DateTimeSerializationMode.Local">
       <apidata name="Local" group="member" subgroup="field" />
@@ -238,6 +360,17 @@
         <namespace api="N:XPatchLib" />
         <type api="T:XPatchLib.DateTimeSerializationMode" ref="false" />
       </containers>
+      <versions>
+        <versions name="SHFB_VBPI_Lbl_19BC2879">
+          <version name="SHFB_VBPI_7AAB446" />
+          <version name="SHFB_VBPI_A9D4B446" />
+          <version name="SHFB_VBPI_1E74B446" />
+        </versions>
+        <versions name="SHFB_VBPI_Lbl_4CFFD8A2">
+          <version name="SHFB_VBPI_370927D6" />
+          <version name="SHFB_VBPI_370927D5" />
+        </versions>
+      </versions>
     </api>
     <api id="F:XPatchLib.DateTimeSerializationMode.RoundtripKind">
       <apidata name="RoundtripKind" group="member" subgroup="field" />
@@ -252,6 +385,17 @@
         <namespace api="N:XPatchLib" />
         <type api="T:XPatchLib.DateTimeSerializationMode" ref="false" />
       </containers>
+      <versions>
+        <versions name="SHFB_VBPI_Lbl_19BC2879">
+          <version name="SHFB_VBPI_7AAB446" />
+          <version name="SHFB_VBPI_A9D4B446" />
+          <version name="SHFB_VBPI_1E74B446" />
+        </versions>
+        <versions name="SHFB_VBPI_Lbl_4CFFD8A2">
+          <version name="SHFB_VBPI_370927D6" />
+          <version name="SHFB_VBPI_370927D5" />
+        </versions>
+      </versions>
     </api>
     <api id="F:XPatchLib.DateTimeSerializationMode.Unspecified">
       <apidata name="Unspecified" group="member" subgroup="field" />
@@ -266,6 +410,17 @@
         <namespace api="N:XPatchLib" />
         <type api="T:XPatchLib.DateTimeSerializationMode" ref="false" />
       </containers>
+      <versions>
+        <versions name="SHFB_VBPI_Lbl_19BC2879">
+          <version name="SHFB_VBPI_7AAB446" />
+          <version name="SHFB_VBPI_A9D4B446" />
+          <version name="SHFB_VBPI_1E74B446" />
+        </versions>
+        <versions name="SHFB_VBPI_Lbl_4CFFD8A2">
+          <version name="SHFB_VBPI_370927D6" />
+          <version name="SHFB_VBPI_370927D5" />
+        </versions>
+      </versions>
     </api>
     <api id="F:XPatchLib.DateTimeSerializationMode.Utc">
       <apidata name="Utc" group="member" subgroup="field" />
@@ -280,18 +435,40 @@
         <namespace api="N:XPatchLib" />
         <type api="T:XPatchLib.DateTimeSerializationMode" ref="false" />
       </containers>
+      <versions>
+        <versions name="SHFB_VBPI_Lbl_19BC2879">
+          <version name="SHFB_VBPI_7AAB446" />
+          <version name="SHFB_VBPI_A9D4B446" />
+          <version name="SHFB_VBPI_1E74B446" />
+        </versions>
+        <versions name="SHFB_VBPI_Lbl_4CFFD8A2">
+          <version name="SHFB_VBPI_370927D6" />
+          <version name="SHFB_VBPI_370927D5" />
+        </versions>
+      </versions>
     </api>
     <api id="T:XPatchLib.Formatting">
       <apidata name="Formatting" group="type" subgroup="enumeration" />
       <typedata visibility="public" sealed="true" serializable="false" />
       <elements>
-        <element api="F:XPatchLib.Formatting.Indented" />
-        <element api="F:XPatchLib.Formatting.None" />
+        <element api="F:XPatchLib.Formatting.Indented" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" SHFB_VBPI_Lbl_4CFFD8A2="SHFB_VBPI_370927D6" />
+        <element api="F:XPatchLib.Formatting.None" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" SHFB_VBPI_Lbl_4CFFD8A2="SHFB_VBPI_370927D6" />
       </elements>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary" />
         <namespace api="N:XPatchLib" />
       </containers>
+      <versions>
+        <versions name="SHFB_VBPI_Lbl_19BC2879">
+          <version name="SHFB_VBPI_7AAB446" />
+          <version name="SHFB_VBPI_A9D4B446" />
+          <version name="SHFB_VBPI_1E74B446" />
+        </versions>
+        <versions name="SHFB_VBPI_Lbl_4CFFD8A2">
+          <version name="SHFB_VBPI_370927D6" />
+          <version name="SHFB_VBPI_370927D5" />
+        </versions>
+      </versions>
     </api>
     <api id="F:XPatchLib.Formatting.Indented">
       <apidata name="Indented" group="member" subgroup="field" />
@@ -306,6 +483,17 @@
         <namespace api="N:XPatchLib" />
         <type api="T:XPatchLib.Formatting" ref="false" />
       </containers>
+      <versions>
+        <versions name="SHFB_VBPI_Lbl_19BC2879">
+          <version name="SHFB_VBPI_7AAB446" />
+          <version name="SHFB_VBPI_A9D4B446" />
+          <version name="SHFB_VBPI_1E74B446" />
+        </versions>
+        <versions name="SHFB_VBPI_Lbl_4CFFD8A2">
+          <version name="SHFB_VBPI_370927D6" />
+          <version name="SHFB_VBPI_370927D5" />
+        </versions>
+      </versions>
     </api>
     <api id="F:XPatchLib.Formatting.None">
       <apidata name="None" group="member" subgroup="field" />
@@ -320,22 +508,55 @@
         <namespace api="N:XPatchLib" />
         <type api="T:XPatchLib.Formatting" ref="false" />
       </containers>
+      <versions>
+        <versions name="SHFB_VBPI_Lbl_19BC2879">
+          <version name="SHFB_VBPI_7AAB446" />
+          <version name="SHFB_VBPI_A9D4B446" />
+          <version name="SHFB_VBPI_1E74B446" />
+        </versions>
+        <versions name="SHFB_VBPI_Lbl_4CFFD8A2">
+          <version name="SHFB_VBPI_370927D6" />
+          <version name="SHFB_VBPI_370927D5" />
+        </versions>
+      </versions>
     </api>
     <api id="T:XPatchLib.ISerializeSetting">
       <apidata name="ISerializeSetting" group="type" subgroup="interface" />
       <typedata visibility="public" abstract="true" serializable="false" />
+      <implements>
+        <type api="T:System.ICloneable" ref="true" />
+      </implements>
       <implementors>
-        <type api="T:XPatchLib.XmlSerializeSetting" ref="true" />
+        <type api="T:XPatchLib.SerializeSetting" ref="true" />
       </implementors>
       <elements>
-        <element api="P:XPatchLib.ISerializeSetting.ActionName" />
-        <element api="P:XPatchLib.ISerializeSetting.Mode" />
-        <element api="P:XPatchLib.ISerializeSetting.SerializeDefalutValue" />
+        <element api="P:XPatchLib.ISerializeSetting.IgnoreAttributeType" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" SHFB_VBPI_Lbl_4CFFD8A2="SHFB_VBPI_370927D6" />
+        <element api="P:XPatchLib.ISerializeSetting.MemberType" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" SHFB_VBPI_Lbl_4CFFD8A2="SHFB_VBPI_370927D6" />
+        <element api="P:XPatchLib.ISerializeSetting.Modifier" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" SHFB_VBPI_Lbl_4CFFD8A2="SHFB_VBPI_370927D6" />
+        <element api="P:XPatchLib.ISerializeSetting.AssemblyQualifiedName" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" />
+        <element api="P:XPatchLib.ISerializeSetting.ActionName" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" SHFB_VBPI_Lbl_4CFFD8A2="SHFB_VBPI_370927D6" />
+        <element api="P:XPatchLib.ISerializeSetting.Mode" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" SHFB_VBPI_Lbl_4CFFD8A2="SHFB_VBPI_370927D6" />
+        <element api="P:XPatchLib.ISerializeSetting.SerializeDefalutValue" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" SHFB_VBPI_Lbl_4CFFD8A2="SHFB_VBPI_370927D6" />
+        <element api="P:XPatchLib.ISerializeSetting.EnableOnSerializingAttribute" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" />
+        <element api="P:XPatchLib.ISerializeSetting.EnableOnSerializedAttribute" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" />
+        <element api="P:XPatchLib.ISerializeSetting.EnableOnDeserializedAttribute" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" />
+        <element api="P:XPatchLib.ISerializeSetting.EnableOnDeserializingAttribute" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" />
       </elements>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary" />
         <namespace api="N:XPatchLib" />
       </containers>
+      <versions>
+        <versions name="SHFB_VBPI_Lbl_19BC2879">
+          <version name="SHFB_VBPI_7AAB446" />
+          <version name="SHFB_VBPI_A9D4B446" />
+          <version name="SHFB_VBPI_1E74B446" />
+        </versions>
+        <versions name="SHFB_VBPI_Lbl_4CFFD8A2">
+          <version name="SHFB_VBPI_370927D6" />
+          <version name="SHFB_VBPI_370927D5" />
+        </versions>
+      </versions>
     </api>
     <api id="P:XPatchLib.ISerializeSetting.ActionName">
       <apidata name="ActionName" group="member" subgroup="property" />
@@ -352,6 +573,189 @@
         <namespace api="N:XPatchLib" />
         <type api="T:XPatchLib.ISerializeSetting" ref="true" />
       </containers>
+      <versions>
+        <versions name="SHFB_VBPI_Lbl_19BC2879">
+          <version name="SHFB_VBPI_7AAB446" />
+          <version name="SHFB_VBPI_A9D4B446" />
+          <version name="SHFB_VBPI_1E74B446" />
+        </versions>
+        <versions name="SHFB_VBPI_Lbl_4CFFD8A2">
+          <version name="SHFB_VBPI_370927D6" />
+          <version name="SHFB_VBPI_370927D5" />
+        </versions>
+      </versions>
+    </api>
+    <api id="P:XPatchLib.ISerializeSetting.AssemblyQualifiedName">
+      <apidata name="AssemblyQualifiedName" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <propertydata get="true" set="true" />
+      <getter name="get_AssemblyQualifiedName" />
+      <setter name="set_AssemblyQualifiedName" />
+      <returns>
+        <type api="T:System.String" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary" />
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.ISerializeSetting" ref="true" />
+      </containers>
+      <versions>
+        <versions name="SHFB_VBPI_Lbl_19BC2879">
+          <version name="SHFB_VBPI_7AAB446" />
+        </versions>
+        <versions name="SHFB_VBPI_Lbl_4CFFD8A2" />
+      </versions>
+    </api>
+    <api id="P:XPatchLib.ISerializeSetting.EnableOnDeserializedAttribute">
+      <apidata name="EnableOnDeserializedAttribute" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <propertydata get="true" set="true" />
+      <getter name="get_EnableOnDeserializedAttribute" />
+      <setter name="set_EnableOnDeserializedAttribute" />
+      <returns>
+        <type api="T:System.Boolean" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary" />
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.ISerializeSetting" ref="true" />
+      </containers>
+      <versions>
+        <versions name="SHFB_VBPI_Lbl_19BC2879">
+          <version name="SHFB_VBPI_7AAB446" />
+          <version name="SHFB_VBPI_A9D4B446" />
+          <version name="SHFB_VBPI_1E74B446" />
+        </versions>
+        <versions name="SHFB_VBPI_Lbl_4CFFD8A2" />
+      </versions>
+    </api>
+    <api id="P:XPatchLib.ISerializeSetting.EnableOnDeserializingAttribute">
+      <apidata name="EnableOnDeserializingAttribute" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <propertydata get="true" set="true" />
+      <getter name="get_EnableOnDeserializingAttribute" />
+      <setter name="set_EnableOnDeserializingAttribute" />
+      <returns>
+        <type api="T:System.Boolean" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary" />
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.ISerializeSetting" ref="true" />
+      </containers>
+      <versions>
+        <versions name="SHFB_VBPI_Lbl_19BC2879">
+          <version name="SHFB_VBPI_7AAB446" />
+          <version name="SHFB_VBPI_A9D4B446" />
+          <version name="SHFB_VBPI_1E74B446" />
+        </versions>
+        <versions name="SHFB_VBPI_Lbl_4CFFD8A2" />
+      </versions>
+    </api>
+    <api id="P:XPatchLib.ISerializeSetting.EnableOnSerializedAttribute">
+      <apidata name="EnableOnSerializedAttribute" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <propertydata get="true" set="true" />
+      <getter name="get_EnableOnSerializedAttribute" />
+      <setter name="set_EnableOnSerializedAttribute" />
+      <returns>
+        <type api="T:System.Boolean" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary" />
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.ISerializeSetting" ref="true" />
+      </containers>
+      <versions>
+        <versions name="SHFB_VBPI_Lbl_19BC2879">
+          <version name="SHFB_VBPI_7AAB446" />
+          <version name="SHFB_VBPI_A9D4B446" />
+          <version name="SHFB_VBPI_1E74B446" />
+        </versions>
+        <versions name="SHFB_VBPI_Lbl_4CFFD8A2" />
+      </versions>
+    </api>
+    <api id="P:XPatchLib.ISerializeSetting.EnableOnSerializingAttribute">
+      <apidata name="EnableOnSerializingAttribute" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <propertydata get="true" set="true" />
+      <getter name="get_EnableOnSerializingAttribute" />
+      <setter name="set_EnableOnSerializingAttribute" />
+      <returns>
+        <type api="T:System.Boolean" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary" />
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.ISerializeSetting" ref="true" />
+      </containers>
+      <versions>
+        <versions name="SHFB_VBPI_Lbl_19BC2879">
+          <version name="SHFB_VBPI_7AAB446" />
+          <version name="SHFB_VBPI_A9D4B446" />
+          <version name="SHFB_VBPI_1E74B446" />
+        </versions>
+        <versions name="SHFB_VBPI_Lbl_4CFFD8A2" />
+      </versions>
+    </api>
+    <api id="P:XPatchLib.ISerializeSetting.IgnoreAttributeType">
+      <apidata name="IgnoreAttributeType" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <propertydata get="true" set="true" />
+      <getter name="get_IgnoreAttributeType" />
+      <setter name="set_IgnoreAttributeType" />
+      <returns>
+        <type api="T:System.Type" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary" />
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.ISerializeSetting" ref="true" />
+      </containers>
+      <versions>
+        <versions name="SHFB_VBPI_Lbl_19BC2879">
+          <version name="SHFB_VBPI_7AAB446" />
+          <version name="SHFB_VBPI_A9D4B446" />
+          <version name="SHFB_VBPI_1E74B446" />
+        </versions>
+        <versions name="SHFB_VBPI_Lbl_4CFFD8A2">
+          <version name="SHFB_VBPI_370927D6" />
+          <version name="SHFB_VBPI_370927D5" />
+        </versions>
+      </versions>
+    </api>
+    <api id="P:XPatchLib.ISerializeSetting.MemberType">
+      <apidata name="MemberType" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <propertydata get="true" set="true" />
+      <getter name="get_MemberType" />
+      <setter name="set_MemberType" />
+      <returns>
+        <type api="T:XPatchLib.SerializeMemberType" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary" />
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.ISerializeSetting" ref="true" />
+      </containers>
+      <versions>
+        <versions name="SHFB_VBPI_Lbl_19BC2879">
+          <version name="SHFB_VBPI_7AAB446" />
+          <version name="SHFB_VBPI_A9D4B446" />
+          <version name="SHFB_VBPI_1E74B446" />
+        </versions>
+        <versions name="SHFB_VBPI_Lbl_4CFFD8A2">
+          <version name="SHFB_VBPI_370927D6" />
+          <version name="SHFB_VBPI_370927D5" />
+        </versions>
+      </versions>
     </api>
     <api id="P:XPatchLib.ISerializeSetting.Mode">
       <apidata name="Mode" group="member" subgroup="property" />
@@ -368,6 +772,44 @@
         <namespace api="N:XPatchLib" />
         <type api="T:XPatchLib.ISerializeSetting" ref="true" />
       </containers>
+      <versions>
+        <versions name="SHFB_VBPI_Lbl_19BC2879">
+          <version name="SHFB_VBPI_7AAB446" />
+          <version name="SHFB_VBPI_A9D4B446" />
+          <version name="SHFB_VBPI_1E74B446" />
+        </versions>
+        <versions name="SHFB_VBPI_Lbl_4CFFD8A2">
+          <version name="SHFB_VBPI_370927D6" />
+          <version name="SHFB_VBPI_370927D5" />
+        </versions>
+      </versions>
+    </api>
+    <api id="P:XPatchLib.ISerializeSetting.Modifier">
+      <apidata name="Modifier" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <propertydata get="true" set="true" />
+      <getter name="get_Modifier" />
+      <setter name="set_Modifier" />
+      <returns>
+        <type api="T:XPatchLib.SerializeMemberModifier" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary" />
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.ISerializeSetting" ref="true" />
+      </containers>
+      <versions>
+        <versions name="SHFB_VBPI_Lbl_19BC2879">
+          <version name="SHFB_VBPI_7AAB446" />
+          <version name="SHFB_VBPI_A9D4B446" />
+          <version name="SHFB_VBPI_1E74B446" />
+        </versions>
+        <versions name="SHFB_VBPI_Lbl_4CFFD8A2">
+          <version name="SHFB_VBPI_370927D6" />
+          <version name="SHFB_VBPI_370927D5" />
+        </versions>
+      </versions>
     </api>
     <api id="P:XPatchLib.ISerializeSetting.SerializeDefalutValue">
       <apidata name="SerializeDefalutValue" group="member" subgroup="property" />
@@ -384,6 +826,17 @@
         <namespace api="N:XPatchLib" />
         <type api="T:XPatchLib.ISerializeSetting" ref="true" />
       </containers>
+      <versions>
+        <versions name="SHFB_VBPI_Lbl_19BC2879">
+          <version name="SHFB_VBPI_7AAB446" />
+          <version name="SHFB_VBPI_A9D4B446" />
+          <version name="SHFB_VBPI_1E74B446" />
+        </versions>
+        <versions name="SHFB_VBPI_Lbl_4CFFD8A2">
+          <version name="SHFB_VBPI_370927D6" />
+          <version name="SHFB_VBPI_370927D5" />
+        </versions>
+      </versions>
     </api>
     <api id="T:XPatchLib.ITextReader">
       <apidata name="ITextReader" group="type" subgroup="interface" />
@@ -395,40 +848,30 @@
         <type api="T:XPatchLib.XmlTextReader" ref="true" />
       </implementors>
       <elements>
-        <element api="M:XPatchLib.ITextReader.Read" />
-        <element api="M:XPatchLib.ITextReader.Read``1" />
-        <element api="M:XPatchLib.ITextReader.MoveToCurrentElementEnd(System.String)" />
-        <element api="M:XPatchLib.ITextReader.MoveToNextElement(System.String,System.String)" />
-        <element api="M:XPatchLib.ITextReader.ReadString" />
-        <element api="M:XPatchLib.ITextReader.MoveToNextAttribute" />
-        <element api="M:XPatchLib.ITextReader.MoveToElement" />
-        <element api="P:XPatchLib.ITextReader.Setting" />
-        <element api="P:XPatchLib.ITextReader.ReadState" />
-        <element api="P:XPatchLib.ITextReader.EOF" />
-        <element api="P:XPatchLib.ITextReader.Name" />
-        <element api="P:XPatchLib.ITextReader.Value" />
-        <element api="P:XPatchLib.ITextReader.AttributeCount" />
-        <element api="P:XPatchLib.ITextReader.NodeType" />
+        <element api="M:XPatchLib.ITextReader.GetValue" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" SHFB_VBPI_Lbl_4CFFD8A2="SHFB_VBPI_370927D6" />
+        <element api="M:XPatchLib.ITextReader.GetAttributes" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" SHFB_VBPI_Lbl_4CFFD8A2="SHFB_VBPI_370927D6" />
+        <element api="M:XPatchLib.ITextReader.Read" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" SHFB_VBPI_Lbl_4CFFD8A2="SHFB_VBPI_370927D6" />
+        <element api="P:XPatchLib.ITextReader.Setting" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" SHFB_VBPI_Lbl_4CFFD8A2="SHFB_VBPI_370927D6" />
+        <element api="P:XPatchLib.ITextReader.ReadState" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" SHFB_VBPI_Lbl_4CFFD8A2="SHFB_VBPI_370927D6" />
+        <element api="P:XPatchLib.ITextReader.EOF" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" SHFB_VBPI_Lbl_4CFFD8A2="SHFB_VBPI_370927D6" />
+        <element api="P:XPatchLib.ITextReader.Name" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" SHFB_VBPI_Lbl_4CFFD8A2="SHFB_VBPI_370927D6" />
+        <element api="P:XPatchLib.ITextReader.NodeType" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" SHFB_VBPI_Lbl_4CFFD8A2="SHFB_VBPI_370927D6" />
       </elements>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary" />
         <namespace api="N:XPatchLib" />
       </containers>
-    </api>
-    <api id="P:XPatchLib.ITextReader.AttributeCount">
-      <apidata name="AttributeCount" group="member" subgroup="property" />
-      <memberdata visibility="public" />
-      <proceduredata abstract="true" virtual="true" />
-      <propertydata get="true" />
-      <getter name="get_AttributeCount" />
-      <returns>
-        <type api="T:System.Int32" ref="false" />
-      </returns>
-      <containers>
-        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary" />
-        <namespace api="N:XPatchLib" />
-        <type api="T:XPatchLib.ITextReader" ref="true" />
-      </containers>
+      <versions>
+        <versions name="SHFB_VBPI_Lbl_19BC2879">
+          <version name="SHFB_VBPI_7AAB446" />
+          <version name="SHFB_VBPI_A9D4B446" />
+          <version name="SHFB_VBPI_1E74B446" />
+        </versions>
+        <versions name="SHFB_VBPI_Lbl_4CFFD8A2">
+          <version name="SHFB_VBPI_370927D6" />
+          <version name="SHFB_VBPI_370927D5" />
+        </versions>
+      </versions>
     </api>
     <api id="P:XPatchLib.ITextReader.EOF">
       <apidata name="EOF" group="member" subgroup="property" />
@@ -444,68 +887,67 @@
         <namespace api="N:XPatchLib" />
         <type api="T:XPatchLib.ITextReader" ref="true" />
       </containers>
+      <versions>
+        <versions name="SHFB_VBPI_Lbl_19BC2879">
+          <version name="SHFB_VBPI_7AAB446" />
+          <version name="SHFB_VBPI_A9D4B446" />
+          <version name="SHFB_VBPI_1E74B446" />
+        </versions>
+        <versions name="SHFB_VBPI_Lbl_4CFFD8A2">
+          <version name="SHFB_VBPI_370927D6" />
+          <version name="SHFB_VBPI_370927D5" />
+        </versions>
+      </versions>
     </api>
-    <api id="M:XPatchLib.ITextReader.MoveToCurrentElementEnd(System.String)">
-      <apidata name="MoveToCurrentElementEnd" group="member" subgroup="method" />
-      <memberdata visibility="public" />
-      <proceduredata abstract="true" virtual="true" />
-      <parameters>
-        <parameter name="currentElementName">
-          <type api="T:System.String" ref="true" />
-        </parameter>
-      </parameters>
-      <containers>
-        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary" />
-        <namespace api="N:XPatchLib" />
-        <type api="T:XPatchLib.ITextReader" ref="true" />
-      </containers>
-    </api>
-    <api id="M:XPatchLib.ITextReader.MoveToElement">
-      <apidata name="MoveToElement" group="member" subgroup="method" />
+    <api id="M:XPatchLib.ITextReader.GetAttributes">
+      <apidata name="GetAttributes" group="member" subgroup="method" />
       <memberdata visibility="public" />
       <proceduredata abstract="true" virtual="true" />
       <returns>
-        <type api="T:System.Boolean" ref="false" />
+        <arrayOf rank="2">
+          <type api="T:System.String" ref="true" />
+        </arrayOf>
       </returns>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary" />
         <namespace api="N:XPatchLib" />
         <type api="T:XPatchLib.ITextReader" ref="true" />
       </containers>
+      <versions>
+        <versions name="SHFB_VBPI_Lbl_19BC2879">
+          <version name="SHFB_VBPI_7AAB446" />
+          <version name="SHFB_VBPI_A9D4B446" />
+          <version name="SHFB_VBPI_1E74B446" />
+        </versions>
+        <versions name="SHFB_VBPI_Lbl_4CFFD8A2">
+          <version name="SHFB_VBPI_370927D6" />
+          <version name="SHFB_VBPI_370927D5" />
+        </versions>
+      </versions>
     </api>
-    <api id="M:XPatchLib.ITextReader.MoveToNextAttribute">
-      <apidata name="MoveToNextAttribute" group="member" subgroup="method" />
+    <api id="M:XPatchLib.ITextReader.GetValue">
+      <apidata name="GetValue" group="member" subgroup="method" />
       <memberdata visibility="public" />
       <proceduredata abstract="true" virtual="true" />
       <returns>
-        <type api="T:System.Boolean" ref="false" />
+        <type api="T:System.String" ref="true" />
       </returns>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary" />
         <namespace api="N:XPatchLib" />
         <type api="T:XPatchLib.ITextReader" ref="true" />
       </containers>
-    </api>
-    <api id="M:XPatchLib.ITextReader.MoveToNextElement(System.String,System.String)">
-      <apidata name="MoveToNextElement" group="member" subgroup="method" />
-      <memberdata visibility="public" />
-      <proceduredata abstract="true" virtual="true" />
-      <parameters>
-        <parameter name="nextElementName">
-          <type api="T:System.String" ref="true" />
-        </parameter>
-        <parameter name="parentElementName">
-          <type api="T:System.String" ref="true" />
-        </parameter>
-      </parameters>
-      <returns>
-        <type api="T:System.Boolean" ref="false" />
-      </returns>
-      <containers>
-        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary" />
-        <namespace api="N:XPatchLib" />
-        <type api="T:XPatchLib.ITextReader" ref="true" />
-      </containers>
+      <versions>
+        <versions name="SHFB_VBPI_Lbl_19BC2879">
+          <version name="SHFB_VBPI_7AAB446" />
+          <version name="SHFB_VBPI_A9D4B446" />
+          <version name="SHFB_VBPI_1E74B446" />
+        </versions>
+        <versions name="SHFB_VBPI_Lbl_4CFFD8A2">
+          <version name="SHFB_VBPI_370927D6" />
+          <version name="SHFB_VBPI_370927D5" />
+        </versions>
+      </versions>
     </api>
     <api id="P:XPatchLib.ITextReader.Name">
       <apidata name="Name" group="member" subgroup="property" />
@@ -521,6 +963,17 @@
         <namespace api="N:XPatchLib" />
         <type api="T:XPatchLib.ITextReader" ref="true" />
       </containers>
+      <versions>
+        <versions name="SHFB_VBPI_Lbl_19BC2879">
+          <version name="SHFB_VBPI_7AAB446" />
+          <version name="SHFB_VBPI_A9D4B446" />
+          <version name="SHFB_VBPI_1E74B446" />
+        </versions>
+        <versions name="SHFB_VBPI_Lbl_4CFFD8A2">
+          <version name="SHFB_VBPI_370927D6" />
+          <version name="SHFB_VBPI_370927D5" />
+        </versions>
+      </versions>
     </api>
     <api id="P:XPatchLib.ITextReader.NodeType">
       <apidata name="NodeType" group="member" subgroup="property" />
@@ -536,6 +989,17 @@
         <namespace api="N:XPatchLib" />
         <type api="T:XPatchLib.ITextReader" ref="true" />
       </containers>
+      <versions>
+        <versions name="SHFB_VBPI_Lbl_19BC2879">
+          <version name="SHFB_VBPI_7AAB446" />
+          <version name="SHFB_VBPI_A9D4B446" />
+          <version name="SHFB_VBPI_1E74B446" />
+        </versions>
+        <versions name="SHFB_VBPI_Lbl_4CFFD8A2">
+          <version name="SHFB_VBPI_370927D6" />
+          <version name="SHFB_VBPI_370927D5" />
+        </versions>
+      </versions>
     </api>
     <api id="M:XPatchLib.ITextReader.Read">
       <apidata name="Read" group="member" subgroup="method" />
@@ -549,22 +1013,17 @@
         <namespace api="N:XPatchLib" />
         <type api="T:XPatchLib.ITextReader" ref="true" />
       </containers>
-    </api>
-    <api id="M:XPatchLib.ITextReader.Read``1">
-      <apidata name="Read" group="member" subgroup="method" />
-      <memberdata visibility="public" />
-      <proceduredata abstract="true" virtual="true" />
-      <templates>
-        <template name="T" />
-      </templates>
-      <returns>
-        <template name="T" index="0" api="M:XPatchLib.ITextReader.Read``1" />
-      </returns>
-      <containers>
-        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary" />
-        <namespace api="N:XPatchLib" />
-        <type api="T:XPatchLib.ITextReader" ref="true" />
-      </containers>
+      <versions>
+        <versions name="SHFB_VBPI_Lbl_19BC2879">
+          <version name="SHFB_VBPI_7AAB446" />
+          <version name="SHFB_VBPI_A9D4B446" />
+          <version name="SHFB_VBPI_1E74B446" />
+        </versions>
+        <versions name="SHFB_VBPI_Lbl_4CFFD8A2">
+          <version name="SHFB_VBPI_370927D6" />
+          <version name="SHFB_VBPI_370927D5" />
+        </versions>
+      </versions>
     </api>
     <api id="P:XPatchLib.ITextReader.ReadState">
       <apidata name="ReadState" group="member" subgroup="property" />
@@ -580,19 +1039,17 @@
         <namespace api="N:XPatchLib" />
         <type api="T:XPatchLib.ITextReader" ref="true" />
       </containers>
-    </api>
-    <api id="M:XPatchLib.ITextReader.ReadString">
-      <apidata name="ReadString" group="member" subgroup="method" />
-      <memberdata visibility="public" />
-      <proceduredata abstract="true" virtual="true" />
-      <returns>
-        <type api="T:System.String" ref="true" />
-      </returns>
-      <containers>
-        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary" />
-        <namespace api="N:XPatchLib" />
-        <type api="T:XPatchLib.ITextReader" ref="true" />
-      </containers>
+      <versions>
+        <versions name="SHFB_VBPI_Lbl_19BC2879">
+          <version name="SHFB_VBPI_7AAB446" />
+          <version name="SHFB_VBPI_A9D4B446" />
+          <version name="SHFB_VBPI_1E74B446" />
+        </versions>
+        <versions name="SHFB_VBPI_Lbl_4CFFD8A2">
+          <version name="SHFB_VBPI_370927D6" />
+          <version name="SHFB_VBPI_370927D5" />
+        </versions>
+      </versions>
     </api>
     <api id="P:XPatchLib.ITextReader.Setting">
       <apidata name="Setting" group="member" subgroup="property" />
@@ -609,21 +1066,17 @@
         <namespace api="N:XPatchLib" />
         <type api="T:XPatchLib.ITextReader" ref="true" />
       </containers>
-    </api>
-    <api id="P:XPatchLib.ITextReader.Value">
-      <apidata name="Value" group="member" subgroup="property" />
-      <memberdata visibility="public" />
-      <proceduredata abstract="true" virtual="true" />
-      <propertydata get="true" />
-      <getter name="get_Value" />
-      <returns>
-        <type api="T:System.String" ref="true" />
-      </returns>
-      <containers>
-        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary" />
-        <namespace api="N:XPatchLib" />
-        <type api="T:XPatchLib.ITextReader" ref="true" />
-      </containers>
+      <versions>
+        <versions name="SHFB_VBPI_Lbl_19BC2879">
+          <version name="SHFB_VBPI_7AAB446" />
+          <version name="SHFB_VBPI_A9D4B446" />
+          <version name="SHFB_VBPI_1E74B446" />
+        </versions>
+        <versions name="SHFB_VBPI_Lbl_4CFFD8A2">
+          <version name="SHFB_VBPI_370927D6" />
+          <version name="SHFB_VBPI_370927D5" />
+        </versions>
+      </versions>
     </api>
     <api id="T:XPatchLib.ITextWriter">
       <apidata name="ITextWriter" group="type" subgroup="interface" />
@@ -635,27 +1088,41 @@
         <type api="T:XPatchLib.XmlTextWriter" ref="true" />
       </implementors>
       <elements>
-        <element api="M:XPatchLib.ITextWriter.WriteStartDocument" />
-        <element api="M:XPatchLib.ITextWriter.WriteEndDocument" />
-        <element api="M:XPatchLib.ITextWriter.Flush" />
-        <element api="M:XPatchLib.ITextWriter.WriteStartObject(System.String)" />
-        <element api="M:XPatchLib.ITextWriter.WriteEndObject" />
-        <element api="M:XPatchLib.ITextWriter.WriteAttribute(System.String,System.String)" />
-        <element api="M:XPatchLib.ITextWriter.WriteProperty(System.String,System.String)" />
-        <element api="M:XPatchLib.ITextWriter.WriteStartProperty(System.String)" />
-        <element api="M:XPatchLib.ITextWriter.WriteEndProperty" />
-        <element api="M:XPatchLib.ITextWriter.WriteStartArray(System.String)" />
-        <element api="M:XPatchLib.ITextWriter.WriteStartArrayItem(System.String)" />
-        <element api="M:XPatchLib.ITextWriter.WriteEndArrayItem" />
-        <element api="M:XPatchLib.ITextWriter.WriteEndArray" />
-        <element api="M:XPatchLib.ITextWriter.WriteValue(System.String)" />
-        <element api="P:XPatchLib.ITextWriter.IgnoreAttributeType" />
-        <element api="P:XPatchLib.ITextWriter.Setting" />
+        <element api="M:XPatchLib.ITextWriter.WriteStartDocument" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" SHFB_VBPI_Lbl_4CFFD8A2="SHFB_VBPI_370927D6" />
+        <element api="M:XPatchLib.ITextWriter.WriteEndDocument" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" SHFB_VBPI_Lbl_4CFFD8A2="SHFB_VBPI_370927D6" />
+        <element api="M:XPatchLib.ITextWriter.Flush" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" SHFB_VBPI_Lbl_4CFFD8A2="SHFB_VBPI_370927D6" />
+        <element api="M:XPatchLib.ITextWriter.WriteStartObject(System.String)" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" SHFB_VBPI_Lbl_4CFFD8A2="SHFB_VBPI_370927D6" />
+        <element api="M:XPatchLib.ITextWriter.WriteEndObject" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" SHFB_VBPI_Lbl_4CFFD8A2="SHFB_VBPI_370927D6" />
+        <element api="M:XPatchLib.ITextWriter.WriteAttribute(System.String,System.String)" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" SHFB_VBPI_Lbl_4CFFD8A2="SHFB_VBPI_370927D6" />
+        <element api="M:XPatchLib.ITextWriter.WriteProperty(System.String,System.String)" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" SHFB_VBPI_Lbl_4CFFD8A2="SHFB_VBPI_370927D6" />
+        <element api="M:XPatchLib.ITextWriter.WriteStartProperty(System.String)" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" SHFB_VBPI_Lbl_4CFFD8A2="SHFB_VBPI_370927D6" />
+        <element api="M:XPatchLib.ITextWriter.WriteEndProperty" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" SHFB_VBPI_Lbl_4CFFD8A2="SHFB_VBPI_370927D6" />
+        <element api="M:XPatchLib.ITextWriter.WriteStartArray(System.String)" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" SHFB_VBPI_Lbl_4CFFD8A2="SHFB_VBPI_370927D6" />
+        <element api="M:XPatchLib.ITextWriter.WriteStartArrayItem(System.String)" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" SHFB_VBPI_Lbl_4CFFD8A2="SHFB_VBPI_370927D6" />
+        <element api="M:XPatchLib.ITextWriter.WriteEndArrayItem" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" SHFB_VBPI_Lbl_4CFFD8A2="SHFB_VBPI_370927D6" />
+        <element api="M:XPatchLib.ITextWriter.WriteEndArray" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" SHFB_VBPI_Lbl_4CFFD8A2="SHFB_VBPI_370927D6" />
+        <element api="M:XPatchLib.ITextWriter.WriteValue(System.String)" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" SHFB_VBPI_Lbl_4CFFD8A2="SHFB_VBPI_370927D6" />
+        <element api="P:XPatchLib.ITextWriter.Setting" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" SHFB_VBPI_Lbl_4CFFD8A2="SHFB_VBPI_370927D6" />
+        <element api="P:XPatchLib.ITextWriter.Formatting" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" SHFB_VBPI_Lbl_4CFFD8A2="SHFB_VBPI_370927D6" />
+        <element api="P:XPatchLib.ITextWriter.Indentation" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" SHFB_VBPI_Lbl_4CFFD8A2="SHFB_VBPI_370927D6" />
+        <element api="P:XPatchLib.ITextWriter.IndentChar" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" SHFB_VBPI_Lbl_4CFFD8A2="SHFB_VBPI_370927D6" />
+        <element api="P:XPatchLib.ITextWriter.QuoteChar" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" SHFB_VBPI_Lbl_4CFFD8A2="SHFB_VBPI_370927D6" />
       </elements>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary" />
         <namespace api="N:XPatchLib" />
       </containers>
+      <versions>
+        <versions name="SHFB_VBPI_Lbl_19BC2879">
+          <version name="SHFB_VBPI_7AAB446" />
+          <version name="SHFB_VBPI_A9D4B446" />
+          <version name="SHFB_VBPI_1E74B446" />
+        </versions>
+        <versions name="SHFB_VBPI_Lbl_4CFFD8A2">
+          <version name="SHFB_VBPI_370927D6" />
+          <version name="SHFB_VBPI_370927D5" />
+        </versions>
+      </versions>
     </api>
     <api id="M:XPatchLib.ITextWriter.Flush">
       <apidata name="Flush" group="member" subgroup="method" />
@@ -666,22 +1133,125 @@
         <namespace api="N:XPatchLib" />
         <type api="T:XPatchLib.ITextWriter" ref="true" />
       </containers>
+      <versions>
+        <versions name="SHFB_VBPI_Lbl_19BC2879">
+          <version name="SHFB_VBPI_7AAB446" />
+          <version name="SHFB_VBPI_A9D4B446" />
+          <version name="SHFB_VBPI_1E74B446" />
+        </versions>
+        <versions name="SHFB_VBPI_Lbl_4CFFD8A2">
+          <version name="SHFB_VBPI_370927D6" />
+          <version name="SHFB_VBPI_370927D5" />
+        </versions>
+      </versions>
     </api>
-    <api id="P:XPatchLib.ITextWriter.IgnoreAttributeType">
-      <apidata name="IgnoreAttributeType" group="member" subgroup="property" />
+    <api id="P:XPatchLib.ITextWriter.Formatting">
+      <apidata name="Formatting" group="member" subgroup="property" />
       <memberdata visibility="public" />
       <proceduredata abstract="true" virtual="true" />
       <propertydata get="true" set="true" />
-      <getter name="get_IgnoreAttributeType" />
-      <setter name="set_IgnoreAttributeType" />
+      <getter name="get_Formatting" />
+      <setter name="set_Formatting" />
       <returns>
-        <type api="T:System.Type" ref="true" />
+        <type api="T:XPatchLib.Formatting" ref="false" />
       </returns>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary" />
         <namespace api="N:XPatchLib" />
         <type api="T:XPatchLib.ITextWriter" ref="true" />
       </containers>
+      <versions>
+        <versions name="SHFB_VBPI_Lbl_19BC2879">
+          <version name="SHFB_VBPI_7AAB446" />
+          <version name="SHFB_VBPI_A9D4B446" />
+          <version name="SHFB_VBPI_1E74B446" />
+        </versions>
+        <versions name="SHFB_VBPI_Lbl_4CFFD8A2">
+          <version name="SHFB_VBPI_370927D6" />
+          <version name="SHFB_VBPI_370927D5" />
+        </versions>
+      </versions>
+    </api>
+    <api id="P:XPatchLib.ITextWriter.Indentation">
+      <apidata name="Indentation" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <propertydata get="true" set="true" />
+      <getter name="get_Indentation" />
+      <setter name="set_Indentation" />
+      <returns>
+        <type api="T:System.Int32" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary" />
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.ITextWriter" ref="true" />
+      </containers>
+      <versions>
+        <versions name="SHFB_VBPI_Lbl_19BC2879">
+          <version name="SHFB_VBPI_7AAB446" />
+          <version name="SHFB_VBPI_A9D4B446" />
+          <version name="SHFB_VBPI_1E74B446" />
+        </versions>
+        <versions name="SHFB_VBPI_Lbl_4CFFD8A2">
+          <version name="SHFB_VBPI_370927D6" />
+          <version name="SHFB_VBPI_370927D5" />
+        </versions>
+      </versions>
+    </api>
+    <api id="P:XPatchLib.ITextWriter.IndentChar">
+      <apidata name="IndentChar" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <propertydata get="true" set="true" />
+      <getter name="get_IndentChar" />
+      <setter name="set_IndentChar" />
+      <returns>
+        <type api="T:System.Char" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary" />
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.ITextWriter" ref="true" />
+      </containers>
+      <versions>
+        <versions name="SHFB_VBPI_Lbl_19BC2879">
+          <version name="SHFB_VBPI_7AAB446" />
+          <version name="SHFB_VBPI_A9D4B446" />
+          <version name="SHFB_VBPI_1E74B446" />
+        </versions>
+        <versions name="SHFB_VBPI_Lbl_4CFFD8A2">
+          <version name="SHFB_VBPI_370927D6" />
+          <version name="SHFB_VBPI_370927D5" />
+        </versions>
+      </versions>
+    </api>
+    <api id="P:XPatchLib.ITextWriter.QuoteChar">
+      <apidata name="QuoteChar" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <propertydata get="true" set="true" />
+      <getter name="get_QuoteChar" />
+      <setter name="set_QuoteChar" />
+      <returns>
+        <type api="T:System.Char" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary" />
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.ITextWriter" ref="true" />
+      </containers>
+      <versions>
+        <versions name="SHFB_VBPI_Lbl_19BC2879">
+          <version name="SHFB_VBPI_7AAB446" />
+          <version name="SHFB_VBPI_A9D4B446" />
+          <version name="SHFB_VBPI_1E74B446" />
+        </versions>
+        <versions name="SHFB_VBPI_Lbl_4CFFD8A2">
+          <version name="SHFB_VBPI_370927D6" />
+          <version name="SHFB_VBPI_370927D5" />
+        </versions>
+      </versions>
     </api>
     <api id="P:XPatchLib.ITextWriter.Setting">
       <apidata name="Setting" group="member" subgroup="property" />
@@ -698,6 +1268,17 @@
         <namespace api="N:XPatchLib" />
         <type api="T:XPatchLib.ITextWriter" ref="true" />
       </containers>
+      <versions>
+        <versions name="SHFB_VBPI_Lbl_19BC2879">
+          <version name="SHFB_VBPI_7AAB446" />
+          <version name="SHFB_VBPI_A9D4B446" />
+          <version name="SHFB_VBPI_1E74B446" />
+        </versions>
+        <versions name="SHFB_VBPI_Lbl_4CFFD8A2">
+          <version name="SHFB_VBPI_370927D6" />
+          <version name="SHFB_VBPI_370927D5" />
+        </versions>
+      </versions>
     </api>
     <api id="M:XPatchLib.ITextWriter.WriteAttribute(System.String,System.String)">
       <apidata name="WriteAttribute" group="member" subgroup="method" />
@@ -716,6 +1297,17 @@
         <namespace api="N:XPatchLib" />
         <type api="T:XPatchLib.ITextWriter" ref="true" />
       </containers>
+      <versions>
+        <versions name="SHFB_VBPI_Lbl_19BC2879">
+          <version name="SHFB_VBPI_7AAB446" />
+          <version name="SHFB_VBPI_A9D4B446" />
+          <version name="SHFB_VBPI_1E74B446" />
+        </versions>
+        <versions name="SHFB_VBPI_Lbl_4CFFD8A2">
+          <version name="SHFB_VBPI_370927D6" />
+          <version name="SHFB_VBPI_370927D5" />
+        </versions>
+      </versions>
     </api>
     <api id="M:XPatchLib.ITextWriter.WriteEndArray">
       <apidata name="WriteEndArray" group="member" subgroup="method" />
@@ -726,6 +1318,17 @@
         <namespace api="N:XPatchLib" />
         <type api="T:XPatchLib.ITextWriter" ref="true" />
       </containers>
+      <versions>
+        <versions name="SHFB_VBPI_Lbl_19BC2879">
+          <version name="SHFB_VBPI_7AAB446" />
+          <version name="SHFB_VBPI_A9D4B446" />
+          <version name="SHFB_VBPI_1E74B446" />
+        </versions>
+        <versions name="SHFB_VBPI_Lbl_4CFFD8A2">
+          <version name="SHFB_VBPI_370927D6" />
+          <version name="SHFB_VBPI_370927D5" />
+        </versions>
+      </versions>
     </api>
     <api id="M:XPatchLib.ITextWriter.WriteEndArrayItem">
       <apidata name="WriteEndArrayItem" group="member" subgroup="method" />
@@ -736,6 +1339,17 @@
         <namespace api="N:XPatchLib" />
         <type api="T:XPatchLib.ITextWriter" ref="true" />
       </containers>
+      <versions>
+        <versions name="SHFB_VBPI_Lbl_19BC2879">
+          <version name="SHFB_VBPI_7AAB446" />
+          <version name="SHFB_VBPI_A9D4B446" />
+          <version name="SHFB_VBPI_1E74B446" />
+        </versions>
+        <versions name="SHFB_VBPI_Lbl_4CFFD8A2">
+          <version name="SHFB_VBPI_370927D6" />
+          <version name="SHFB_VBPI_370927D5" />
+        </versions>
+      </versions>
     </api>
     <api id="M:XPatchLib.ITextWriter.WriteEndDocument">
       <apidata name="WriteEndDocument" group="member" subgroup="method" />
@@ -746,6 +1360,17 @@
         <namespace api="N:XPatchLib" />
         <type api="T:XPatchLib.ITextWriter" ref="true" />
       </containers>
+      <versions>
+        <versions name="SHFB_VBPI_Lbl_19BC2879">
+          <version name="SHFB_VBPI_7AAB446" />
+          <version name="SHFB_VBPI_A9D4B446" />
+          <version name="SHFB_VBPI_1E74B446" />
+        </versions>
+        <versions name="SHFB_VBPI_Lbl_4CFFD8A2">
+          <version name="SHFB_VBPI_370927D6" />
+          <version name="SHFB_VBPI_370927D5" />
+        </versions>
+      </versions>
     </api>
     <api id="M:XPatchLib.ITextWriter.WriteEndObject">
       <apidata name="WriteEndObject" group="member" subgroup="method" />
@@ -756,6 +1381,17 @@
         <namespace api="N:XPatchLib" />
         <type api="T:XPatchLib.ITextWriter" ref="true" />
       </containers>
+      <versions>
+        <versions name="SHFB_VBPI_Lbl_19BC2879">
+          <version name="SHFB_VBPI_7AAB446" />
+          <version name="SHFB_VBPI_A9D4B446" />
+          <version name="SHFB_VBPI_1E74B446" />
+        </versions>
+        <versions name="SHFB_VBPI_Lbl_4CFFD8A2">
+          <version name="SHFB_VBPI_370927D6" />
+          <version name="SHFB_VBPI_370927D5" />
+        </versions>
+      </versions>
     </api>
     <api id="M:XPatchLib.ITextWriter.WriteEndProperty">
       <apidata name="WriteEndProperty" group="member" subgroup="method" />
@@ -766,6 +1402,17 @@
         <namespace api="N:XPatchLib" />
         <type api="T:XPatchLib.ITextWriter" ref="true" />
       </containers>
+      <versions>
+        <versions name="SHFB_VBPI_Lbl_19BC2879">
+          <version name="SHFB_VBPI_7AAB446" />
+          <version name="SHFB_VBPI_A9D4B446" />
+          <version name="SHFB_VBPI_1E74B446" />
+        </versions>
+        <versions name="SHFB_VBPI_Lbl_4CFFD8A2">
+          <version name="SHFB_VBPI_370927D6" />
+          <version name="SHFB_VBPI_370927D5" />
+        </versions>
+      </versions>
     </api>
     <api id="M:XPatchLib.ITextWriter.WriteProperty(System.String,System.String)">
       <apidata name="WriteProperty" group="member" subgroup="method" />
@@ -784,6 +1431,17 @@
         <namespace api="N:XPatchLib" />
         <type api="T:XPatchLib.ITextWriter" ref="true" />
       </containers>
+      <versions>
+        <versions name="SHFB_VBPI_Lbl_19BC2879">
+          <version name="SHFB_VBPI_7AAB446" />
+          <version name="SHFB_VBPI_A9D4B446" />
+          <version name="SHFB_VBPI_1E74B446" />
+        </versions>
+        <versions name="SHFB_VBPI_Lbl_4CFFD8A2">
+          <version name="SHFB_VBPI_370927D6" />
+          <version name="SHFB_VBPI_370927D5" />
+        </versions>
+      </versions>
     </api>
     <api id="M:XPatchLib.ITextWriter.WriteStartArray(System.String)">
       <apidata name="WriteStartArray" group="member" subgroup="method" />
@@ -799,6 +1457,17 @@
         <namespace api="N:XPatchLib" />
         <type api="T:XPatchLib.ITextWriter" ref="true" />
       </containers>
+      <versions>
+        <versions name="SHFB_VBPI_Lbl_19BC2879">
+          <version name="SHFB_VBPI_7AAB446" />
+          <version name="SHFB_VBPI_A9D4B446" />
+          <version name="SHFB_VBPI_1E74B446" />
+        </versions>
+        <versions name="SHFB_VBPI_Lbl_4CFFD8A2">
+          <version name="SHFB_VBPI_370927D6" />
+          <version name="SHFB_VBPI_370927D5" />
+        </versions>
+      </versions>
     </api>
     <api id="M:XPatchLib.ITextWriter.WriteStartArrayItem(System.String)">
       <apidata name="WriteStartArrayItem" group="member" subgroup="method" />
@@ -814,6 +1483,17 @@
         <namespace api="N:XPatchLib" />
         <type api="T:XPatchLib.ITextWriter" ref="true" />
       </containers>
+      <versions>
+        <versions name="SHFB_VBPI_Lbl_19BC2879">
+          <version name="SHFB_VBPI_7AAB446" />
+          <version name="SHFB_VBPI_A9D4B446" />
+          <version name="SHFB_VBPI_1E74B446" />
+        </versions>
+        <versions name="SHFB_VBPI_Lbl_4CFFD8A2">
+          <version name="SHFB_VBPI_370927D6" />
+          <version name="SHFB_VBPI_370927D5" />
+        </versions>
+      </versions>
     </api>
     <api id="M:XPatchLib.ITextWriter.WriteStartDocument">
       <apidata name="WriteStartDocument" group="member" subgroup="method" />
@@ -824,6 +1504,17 @@
         <namespace api="N:XPatchLib" />
         <type api="T:XPatchLib.ITextWriter" ref="true" />
       </containers>
+      <versions>
+        <versions name="SHFB_VBPI_Lbl_19BC2879">
+          <version name="SHFB_VBPI_7AAB446" />
+          <version name="SHFB_VBPI_A9D4B446" />
+          <version name="SHFB_VBPI_1E74B446" />
+        </versions>
+        <versions name="SHFB_VBPI_Lbl_4CFFD8A2">
+          <version name="SHFB_VBPI_370927D6" />
+          <version name="SHFB_VBPI_370927D5" />
+        </versions>
+      </versions>
     </api>
     <api id="M:XPatchLib.ITextWriter.WriteStartObject(System.String)">
       <apidata name="WriteStartObject" group="member" subgroup="method" />
@@ -839,6 +1530,17 @@
         <namespace api="N:XPatchLib" />
         <type api="T:XPatchLib.ITextWriter" ref="true" />
       </containers>
+      <versions>
+        <versions name="SHFB_VBPI_Lbl_19BC2879">
+          <version name="SHFB_VBPI_7AAB446" />
+          <version name="SHFB_VBPI_A9D4B446" />
+          <version name="SHFB_VBPI_1E74B446" />
+        </versions>
+        <versions name="SHFB_VBPI_Lbl_4CFFD8A2">
+          <version name="SHFB_VBPI_370927D6" />
+          <version name="SHFB_VBPI_370927D5" />
+        </versions>
+      </versions>
     </api>
     <api id="M:XPatchLib.ITextWriter.WriteStartProperty(System.String)">
       <apidata name="WriteStartProperty" group="member" subgroup="method" />
@@ -854,6 +1556,17 @@
         <namespace api="N:XPatchLib" />
         <type api="T:XPatchLib.ITextWriter" ref="true" />
       </containers>
+      <versions>
+        <versions name="SHFB_VBPI_Lbl_19BC2879">
+          <version name="SHFB_VBPI_7AAB446" />
+          <version name="SHFB_VBPI_A9D4B446" />
+          <version name="SHFB_VBPI_1E74B446" />
+        </versions>
+        <versions name="SHFB_VBPI_Lbl_4CFFD8A2">
+          <version name="SHFB_VBPI_370927D6" />
+          <version name="SHFB_VBPI_370927D5" />
+        </versions>
+      </versions>
     </api>
     <api id="M:XPatchLib.ITextWriter.WriteValue(System.String)">
       <apidata name="WriteValue" group="member" subgroup="method" />
@@ -869,34 +1582,44 @@
         <namespace api="N:XPatchLib" />
         <type api="T:XPatchLib.ITextWriter" ref="true" />
       </containers>
+      <versions>
+        <versions name="SHFB_VBPI_Lbl_19BC2879">
+          <version name="SHFB_VBPI_7AAB446" />
+          <version name="SHFB_VBPI_A9D4B446" />
+          <version name="SHFB_VBPI_1E74B446" />
+        </versions>
+        <versions name="SHFB_VBPI_Lbl_4CFFD8A2">
+          <version name="SHFB_VBPI_370927D6" />
+          <version name="SHFB_VBPI_370927D5" />
+        </versions>
+      </versions>
     </api>
     <api id="T:XPatchLib.NodeType">
       <apidata name="NodeType" group="type" subgroup="enumeration" />
       <typedata visibility="public" sealed="true" serializable="false" />
       <elements>
-        <element api="F:XPatchLib.NodeType.Attribute" />
-        <element api="F:XPatchLib.NodeType.CDATA" />
-        <element api="F:XPatchLib.NodeType.Comment" />
-        <element api="F:XPatchLib.NodeType.Document" />
-        <element api="F:XPatchLib.NodeType.DocumentFragment" />
-        <element api="F:XPatchLib.NodeType.DocumentType" />
-        <element api="F:XPatchLib.NodeType.Element" />
-        <element api="F:XPatchLib.NodeType.EndElement" />
-        <element api="F:XPatchLib.NodeType.EndEntity" />
-        <element api="F:XPatchLib.NodeType.Entity" />
-        <element api="F:XPatchLib.NodeType.EntityReference" />
-        <element api="F:XPatchLib.NodeType.None" />
-        <element api="F:XPatchLib.NodeType.Notation" />
-        <element api="F:XPatchLib.NodeType.ProcessingInstruction" />
-        <element api="F:XPatchLib.NodeType.SignificantWhitespace" />
-        <element api="F:XPatchLib.NodeType.Text" />
-        <element api="F:XPatchLib.NodeType.Whitespace" />
-        <element api="F:XPatchLib.NodeType.XmlDeclaration" />
+        <element api="F:XPatchLib.NodeType.Attribute" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" SHFB_VBPI_Lbl_4CFFD8A2="SHFB_VBPI_370927D6" />
+        <element api="F:XPatchLib.NodeType.Element" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" SHFB_VBPI_Lbl_4CFFD8A2="SHFB_VBPI_370927D6" />
+        <element api="F:XPatchLib.NodeType.EndElement" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" SHFB_VBPI_Lbl_4CFFD8A2="SHFB_VBPI_370927D6" />
+        <element api="F:XPatchLib.NodeType.FullElement" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" SHFB_VBPI_Lbl_4CFFD8A2="SHFB_VBPI_370927D6" />
+        <element api="F:XPatchLib.NodeType.None" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" SHFB_VBPI_Lbl_4CFFD8A2="SHFB_VBPI_370927D6" />
+        <element api="F:XPatchLib.NodeType.XmlDeclaration" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" SHFB_VBPI_Lbl_4CFFD8A2="SHFB_VBPI_370927D6" />
       </elements>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary" />
         <namespace api="N:XPatchLib" />
       </containers>
+      <versions>
+        <versions name="SHFB_VBPI_Lbl_19BC2879">
+          <version name="SHFB_VBPI_7AAB446" />
+          <version name="SHFB_VBPI_A9D4B446" />
+          <version name="SHFB_VBPI_1E74B446" />
+        </versions>
+        <versions name="SHFB_VBPI_Lbl_4CFFD8A2">
+          <version name="SHFB_VBPI_370927D6" />
+          <version name="SHFB_VBPI_370927D5" />
+        </versions>
+      </versions>
     </api>
     <api id="F:XPatchLib.NodeType.Attribute">
       <apidata name="Attribute" group="member" subgroup="field" />
@@ -911,9 +1634,20 @@
         <namespace api="N:XPatchLib" />
         <type api="T:XPatchLib.NodeType" ref="false" />
       </containers>
+      <versions>
+        <versions name="SHFB_VBPI_Lbl_19BC2879">
+          <version name="SHFB_VBPI_7AAB446" />
+          <version name="SHFB_VBPI_A9D4B446" />
+          <version name="SHFB_VBPI_1E74B446" />
+        </versions>
+        <versions name="SHFB_VBPI_Lbl_4CFFD8A2">
+          <version name="SHFB_VBPI_370927D6" />
+          <version name="SHFB_VBPI_370927D5" />
+        </versions>
+      </versions>
     </api>
-    <api id="F:XPatchLib.NodeType.CDATA">
-      <apidata name="CDATA" group="member" subgroup="field" />
+    <api id="F:XPatchLib.NodeType.Element">
+      <apidata name="Element" group="member" subgroup="field" />
       <memberdata visibility="public" static="true" />
       <fielddata literal="true" initonly="false" serialized="true" />
       <returns>
@@ -925,9 +1659,20 @@
         <namespace api="N:XPatchLib" />
         <type api="T:XPatchLib.NodeType" ref="false" />
       </containers>
+      <versions>
+        <versions name="SHFB_VBPI_Lbl_19BC2879">
+          <version name="SHFB_VBPI_7AAB446" />
+          <version name="SHFB_VBPI_A9D4B446" />
+          <version name="SHFB_VBPI_1E74B446" />
+        </versions>
+        <versions name="SHFB_VBPI_Lbl_4CFFD8A2">
+          <version name="SHFB_VBPI_370927D6" />
+          <version name="SHFB_VBPI_370927D5" />
+        </versions>
+      </versions>
     </api>
-    <api id="F:XPatchLib.NodeType.Comment">
-      <apidata name="Comment" group="member" subgroup="field" />
+    <api id="F:XPatchLib.NodeType.EndElement">
+      <apidata name="EndElement" group="member" subgroup="field" />
       <memberdata visibility="public" static="true" />
       <fielddata literal="true" initonly="false" serialized="true" />
       <returns>
@@ -939,9 +1684,20 @@
         <namespace api="N:XPatchLib" />
         <type api="T:XPatchLib.NodeType" ref="false" />
       </containers>
+      <versions>
+        <versions name="SHFB_VBPI_Lbl_19BC2879">
+          <version name="SHFB_VBPI_7AAB446" />
+          <version name="SHFB_VBPI_A9D4B446" />
+          <version name="SHFB_VBPI_1E74B446" />
+        </versions>
+        <versions name="SHFB_VBPI_Lbl_4CFFD8A2">
+          <version name="SHFB_VBPI_370927D6" />
+          <version name="SHFB_VBPI_370927D5" />
+        </versions>
+      </versions>
     </api>
-    <api id="F:XPatchLib.NodeType.Document">
-      <apidata name="Document" group="member" subgroup="field" />
+    <api id="F:XPatchLib.NodeType.FullElement">
+      <apidata name="FullElement" group="member" subgroup="field" />
       <memberdata visibility="public" static="true" />
       <fielddata literal="true" initonly="false" serialized="true" />
       <returns>
@@ -953,9 +1709,20 @@
         <namespace api="N:XPatchLib" />
         <type api="T:XPatchLib.NodeType" ref="false" />
       </containers>
+      <versions>
+        <versions name="SHFB_VBPI_Lbl_19BC2879">
+          <version name="SHFB_VBPI_7AAB446" />
+          <version name="SHFB_VBPI_A9D4B446" />
+          <version name="SHFB_VBPI_1E74B446" />
+        </versions>
+        <versions name="SHFB_VBPI_Lbl_4CFFD8A2">
+          <version name="SHFB_VBPI_370927D6" />
+          <version name="SHFB_VBPI_370927D5" />
+        </versions>
+      </versions>
     </api>
-    <api id="F:XPatchLib.NodeType.DocumentFragment">
-      <apidata name="DocumentFragment" group="member" subgroup="field" />
+    <api id="F:XPatchLib.NodeType.None">
+      <apidata name="None" group="member" subgroup="field" />
       <memberdata visibility="public" static="true" />
       <fielddata literal="true" initonly="false" serialized="true" />
       <returns>
@@ -967,9 +1734,20 @@
         <namespace api="N:XPatchLib" />
         <type api="T:XPatchLib.NodeType" ref="false" />
       </containers>
+      <versions>
+        <versions name="SHFB_VBPI_Lbl_19BC2879">
+          <version name="SHFB_VBPI_7AAB446" />
+          <version name="SHFB_VBPI_A9D4B446" />
+          <version name="SHFB_VBPI_1E74B446" />
+        </versions>
+        <versions name="SHFB_VBPI_Lbl_4CFFD8A2">
+          <version name="SHFB_VBPI_370927D6" />
+          <version name="SHFB_VBPI_370927D5" />
+        </versions>
+      </versions>
     </api>
-    <api id="F:XPatchLib.NodeType.DocumentType">
-      <apidata name="DocumentType" group="member" subgroup="field" />
+    <api id="F:XPatchLib.NodeType.XmlDeclaration">
+      <apidata name="XmlDeclaration" group="member" subgroup="field" />
       <memberdata visibility="public" static="true" />
       <fielddata literal="true" initonly="false" serialized="true" />
       <returns>
@@ -981,174 +1759,17 @@
         <namespace api="N:XPatchLib" />
         <type api="T:XPatchLib.NodeType" ref="false" />
       </containers>
-    </api>
-    <api id="F:XPatchLib.NodeType.Element">
-      <apidata name="Element" group="member" subgroup="field" />
-      <memberdata visibility="public" static="true" />
-      <fielddata literal="true" initonly="false" serialized="true" />
-      <returns>
-        <type api="T:XPatchLib.NodeType" ref="false" />
-      </returns>
-      <value>6</value>
-      <containers>
-        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary" />
-        <namespace api="N:XPatchLib" />
-        <type api="T:XPatchLib.NodeType" ref="false" />
-      </containers>
-    </api>
-    <api id="F:XPatchLib.NodeType.EndElement">
-      <apidata name="EndElement" group="member" subgroup="field" />
-      <memberdata visibility="public" static="true" />
-      <fielddata literal="true" initonly="false" serialized="true" />
-      <returns>
-        <type api="T:XPatchLib.NodeType" ref="false" />
-      </returns>
-      <value>7</value>
-      <containers>
-        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary" />
-        <namespace api="N:XPatchLib" />
-        <type api="T:XPatchLib.NodeType" ref="false" />
-      </containers>
-    </api>
-    <api id="F:XPatchLib.NodeType.EndEntity">
-      <apidata name="EndEntity" group="member" subgroup="field" />
-      <memberdata visibility="public" static="true" />
-      <fielddata literal="true" initonly="false" serialized="true" />
-      <returns>
-        <type api="T:XPatchLib.NodeType" ref="false" />
-      </returns>
-      <value>8</value>
-      <containers>
-        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary" />
-        <namespace api="N:XPatchLib" />
-        <type api="T:XPatchLib.NodeType" ref="false" />
-      </containers>
-    </api>
-    <api id="F:XPatchLib.NodeType.Entity">
-      <apidata name="Entity" group="member" subgroup="field" />
-      <memberdata visibility="public" static="true" />
-      <fielddata literal="true" initonly="false" serialized="true" />
-      <returns>
-        <type api="T:XPatchLib.NodeType" ref="false" />
-      </returns>
-      <value>9</value>
-      <containers>
-        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary" />
-        <namespace api="N:XPatchLib" />
-        <type api="T:XPatchLib.NodeType" ref="false" />
-      </containers>
-    </api>
-    <api id="F:XPatchLib.NodeType.EntityReference">
-      <apidata name="EntityReference" group="member" subgroup="field" />
-      <memberdata visibility="public" static="true" />
-      <fielddata literal="true" initonly="false" serialized="true" />
-      <returns>
-        <type api="T:XPatchLib.NodeType" ref="false" />
-      </returns>
-      <value>10</value>
-      <containers>
-        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary" />
-        <namespace api="N:XPatchLib" />
-        <type api="T:XPatchLib.NodeType" ref="false" />
-      </containers>
-    </api>
-    <api id="F:XPatchLib.NodeType.None">
-      <apidata name="None" group="member" subgroup="field" />
-      <memberdata visibility="public" static="true" />
-      <fielddata literal="true" initonly="false" serialized="true" />
-      <returns>
-        <type api="T:XPatchLib.NodeType" ref="false" />
-      </returns>
-      <value>11</value>
-      <containers>
-        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary" />
-        <namespace api="N:XPatchLib" />
-        <type api="T:XPatchLib.NodeType" ref="false" />
-      </containers>
-    </api>
-    <api id="F:XPatchLib.NodeType.Notation">
-      <apidata name="Notation" group="member" subgroup="field" />
-      <memberdata visibility="public" static="true" />
-      <fielddata literal="true" initonly="false" serialized="true" />
-      <returns>
-        <type api="T:XPatchLib.NodeType" ref="false" />
-      </returns>
-      <value>12</value>
-      <containers>
-        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary" />
-        <namespace api="N:XPatchLib" />
-        <type api="T:XPatchLib.NodeType" ref="false" />
-      </containers>
-    </api>
-    <api id="F:XPatchLib.NodeType.ProcessingInstruction">
-      <apidata name="ProcessingInstruction" group="member" subgroup="field" />
-      <memberdata visibility="public" static="true" />
-      <fielddata literal="true" initonly="false" serialized="true" />
-      <returns>
-        <type api="T:XPatchLib.NodeType" ref="false" />
-      </returns>
-      <value>13</value>
-      <containers>
-        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary" />
-        <namespace api="N:XPatchLib" />
-        <type api="T:XPatchLib.NodeType" ref="false" />
-      </containers>
-    </api>
-    <api id="F:XPatchLib.NodeType.SignificantWhitespace">
-      <apidata name="SignificantWhitespace" group="member" subgroup="field" />
-      <memberdata visibility="public" static="true" />
-      <fielddata literal="true" initonly="false" serialized="true" />
-      <returns>
-        <type api="T:XPatchLib.NodeType" ref="false" />
-      </returns>
-      <value>14</value>
-      <containers>
-        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary" />
-        <namespace api="N:XPatchLib" />
-        <type api="T:XPatchLib.NodeType" ref="false" />
-      </containers>
-    </api>
-    <api id="F:XPatchLib.NodeType.Text">
-      <apidata name="Text" group="member" subgroup="field" />
-      <memberdata visibility="public" static="true" />
-      <fielddata literal="true" initonly="false" serialized="true" />
-      <returns>
-        <type api="T:XPatchLib.NodeType" ref="false" />
-      </returns>
-      <value>15</value>
-      <containers>
-        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary" />
-        <namespace api="N:XPatchLib" />
-        <type api="T:XPatchLib.NodeType" ref="false" />
-      </containers>
-    </api>
-    <api id="F:XPatchLib.NodeType.Whitespace">
-      <apidata name="Whitespace" group="member" subgroup="field" />
-      <memberdata visibility="public" static="true" />
-      <fielddata literal="true" initonly="false" serialized="true" />
-      <returns>
-        <type api="T:XPatchLib.NodeType" ref="false" />
-      </returns>
-      <value>16</value>
-      <containers>
-        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary" />
-        <namespace api="N:XPatchLib" />
-        <type api="T:XPatchLib.NodeType" ref="false" />
-      </containers>
-    </api>
-    <api id="F:XPatchLib.NodeType.XmlDeclaration">
-      <apidata name="XmlDeclaration" group="member" subgroup="field" />
-      <memberdata visibility="public" static="true" />
-      <fielddata literal="true" initonly="false" serialized="true" />
-      <returns>
-        <type api="T:XPatchLib.NodeType" ref="false" />
-      </returns>
-      <value>17</value>
-      <containers>
-        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary" />
-        <namespace api="N:XPatchLib" />
-        <type api="T:XPatchLib.NodeType" ref="false" />
-      </containers>
+      <versions>
+        <versions name="SHFB_VBPI_Lbl_19BC2879">
+          <version name="SHFB_VBPI_7AAB446" />
+          <version name="SHFB_VBPI_A9D4B446" />
+          <version name="SHFB_VBPI_1E74B446" />
+        </versions>
+        <versions name="SHFB_VBPI_Lbl_4CFFD8A2">
+          <version name="SHFB_VBPI_370927D6" />
+          <version name="SHFB_VBPI_370927D5" />
+        </versions>
+      </versions>
     </api>
     <api id="T:XPatchLib.PrimaryKeyAttribute">
       <apidata name="PrimaryKeyAttribute" group="type" subgroup="class" />
@@ -1160,13 +1781,24 @@
         </ancestors>
       </family>
       <elements>
-        <element api="M:XPatchLib.PrimaryKeyAttribute.#ctor(System.String[])" />
-        <element api="M:XPatchLib.PrimaryKeyAttribute.GetPrimaryKeys" />
+        <element api="M:XPatchLib.PrimaryKeyAttribute.#ctor(System.String[])" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" SHFB_VBPI_Lbl_4CFFD8A2="SHFB_VBPI_370927D6" />
+        <element api="M:XPatchLib.PrimaryKeyAttribute.GetPrimaryKeys" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" SHFB_VBPI_Lbl_4CFFD8A2="SHFB_VBPI_370927D6" />
       </elements>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary" />
         <namespace api="N:XPatchLib" />
       </containers>
+      <versions>
+        <versions name="SHFB_VBPI_Lbl_19BC2879">
+          <version name="SHFB_VBPI_7AAB446" />
+          <version name="SHFB_VBPI_A9D4B446" />
+          <version name="SHFB_VBPI_1E74B446" />
+        </versions>
+        <versions name="SHFB_VBPI_Lbl_4CFFD8A2">
+          <version name="SHFB_VBPI_370927D6" />
+          <version name="SHFB_VBPI_370927D5" />
+        </versions>
+      </versions>
     </api>
     <api id="M:XPatchLib.PrimaryKeyAttribute.#ctor(System.String[])">
       <apidata name=".ctor" group="member" subgroup="constructor" />
@@ -1183,6 +1815,17 @@
         <namespace api="N:XPatchLib" />
         <type api="T:XPatchLib.PrimaryKeyAttribute" ref="true" />
       </containers>
+      <versions>
+        <versions name="SHFB_VBPI_Lbl_19BC2879">
+          <version name="SHFB_VBPI_7AAB446" />
+          <version name="SHFB_VBPI_A9D4B446" />
+          <version name="SHFB_VBPI_1E74B446" />
+        </versions>
+        <versions name="SHFB_VBPI_Lbl_4CFFD8A2">
+          <version name="SHFB_VBPI_370927D6" />
+          <version name="SHFB_VBPI_370927D5" />
+        </versions>
+      </versions>
     </api>
     <api id="M:XPatchLib.PrimaryKeyAttribute.GetPrimaryKeys">
       <apidata name="GetPrimaryKeys" group="member" subgroup="method" />
@@ -1198,6 +1841,17 @@
         <namespace api="N:XPatchLib" />
         <type api="T:XPatchLib.PrimaryKeyAttribute" ref="true" />
       </containers>
+      <versions>
+        <versions name="SHFB_VBPI_Lbl_19BC2879">
+          <version name="SHFB_VBPI_7AAB446" />
+          <version name="SHFB_VBPI_A9D4B446" />
+          <version name="SHFB_VBPI_1E74B446" />
+        </versions>
+        <versions name="SHFB_VBPI_Lbl_4CFFD8A2">
+          <version name="SHFB_VBPI_370927D6" />
+          <version name="SHFB_VBPI_370927D5" />
+        </versions>
+      </versions>
     </api>
     <api id="T:XPatchLib.PrimaryKeyException">
       <apidata name="PrimaryKeyException" group="type" subgroup="class" />
@@ -1209,19 +1863,30 @@
         </ancestors>
       </family>
       <elements>
-        <element api="M:XPatchLib.PrimaryKeyException.#ctor(System.Type,System.String)" />
-        <element api="M:XPatchLib.PrimaryKeyException.#ctor(System.String)" />
-        <element api="M:XPatchLib.PrimaryKeyException.#ctor" />
-        <element api="M:XPatchLib.PrimaryKeyException.#ctor(System.String,System.Exception)" />
-        <element api="M:XPatchLib.PrimaryKeyException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)" />
-        <element api="P:XPatchLib.PrimaryKeyException.Message" />
-        <element api="P:XPatchLib.PrimaryKeyException.PrimaryKeyName" />
-        <element api="P:XPatchLib.PrimaryKeyException.ErrorType" />
+        <element api="M:XPatchLib.PrimaryKeyException.#ctor(System.Type,System.String)" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" SHFB_VBPI_Lbl_4CFFD8A2="SHFB_VBPI_370927D6" />
+        <element api="M:XPatchLib.PrimaryKeyException.#ctor(System.String)" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" SHFB_VBPI_Lbl_4CFFD8A2="SHFB_VBPI_370927D6" />
+        <element api="M:XPatchLib.PrimaryKeyException.#ctor" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" SHFB_VBPI_Lbl_4CFFD8A2="SHFB_VBPI_370927D6" />
+        <element api="M:XPatchLib.PrimaryKeyException.#ctor(System.String,System.Exception)" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" SHFB_VBPI_Lbl_4CFFD8A2="SHFB_VBPI_370927D6" />
+        <element api="M:XPatchLib.PrimaryKeyException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" />
+        <element api="P:XPatchLib.PrimaryKeyException.Message" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" SHFB_VBPI_Lbl_4CFFD8A2="SHFB_VBPI_370927D6" />
+        <element api="P:XPatchLib.PrimaryKeyException.PrimaryKeyName" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" SHFB_VBPI_Lbl_4CFFD8A2="SHFB_VBPI_370927D6" />
+        <element api="P:XPatchLib.PrimaryKeyException.ErrorType" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" SHFB_VBPI_Lbl_4CFFD8A2="SHFB_VBPI_370927D6" />
       </elements>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary" />
         <namespace api="N:XPatchLib" />
       </containers>
+      <versions>
+        <versions name="SHFB_VBPI_Lbl_19BC2879">
+          <version name="SHFB_VBPI_7AAB446" />
+          <version name="SHFB_VBPI_A9D4B446" />
+          <version name="SHFB_VBPI_1E74B446" />
+        </versions>
+        <versions name="SHFB_VBPI_Lbl_4CFFD8A2">
+          <version name="SHFB_VBPI_370927D6" />
+          <version name="SHFB_VBPI_370927D5" />
+        </versions>
+      </versions>
     </api>
     <api id="M:XPatchLib.PrimaryKeyException.#ctor">
       <apidata name=".ctor" group="member" subgroup="constructor" />
@@ -1231,6 +1896,17 @@
         <namespace api="N:XPatchLib" />
         <type api="T:XPatchLib.PrimaryKeyException" ref="true" />
       </containers>
+      <versions>
+        <versions name="SHFB_VBPI_Lbl_19BC2879">
+          <version name="SHFB_VBPI_7AAB446" />
+          <version name="SHFB_VBPI_A9D4B446" />
+          <version name="SHFB_VBPI_1E74B446" />
+        </versions>
+        <versions name="SHFB_VBPI_Lbl_4CFFD8A2">
+          <version name="SHFB_VBPI_370927D6" />
+          <version name="SHFB_VBPI_370927D5" />
+        </versions>
+      </versions>
     </api>
     <api id="M:XPatchLib.PrimaryKeyException.#ctor(System.String)">
       <apidata name=".ctor" group="member" subgroup="constructor" />
@@ -1245,6 +1921,17 @@
         <namespace api="N:XPatchLib" />
         <type api="T:XPatchLib.PrimaryKeyException" ref="true" />
       </containers>
+      <versions>
+        <versions name="SHFB_VBPI_Lbl_19BC2879">
+          <version name="SHFB_VBPI_7AAB446" />
+          <version name="SHFB_VBPI_A9D4B446" />
+          <version name="SHFB_VBPI_1E74B446" />
+        </versions>
+        <versions name="SHFB_VBPI_Lbl_4CFFD8A2">
+          <version name="SHFB_VBPI_370927D6" />
+          <version name="SHFB_VBPI_370927D5" />
+        </versions>
+      </versions>
     </api>
     <api id="M:XPatchLib.PrimaryKeyException.#ctor(System.String,System.Exception)">
       <apidata name=".ctor" group="member" subgroup="constructor" />
@@ -1262,6 +1949,17 @@
         <namespace api="N:XPatchLib" />
         <type api="T:XPatchLib.PrimaryKeyException" ref="true" />
       </containers>
+      <versions>
+        <versions name="SHFB_VBPI_Lbl_19BC2879">
+          <version name="SHFB_VBPI_7AAB446" />
+          <version name="SHFB_VBPI_A9D4B446" />
+          <version name="SHFB_VBPI_1E74B446" />
+        </versions>
+        <versions name="SHFB_VBPI_Lbl_4CFFD8A2">
+          <version name="SHFB_VBPI_370927D6" />
+          <version name="SHFB_VBPI_370927D5" />
+        </versions>
+      </versions>
     </api>
     <api id="M:XPatchLib.PrimaryKeyException.#ctor(System.Type,System.String)">
       <apidata name=".ctor" group="member" subgroup="constructor" />
@@ -1279,6 +1977,17 @@
         <namespace api="N:XPatchLib" />
         <type api="T:XPatchLib.PrimaryKeyException" ref="true" />
       </containers>
+      <versions>
+        <versions name="SHFB_VBPI_Lbl_19BC2879">
+          <version name="SHFB_VBPI_7AAB446" />
+          <version name="SHFB_VBPI_A9D4B446" />
+          <version name="SHFB_VBPI_1E74B446" />
+        </versions>
+        <versions name="SHFB_VBPI_Lbl_4CFFD8A2">
+          <version name="SHFB_VBPI_370927D6" />
+          <version name="SHFB_VBPI_370927D5" />
+        </versions>
+      </versions>
     </api>
     <api id="P:XPatchLib.PrimaryKeyException.ErrorType">
       <apidata name="ErrorType" group="member" subgroup="property" />
@@ -1295,6 +2004,17 @@
         <namespace api="N:XPatchLib" />
         <type api="T:XPatchLib.PrimaryKeyException" ref="true" />
       </containers>
+      <versions>
+        <versions name="SHFB_VBPI_Lbl_19BC2879">
+          <version name="SHFB_VBPI_7AAB446" />
+          <version name="SHFB_VBPI_A9D4B446" />
+          <version name="SHFB_VBPI_1E74B446" />
+        </versions>
+        <versions name="SHFB_VBPI_Lbl_4CFFD8A2">
+          <version name="SHFB_VBPI_370927D6" />
+          <version name="SHFB_VBPI_370927D5" />
+        </versions>
+      </versions>
     </api>
     <api id="M:XPatchLib.PrimaryKeyException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
       <apidata name="GetObjectData" group="member" subgroup="method" />
@@ -1326,6 +2046,14 @@
         <namespace api="N:XPatchLib" />
         <type api="T:XPatchLib.PrimaryKeyException" ref="true" />
       </containers>
+      <versions>
+        <versions name="SHFB_VBPI_Lbl_19BC2879">
+          <version name="SHFB_VBPI_7AAB446" />
+          <version name="SHFB_VBPI_A9D4B446" />
+          <version name="SHFB_VBPI_1E74B446" />
+        </versions>
+        <versions name="SHFB_VBPI_Lbl_4CFFD8A2" />
+      </versions>
     </api>
     <api id="P:XPatchLib.PrimaryKeyException.Message">
       <apidata name="Message" group="member" subgroup="property" />
@@ -1351,6 +2079,17 @@
         <namespace api="N:XPatchLib" />
         <type api="T:XPatchLib.PrimaryKeyException" ref="true" />
       </containers>
+      <versions>
+        <versions name="SHFB_VBPI_Lbl_19BC2879">
+          <version name="SHFB_VBPI_7AAB446" />
+          <version name="SHFB_VBPI_A9D4B446" />
+          <version name="SHFB_VBPI_1E74B446" />
+        </versions>
+        <versions name="SHFB_VBPI_Lbl_4CFFD8A2">
+          <version name="SHFB_VBPI_370927D6" />
+          <version name="SHFB_VBPI_370927D5" />
+        </versions>
+      </versions>
     </api>
     <api id="P:XPatchLib.PrimaryKeyException.PrimaryKeyName">
       <apidata name="PrimaryKeyName" group="member" subgroup="property" />
@@ -1367,21 +2106,43 @@
         <namespace api="N:XPatchLib" />
         <type api="T:XPatchLib.PrimaryKeyException" ref="true" />
       </containers>
+      <versions>
+        <versions name="SHFB_VBPI_Lbl_19BC2879">
+          <version name="SHFB_VBPI_7AAB446" />
+          <version name="SHFB_VBPI_A9D4B446" />
+          <version name="SHFB_VBPI_1E74B446" />
+        </versions>
+        <versions name="SHFB_VBPI_Lbl_4CFFD8A2">
+          <version name="SHFB_VBPI_370927D6" />
+          <version name="SHFB_VBPI_370927D5" />
+        </versions>
+      </versions>
     </api>
     <api id="T:XPatchLib.ReadState">
       <apidata name="ReadState" group="type" subgroup="enumeration" />
       <typedata visibility="public" sealed="true" serializable="false" />
       <elements>
-        <element api="F:XPatchLib.ReadState.Closed" />
-        <element api="F:XPatchLib.ReadState.EndOfFile" />
-        <element api="F:XPatchLib.ReadState.Error" />
-        <element api="F:XPatchLib.ReadState.Initial" />
-        <element api="F:XPatchLib.ReadState.Interactive" />
+        <element api="F:XPatchLib.ReadState.Closed" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" SHFB_VBPI_Lbl_4CFFD8A2="SHFB_VBPI_370927D6" />
+        <element api="F:XPatchLib.ReadState.EndOfFile" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" SHFB_VBPI_Lbl_4CFFD8A2="SHFB_VBPI_370927D6" />
+        <element api="F:XPatchLib.ReadState.Error" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" SHFB_VBPI_Lbl_4CFFD8A2="SHFB_VBPI_370927D6" />
+        <element api="F:XPatchLib.ReadState.Initial" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" SHFB_VBPI_Lbl_4CFFD8A2="SHFB_VBPI_370927D6" />
+        <element api="F:XPatchLib.ReadState.Interactive" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" SHFB_VBPI_Lbl_4CFFD8A2="SHFB_VBPI_370927D6" />
       </elements>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary" />
         <namespace api="N:XPatchLib" />
       </containers>
+      <versions>
+        <versions name="SHFB_VBPI_Lbl_19BC2879">
+          <version name="SHFB_VBPI_7AAB446" />
+          <version name="SHFB_VBPI_A9D4B446" />
+          <version name="SHFB_VBPI_1E74B446" />
+        </versions>
+        <versions name="SHFB_VBPI_Lbl_4CFFD8A2">
+          <version name="SHFB_VBPI_370927D6" />
+          <version name="SHFB_VBPI_370927D5" />
+        </versions>
+      </versions>
     </api>
     <api id="F:XPatchLib.ReadState.Closed">
       <apidata name="Closed" group="member" subgroup="field" />
@@ -1396,6 +2157,17 @@
         <namespace api="N:XPatchLib" />
         <type api="T:XPatchLib.ReadState" ref="false" />
       </containers>
+      <versions>
+        <versions name="SHFB_VBPI_Lbl_19BC2879">
+          <version name="SHFB_VBPI_7AAB446" />
+          <version name="SHFB_VBPI_A9D4B446" />
+          <version name="SHFB_VBPI_1E74B446" />
+        </versions>
+        <versions name="SHFB_VBPI_Lbl_4CFFD8A2">
+          <version name="SHFB_VBPI_370927D6" />
+          <version name="SHFB_VBPI_370927D5" />
+        </versions>
+      </versions>
     </api>
     <api id="F:XPatchLib.ReadState.EndOfFile">
       <apidata name="EndOfFile" group="member" subgroup="field" />
@@ -1410,6 +2182,17 @@
         <namespace api="N:XPatchLib" />
         <type api="T:XPatchLib.ReadState" ref="false" />
       </containers>
+      <versions>
+        <versions name="SHFB_VBPI_Lbl_19BC2879">
+          <version name="SHFB_VBPI_7AAB446" />
+          <version name="SHFB_VBPI_A9D4B446" />
+          <version name="SHFB_VBPI_1E74B446" />
+        </versions>
+        <versions name="SHFB_VBPI_Lbl_4CFFD8A2">
+          <version name="SHFB_VBPI_370927D6" />
+          <version name="SHFB_VBPI_370927D5" />
+        </versions>
+      </versions>
     </api>
     <api id="F:XPatchLib.ReadState.Error">
       <apidata name="Error" group="member" subgroup="field" />
@@ -1424,6 +2207,17 @@
         <namespace api="N:XPatchLib" />
         <type api="T:XPatchLib.ReadState" ref="false" />
       </containers>
+      <versions>
+        <versions name="SHFB_VBPI_Lbl_19BC2879">
+          <version name="SHFB_VBPI_7AAB446" />
+          <version name="SHFB_VBPI_A9D4B446" />
+          <version name="SHFB_VBPI_1E74B446" />
+        </versions>
+        <versions name="SHFB_VBPI_Lbl_4CFFD8A2">
+          <version name="SHFB_VBPI_370927D6" />
+          <version name="SHFB_VBPI_370927D5" />
+        </versions>
+      </versions>
     </api>
     <api id="F:XPatchLib.ReadState.Initial">
       <apidata name="Initial" group="member" subgroup="field" />
@@ -1438,6 +2232,17 @@
         <namespace api="N:XPatchLib" />
         <type api="T:XPatchLib.ReadState" ref="false" />
       </containers>
+      <versions>
+        <versions name="SHFB_VBPI_Lbl_19BC2879">
+          <version name="SHFB_VBPI_7AAB446" />
+          <version name="SHFB_VBPI_A9D4B446" />
+          <version name="SHFB_VBPI_1E74B446" />
+        </versions>
+        <versions name="SHFB_VBPI_Lbl_4CFFD8A2">
+          <version name="SHFB_VBPI_370927D6" />
+          <version name="SHFB_VBPI_370927D5" />
+        </versions>
+      </versions>
     </api>
     <api id="F:XPatchLib.ReadState.Interactive">
       <apidata name="Interactive" group="member" subgroup="field" />
@@ -1452,6 +2257,303 @@
         <namespace api="N:XPatchLib" />
         <type api="T:XPatchLib.ReadState" ref="false" />
       </containers>
+      <versions>
+        <versions name="SHFB_VBPI_Lbl_19BC2879">
+          <version name="SHFB_VBPI_7AAB446" />
+          <version name="SHFB_VBPI_A9D4B446" />
+          <version name="SHFB_VBPI_1E74B446" />
+        </versions>
+        <versions name="SHFB_VBPI_Lbl_4CFFD8A2">
+          <version name="SHFB_VBPI_370927D6" />
+          <version name="SHFB_VBPI_370927D5" />
+        </versions>
+      </versions>
+    </api>
+    <api id="T:XPatchLib.SerializeMemberModifier">
+      <apidata name="SerializeMemberModifier" group="type" subgroup="enumeration" />
+      <typedata visibility="public" sealed="true" serializable="false" />
+      <elements>
+        <element api="F:XPatchLib.SerializeMemberModifier.Public" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" SHFB_VBPI_Lbl_4CFFD8A2="SHFB_VBPI_370927D6" />
+        <element api="F:XPatchLib.SerializeMemberModifier.Private" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" SHFB_VBPI_Lbl_4CFFD8A2="SHFB_VBPI_370927D6" />
+        <element api="F:XPatchLib.SerializeMemberModifier.Protected" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" SHFB_VBPI_Lbl_4CFFD8A2="SHFB_VBPI_370927D6" />
+        <element api="F:XPatchLib.SerializeMemberModifier.Internal" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" SHFB_VBPI_Lbl_4CFFD8A2="SHFB_VBPI_370927D6" />
+        <element api="F:XPatchLib.SerializeMemberModifier.NonPublic" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" SHFB_VBPI_Lbl_4CFFD8A2="SHFB_VBPI_370927D6" />
+        <element api="F:XPatchLib.SerializeMemberModifier.All" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" SHFB_VBPI_Lbl_4CFFD8A2="SHFB_VBPI_370927D6" />
+      </elements>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary" />
+        <namespace api="N:XPatchLib" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.FlagsAttribute" ref="true" />
+        </attribute>
+      </attributes>
+      <versions>
+        <versions name="SHFB_VBPI_Lbl_19BC2879">
+          <version name="SHFB_VBPI_7AAB446" />
+          <version name="SHFB_VBPI_A9D4B446" />
+          <version name="SHFB_VBPI_1E74B446" />
+        </versions>
+        <versions name="SHFB_VBPI_Lbl_4CFFD8A2">
+          <version name="SHFB_VBPI_370927D6" />
+          <version name="SHFB_VBPI_370927D5" />
+        </versions>
+      </versions>
+    </api>
+    <api id="F:XPatchLib.SerializeMemberModifier.All">
+      <apidata name="All" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:XPatchLib.SerializeMemberModifier" ref="false" />
+      </returns>
+      <value>15</value>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary" />
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.SerializeMemberModifier" ref="false" />
+      </containers>
+      <versions>
+        <versions name="SHFB_VBPI_Lbl_19BC2879">
+          <version name="SHFB_VBPI_7AAB446" />
+          <version name="SHFB_VBPI_A9D4B446" />
+          <version name="SHFB_VBPI_1E74B446" />
+        </versions>
+        <versions name="SHFB_VBPI_Lbl_4CFFD8A2">
+          <version name="SHFB_VBPI_370927D6" />
+          <version name="SHFB_VBPI_370927D5" />
+        </versions>
+      </versions>
+    </api>
+    <api id="F:XPatchLib.SerializeMemberModifier.Internal">
+      <apidata name="Internal" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:XPatchLib.SerializeMemberModifier" ref="false" />
+      </returns>
+      <value>8</value>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary" />
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.SerializeMemberModifier" ref="false" />
+      </containers>
+      <versions>
+        <versions name="SHFB_VBPI_Lbl_19BC2879">
+          <version name="SHFB_VBPI_7AAB446" />
+          <version name="SHFB_VBPI_A9D4B446" />
+          <version name="SHFB_VBPI_1E74B446" />
+        </versions>
+        <versions name="SHFB_VBPI_Lbl_4CFFD8A2">
+          <version name="SHFB_VBPI_370927D6" />
+          <version name="SHFB_VBPI_370927D5" />
+        </versions>
+      </versions>
+    </api>
+    <api id="F:XPatchLib.SerializeMemberModifier.NonPublic">
+      <apidata name="NonPublic" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:XPatchLib.SerializeMemberModifier" ref="false" />
+      </returns>
+      <value>14</value>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary" />
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.SerializeMemberModifier" ref="false" />
+      </containers>
+      <versions>
+        <versions name="SHFB_VBPI_Lbl_19BC2879">
+          <version name="SHFB_VBPI_7AAB446" />
+          <version name="SHFB_VBPI_A9D4B446" />
+          <version name="SHFB_VBPI_1E74B446" />
+        </versions>
+        <versions name="SHFB_VBPI_Lbl_4CFFD8A2">
+          <version name="SHFB_VBPI_370927D6" />
+          <version name="SHFB_VBPI_370927D5" />
+        </versions>
+      </versions>
+    </api>
+    <api id="F:XPatchLib.SerializeMemberModifier.Private">
+      <apidata name="Private" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:XPatchLib.SerializeMemberModifier" ref="false" />
+      </returns>
+      <value>2</value>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary" />
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.SerializeMemberModifier" ref="false" />
+      </containers>
+      <versions>
+        <versions name="SHFB_VBPI_Lbl_19BC2879">
+          <version name="SHFB_VBPI_7AAB446" />
+          <version name="SHFB_VBPI_A9D4B446" />
+          <version name="SHFB_VBPI_1E74B446" />
+        </versions>
+        <versions name="SHFB_VBPI_Lbl_4CFFD8A2">
+          <version name="SHFB_VBPI_370927D6" />
+          <version name="SHFB_VBPI_370927D5" />
+        </versions>
+      </versions>
+    </api>
+    <api id="F:XPatchLib.SerializeMemberModifier.Protected">
+      <apidata name="Protected" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:XPatchLib.SerializeMemberModifier" ref="false" />
+      </returns>
+      <value>4</value>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary" />
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.SerializeMemberModifier" ref="false" />
+      </containers>
+      <versions>
+        <versions name="SHFB_VBPI_Lbl_19BC2879">
+          <version name="SHFB_VBPI_7AAB446" />
+          <version name="SHFB_VBPI_A9D4B446" />
+          <version name="SHFB_VBPI_1E74B446" />
+        </versions>
+        <versions name="SHFB_VBPI_Lbl_4CFFD8A2">
+          <version name="SHFB_VBPI_370927D6" />
+          <version name="SHFB_VBPI_370927D5" />
+        </versions>
+      </versions>
+    </api>
+    <api id="F:XPatchLib.SerializeMemberModifier.Public">
+      <apidata name="Public" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:XPatchLib.SerializeMemberModifier" ref="false" />
+      </returns>
+      <value>1</value>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary" />
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.SerializeMemberModifier" ref="false" />
+      </containers>
+      <versions>
+        <versions name="SHFB_VBPI_Lbl_19BC2879">
+          <version name="SHFB_VBPI_7AAB446" />
+          <version name="SHFB_VBPI_A9D4B446" />
+          <version name="SHFB_VBPI_1E74B446" />
+        </versions>
+        <versions name="SHFB_VBPI_Lbl_4CFFD8A2">
+          <version name="SHFB_VBPI_370927D6" />
+          <version name="SHFB_VBPI_370927D5" />
+        </versions>
+      </versions>
+    </api>
+    <api id="T:XPatchLib.SerializeMemberType">
+      <apidata name="SerializeMemberType" group="type" subgroup="enumeration" />
+      <typedata visibility="public" sealed="true" serializable="false" />
+      <elements>
+        <element api="F:XPatchLib.SerializeMemberType.Property" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" SHFB_VBPI_Lbl_4CFFD8A2="SHFB_VBPI_370927D6" />
+        <element api="F:XPatchLib.SerializeMemberType.Field" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" SHFB_VBPI_Lbl_4CFFD8A2="SHFB_VBPI_370927D6" />
+        <element api="F:XPatchLib.SerializeMemberType.All" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" SHFB_VBPI_Lbl_4CFFD8A2="SHFB_VBPI_370927D6" />
+      </elements>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary" />
+        <namespace api="N:XPatchLib" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.FlagsAttribute" ref="true" />
+        </attribute>
+      </attributes>
+      <versions>
+        <versions name="SHFB_VBPI_Lbl_19BC2879">
+          <version name="SHFB_VBPI_7AAB446" />
+          <version name="SHFB_VBPI_A9D4B446" />
+          <version name="SHFB_VBPI_1E74B446" />
+        </versions>
+        <versions name="SHFB_VBPI_Lbl_4CFFD8A2">
+          <version name="SHFB_VBPI_370927D6" />
+          <version name="SHFB_VBPI_370927D5" />
+        </versions>
+      </versions>
+    </api>
+    <api id="F:XPatchLib.SerializeMemberType.All">
+      <apidata name="All" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:XPatchLib.SerializeMemberType" ref="false" />
+      </returns>
+      <value>20</value>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary" />
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.SerializeMemberType" ref="false" />
+      </containers>
+      <versions>
+        <versions name="SHFB_VBPI_Lbl_19BC2879">
+          <version name="SHFB_VBPI_7AAB446" />
+          <version name="SHFB_VBPI_A9D4B446" />
+          <version name="SHFB_VBPI_1E74B446" />
+        </versions>
+        <versions name="SHFB_VBPI_Lbl_4CFFD8A2">
+          <version name="SHFB_VBPI_370927D6" />
+          <version name="SHFB_VBPI_370927D5" />
+        </versions>
+      </versions>
+    </api>
+    <api id="F:XPatchLib.SerializeMemberType.Field">
+      <apidata name="Field" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:XPatchLib.SerializeMemberType" ref="false" />
+      </returns>
+      <value>16</value>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary" />
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.SerializeMemberType" ref="false" />
+      </containers>
+      <versions>
+        <versions name="SHFB_VBPI_Lbl_19BC2879">
+          <version name="SHFB_VBPI_7AAB446" />
+          <version name="SHFB_VBPI_A9D4B446" />
+          <version name="SHFB_VBPI_1E74B446" />
+        </versions>
+        <versions name="SHFB_VBPI_Lbl_4CFFD8A2">
+          <version name="SHFB_VBPI_370927D6" />
+          <version name="SHFB_VBPI_370927D5" />
+        </versions>
+      </versions>
+    </api>
+    <api id="F:XPatchLib.SerializeMemberType.Property">
+      <apidata name="Property" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:XPatchLib.SerializeMemberType" ref="false" />
+      </returns>
+      <value>4</value>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary" />
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.SerializeMemberType" ref="false" />
+      </containers>
+      <versions>
+        <versions name="SHFB_VBPI_Lbl_19BC2879">
+          <version name="SHFB_VBPI_7AAB446" />
+          <version name="SHFB_VBPI_A9D4B446" />
+          <version name="SHFB_VBPI_1E74B446" />
+        </versions>
+        <versions name="SHFB_VBPI_Lbl_4CFFD8A2">
+          <version name="SHFB_VBPI_370927D6" />
+          <version name="SHFB_VBPI_370927D5" />
+        </versions>
+      </versions>
     </api>
     <api id="T:XPatchLib.Serializer">
       <apidata name="Serializer" group="type" subgroup="class" />
@@ -1461,17 +2563,32 @@
           <type api="T:System.Object" ref="true" />
         </ancestors>
       </family>
+      <implements>
+        <type api="T:System.IDisposable" ref="true" />
+      </implements>
       <elements>
-        <element api="M:XPatchLib.Serializer.#ctor(System.Type)" />
-        <element api="M:XPatchLib.Serializer.Combine(XPatchLib.ITextReader,System.Object)" />
-        <element api="M:XPatchLib.Serializer.Combine(XPatchLib.ITextReader,System.Object,System.Boolean)" />
-        <element api="M:XPatchLib.Serializer.Divide(XPatchLib.ITextWriter,System.Object,System.Object)" />
-        <element api="M:XPatchLib.Serializer.RegisterTypes(System.Collections.Generic.IDictionary{System.Type,System.String[]})" />
+        <element api="M:XPatchLib.Serializer.#ctor(System.Type)" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" SHFB_VBPI_Lbl_4CFFD8A2="SHFB_VBPI_370927D6" />
+        <element api="M:XPatchLib.Serializer.Combine(XPatchLib.ITextReader,System.Object)" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" SHFB_VBPI_Lbl_4CFFD8A2="SHFB_VBPI_370927D6" />
+        <element api="M:XPatchLib.Serializer.Combine(XPatchLib.ITextReader,System.Object,System.Boolean)" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" SHFB_VBPI_Lbl_4CFFD8A2="SHFB_VBPI_370927D6" />
+        <element api="M:XPatchLib.Serializer.Divide(XPatchLib.ITextWriter,System.Object,System.Object)" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" SHFB_VBPI_Lbl_4CFFD8A2="SHFB_VBPI_370927D6" />
+        <element api="M:XPatchLib.Serializer.RegisterType(System.Type,System.String[])" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" SHFB_VBPI_Lbl_4CFFD8A2="SHFB_VBPI_370927D6" />
+        <element api="M:XPatchLib.Serializer.Dispose" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" SHFB_VBPI_Lbl_4CFFD8A2="SHFB_VBPI_370927D6" />
       </elements>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary" />
         <namespace api="N:XPatchLib" />
       </containers>
+      <versions>
+        <versions name="SHFB_VBPI_Lbl_19BC2879">
+          <version name="SHFB_VBPI_7AAB446" />
+          <version name="SHFB_VBPI_A9D4B446" />
+          <version name="SHFB_VBPI_1E74B446" />
+        </versions>
+        <versions name="SHFB_VBPI_Lbl_4CFFD8A2">
+          <version name="SHFB_VBPI_370927D6" />
+          <version name="SHFB_VBPI_370927D5" />
+        </versions>
+      </versions>
     </api>
     <api id="M:XPatchLib.Serializer.#ctor(System.Type)">
       <apidata name=".ctor" group="member" subgroup="constructor" />
@@ -1486,6 +2603,17 @@
         <namespace api="N:XPatchLib" />
         <type api="T:XPatchLib.Serializer" ref="true" />
       </containers>
+      <versions>
+        <versions name="SHFB_VBPI_Lbl_19BC2879">
+          <version name="SHFB_VBPI_7AAB446" />
+          <version name="SHFB_VBPI_A9D4B446" />
+          <version name="SHFB_VBPI_1E74B446" />
+        </versions>
+        <versions name="SHFB_VBPI_Lbl_4CFFD8A2">
+          <version name="SHFB_VBPI_370927D6" />
+          <version name="SHFB_VBPI_370927D5" />
+        </versions>
+      </versions>
     </api>
     <api id="M:XPatchLib.Serializer.Combine(XPatchLib.ITextReader,System.Object)">
       <apidata name="Combine" group="member" subgroup="method" />
@@ -1507,6 +2635,17 @@
         <namespace api="N:XPatchLib" />
         <type api="T:XPatchLib.Serializer" ref="true" />
       </containers>
+      <versions>
+        <versions name="SHFB_VBPI_Lbl_19BC2879">
+          <version name="SHFB_VBPI_7AAB446" />
+          <version name="SHFB_VBPI_A9D4B446" />
+          <version name="SHFB_VBPI_1E74B446" />
+        </versions>
+        <versions name="SHFB_VBPI_Lbl_4CFFD8A2">
+          <version name="SHFB_VBPI_370927D6" />
+          <version name="SHFB_VBPI_370927D5" />
+        </versions>
+      </versions>
     </api>
     <api id="M:XPatchLib.Serializer.Combine(XPatchLib.ITextReader,System.Object,System.Boolean)">
       <apidata name="Combine" group="member" subgroup="method" />
@@ -1531,6 +2670,43 @@
         <namespace api="N:XPatchLib" />
         <type api="T:XPatchLib.Serializer" ref="true" />
       </containers>
+      <versions>
+        <versions name="SHFB_VBPI_Lbl_19BC2879">
+          <version name="SHFB_VBPI_7AAB446" />
+          <version name="SHFB_VBPI_A9D4B446" />
+          <version name="SHFB_VBPI_1E74B446" />
+        </versions>
+        <versions name="SHFB_VBPI_Lbl_4CFFD8A2">
+          <version name="SHFB_VBPI_370927D6" />
+          <version name="SHFB_VBPI_370927D5" />
+        </versions>
+      </versions>
+    </api>
+    <api id="M:XPatchLib.Serializer.Dispose">
+      <apidata name="Dispose" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" final="true" />
+      <implements>
+        <member api="M:System.IDisposable.Dispose">
+          <type api="T:System.IDisposable" ref="true" />
+        </member>
+      </implements>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary" />
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.Serializer" ref="true" />
+      </containers>
+      <versions>
+        <versions name="SHFB_VBPI_Lbl_19BC2879">
+          <version name="SHFB_VBPI_7AAB446" />
+          <version name="SHFB_VBPI_A9D4B446" />
+          <version name="SHFB_VBPI_1E74B446" />
+        </versions>
+        <versions name="SHFB_VBPI_Lbl_4CFFD8A2">
+          <version name="SHFB_VBPI_370927D6" />
+          <version name="SHFB_VBPI_370927D5" />
+        </versions>
+      </versions>
     </api>
     <api id="M:XPatchLib.Serializer.Divide(XPatchLib.ITextWriter,System.Object,System.Object)">
       <apidata name="Divide" group="member" subgroup="method" />
@@ -1552,21 +2728,30 @@
         <namespace api="N:XPatchLib" />
         <type api="T:XPatchLib.Serializer" ref="true" />
       </containers>
+      <versions>
+        <versions name="SHFB_VBPI_Lbl_19BC2879">
+          <version name="SHFB_VBPI_7AAB446" />
+          <version name="SHFB_VBPI_A9D4B446" />
+          <version name="SHFB_VBPI_1E74B446" />
+        </versions>
+        <versions name="SHFB_VBPI_Lbl_4CFFD8A2">
+          <version name="SHFB_VBPI_370927D6" />
+          <version name="SHFB_VBPI_370927D5" />
+        </versions>
+      </versions>
     </api>
-    <api id="M:XPatchLib.Serializer.RegisterTypes(System.Collections.Generic.IDictionary{System.Type,System.String[]})">
-      <apidata name="RegisterTypes" group="member" subgroup="method" />
+    <api id="M:XPatchLib.Serializer.RegisterType(System.Type,System.String[])">
+      <apidata name="RegisterType" group="member" subgroup="method" />
       <memberdata visibility="public" />
       <proceduredata virtual="false" />
       <parameters>
-        <parameter name="pTypes">
-          <type api="T:System.Collections.Generic.IDictionary`2" ref="true">
-            <specialization>
-              <type api="T:System.Type" ref="true" />
-              <arrayOf rank="1">
-                <type api="T:System.String" ref="true" />
-              </arrayOf>
-            </specialization>
-          </type>
+        <parameter name="pType">
+          <type api="T:System.Type" ref="true" />
+        </parameter>
+        <parameter name="pPrimaryKeys">
+          <arrayOf rank="1">
+            <type api="T:System.String" ref="true" />
+          </arrayOf>
         </parameter>
       </parameters>
       <containers>
@@ -1574,44 +2759,69 @@
         <namespace api="N:XPatchLib" />
         <type api="T:XPatchLib.Serializer" ref="true" />
       </containers>
+      <versions>
+        <versions name="SHFB_VBPI_Lbl_19BC2879">
+          <version name="SHFB_VBPI_7AAB446" />
+          <version name="SHFB_VBPI_A9D4B446" />
+          <version name="SHFB_VBPI_1E74B446" />
+        </versions>
+        <versions name="SHFB_VBPI_Lbl_4CFFD8A2">
+          <version name="SHFB_VBPI_370927D6" />
+          <version name="SHFB_VBPI_370927D5" />
+        </versions>
+      </versions>
     </api>
-    <api id="T:XPatchLib.XmlSerializeSetting">
-      <apidata name="XmlSerializeSetting" group="type" subgroup="class" />
-      <typedata visibility="public" serializable="false" />
+    <api id="T:XPatchLib.SerializeSetting">
+      <apidata name="SerializeSetting" group="type" subgroup="class" />
+      <typedata visibility="public" abstract="true" serializable="false" />
       <family>
         <ancestors>
           <type api="T:System.Object" ref="true" />
         </ancestors>
+        <descendents>
+          <type api="T:XPatchLib.XmlSerializeSetting" ref="true" />
+        </descendents>
       </family>
       <implements>
         <type api="T:XPatchLib.ISerializeSetting" ref="true" />
+        <type api="T:System.ICloneable" ref="true" />
         <type api="T:System.ComponentModel.INotifyPropertyChanged" ref="true" />
       </implements>
       <elements>
-        <element api="M:XPatchLib.XmlSerializeSetting.#ctor" />
-        <element api="P:XPatchLib.XmlSerializeSetting.Mode" />
-        <element api="P:XPatchLib.XmlSerializeSetting.SerializeDefalutValue" />
-        <element api="P:XPatchLib.XmlSerializeSetting.ActionName" />
-        <element api="E:XPatchLib.XmlSerializeSetting.PropertyChanged" />
+        <element api="M:XPatchLib.SerializeSetting.Clone" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" SHFB_VBPI_Lbl_4CFFD8A2="SHFB_VBPI_370927D6" />
+        <element api="P:XPatchLib.SerializeSetting.EnableOnSerializingAttribute" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" />
+        <element api="P:XPatchLib.SerializeSetting.EnableOnSerializedAttribute" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" />
+        <element api="P:XPatchLib.SerializeSetting.EnableOnDeserializedAttribute" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" />
+        <element api="P:XPatchLib.SerializeSetting.EnableOnDeserializingAttribute" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" />
+        <element api="P:XPatchLib.SerializeSetting.IgnoreAttributeType" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" SHFB_VBPI_Lbl_4CFFD8A2="SHFB_VBPI_370927D6" />
+        <element api="P:XPatchLib.SerializeSetting.MemberType" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" SHFB_VBPI_Lbl_4CFFD8A2="SHFB_VBPI_370927D6" />
+        <element api="P:XPatchLib.SerializeSetting.Modifier" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" SHFB_VBPI_Lbl_4CFFD8A2="SHFB_VBPI_370927D6" />
+        <element api="P:XPatchLib.SerializeSetting.Mode" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" SHFB_VBPI_Lbl_4CFFD8A2="SHFB_VBPI_370927D6" />
+        <element api="P:XPatchLib.SerializeSetting.SerializeDefalutValue" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" SHFB_VBPI_Lbl_4CFFD8A2="SHFB_VBPI_370927D6" />
+        <element api="P:XPatchLib.SerializeSetting.ActionName" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" SHFB_VBPI_Lbl_4CFFD8A2="SHFB_VBPI_370927D6" />
+        <element api="P:XPatchLib.SerializeSetting.AssemblyQualifiedName" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" />
+        <element api="E:XPatchLib.SerializeSetting.PropertyChanged" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" SHFB_VBPI_Lbl_4CFFD8A2="SHFB_VBPI_370927D6" />
       </elements>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary" />
         <namespace api="N:XPatchLib" />
       </containers>
+      <versions>
+        <versions name="SHFB_VBPI_Lbl_19BC2879">
+          <version name="SHFB_VBPI_7AAB446" />
+          <version name="SHFB_VBPI_A9D4B446" />
+          <version name="SHFB_VBPI_1E74B446" />
+        </versions>
+        <versions name="SHFB_VBPI_Lbl_4CFFD8A2">
+          <version name="SHFB_VBPI_370927D6" />
+          <version name="SHFB_VBPI_370927D5" />
+        </versions>
+      </versions>
     </api>
-    <api id="M:XPatchLib.XmlSerializeSetting.#ctor">
-      <apidata name=".ctor" group="member" subgroup="constructor" />
-      <memberdata visibility="public" special="true" />
-      <containers>
-        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary" />
-        <namespace api="N:XPatchLib" />
-        <type api="T:XPatchLib.XmlSerializeSetting" ref="true" />
-      </containers>
-    </api>
-    <api id="P:XPatchLib.XmlSerializeSetting.ActionName">
+    <api id="P:XPatchLib.SerializeSetting.ActionName">
       <apidata name="ActionName" group="member" subgroup="property" />
       <memberdata visibility="public" />
-      <proceduredata virtual="true" final="true" />
+      <proceduredata virtual="true" />
       <propertydata get="true" set="true" />
       <getter name="get_ActionName" />
       <setter name="set_ActionName" />
@@ -1626,13 +2836,260 @@
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary" />
         <namespace api="N:XPatchLib" />
-        <type api="T:XPatchLib.XmlSerializeSetting" ref="true" />
+        <type api="T:XPatchLib.SerializeSetting" ref="true" />
       </containers>
+      <versions>
+        <versions name="SHFB_VBPI_Lbl_19BC2879">
+          <version name="SHFB_VBPI_7AAB446" />
+          <version name="SHFB_VBPI_A9D4B446" />
+          <version name="SHFB_VBPI_1E74B446" />
+        </versions>
+        <versions name="SHFB_VBPI_Lbl_4CFFD8A2">
+          <version name="SHFB_VBPI_370927D6" />
+          <version name="SHFB_VBPI_370927D5" />
+        </versions>
+      </versions>
     </api>
-    <api id="P:XPatchLib.XmlSerializeSetting.Mode">
+    <api id="P:XPatchLib.SerializeSetting.AssemblyQualifiedName">
+      <apidata name="AssemblyQualifiedName" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" />
+      <propertydata get="true" set="true" />
+      <getter name="get_AssemblyQualifiedName" />
+      <setter name="set_AssemblyQualifiedName" />
+      <returns>
+        <type api="T:System.String" ref="true" />
+      </returns>
+      <implements>
+        <member api="P:XPatchLib.ISerializeSetting.AssemblyQualifiedName">
+          <type api="T:XPatchLib.ISerializeSetting" ref="true" />
+        </member>
+      </implements>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary" />
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.SerializeSetting" ref="true" />
+      </containers>
+      <versions>
+        <versions name="SHFB_VBPI_Lbl_19BC2879">
+          <version name="SHFB_VBPI_7AAB446" />
+        </versions>
+        <versions name="SHFB_VBPI_Lbl_4CFFD8A2" />
+      </versions>
+    </api>
+    <api id="M:XPatchLib.SerializeSetting.Clone">
+      <apidata name="Clone" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <returns>
+        <type api="T:System.Object" ref="true" />
+      </returns>
+      <implements>
+        <member api="M:System.ICloneable.Clone">
+          <type api="T:System.ICloneable" ref="true" />
+        </member>
+      </implements>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary" />
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.SerializeSetting" ref="true" />
+      </containers>
+      <versions>
+        <versions name="SHFB_VBPI_Lbl_19BC2879">
+          <version name="SHFB_VBPI_7AAB446" />
+          <version name="SHFB_VBPI_A9D4B446" />
+          <version name="SHFB_VBPI_1E74B446" />
+        </versions>
+        <versions name="SHFB_VBPI_Lbl_4CFFD8A2">
+          <version name="SHFB_VBPI_370927D6" />
+          <version name="SHFB_VBPI_370927D5" />
+        </versions>
+      </versions>
+    </api>
+    <api id="P:XPatchLib.SerializeSetting.EnableOnDeserializedAttribute">
+      <apidata name="EnableOnDeserializedAttribute" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" />
+      <propertydata get="true" set="true" />
+      <getter name="get_EnableOnDeserializedAttribute" />
+      <setter name="set_EnableOnDeserializedAttribute" />
+      <returns>
+        <type api="T:System.Boolean" ref="false" />
+      </returns>
+      <implements>
+        <member api="P:XPatchLib.ISerializeSetting.EnableOnDeserializedAttribute">
+          <type api="T:XPatchLib.ISerializeSetting" ref="true" />
+        </member>
+      </implements>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary" />
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.SerializeSetting" ref="true" />
+      </containers>
+      <versions>
+        <versions name="SHFB_VBPI_Lbl_19BC2879">
+          <version name="SHFB_VBPI_7AAB446" />
+          <version name="SHFB_VBPI_A9D4B446" />
+          <version name="SHFB_VBPI_1E74B446" />
+        </versions>
+        <versions name="SHFB_VBPI_Lbl_4CFFD8A2" />
+      </versions>
+    </api>
+    <api id="P:XPatchLib.SerializeSetting.EnableOnDeserializingAttribute">
+      <apidata name="EnableOnDeserializingAttribute" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" />
+      <propertydata get="true" set="true" />
+      <getter name="get_EnableOnDeserializingAttribute" />
+      <setter name="set_EnableOnDeserializingAttribute" />
+      <returns>
+        <type api="T:System.Boolean" ref="false" />
+      </returns>
+      <implements>
+        <member api="P:XPatchLib.ISerializeSetting.EnableOnDeserializingAttribute">
+          <type api="T:XPatchLib.ISerializeSetting" ref="true" />
+        </member>
+      </implements>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary" />
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.SerializeSetting" ref="true" />
+      </containers>
+      <versions>
+        <versions name="SHFB_VBPI_Lbl_19BC2879">
+          <version name="SHFB_VBPI_7AAB446" />
+          <version name="SHFB_VBPI_A9D4B446" />
+          <version name="SHFB_VBPI_1E74B446" />
+        </versions>
+        <versions name="SHFB_VBPI_Lbl_4CFFD8A2" />
+      </versions>
+    </api>
+    <api id="P:XPatchLib.SerializeSetting.EnableOnSerializedAttribute">
+      <apidata name="EnableOnSerializedAttribute" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" />
+      <propertydata get="true" set="true" />
+      <getter name="get_EnableOnSerializedAttribute" />
+      <setter name="set_EnableOnSerializedAttribute" />
+      <returns>
+        <type api="T:System.Boolean" ref="false" />
+      </returns>
+      <implements>
+        <member api="P:XPatchLib.ISerializeSetting.EnableOnSerializedAttribute">
+          <type api="T:XPatchLib.ISerializeSetting" ref="true" />
+        </member>
+      </implements>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary" />
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.SerializeSetting" ref="true" />
+      </containers>
+      <versions>
+        <versions name="SHFB_VBPI_Lbl_19BC2879">
+          <version name="SHFB_VBPI_7AAB446" />
+          <version name="SHFB_VBPI_A9D4B446" />
+          <version name="SHFB_VBPI_1E74B446" />
+        </versions>
+        <versions name="SHFB_VBPI_Lbl_4CFFD8A2" />
+      </versions>
+    </api>
+    <api id="P:XPatchLib.SerializeSetting.EnableOnSerializingAttribute">
+      <apidata name="EnableOnSerializingAttribute" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" />
+      <propertydata get="true" set="true" />
+      <getter name="get_EnableOnSerializingAttribute" />
+      <setter name="set_EnableOnSerializingAttribute" />
+      <returns>
+        <type api="T:System.Boolean" ref="false" />
+      </returns>
+      <implements>
+        <member api="P:XPatchLib.ISerializeSetting.EnableOnSerializingAttribute">
+          <type api="T:XPatchLib.ISerializeSetting" ref="true" />
+        </member>
+      </implements>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary" />
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.SerializeSetting" ref="true" />
+      </containers>
+      <versions>
+        <versions name="SHFB_VBPI_Lbl_19BC2879">
+          <version name="SHFB_VBPI_7AAB446" />
+          <version name="SHFB_VBPI_A9D4B446" />
+          <version name="SHFB_VBPI_1E74B446" />
+        </versions>
+        <versions name="SHFB_VBPI_Lbl_4CFFD8A2" />
+      </versions>
+    </api>
+    <api id="P:XPatchLib.SerializeSetting.IgnoreAttributeType">
+      <apidata name="IgnoreAttributeType" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" />
+      <propertydata get="true" set="true" />
+      <getter name="get_IgnoreAttributeType" />
+      <setter name="set_IgnoreAttributeType" />
+      <returns>
+        <type api="T:System.Type" ref="true" />
+      </returns>
+      <implements>
+        <member api="P:XPatchLib.ISerializeSetting.IgnoreAttributeType">
+          <type api="T:XPatchLib.ISerializeSetting" ref="true" />
+        </member>
+      </implements>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary" />
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.SerializeSetting" ref="true" />
+      </containers>
+      <versions>
+        <versions name="SHFB_VBPI_Lbl_19BC2879">
+          <version name="SHFB_VBPI_7AAB446" />
+          <version name="SHFB_VBPI_A9D4B446" />
+          <version name="SHFB_VBPI_1E74B446" />
+        </versions>
+        <versions name="SHFB_VBPI_Lbl_4CFFD8A2">
+          <version name="SHFB_VBPI_370927D6" />
+          <version name="SHFB_VBPI_370927D5" />
+        </versions>
+      </versions>
+    </api>
+    <api id="P:XPatchLib.SerializeSetting.MemberType">
+      <apidata name="MemberType" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" />
+      <propertydata get="true" set="true" />
+      <getter name="get_MemberType" />
+      <setter name="set_MemberType" />
+      <returns>
+        <type api="T:XPatchLib.SerializeMemberType" ref="false" />
+      </returns>
+      <implements>
+        <member api="P:XPatchLib.ISerializeSetting.MemberType">
+          <type api="T:XPatchLib.ISerializeSetting" ref="true" />
+        </member>
+      </implements>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary" />
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.SerializeSetting" ref="true" />
+      </containers>
+      <versions>
+        <versions name="SHFB_VBPI_Lbl_19BC2879">
+          <version name="SHFB_VBPI_7AAB446" />
+          <version name="SHFB_VBPI_A9D4B446" />
+          <version name="SHFB_VBPI_1E74B446" />
+        </versions>
+        <versions name="SHFB_VBPI_Lbl_4CFFD8A2">
+          <version name="SHFB_VBPI_370927D6" />
+          <version name="SHFB_VBPI_370927D5" />
+        </versions>
+      </versions>
+    </api>
+    <api id="P:XPatchLib.SerializeSetting.Mode">
       <apidata name="Mode" group="member" subgroup="property" />
       <memberdata visibility="public" />
-      <proceduredata virtual="true" final="true" />
+      <proceduredata virtual="true" />
       <propertydata get="true" set="true" />
       <getter name="get_Mode" />
       <setter name="set_Mode" />
@@ -1647,10 +3104,53 @@
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary" />
         <namespace api="N:XPatchLib" />
-        <type api="T:XPatchLib.XmlSerializeSetting" ref="true" />
+        <type api="T:XPatchLib.SerializeSetting" ref="true" />
       </containers>
+      <versions>
+        <versions name="SHFB_VBPI_Lbl_19BC2879">
+          <version name="SHFB_VBPI_7AAB446" />
+          <version name="SHFB_VBPI_A9D4B446" />
+          <version name="SHFB_VBPI_1E74B446" />
+        </versions>
+        <versions name="SHFB_VBPI_Lbl_4CFFD8A2">
+          <version name="SHFB_VBPI_370927D6" />
+          <version name="SHFB_VBPI_370927D5" />
+        </versions>
+      </versions>
     </api>
-    <api id="E:XPatchLib.XmlSerializeSetting.PropertyChanged">
+    <api id="P:XPatchLib.SerializeSetting.Modifier">
+      <apidata name="Modifier" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" />
+      <propertydata get="true" set="true" />
+      <getter name="get_Modifier" />
+      <setter name="set_Modifier" />
+      <returns>
+        <type api="T:XPatchLib.SerializeMemberModifier" ref="false" />
+      </returns>
+      <implements>
+        <member api="P:XPatchLib.ISerializeSetting.Modifier">
+          <type api="T:XPatchLib.ISerializeSetting" ref="true" />
+        </member>
+      </implements>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary" />
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.SerializeSetting" ref="true" />
+      </containers>
+      <versions>
+        <versions name="SHFB_VBPI_Lbl_19BC2879">
+          <version name="SHFB_VBPI_7AAB446" />
+          <version name="SHFB_VBPI_A9D4B446" />
+          <version name="SHFB_VBPI_1E74B446" />
+        </versions>
+        <versions name="SHFB_VBPI_Lbl_4CFFD8A2">
+          <version name="SHFB_VBPI_370927D6" />
+          <version name="SHFB_VBPI_370927D5" />
+        </versions>
+      </versions>
+    </api>
+    <api id="E:XPatchLib.SerializeSetting.PropertyChanged">
       <apidata name="PropertyChanged" group="member" subgroup="event" />
       <memberdata visibility="public" />
       <proceduredata virtual="true" final="true" />
@@ -1671,13 +3171,24 @@
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary" />
         <namespace api="N:XPatchLib" />
-        <type api="T:XPatchLib.XmlSerializeSetting" ref="true" />
+        <type api="T:XPatchLib.SerializeSetting" ref="true" />
       </containers>
+      <versions>
+        <versions name="SHFB_VBPI_Lbl_19BC2879">
+          <version name="SHFB_VBPI_7AAB446" />
+          <version name="SHFB_VBPI_A9D4B446" />
+          <version name="SHFB_VBPI_1E74B446" />
+        </versions>
+        <versions name="SHFB_VBPI_Lbl_4CFFD8A2">
+          <version name="SHFB_VBPI_370927D6" />
+          <version name="SHFB_VBPI_370927D5" />
+        </versions>
+      </versions>
     </api>
-    <api id="P:XPatchLib.XmlSerializeSetting.SerializeDefalutValue">
+    <api id="P:XPatchLib.SerializeSetting.SerializeDefalutValue">
       <apidata name="SerializeDefalutValue" group="member" subgroup="property" />
       <memberdata visibility="public" />
-      <proceduredata virtual="true" final="true" />
+      <proceduredata virtual="true" />
       <propertydata get="true" set="true" />
       <getter name="get_SerializeDefalutValue" />
       <setter name="set_SerializeDefalutValue" />
@@ -1692,8 +3203,140 @@
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary" />
         <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.SerializeSetting" ref="true" />
+      </containers>
+      <versions>
+        <versions name="SHFB_VBPI_Lbl_19BC2879">
+          <version name="SHFB_VBPI_7AAB446" />
+          <version name="SHFB_VBPI_A9D4B446" />
+          <version name="SHFB_VBPI_1E74B446" />
+        </versions>
+        <versions name="SHFB_VBPI_Lbl_4CFFD8A2">
+          <version name="SHFB_VBPI_370927D6" />
+          <version name="SHFB_VBPI_370927D5" />
+        </versions>
+      </versions>
+    </api>
+    <api id="T:XPatchLib.XmlSerializeSetting">
+      <apidata name="XmlSerializeSetting" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="false" />
+      <family>
+        <ancestors>
+          <type api="T:XPatchLib.SerializeSetting" ref="true" />
+          <type api="T:System.Object" ref="true" />
+        </ancestors>
+      </family>
+      <elements>
+        <element api="M:XPatchLib.XmlSerializeSetting.Clone" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" SHFB_VBPI_Lbl_4CFFD8A2="SHFB_VBPI_370927D6" />
+        <element api="M:XPatchLib.XmlSerializeSetting.#ctor" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" SHFB_VBPI_Lbl_4CFFD8A2="SHFB_VBPI_370927D6" />
+        <element api="P:XPatchLib.XmlSerializeSetting.IgnoreAttributeType" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" SHFB_VBPI_Lbl_4CFFD8A2="SHFB_VBPI_370927D6" />
+      </elements>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary" />
+        <namespace api="N:XPatchLib" />
+      </containers>
+      <versions>
+        <versions name="SHFB_VBPI_Lbl_19BC2879">
+          <version name="SHFB_VBPI_7AAB446" />
+          <version name="SHFB_VBPI_A9D4B446" />
+          <version name="SHFB_VBPI_1E74B446" />
+        </versions>
+        <versions name="SHFB_VBPI_Lbl_4CFFD8A2">
+          <version name="SHFB_VBPI_370927D6" />
+          <version name="SHFB_VBPI_370927D5" />
+        </versions>
+      </versions>
+    </api>
+    <api id="M:XPatchLib.XmlSerializeSetting.#ctor">
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <memberdata visibility="public" special="true" />
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary" />
+        <namespace api="N:XPatchLib" />
         <type api="T:XPatchLib.XmlSerializeSetting" ref="true" />
       </containers>
+      <versions>
+        <versions name="SHFB_VBPI_Lbl_19BC2879">
+          <version name="SHFB_VBPI_7AAB446" />
+          <version name="SHFB_VBPI_A9D4B446" />
+          <version name="SHFB_VBPI_1E74B446" />
+        </versions>
+        <versions name="SHFB_VBPI_Lbl_4CFFD8A2">
+          <version name="SHFB_VBPI_370927D6" />
+          <version name="SHFB_VBPI_370927D5" />
+        </versions>
+      </versions>
+    </api>
+    <api id="M:XPatchLib.XmlSerializeSetting.Clone">
+      <apidata name="Clone" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" />
+      <overrides>
+        <member api="M:XPatchLib.SerializeSetting.Clone">
+          <type api="T:XPatchLib.SerializeSetting" ref="true" />
+        </member>
+      </overrides>
+      <returns>
+        <type api="T:System.Object" ref="true" />
+      </returns>
+      <implements>
+        <member api="M:System.ICloneable.Clone">
+          <type api="T:System.ICloneable" ref="true" />
+        </member>
+      </implements>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary" />
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.XmlSerializeSetting" ref="true" />
+      </containers>
+      <versions>
+        <versions name="SHFB_VBPI_Lbl_19BC2879">
+          <version name="SHFB_VBPI_7AAB446" />
+          <version name="SHFB_VBPI_A9D4B446" />
+          <version name="SHFB_VBPI_1E74B446" />
+        </versions>
+        <versions name="SHFB_VBPI_Lbl_4CFFD8A2">
+          <version name="SHFB_VBPI_370927D6" />
+          <version name="SHFB_VBPI_370927D5" />
+        </versions>
+      </versions>
+    </api>
+    <api id="P:XPatchLib.XmlSerializeSetting.IgnoreAttributeType">
+      <apidata name="IgnoreAttributeType" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" />
+      <overrides>
+        <member api="P:XPatchLib.SerializeSetting.IgnoreAttributeType">
+          <type api="T:XPatchLib.SerializeSetting" ref="true" />
+        </member>
+      </overrides>
+      <propertydata get="true" set="true" />
+      <getter name="get_IgnoreAttributeType" />
+      <setter name="set_IgnoreAttributeType" />
+      <returns>
+        <type api="T:System.Type" ref="true" />
+      </returns>
+      <implements>
+        <member api="P:XPatchLib.ISerializeSetting.IgnoreAttributeType">
+          <type api="T:XPatchLib.ISerializeSetting" ref="true" />
+        </member>
+      </implements>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary" />
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.XmlSerializeSetting" ref="true" />
+      </containers>
+      <versions>
+        <versions name="SHFB_VBPI_Lbl_19BC2879">
+          <version name="SHFB_VBPI_7AAB446" />
+          <version name="SHFB_VBPI_A9D4B446" />
+          <version name="SHFB_VBPI_1E74B446" />
+        </versions>
+        <versions name="SHFB_VBPI_Lbl_4CFFD8A2">
+          <version name="SHFB_VBPI_370927D6" />
+          <version name="SHFB_VBPI_370927D5" />
+        </versions>
+      </versions>
     </api>
     <api id="T:XPatchLib.XmlTextReader">
       <apidata name="XmlTextReader" group="type" subgroup="class" />
@@ -1708,34 +3351,41 @@
         <type api="T:System.IDisposable" ref="true" />
       </implements>
       <elements>
-        <element api="M:XPatchLib.XmlTextReader.#ctor(System.Xml.XmlReader)" />
-        <element api="M:XPatchLib.XmlTextReader.Dispose" />
-        <element api="M:XPatchLib.XmlTextReader.Read" />
-        <element api="M:XPatchLib.XmlTextReader.Read``1" />
-        <element api="M:XPatchLib.XmlTextReader.MoveToNextElement(System.String,System.String)" />
-        <element api="M:XPatchLib.XmlTextReader.MoveToCurrentElementEnd(System.String)" />
-        <element api="M:XPatchLib.XmlTextReader.ReadString" />
-        <element api="M:XPatchLib.XmlTextReader.MoveToNextAttribute" />
-        <element api="M:XPatchLib.XmlTextReader.MoveToElement" />
-        <element api="P:XPatchLib.XmlTextReader.ReadState" />
-        <element api="P:XPatchLib.XmlTextReader.EOF" />
-        <element api="P:XPatchLib.XmlTextReader.Name" />
-        <element api="P:XPatchLib.XmlTextReader.Value" />
-        <element api="P:XPatchLib.XmlTextReader.AttributeCount" />
-        <element api="P:XPatchLib.XmlTextReader.NodeType" />
-        <element api="P:XPatchLib.XmlTextReader.Setting" />
+        <element api="M:XPatchLib.XmlTextReader.#ctor(System.IO.Stream)" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" SHFB_VBPI_Lbl_4CFFD8A2="SHFB_VBPI_370927D6" />
+        <element api="M:XPatchLib.XmlTextReader.#ctor(System.IO.TextReader)" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" SHFB_VBPI_Lbl_4CFFD8A2="SHFB_VBPI_370927D6" />
+        <element api="M:XPatchLib.XmlTextReader.#ctor(System.String)" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" SHFB_VBPI_Lbl_4CFFD8A2="SHFB_VBPI_370927D6" />
+        <element api="M:XPatchLib.XmlTextReader.GetValue" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" SHFB_VBPI_Lbl_4CFFD8A2="SHFB_VBPI_370927D6" />
+        <element api="M:XPatchLib.XmlTextReader.GetAttributes" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" SHFB_VBPI_Lbl_4CFFD8A2="SHFB_VBPI_370927D6" />
+        <element api="M:XPatchLib.XmlTextReader.Read" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" SHFB_VBPI_Lbl_4CFFD8A2="SHFB_VBPI_370927D6" />
+        <element api="M:XPatchLib.XmlTextReader.Dispose" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" SHFB_VBPI_Lbl_4CFFD8A2="SHFB_VBPI_370927D6" />
+        <element api="P:XPatchLib.XmlTextReader.Setting" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" SHFB_VBPI_Lbl_4CFFD8A2="SHFB_VBPI_370927D6" />
+        <element api="P:XPatchLib.XmlTextReader.ReadState" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" SHFB_VBPI_Lbl_4CFFD8A2="SHFB_VBPI_370927D6" />
+        <element api="P:XPatchLib.XmlTextReader.EOF" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" SHFB_VBPI_Lbl_4CFFD8A2="SHFB_VBPI_370927D6" />
+        <element api="P:XPatchLib.XmlTextReader.Name" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" SHFB_VBPI_Lbl_4CFFD8A2="SHFB_VBPI_370927D6" />
+        <element api="P:XPatchLib.XmlTextReader.NodeType" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" SHFB_VBPI_Lbl_4CFFD8A2="SHFB_VBPI_370927D6" />
       </elements>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary" />
         <namespace api="N:XPatchLib" />
       </containers>
+      <versions>
+        <versions name="SHFB_VBPI_Lbl_19BC2879">
+          <version name="SHFB_VBPI_7AAB446" />
+          <version name="SHFB_VBPI_A9D4B446" />
+          <version name="SHFB_VBPI_1E74B446" />
+        </versions>
+        <versions name="SHFB_VBPI_Lbl_4CFFD8A2">
+          <version name="SHFB_VBPI_370927D6" />
+          <version name="SHFB_VBPI_370927D5" />
+        </versions>
+      </versions>
     </api>
-    <api id="M:XPatchLib.XmlTextReader.#ctor(System.Xml.XmlReader)">
+    <api id="M:XPatchLib.XmlTextReader.#ctor(System.IO.Stream)">
       <apidata name=".ctor" group="member" subgroup="constructor" />
       <memberdata visibility="public" special="true" />
       <parameters>
-        <parameter name="pReader">
-          <type api="T:System.Xml.XmlReader" ref="true" />
+        <parameter name="input">
+          <type api="T:System.IO.Stream" ref="true" />
         </parameter>
       </parameters>
       <containers>
@@ -1743,26 +3393,67 @@
         <namespace api="N:XPatchLib" />
         <type api="T:XPatchLib.XmlTextReader" ref="true" />
       </containers>
+      <versions>
+        <versions name="SHFB_VBPI_Lbl_19BC2879">
+          <version name="SHFB_VBPI_7AAB446" />
+          <version name="SHFB_VBPI_A9D4B446" />
+          <version name="SHFB_VBPI_1E74B446" />
+        </versions>
+        <versions name="SHFB_VBPI_Lbl_4CFFD8A2">
+          <version name="SHFB_VBPI_370927D6" />
+          <version name="SHFB_VBPI_370927D5" />
+        </versions>
+      </versions>
     </api>
-    <api id="P:XPatchLib.XmlTextReader.AttributeCount">
-      <apidata name="AttributeCount" group="member" subgroup="property" />
-      <memberdata visibility="public" />
-      <proceduredata virtual="true" final="true" />
-      <propertydata get="true" />
-      <getter name="get_AttributeCount" />
-      <returns>
-        <type api="T:System.Int32" ref="false" />
-      </returns>
-      <implements>
-        <member api="P:XPatchLib.ITextReader.AttributeCount">
-          <type api="T:XPatchLib.ITextReader" ref="true" />
-        </member>
-      </implements>
+    <api id="M:XPatchLib.XmlTextReader.#ctor(System.IO.TextReader)">
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <memberdata visibility="public" special="true" />
+      <parameters>
+        <parameter name="input">
+          <type api="T:System.IO.TextReader" ref="true" />
+        </parameter>
+      </parameters>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary" />
         <namespace api="N:XPatchLib" />
         <type api="T:XPatchLib.XmlTextReader" ref="true" />
       </containers>
+      <versions>
+        <versions name="SHFB_VBPI_Lbl_19BC2879">
+          <version name="SHFB_VBPI_7AAB446" />
+          <version name="SHFB_VBPI_A9D4B446" />
+          <version name="SHFB_VBPI_1E74B446" />
+        </versions>
+        <versions name="SHFB_VBPI_Lbl_4CFFD8A2">
+          <version name="SHFB_VBPI_370927D6" />
+          <version name="SHFB_VBPI_370927D5" />
+        </versions>
+      </versions>
+    </api>
+    <api id="M:XPatchLib.XmlTextReader.#ctor(System.String)">
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <memberdata visibility="public" special="true" />
+      <parameters>
+        <parameter name="input">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary" />
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.XmlTextReader" ref="true" />
+      </containers>
+      <versions>
+        <versions name="SHFB_VBPI_Lbl_19BC2879">
+          <version name="SHFB_VBPI_7AAB446" />
+          <version name="SHFB_VBPI_A9D4B446" />
+          <version name="SHFB_VBPI_1E74B446" />
+        </versions>
+        <versions name="SHFB_VBPI_Lbl_4CFFD8A2">
+          <version name="SHFB_VBPI_370927D6" />
+          <version name="SHFB_VBPI_370927D5" />
+        </versions>
+      </versions>
     </api>
     <api id="M:XPatchLib.XmlTextReader.Dispose">
       <apidata name="Dispose" group="member" subgroup="method" />
@@ -1778,6 +3469,17 @@
         <namespace api="N:XPatchLib" />
         <type api="T:XPatchLib.XmlTextReader" ref="true" />
       </containers>
+      <versions>
+        <versions name="SHFB_VBPI_Lbl_19BC2879">
+          <version name="SHFB_VBPI_7AAB446" />
+          <version name="SHFB_VBPI_A9D4B446" />
+          <version name="SHFB_VBPI_1E74B446" />
+        </versions>
+        <versions name="SHFB_VBPI_Lbl_4CFFD8A2">
+          <version name="SHFB_VBPI_370927D6" />
+          <version name="SHFB_VBPI_370927D5" />
+        </versions>
+      </versions>
     </api>
     <api id="P:XPatchLib.XmlTextReader.EOF">
       <apidata name="EOF" group="member" subgroup="property" />
@@ -1798,36 +3500,29 @@
         <namespace api="N:XPatchLib" />
         <type api="T:XPatchLib.XmlTextReader" ref="true" />
       </containers>
+      <versions>
+        <versions name="SHFB_VBPI_Lbl_19BC2879">
+          <version name="SHFB_VBPI_7AAB446" />
+          <version name="SHFB_VBPI_A9D4B446" />
+          <version name="SHFB_VBPI_1E74B446" />
+        </versions>
+        <versions name="SHFB_VBPI_Lbl_4CFFD8A2">
+          <version name="SHFB_VBPI_370927D6" />
+          <version name="SHFB_VBPI_370927D5" />
+        </versions>
+      </versions>
     </api>
-    <api id="M:XPatchLib.XmlTextReader.MoveToCurrentElementEnd(System.String)">
-      <apidata name="MoveToCurrentElementEnd" group="member" subgroup="method" />
-      <memberdata visibility="public" />
-      <proceduredata virtual="true" final="true" />
-      <parameters>
-        <parameter name="currentElementName">
-          <type api="T:System.String" ref="true" />
-        </parameter>
-      </parameters>
-      <implements>
-        <member api="M:XPatchLib.ITextReader.MoveToCurrentElementEnd(System.String)">
-          <type api="T:XPatchLib.ITextReader" ref="true" />
-        </member>
-      </implements>
-      <containers>
-        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary" />
-        <namespace api="N:XPatchLib" />
-        <type api="T:XPatchLib.XmlTextReader" ref="true" />
-      </containers>
-    </api>
-    <api id="M:XPatchLib.XmlTextReader.MoveToElement">
-      <apidata name="MoveToElement" group="member" subgroup="method" />
+    <api id="M:XPatchLib.XmlTextReader.GetAttributes">
+      <apidata name="GetAttributes" group="member" subgroup="method" />
       <memberdata visibility="public" />
       <proceduredata virtual="true" final="true" />
       <returns>
-        <type api="T:System.Boolean" ref="false" />
+        <arrayOf rank="2">
+          <type api="T:System.String" ref="true" />
+        </arrayOf>
       </returns>
       <implements>
-        <member api="M:XPatchLib.ITextReader.MoveToElement">
+        <member api="M:XPatchLib.ITextReader.GetAttributes">
           <type api="T:XPatchLib.ITextReader" ref="true" />
         </member>
       </implements>
@@ -1836,16 +3531,27 @@
         <namespace api="N:XPatchLib" />
         <type api="T:XPatchLib.XmlTextReader" ref="true" />
       </containers>
+      <versions>
+        <versions name="SHFB_VBPI_Lbl_19BC2879">
+          <version name="SHFB_VBPI_7AAB446" />
+          <version name="SHFB_VBPI_A9D4B446" />
+          <version name="SHFB_VBPI_1E74B446" />
+        </versions>
+        <versions name="SHFB_VBPI_Lbl_4CFFD8A2">
+          <version name="SHFB_VBPI_370927D6" />
+          <version name="SHFB_VBPI_370927D5" />
+        </versions>
+      </versions>
     </api>
-    <api id="M:XPatchLib.XmlTextReader.MoveToNextAttribute">
-      <apidata name="MoveToNextAttribute" group="member" subgroup="method" />
+    <api id="M:XPatchLib.XmlTextReader.GetValue">
+      <apidata name="GetValue" group="member" subgroup="method" />
       <memberdata visibility="public" />
       <proceduredata virtual="true" final="true" />
       <returns>
-        <type api="T:System.Boolean" ref="false" />
+        <type api="T:System.String" ref="true" />
       </returns>
       <implements>
-        <member api="M:XPatchLib.ITextReader.MoveToNextAttribute">
+        <member api="M:XPatchLib.ITextReader.GetValue">
           <type api="T:XPatchLib.ITextReader" ref="true" />
         </member>
       </implements>
@@ -1854,32 +3560,17 @@
         <namespace api="N:XPatchLib" />
         <type api="T:XPatchLib.XmlTextReader" ref="true" />
       </containers>
-    </api>
-    <api id="M:XPatchLib.XmlTextReader.MoveToNextElement(System.String,System.String)">
-      <apidata name="MoveToNextElement" group="member" subgroup="method" />
-      <memberdata visibility="public" />
-      <proceduredata virtual="true" final="true" />
-      <parameters>
-        <parameter name="nextElementName">
-          <type api="T:System.String" ref="true" />
-        </parameter>
-        <parameter name="parentElementName">
-          <type api="T:System.String" ref="true" />
-        </parameter>
-      </parameters>
-      <returns>
-        <type api="T:System.Boolean" ref="false" />
-      </returns>
-      <implements>
-        <member api="M:XPatchLib.ITextReader.MoveToNextElement(System.String,System.String)">
-          <type api="T:XPatchLib.ITextReader" ref="true" />
-        </member>
-      </implements>
-      <containers>
-        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary" />
-        <namespace api="N:XPatchLib" />
-        <type api="T:XPatchLib.XmlTextReader" ref="true" />
-      </containers>
+      <versions>
+        <versions name="SHFB_VBPI_Lbl_19BC2879">
+          <version name="SHFB_VBPI_7AAB446" />
+          <version name="SHFB_VBPI_A9D4B446" />
+          <version name="SHFB_VBPI_1E74B446" />
+        </versions>
+        <versions name="SHFB_VBPI_Lbl_4CFFD8A2">
+          <version name="SHFB_VBPI_370927D6" />
+          <version name="SHFB_VBPI_370927D5" />
+        </versions>
+      </versions>
     </api>
     <api id="P:XPatchLib.XmlTextReader.Name">
       <apidata name="Name" group="member" subgroup="property" />
@@ -1900,6 +3591,17 @@
         <namespace api="N:XPatchLib" />
         <type api="T:XPatchLib.XmlTextReader" ref="true" />
       </containers>
+      <versions>
+        <versions name="SHFB_VBPI_Lbl_19BC2879">
+          <version name="SHFB_VBPI_7AAB446" />
+          <version name="SHFB_VBPI_A9D4B446" />
+          <version name="SHFB_VBPI_1E74B446" />
+        </versions>
+        <versions name="SHFB_VBPI_Lbl_4CFFD8A2">
+          <version name="SHFB_VBPI_370927D6" />
+          <version name="SHFB_VBPI_370927D5" />
+        </versions>
+      </versions>
     </api>
     <api id="P:XPatchLib.XmlTextReader.NodeType">
       <apidata name="NodeType" group="member" subgroup="property" />
@@ -1920,6 +3622,17 @@
         <namespace api="N:XPatchLib" />
         <type api="T:XPatchLib.XmlTextReader" ref="true" />
       </containers>
+      <versions>
+        <versions name="SHFB_VBPI_Lbl_19BC2879">
+          <version name="SHFB_VBPI_7AAB446" />
+          <version name="SHFB_VBPI_A9D4B446" />
+          <version name="SHFB_VBPI_1E74B446" />
+        </versions>
+        <versions name="SHFB_VBPI_Lbl_4CFFD8A2">
+          <version name="SHFB_VBPI_370927D6" />
+          <version name="SHFB_VBPI_370927D5" />
+        </versions>
+      </versions>
     </api>
     <api id="M:XPatchLib.XmlTextReader.Read">
       <apidata name="Read" group="member" subgroup="method" />
@@ -1938,27 +3651,17 @@
         <namespace api="N:XPatchLib" />
         <type api="T:XPatchLib.XmlTextReader" ref="true" />
       </containers>
-    </api>
-    <api id="M:XPatchLib.XmlTextReader.Read``1">
-      <apidata name="Read" group="member" subgroup="method" />
-      <memberdata visibility="public" />
-      <proceduredata virtual="true" final="true" />
-      <templates>
-        <template name="T" />
-      </templates>
-      <returns>
-        <template name="T" index="0" api="M:XPatchLib.XmlTextReader.Read``1" />
-      </returns>
-      <implements>
-        <member api="M:XPatchLib.ITextReader.Read``1">
-          <type api="T:XPatchLib.ITextReader" ref="true" />
-        </member>
-      </implements>
-      <containers>
-        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary" />
-        <namespace api="N:XPatchLib" />
-        <type api="T:XPatchLib.XmlTextReader" ref="true" />
-      </containers>
+      <versions>
+        <versions name="SHFB_VBPI_Lbl_19BC2879">
+          <version name="SHFB_VBPI_7AAB446" />
+          <version name="SHFB_VBPI_A9D4B446" />
+          <version name="SHFB_VBPI_1E74B446" />
+        </versions>
+        <versions name="SHFB_VBPI_Lbl_4CFFD8A2">
+          <version name="SHFB_VBPI_370927D6" />
+          <version name="SHFB_VBPI_370927D5" />
+        </versions>
+      </versions>
     </api>
     <api id="P:XPatchLib.XmlTextReader.ReadState">
       <apidata name="ReadState" group="member" subgroup="property" />
@@ -1979,24 +3682,17 @@
         <namespace api="N:XPatchLib" />
         <type api="T:XPatchLib.XmlTextReader" ref="true" />
       </containers>
-    </api>
-    <api id="M:XPatchLib.XmlTextReader.ReadString">
-      <apidata name="ReadString" group="member" subgroup="method" />
-      <memberdata visibility="public" />
-      <proceduredata virtual="true" final="true" />
-      <returns>
-        <type api="T:System.String" ref="true" />
-      </returns>
-      <implements>
-        <member api="M:XPatchLib.ITextReader.ReadString">
-          <type api="T:XPatchLib.ITextReader" ref="true" />
-        </member>
-      </implements>
-      <containers>
-        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary" />
-        <namespace api="N:XPatchLib" />
-        <type api="T:XPatchLib.XmlTextReader" ref="true" />
-      </containers>
+      <versions>
+        <versions name="SHFB_VBPI_Lbl_19BC2879">
+          <version name="SHFB_VBPI_7AAB446" />
+          <version name="SHFB_VBPI_A9D4B446" />
+          <version name="SHFB_VBPI_1E74B446" />
+        </versions>
+        <versions name="SHFB_VBPI_Lbl_4CFFD8A2">
+          <version name="SHFB_VBPI_370927D6" />
+          <version name="SHFB_VBPI_370927D5" />
+        </versions>
+      </versions>
     </api>
     <api id="P:XPatchLib.XmlTextReader.Setting">
       <apidata name="Setting" group="member" subgroup="property" />
@@ -2018,26 +3714,17 @@
         <namespace api="N:XPatchLib" />
         <type api="T:XPatchLib.XmlTextReader" ref="true" />
       </containers>
-    </api>
-    <api id="P:XPatchLib.XmlTextReader.Value">
-      <apidata name="Value" group="member" subgroup="property" />
-      <memberdata visibility="public" />
-      <proceduredata virtual="true" final="true" />
-      <propertydata get="true" />
-      <getter name="get_Value" />
-      <returns>
-        <type api="T:System.String" ref="true" />
-      </returns>
-      <implements>
-        <member api="P:XPatchLib.ITextReader.Value">
-          <type api="T:XPatchLib.ITextReader" ref="true" />
-        </member>
-      </implements>
-      <containers>
-        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary" />
-        <namespace api="N:XPatchLib" />
-        <type api="T:XPatchLib.XmlTextReader" ref="true" />
-      </containers>
+      <versions>
+        <versions name="SHFB_VBPI_Lbl_19BC2879">
+          <version name="SHFB_VBPI_7AAB446" />
+          <version name="SHFB_VBPI_A9D4B446" />
+          <version name="SHFB_VBPI_1E74B446" />
+        </versions>
+        <versions name="SHFB_VBPI_Lbl_4CFFD8A2">
+          <version name="SHFB_VBPI_370927D6" />
+          <version name="SHFB_VBPI_370927D5" />
+        </versions>
+      </versions>
     </api>
     <api id="T:XPatchLib.XmlTextWriter">
       <apidata name="XmlTextWriter" group="type" subgroup="class" />
@@ -2052,36 +3739,55 @@
         <type api="T:System.IDisposable" ref="true" />
       </implements>
       <elements>
-        <element api="M:XPatchLib.XmlTextWriter.#ctor(System.Xml.XmlWriter)" />
-        <element api="M:XPatchLib.XmlTextWriter.WriteStartDocument" />
-        <element api="M:XPatchLib.XmlTextWriter.WriteEndDocument" />
-        <element api="M:XPatchLib.XmlTextWriter.Flush" />
-        <element api="M:XPatchLib.XmlTextWriter.WriteStartObject(System.String)" />
-        <element api="M:XPatchLib.XmlTextWriter.WriteEndObject" />
-        <element api="M:XPatchLib.XmlTextWriter.WriteAttribute(System.String,System.String)" />
-        <element api="M:XPatchLib.XmlTextWriter.WriteProperty(System.String,System.String)" />
-        <element api="M:XPatchLib.XmlTextWriter.WriteStartArray(System.String)" />
-        <element api="M:XPatchLib.XmlTextWriter.WriteEndArray" />
-        <element api="M:XPatchLib.XmlTextWriter.WriteStartProperty(System.String)" />
-        <element api="M:XPatchLib.XmlTextWriter.WriteEndProperty" />
-        <element api="M:XPatchLib.XmlTextWriter.WriteValue(System.String)" />
-        <element api="M:XPatchLib.XmlTextWriter.Dispose" />
-        <element api="M:XPatchLib.XmlTextWriter.WriteStartArrayItem(System.String)" />
-        <element api="M:XPatchLib.XmlTextWriter.WriteEndArrayItem" />
-        <element api="P:XPatchLib.XmlTextWriter.Setting" />
-        <element api="P:XPatchLib.XmlTextWriter.IgnoreAttributeType" />
+        <element api="M:XPatchLib.XmlTextWriter.#ctor(System.IO.Stream,System.Text.Encoding)" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" SHFB_VBPI_Lbl_4CFFD8A2="SHFB_VBPI_370927D6" />
+        <element api="M:XPatchLib.XmlTextWriter.#ctor(System.String,System.Text.Encoding)" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" SHFB_VBPI_Lbl_4CFFD8A2="SHFB_VBPI_370927D6" />
+        <element api="M:XPatchLib.XmlTextWriter.#ctor(System.IO.TextWriter)" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" SHFB_VBPI_Lbl_4CFFD8A2="SHFB_VBPI_370927D6" />
+        <element api="M:XPatchLib.XmlTextWriter.Dispose" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" SHFB_VBPI_Lbl_4CFFD8A2="SHFB_VBPI_370927D6" />
+        <element api="M:XPatchLib.XmlTextWriter.WriteStartDocument" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" SHFB_VBPI_Lbl_4CFFD8A2="SHFB_VBPI_370927D6" />
+        <element api="M:XPatchLib.XmlTextWriter.WriteEndDocument" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" SHFB_VBPI_Lbl_4CFFD8A2="SHFB_VBPI_370927D6" />
+        <element api="M:XPatchLib.XmlTextWriter.Flush" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" SHFB_VBPI_Lbl_4CFFD8A2="SHFB_VBPI_370927D6" />
+        <element api="M:XPatchLib.XmlTextWriter.WriteStartObject(System.String)" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" SHFB_VBPI_Lbl_4CFFD8A2="SHFB_VBPI_370927D6" />
+        <element api="M:XPatchLib.XmlTextWriter.WriteEndObject" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" SHFB_VBPI_Lbl_4CFFD8A2="SHFB_VBPI_370927D6" />
+        <element api="M:XPatchLib.XmlTextWriter.WriteAttribute(System.String,System.String)" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" SHFB_VBPI_Lbl_4CFFD8A2="SHFB_VBPI_370927D6" />
+        <element api="M:XPatchLib.XmlTextWriter.WriteProperty(System.String,System.String)" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" SHFB_VBPI_Lbl_4CFFD8A2="SHFB_VBPI_370927D6" />
+        <element api="M:XPatchLib.XmlTextWriter.WriteStartProperty(System.String)" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" SHFB_VBPI_Lbl_4CFFD8A2="SHFB_VBPI_370927D6" />
+        <element api="M:XPatchLib.XmlTextWriter.WriteEndProperty" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" SHFB_VBPI_Lbl_4CFFD8A2="SHFB_VBPI_370927D6" />
+        <element api="M:XPatchLib.XmlTextWriter.WriteStartArray(System.String)" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" SHFB_VBPI_Lbl_4CFFD8A2="SHFB_VBPI_370927D6" />
+        <element api="M:XPatchLib.XmlTextWriter.WriteStartArrayItem(System.String)" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" SHFB_VBPI_Lbl_4CFFD8A2="SHFB_VBPI_370927D6" />
+        <element api="M:XPatchLib.XmlTextWriter.WriteEndArrayItem" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" SHFB_VBPI_Lbl_4CFFD8A2="SHFB_VBPI_370927D6" />
+        <element api="M:XPatchLib.XmlTextWriter.WriteEndArray" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" SHFB_VBPI_Lbl_4CFFD8A2="SHFB_VBPI_370927D6" />
+        <element api="M:XPatchLib.XmlTextWriter.WriteValue(System.String)" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" SHFB_VBPI_Lbl_4CFFD8A2="SHFB_VBPI_370927D6" />
+        <element api="P:XPatchLib.XmlTextWriter.Formatting" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" SHFB_VBPI_Lbl_4CFFD8A2="SHFB_VBPI_370927D6" />
+        <element api="P:XPatchLib.XmlTextWriter.Indentation" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" SHFB_VBPI_Lbl_4CFFD8A2="SHFB_VBPI_370927D6" />
+        <element api="P:XPatchLib.XmlTextWriter.IndentChar" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" SHFB_VBPI_Lbl_4CFFD8A2="SHFB_VBPI_370927D6" />
+        <element api="P:XPatchLib.XmlTextWriter.QuoteChar" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" SHFB_VBPI_Lbl_4CFFD8A2="SHFB_VBPI_370927D6" />
+        <element api="P:XPatchLib.XmlTextWriter.Setting" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" SHFB_VBPI_Lbl_4CFFD8A2="SHFB_VBPI_370927D6" />
       </elements>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary" />
         <namespace api="N:XPatchLib" />
       </containers>
+      <versions>
+        <versions name="SHFB_VBPI_Lbl_19BC2879">
+          <version name="SHFB_VBPI_7AAB446" />
+          <version name="SHFB_VBPI_A9D4B446" />
+          <version name="SHFB_VBPI_1E74B446" />
+        </versions>
+        <versions name="SHFB_VBPI_Lbl_4CFFD8A2">
+          <version name="SHFB_VBPI_370927D6" />
+          <version name="SHFB_VBPI_370927D5" />
+        </versions>
+      </versions>
     </api>
-    <api id="M:XPatchLib.XmlTextWriter.#ctor(System.Xml.XmlWriter)">
+    <api id="M:XPatchLib.XmlTextWriter.#ctor(System.IO.Stream,System.Text.Encoding)">
       <apidata name=".ctor" group="member" subgroup="constructor" />
       <memberdata visibility="public" special="true" />
       <parameters>
-        <parameter name="pWriter">
-          <type api="T:System.Xml.XmlWriter" ref="true" />
+        <parameter name="pStream">
+          <type api="T:System.IO.Stream" ref="true" />
+        </parameter>
+        <parameter name="pEncoding">
+          <type api="T:System.Text.Encoding" ref="true" />
         </parameter>
       </parameters>
       <containers>
@@ -2089,6 +3795,69 @@
         <namespace api="N:XPatchLib" />
         <type api="T:XPatchLib.XmlTextWriter" ref="true" />
       </containers>
+      <versions>
+        <versions name="SHFB_VBPI_Lbl_19BC2879">
+          <version name="SHFB_VBPI_7AAB446" />
+          <version name="SHFB_VBPI_A9D4B446" />
+          <version name="SHFB_VBPI_1E74B446" />
+        </versions>
+        <versions name="SHFB_VBPI_Lbl_4CFFD8A2">
+          <version name="SHFB_VBPI_370927D6" />
+          <version name="SHFB_VBPI_370927D5" />
+        </versions>
+      </versions>
+    </api>
+    <api id="M:XPatchLib.XmlTextWriter.#ctor(System.IO.TextWriter)">
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <memberdata visibility="public" special="true" />
+      <parameters>
+        <parameter name="pWriter">
+          <type api="T:System.IO.TextWriter" ref="true" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary" />
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.XmlTextWriter" ref="true" />
+      </containers>
+      <versions>
+        <versions name="SHFB_VBPI_Lbl_19BC2879">
+          <version name="SHFB_VBPI_7AAB446" />
+          <version name="SHFB_VBPI_A9D4B446" />
+          <version name="SHFB_VBPI_1E74B446" />
+        </versions>
+        <versions name="SHFB_VBPI_Lbl_4CFFD8A2">
+          <version name="SHFB_VBPI_370927D6" />
+          <version name="SHFB_VBPI_370927D5" />
+        </versions>
+      </versions>
+    </api>
+    <api id="M:XPatchLib.XmlTextWriter.#ctor(System.String,System.Text.Encoding)">
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <memberdata visibility="public" special="true" />
+      <parameters>
+        <parameter name="pFilename">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+        <parameter name="pEncoding">
+          <type api="T:System.Text.Encoding" ref="true" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary" />
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.XmlTextWriter" ref="true" />
+      </containers>
+      <versions>
+        <versions name="SHFB_VBPI_Lbl_19BC2879">
+          <version name="SHFB_VBPI_7AAB446" />
+          <version name="SHFB_VBPI_A9D4B446" />
+          <version name="SHFB_VBPI_1E74B446" />
+        </versions>
+        <versions name="SHFB_VBPI_Lbl_4CFFD8A2">
+          <version name="SHFB_VBPI_370927D6" />
+        </versions>
+      </versions>
     </api>
     <api id="M:XPatchLib.XmlTextWriter.Dispose">
       <apidata name="Dispose" group="member" subgroup="method" />
@@ -2104,6 +3873,17 @@
         <namespace api="N:XPatchLib" />
         <type api="T:XPatchLib.XmlTextWriter" ref="true" />
       </containers>
+      <versions>
+        <versions name="SHFB_VBPI_Lbl_19BC2879">
+          <version name="SHFB_VBPI_7AAB446" />
+          <version name="SHFB_VBPI_A9D4B446" />
+          <version name="SHFB_VBPI_1E74B446" />
+        </versions>
+        <versions name="SHFB_VBPI_Lbl_4CFFD8A2">
+          <version name="SHFB_VBPI_370927D6" />
+          <version name="SHFB_VBPI_370927D5" />
+        </versions>
+      </versions>
     </api>
     <api id="M:XPatchLib.XmlTextWriter.Flush">
       <apidata name="Flush" group="member" subgroup="method" />
@@ -2119,19 +3899,30 @@
         <namespace api="N:XPatchLib" />
         <type api="T:XPatchLib.XmlTextWriter" ref="true" />
       </containers>
+      <versions>
+        <versions name="SHFB_VBPI_Lbl_19BC2879">
+          <version name="SHFB_VBPI_7AAB446" />
+          <version name="SHFB_VBPI_A9D4B446" />
+          <version name="SHFB_VBPI_1E74B446" />
+        </versions>
+        <versions name="SHFB_VBPI_Lbl_4CFFD8A2">
+          <version name="SHFB_VBPI_370927D6" />
+          <version name="SHFB_VBPI_370927D5" />
+        </versions>
+      </versions>
     </api>
-    <api id="P:XPatchLib.XmlTextWriter.IgnoreAttributeType">
-      <apidata name="IgnoreAttributeType" group="member" subgroup="property" />
+    <api id="P:XPatchLib.XmlTextWriter.Formatting">
+      <apidata name="Formatting" group="member" subgroup="property" />
       <memberdata visibility="public" />
       <proceduredata virtual="true" final="true" />
       <propertydata get="true" set="true" />
-      <getter name="get_IgnoreAttributeType" />
-      <setter name="set_IgnoreAttributeType" />
+      <getter name="get_Formatting" />
+      <setter name="set_Formatting" />
       <returns>
-        <type api="T:System.Type" ref="true" />
+        <type api="T:XPatchLib.Formatting" ref="false" />
       </returns>
       <implements>
-        <member api="P:XPatchLib.ITextWriter.IgnoreAttributeType">
+        <member api="P:XPatchLib.ITextWriter.Formatting">
           <type api="T:XPatchLib.ITextWriter" ref="true" />
         </member>
       </implements>
@@ -2140,6 +3931,113 @@
         <namespace api="N:XPatchLib" />
         <type api="T:XPatchLib.XmlTextWriter" ref="true" />
       </containers>
+      <versions>
+        <versions name="SHFB_VBPI_Lbl_19BC2879">
+          <version name="SHFB_VBPI_7AAB446" />
+          <version name="SHFB_VBPI_A9D4B446" />
+          <version name="SHFB_VBPI_1E74B446" />
+        </versions>
+        <versions name="SHFB_VBPI_Lbl_4CFFD8A2">
+          <version name="SHFB_VBPI_370927D6" />
+          <version name="SHFB_VBPI_370927D5" />
+        </versions>
+      </versions>
+    </api>
+    <api id="P:XPatchLib.XmlTextWriter.Indentation">
+      <apidata name="Indentation" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" final="true" />
+      <propertydata get="true" set="true" />
+      <getter name="get_Indentation" />
+      <setter name="set_Indentation" />
+      <returns>
+        <type api="T:System.Int32" ref="false" />
+      </returns>
+      <implements>
+        <member api="P:XPatchLib.ITextWriter.Indentation">
+          <type api="T:XPatchLib.ITextWriter" ref="true" />
+        </member>
+      </implements>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary" />
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.XmlTextWriter" ref="true" />
+      </containers>
+      <versions>
+        <versions name="SHFB_VBPI_Lbl_19BC2879">
+          <version name="SHFB_VBPI_7AAB446" />
+          <version name="SHFB_VBPI_A9D4B446" />
+          <version name="SHFB_VBPI_1E74B446" />
+        </versions>
+        <versions name="SHFB_VBPI_Lbl_4CFFD8A2">
+          <version name="SHFB_VBPI_370927D6" />
+          <version name="SHFB_VBPI_370927D5" />
+        </versions>
+      </versions>
+    </api>
+    <api id="P:XPatchLib.XmlTextWriter.IndentChar">
+      <apidata name="IndentChar" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" final="true" />
+      <propertydata get="true" set="true" />
+      <getter name="get_IndentChar" />
+      <setter name="set_IndentChar" />
+      <returns>
+        <type api="T:System.Char" ref="false" />
+      </returns>
+      <implements>
+        <member api="P:XPatchLib.ITextWriter.IndentChar">
+          <type api="T:XPatchLib.ITextWriter" ref="true" />
+        </member>
+      </implements>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary" />
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.XmlTextWriter" ref="true" />
+      </containers>
+      <versions>
+        <versions name="SHFB_VBPI_Lbl_19BC2879">
+          <version name="SHFB_VBPI_7AAB446" />
+          <version name="SHFB_VBPI_A9D4B446" />
+          <version name="SHFB_VBPI_1E74B446" />
+        </versions>
+        <versions name="SHFB_VBPI_Lbl_4CFFD8A2">
+          <version name="SHFB_VBPI_370927D6" />
+          <version name="SHFB_VBPI_370927D5" />
+        </versions>
+      </versions>
+    </api>
+    <api id="P:XPatchLib.XmlTextWriter.QuoteChar">
+      <apidata name="QuoteChar" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" final="true" />
+      <propertydata get="true" set="true" />
+      <getter name="get_QuoteChar" />
+      <setter name="set_QuoteChar" />
+      <returns>
+        <type api="T:System.Char" ref="false" />
+      </returns>
+      <implements>
+        <member api="P:XPatchLib.ITextWriter.QuoteChar">
+          <type api="T:XPatchLib.ITextWriter" ref="true" />
+        </member>
+      </implements>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary" />
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.XmlTextWriter" ref="true" />
+      </containers>
+      <versions>
+        <versions name="SHFB_VBPI_Lbl_19BC2879">
+          <version name="SHFB_VBPI_7AAB446" />
+          <version name="SHFB_VBPI_A9D4B446" />
+          <version name="SHFB_VBPI_1E74B446" />
+        </versions>
+        <versions name="SHFB_VBPI_Lbl_4CFFD8A2">
+          <version name="SHFB_VBPI_370927D6" />
+          <version name="SHFB_VBPI_370927D5" />
+        </versions>
+      </versions>
     </api>
     <api id="P:XPatchLib.XmlTextWriter.Setting">
       <apidata name="Setting" group="member" subgroup="property" />
@@ -2161,6 +4059,17 @@
         <namespace api="N:XPatchLib" />
         <type api="T:XPatchLib.XmlTextWriter" ref="true" />
       </containers>
+      <versions>
+        <versions name="SHFB_VBPI_Lbl_19BC2879">
+          <version name="SHFB_VBPI_7AAB446" />
+          <version name="SHFB_VBPI_A9D4B446" />
+          <version name="SHFB_VBPI_1E74B446" />
+        </versions>
+        <versions name="SHFB_VBPI_Lbl_4CFFD8A2">
+          <version name="SHFB_VBPI_370927D6" />
+          <version name="SHFB_VBPI_370927D5" />
+        </versions>
+      </versions>
     </api>
     <api id="M:XPatchLib.XmlTextWriter.WriteAttribute(System.String,System.String)">
       <apidata name="WriteAttribute" group="member" subgroup="method" />
@@ -2184,6 +4093,17 @@
         <namespace api="N:XPatchLib" />
         <type api="T:XPatchLib.XmlTextWriter" ref="true" />
       </containers>
+      <versions>
+        <versions name="SHFB_VBPI_Lbl_19BC2879">
+          <version name="SHFB_VBPI_7AAB446" />
+          <version name="SHFB_VBPI_A9D4B446" />
+          <version name="SHFB_VBPI_1E74B446" />
+        </versions>
+        <versions name="SHFB_VBPI_Lbl_4CFFD8A2">
+          <version name="SHFB_VBPI_370927D6" />
+          <version name="SHFB_VBPI_370927D5" />
+        </versions>
+      </versions>
     </api>
     <api id="M:XPatchLib.XmlTextWriter.WriteEndArray">
       <apidata name="WriteEndArray" group="member" subgroup="method" />
@@ -2199,6 +4119,17 @@
         <namespace api="N:XPatchLib" />
         <type api="T:XPatchLib.XmlTextWriter" ref="true" />
       </containers>
+      <versions>
+        <versions name="SHFB_VBPI_Lbl_19BC2879">
+          <version name="SHFB_VBPI_7AAB446" />
+          <version name="SHFB_VBPI_A9D4B446" />
+          <version name="SHFB_VBPI_1E74B446" />
+        </versions>
+        <versions name="SHFB_VBPI_Lbl_4CFFD8A2">
+          <version name="SHFB_VBPI_370927D6" />
+          <version name="SHFB_VBPI_370927D5" />
+        </versions>
+      </versions>
     </api>
     <api id="M:XPatchLib.XmlTextWriter.WriteEndArrayItem">
       <apidata name="WriteEndArrayItem" group="member" subgroup="method" />
@@ -2214,6 +4145,17 @@
         <namespace api="N:XPatchLib" />
         <type api="T:XPatchLib.XmlTextWriter" ref="true" />
       </containers>
+      <versions>
+        <versions name="SHFB_VBPI_Lbl_19BC2879">
+          <version name="SHFB_VBPI_7AAB446" />
+          <version name="SHFB_VBPI_A9D4B446" />
+          <version name="SHFB_VBPI_1E74B446" />
+        </versions>
+        <versions name="SHFB_VBPI_Lbl_4CFFD8A2">
+          <version name="SHFB_VBPI_370927D6" />
+          <version name="SHFB_VBPI_370927D5" />
+        </versions>
+      </versions>
     </api>
     <api id="M:XPatchLib.XmlTextWriter.WriteEndDocument">
       <apidata name="WriteEndDocument" group="member" subgroup="method" />
@@ -2229,6 +4171,17 @@
         <namespace api="N:XPatchLib" />
         <type api="T:XPatchLib.XmlTextWriter" ref="true" />
       </containers>
+      <versions>
+        <versions name="SHFB_VBPI_Lbl_19BC2879">
+          <version name="SHFB_VBPI_7AAB446" />
+          <version name="SHFB_VBPI_A9D4B446" />
+          <version name="SHFB_VBPI_1E74B446" />
+        </versions>
+        <versions name="SHFB_VBPI_Lbl_4CFFD8A2">
+          <version name="SHFB_VBPI_370927D6" />
+          <version name="SHFB_VBPI_370927D5" />
+        </versions>
+      </versions>
     </api>
     <api id="M:XPatchLib.XmlTextWriter.WriteEndObject">
       <apidata name="WriteEndObject" group="member" subgroup="method" />
@@ -2244,6 +4197,17 @@
         <namespace api="N:XPatchLib" />
         <type api="T:XPatchLib.XmlTextWriter" ref="true" />
       </containers>
+      <versions>
+        <versions name="SHFB_VBPI_Lbl_19BC2879">
+          <version name="SHFB_VBPI_7AAB446" />
+          <version name="SHFB_VBPI_A9D4B446" />
+          <version name="SHFB_VBPI_1E74B446" />
+        </versions>
+        <versions name="SHFB_VBPI_Lbl_4CFFD8A2">
+          <version name="SHFB_VBPI_370927D6" />
+          <version name="SHFB_VBPI_370927D5" />
+        </versions>
+      </versions>
     </api>
     <api id="M:XPatchLib.XmlTextWriter.WriteEndProperty">
       <apidata name="WriteEndProperty" group="member" subgroup="method" />
@@ -2259,6 +4223,17 @@
         <namespace api="N:XPatchLib" />
         <type api="T:XPatchLib.XmlTextWriter" ref="true" />
       </containers>
+      <versions>
+        <versions name="SHFB_VBPI_Lbl_19BC2879">
+          <version name="SHFB_VBPI_7AAB446" />
+          <version name="SHFB_VBPI_A9D4B446" />
+          <version name="SHFB_VBPI_1E74B446" />
+        </versions>
+        <versions name="SHFB_VBPI_Lbl_4CFFD8A2">
+          <version name="SHFB_VBPI_370927D6" />
+          <version name="SHFB_VBPI_370927D5" />
+        </versions>
+      </versions>
     </api>
     <api id="M:XPatchLib.XmlTextWriter.WriteProperty(System.String,System.String)">
       <apidata name="WriteProperty" group="member" subgroup="method" />
@@ -2282,6 +4257,17 @@
         <namespace api="N:XPatchLib" />
         <type api="T:XPatchLib.XmlTextWriter" ref="true" />
       </containers>
+      <versions>
+        <versions name="SHFB_VBPI_Lbl_19BC2879">
+          <version name="SHFB_VBPI_7AAB446" />
+          <version name="SHFB_VBPI_A9D4B446" />
+          <version name="SHFB_VBPI_1E74B446" />
+        </versions>
+        <versions name="SHFB_VBPI_Lbl_4CFFD8A2">
+          <version name="SHFB_VBPI_370927D6" />
+          <version name="SHFB_VBPI_370927D5" />
+        </versions>
+      </versions>
     </api>
     <api id="M:XPatchLib.XmlTextWriter.WriteStartArray(System.String)">
       <apidata name="WriteStartArray" group="member" subgroup="method" />
@@ -2302,6 +4288,17 @@
         <namespace api="N:XPatchLib" />
         <type api="T:XPatchLib.XmlTextWriter" ref="true" />
       </containers>
+      <versions>
+        <versions name="SHFB_VBPI_Lbl_19BC2879">
+          <version name="SHFB_VBPI_7AAB446" />
+          <version name="SHFB_VBPI_A9D4B446" />
+          <version name="SHFB_VBPI_1E74B446" />
+        </versions>
+        <versions name="SHFB_VBPI_Lbl_4CFFD8A2">
+          <version name="SHFB_VBPI_370927D6" />
+          <version name="SHFB_VBPI_370927D5" />
+        </versions>
+      </versions>
     </api>
     <api id="M:XPatchLib.XmlTextWriter.WriteStartArrayItem(System.String)">
       <apidata name="WriteStartArrayItem" group="member" subgroup="method" />
@@ -2322,6 +4319,17 @@
         <namespace api="N:XPatchLib" />
         <type api="T:XPatchLib.XmlTextWriter" ref="true" />
       </containers>
+      <versions>
+        <versions name="SHFB_VBPI_Lbl_19BC2879">
+          <version name="SHFB_VBPI_7AAB446" />
+          <version name="SHFB_VBPI_A9D4B446" />
+          <version name="SHFB_VBPI_1E74B446" />
+        </versions>
+        <versions name="SHFB_VBPI_Lbl_4CFFD8A2">
+          <version name="SHFB_VBPI_370927D6" />
+          <version name="SHFB_VBPI_370927D5" />
+        </versions>
+      </versions>
     </api>
     <api id="M:XPatchLib.XmlTextWriter.WriteStartDocument">
       <apidata name="WriteStartDocument" group="member" subgroup="method" />
@@ -2337,6 +4345,17 @@
         <namespace api="N:XPatchLib" />
         <type api="T:XPatchLib.XmlTextWriter" ref="true" />
       </containers>
+      <versions>
+        <versions name="SHFB_VBPI_Lbl_19BC2879">
+          <version name="SHFB_VBPI_7AAB446" />
+          <version name="SHFB_VBPI_A9D4B446" />
+          <version name="SHFB_VBPI_1E74B446" />
+        </versions>
+        <versions name="SHFB_VBPI_Lbl_4CFFD8A2">
+          <version name="SHFB_VBPI_370927D6" />
+          <version name="SHFB_VBPI_370927D5" />
+        </versions>
+      </versions>
     </api>
     <api id="M:XPatchLib.XmlTextWriter.WriteStartObject(System.String)">
       <apidata name="WriteStartObject" group="member" subgroup="method" />
@@ -2357,6 +4376,17 @@
         <namespace api="N:XPatchLib" />
         <type api="T:XPatchLib.XmlTextWriter" ref="true" />
       </containers>
+      <versions>
+        <versions name="SHFB_VBPI_Lbl_19BC2879">
+          <version name="SHFB_VBPI_7AAB446" />
+          <version name="SHFB_VBPI_A9D4B446" />
+          <version name="SHFB_VBPI_1E74B446" />
+        </versions>
+        <versions name="SHFB_VBPI_Lbl_4CFFD8A2">
+          <version name="SHFB_VBPI_370927D6" />
+          <version name="SHFB_VBPI_370927D5" />
+        </versions>
+      </versions>
     </api>
     <api id="M:XPatchLib.XmlTextWriter.WriteStartProperty(System.String)">
       <apidata name="WriteStartProperty" group="member" subgroup="method" />
@@ -2377,6 +4407,17 @@
         <namespace api="N:XPatchLib" />
         <type api="T:XPatchLib.XmlTextWriter" ref="true" />
       </containers>
+      <versions>
+        <versions name="SHFB_VBPI_Lbl_19BC2879">
+          <version name="SHFB_VBPI_7AAB446" />
+          <version name="SHFB_VBPI_A9D4B446" />
+          <version name="SHFB_VBPI_1E74B446" />
+        </versions>
+        <versions name="SHFB_VBPI_Lbl_4CFFD8A2">
+          <version name="SHFB_VBPI_370927D6" />
+          <version name="SHFB_VBPI_370927D5" />
+        </versions>
+      </versions>
     </api>
     <api id="M:XPatchLib.XmlTextWriter.WriteValue(System.String)">
       <apidata name="WriteValue" group="member" subgroup="method" />
@@ -2397,6 +4438,59 @@
         <namespace api="N:XPatchLib" />
         <type api="T:XPatchLib.XmlTextWriter" ref="true" />
       </containers>
+      <versions>
+        <versions name="SHFB_VBPI_Lbl_19BC2879">
+          <version name="SHFB_VBPI_7AAB446" />
+          <version name="SHFB_VBPI_A9D4B446" />
+          <version name="SHFB_VBPI_1E74B446" />
+        </versions>
+        <versions name="SHFB_VBPI_Lbl_4CFFD8A2">
+          <version name="SHFB_VBPI_370927D6" />
+          <version name="SHFB_VBPI_370927D5" />
+        </versions>
+      </versions>
+    </api>
+    <api id="T:XPatchLib.ICloneable">
+      <apidata name="ICloneable" group="type" subgroup="interface" />
+      <typedata visibility="public" abstract="true" serializable="false" />
+      <implementors>
+        <type api="T:XPatchLib.ISerializeSetting" ref="true" />
+        <type api="T:XPatchLib.SerializeSetting" ref="true" />
+      </implementors>
+      <elements>
+        <element api="M:XPatchLib.ICloneable.Clone" SHFB_VBPI_Lbl_4CFFD8A2="SHFB_VBPI_370927D6" />
+      </elements>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary" />
+        <namespace api="N:XPatchLib" />
+      </containers>
+      <versions>
+        <versions name="SHFB_VBPI_Lbl_19BC2879" />
+        <versions name="SHFB_VBPI_Lbl_4CFFD8A2">
+          <version name="SHFB_VBPI_370927D6" />
+          <version name="SHFB_VBPI_370927D5" />
+        </versions>
+      </versions>
+    </api>
+    <api id="M:XPatchLib.ICloneable.Clone">
+      <apidata name="Clone" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <returns>
+        <type api="T:System.Object" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary" />
+        <namespace api="N:XPatchLib" />
+        <type api="T:XPatchLib.ICloneable" ref="true" />
+      </containers>
+      <versions>
+        <versions name="SHFB_VBPI_Lbl_19BC2879" />
+        <versions name="SHFB_VBPI_Lbl_4CFFD8A2">
+          <version name="SHFB_VBPI_370927D6" />
+          <version name="SHFB_VBPI_370927D5" />
+        </versions>
+      </versions>
     </api>
   </apis>
 </reflection>

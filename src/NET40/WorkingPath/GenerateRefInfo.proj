@@ -1,5 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="14.0" DefaultTargets="Generate" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+﻿<Project ToolsVersion="14.0" DefaultTargets="Generate" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <!-- Sandcastle Tools MSBuild Tasks.  https://GitHub.com/EWSoftware/SHFB -->
   <UsingTask TaskName="Microsoft.Ddue.Tools.MSBuild.MRefBuilder" AssemblyFile="C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\\MRefBuilder.exe" />
   <UsingTask TaskName="Microsoft.Ddue.Tools.MSBuild.XslTransform" AssemblyFile="C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\\XslTransform.exe" />
@@ -9,7 +8,7 @@
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <AddXamlSyntaxData>
     </AddXamlSyntaxData>
-    <WorkingFolder>C:\Users\GuQiang\Documents\Source\Repos\XPatchLib.Net.Doc\src\NET40\WorkingPath\</WorkingFolder>
+    <WorkingFolder>D:\GitHub\XPatchLib.Net.Doc\src\NET40\WorkingPath\</WorkingFolder>
     <ReferencePath Condition=" '$(ReferencePath)' == '' ">
     </ReferencePath>
     <ResolveAssemblyWarnOrErrorOnTargetArchitectureMismatch>None</ResolveAssemblyWarnOrErrorOnTargetArchitectureMismatch>
@@ -31,7 +30,7 @@
 		</GenerateDependsOn>
   </PropertyGroup>
   <ItemGroup>
-    <Assembly Include="C:\Users\GuQiang\Documents\Source\Repos\XPatchLib.Output\Release\net40\XPatchLib.dll" />
+    <Assembly Include="D:\GitHub\XPatchLib.Output\Release\net40\XPatchLib.dll" />
   </ItemGroup>
   <Target Name="Generate" DependsOnTargets="$(GenerateDependsOn)" />
   <!-- The Generate Ref Info target -->

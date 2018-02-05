@@ -8,7 +8,7 @@ IF EXIST "%~dp0..\XPatchLib.Net" SET "XPATCHLIB_SRC=%~dp0..\XPatchLib.Net"
 IF EXIST "%XPATCHLIB_SRC%\builder\MasterBuild.bat" SET "MASTERBUILD=%XPATCHLIB_SRC%\builder\MasterBuild.bat"
 ::XPatchLib.Net Release 输出路径
 IF EXIST "%XPATCHLIB_SRC%\src\XPatchLib\bin\Release" SET "RELEASE_PATH=%XPATCHLIB_SRC%\src\XPatchLib\bin\Release\"
-IF EXIST "%~dp0..\XPatchLib.Output\Release" SET "OUTPUT_PATH=%~dp0..\XPatchLib.Output\Release\"
+SET "OUTPUT_PATH=%~dp0..\XPatchLib.Output\Release\"
 
 IF NOT EXIST "%SLN%" (
 echo "%SLN% 不存在，请检查!"

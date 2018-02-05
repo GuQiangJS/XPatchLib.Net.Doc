@@ -5,7 +5,7 @@
 
 	<!-- Task properties -->
 	<PropertyGroup>
-		<WorkingFolder>C:\Users\GuQiang\Documents\Source\Repos\XPatchLib.Net.Doc\src\NET40\WorkingPath\</WorkingFolder>
+		<WorkingFolder>D:\GitHub\XPatchLib.Net.Doc\src\NET40\WorkingPath\</WorkingFolder>
 		<TocTransformation>C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\\ProductionTransforms\CreateVSToc.xsl</TocTransformation>
 		<TocTransformParameters></TocTransformParameters>
 	</PropertyGroup>

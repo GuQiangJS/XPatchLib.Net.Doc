@@ -13,7 +13,7 @@
 	<item id="feedback_body">Your feedback is used to improve the documentation and the product. Your e-mail address will not be used for any other purpose and is disposed of after the issue you report is resolved. While working to resolve the issue that you report, you may be contacted via e-mail to get further details or clarification on the feedback you sent. After the issue you report has been addressed, you may receive an e-mail to let you know that your feedback has been addressed.</item>
 
 	<!-- reference_content.xml overrides -->
-	<item id="topicTitle_root"><include item="rootTopicTitleLocalized"/></item>
+	<item id="topicTitle_root"><include item="rootTopicTitleLocalized" /></item>
     <!-- This is used when a title is not specified in the project -->
     <item id="rootTopicTitleLocalized">命名空间</item>
 
@@ -31,7 +31,7 @@
         <script type="text/javascript">
         var HT_mailLink = document.getElementById("HT_MailLink");
         var HT_mailLinkText = HT_mailLink.innerHTML;
-        HT_mailLink.href += ": " + document.title + "\u0026body=" + encodeURIComponent("<include item='feedback_body' />");
+        HT_mailLink.href += ": " + document.title + "\u0026body=" + encodeURIComponent("<include item="feedback_body" />");
         HT_mailLink.innerHTML = HT_mailLinkText;
         </script></item>
 
@@ -40,8 +40,7 @@
 	<item id="copyright"></item>
 
 	<!-- Request Example link -->
-	<item id="requestExample"><a id="HT_RequestExampleLink" href="{0}" target="_blank" class="button"
-		title="Request an example for this topic">Request Example</a>
+	<item id="requestExample"><a id="HT_RequestExampleLink" href="{0}" target="_blank" class="button" title="Request an example for this topic">Request Example</a>
 		<script type="text/javascript">
 		var HT_requestExampleLink = document.getElementById("HT_RequestExampleLink");
 		var HT_requestExampleLinkText = HT_requestExampleLink.innerHTML;
@@ -56,4 +55,4 @@
 			"scenario you would like to see addressed.%0D%0DHelp Topic: " + window.location.href).replace(/%250D/g, "%0D");
 		HT_requestExampleLink.innerHTML = HT_requestExampleLinkText;
 		</script></item>
-</content>
+<item id="SHFB_VBPI_Lbl_19BC2879">.NET Framework</item><item id="memberFrameworksSHFB_VBPI_Lbl_19BC2879">.NET Framework</item><item id="IncludeSHFB_VBPI_Lbl_19BC2879Members">.NET Framework</item><item id="SHFB_VBPI_Lbl_4CFFD8A2">.NET Standard</item><item id="memberFrameworksSHFB_VBPI_Lbl_4CFFD8A2">.NET Standard</item><item id="IncludeSHFB_VBPI_Lbl_4CFFD8A2Members">.NET Standard</item><item id="SHFB_VBPI_7AAB446">4.0</item><item id="SHFB_VBPI_1E74B446">2.0</item><item id="SHFB_VBPI_A9D4B446">3.5</item><item id="SHFB_VBPI_370927D5">1.0</item><item id="SHFB_VBPI_370927D6">1.3</item></content>
