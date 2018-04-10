@@ -9,9 +9,13 @@ Project("{7CF6DF6D-3B04-46F8-A40B-537D21BCA0B4}") = "NET35", "NET35\NET35.shfbpr
 EndProject
 Project("{7CF6DF6D-3B04-46F8-A40B-537D21BCA0B4}") = "NET40", "NET40\NET40.shfbproj", "{F4999F14-DA2A-4F6F-81F4-4F7F91711953}"
 EndProject
+Project("{7CF6DF6D-3B04-46F8-A40B-537D21BCA0B4}") = "NET45", "NET45\NET45.shfbproj", "{39c8856f-9090-450c-8b0f-df23fc713bd0}"
+EndProject
 Project("{7CF6DF6D-3B04-46F8-A40B-537D21BCA0B4}") = "STANDARD1.3", "STANDARD1.3\STANDARD1.3.shfbproj", "{924D3BAF-9628-4F0D-A110-4C1AC95E39E6}"
 EndProject
 Project("{7CF6DF6D-3B04-46F8-A40B-537D21BCA0B4}") = "STANDARD1.0", "STANDARD1.0\STANDARD1.0.shfbproj", "{956A02F9-3F61-4D6D-A701-2A7EE260056D}"
+EndProject
+Project("{7CF6DF6D-3B04-46F8-A40B-537D21BCA0B4}") = "STANDARD2.0", "STANDARD2.0\STANDARD2.0.shfbproj", "{389b823f-b218-4e78-bb2c-79c32c84708b}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,6 +35,10 @@ Global
 		{F4999F14-DA2A-4F6F-81F4-4F7F91711953}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F4999F14-DA2A-4F6F-81F4-4F7F91711953}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F4999F14-DA2A-4F6F-81F4-4F7F91711953}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39c8856f-9090-450c-8b0f-df23fc713bd0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39c8856f-9090-450c-8b0f-df23fc713bd0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39c8856f-9090-450c-8b0f-df23fc713bd0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39c8856f-9090-450c-8b0f-df23fc713bd0}.Release|Any CPU.Build.0 = Release|Any CPU
 		{924D3BAF-9628-4F0D-A110-4C1AC95E39E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{924D3BAF-9628-4F0D-A110-4C1AC95E39E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{924D3BAF-9628-4F0D-A110-4C1AC95E39E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -39,6 +47,10 @@ Global
 		{956A02F9-3F61-4D6D-A701-2A7EE260056D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{956A02F9-3F61-4D6D-A701-2A7EE260056D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{956A02F9-3F61-4D6D-A701-2A7EE260056D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{389b823f-b218-4e78-bb2c-79c32c84708b}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{389b823f-b218-4e78-bb2c-79c32c84708b}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{389b823f-b218-4e78-bb2c-79c32c84708b}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{389b823f-b218-4e78-bb2c-79c32c84708b}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

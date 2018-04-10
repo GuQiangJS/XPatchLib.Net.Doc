@@ -2,7 +2,7 @@
 <reflection>
   <assemblies>
     <assembly name="XPatchLib">
-      <assemblydata version="4.0.2.3" culture="" key="" hash="SHA1" />
+      <assemblydata version="4.1.0.4" culture="" key="" hash="SHA1" />
       <attributes>
         <attribute>
           <type api="T:System.Runtime.CompilerServices.ExtensionAttribute" ref="true" />
@@ -11,14 +11,14 @@
           <type api="T:System.Reflection.AssemblyFileVersionAttribute" ref="true" />
           <argument>
             <type api="T:System.String" ref="true" />
-            <value>4.0.2.3</value>
+            <value>4.1.0.4</value>
           </argument>
         </attribute>
         <attribute>
           <type api="T:System.Reflection.AssemblyInformationalVersionAttribute" ref="true" />
           <argument>
             <type api="T:System.String" ref="true" />
-            <value>4.0.2.3</value>
+            <value>4.1.0.4</value>
           </argument>
         </attribute>
       </attributes>
@@ -533,7 +533,7 @@
         <element api="P:XPatchLib.ISerializeSetting.IgnoreAttributeType" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" SHFB_VBPI_Lbl_4CFFD8A2="SHFB_VBPI_370927D6" />
         <element api="P:XPatchLib.ISerializeSetting.MemberType" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" SHFB_VBPI_Lbl_4CFFD8A2="SHFB_VBPI_370927D6" />
         <element api="P:XPatchLib.ISerializeSetting.Modifier" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" SHFB_VBPI_Lbl_4CFFD8A2="SHFB_VBPI_370927D6" />
-        <element api="P:XPatchLib.ISerializeSetting.AssemblyQualifiedName" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" />
+        <element api="P:XPatchLib.ISerializeSetting.AssemblyQualifiedName" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" SHFB_VBPI_Lbl_4CFFD8A2="SHFB_VBPI_370927D6" />
         <element api="P:XPatchLib.ISerializeSetting.ActionName" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" SHFB_VBPI_Lbl_4CFFD8A2="SHFB_VBPI_370927D6" />
         <element api="P:XPatchLib.ISerializeSetting.Mode" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" SHFB_VBPI_Lbl_4CFFD8A2="SHFB_VBPI_370927D6" />
         <element api="P:XPatchLib.ISerializeSetting.SerializeDefalutValue" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" SHFB_VBPI_Lbl_4CFFD8A2="SHFB_VBPI_370927D6" />
@@ -603,8 +603,13 @@
       <versions>
         <versions name="SHFB_VBPI_Lbl_19BC2879">
           <version name="SHFB_VBPI_7AAB446" />
+          <version name="SHFB_VBPI_A9D4B446" />
+          <version name="SHFB_VBPI_1E74B446" />
         </versions>
-        <versions name="SHFB_VBPI_Lbl_4CFFD8A2" />
+        <versions name="SHFB_VBPI_Lbl_4CFFD8A2">
+          <version name="SHFB_VBPI_370927D6" />
+          <version name="SHFB_VBPI_370927D5" />
+        </versions>
       </versions>
     </api>
     <api id="P:XPatchLib.ISerializeSetting.EnableOnDeserializedAttribute">
@@ -2799,7 +2804,7 @@
         <element api="P:XPatchLib.SerializeSetting.Mode" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" SHFB_VBPI_Lbl_4CFFD8A2="SHFB_VBPI_370927D6" />
         <element api="P:XPatchLib.SerializeSetting.SerializeDefalutValue" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" SHFB_VBPI_Lbl_4CFFD8A2="SHFB_VBPI_370927D6" />
         <element api="P:XPatchLib.SerializeSetting.ActionName" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" SHFB_VBPI_Lbl_4CFFD8A2="SHFB_VBPI_370927D6" />
-        <element api="P:XPatchLib.SerializeSetting.AssemblyQualifiedName" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" />
+        <element api="P:XPatchLib.SerializeSetting.AssemblyQualifiedName" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" SHFB_VBPI_Lbl_4CFFD8A2="SHFB_VBPI_370927D6" />
         <element api="E:XPatchLib.SerializeSetting.PropertyChanged" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" SHFB_VBPI_Lbl_4CFFD8A2="SHFB_VBPI_370927D6" />
       </elements>
       <containers>
@@ -2873,8 +2878,13 @@
       <versions>
         <versions name="SHFB_VBPI_Lbl_19BC2879">
           <version name="SHFB_VBPI_7AAB446" />
+          <version name="SHFB_VBPI_A9D4B446" />
+          <version name="SHFB_VBPI_1E74B446" />
         </versions>
-        <versions name="SHFB_VBPI_Lbl_4CFFD8A2" />
+        <versions name="SHFB_VBPI_Lbl_4CFFD8A2">
+          <version name="SHFB_VBPI_370927D6" />
+          <version name="SHFB_VBPI_370927D5" />
+        </versions>
       </versions>
     </api>
     <api id="M:XPatchLib.SerializeSetting.Clone">

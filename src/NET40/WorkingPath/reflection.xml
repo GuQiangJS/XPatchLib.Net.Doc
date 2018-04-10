@@ -2,7 +2,7 @@
 <reflection xmlns:msxsl="urn:schemas-microsoft-com:xslt" xmlns:ddue="urn:ddue-extensions">
   <assemblies>
     <assembly name="XPatchLib">
-      <assemblydata version="4.0.2.3" culture="" key="" hash="SHA1" />
+      <assemblydata version="4.1.0.4" culture="" key="" hash="SHA1" />
       <attributes>
         <attribute>
           <type api="T:System.Runtime.CompilerServices.ExtensionAttribute" ref="true" />
@@ -11,14 +11,14 @@
           <type api="T:System.Reflection.AssemblyFileVersionAttribute" ref="true" />
           <argument>
             <type api="T:System.String" ref="true" />
-            <value>4.0.2.3</value>
+            <value>4.1.0.4</value>
           </argument>
         </attribute>
         <attribute>
           <type api="T:System.Reflection.AssemblyInformationalVersionAttribute" ref="true" />
           <argument>
             <type api="T:System.String" ref="true" />
-            <value>4.0.2.3</value>
+            <value>4.1.0.4</value>
           </argument>
         </attribute>
       </attributes>
@@ -85,7 +85,7 @@
       </elements>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
         </library>
         <namespace api="N:XPatchLib" />
       </containers>
@@ -111,7 +111,7 @@
       </elements>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
         </library>
         <namespace api="N:XPatchLib" />
         <type api="T:XPatchLib.AttributeMissException" />
@@ -129,7 +129,7 @@
       </elements>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
         </library>
         <namespace api="N:XPatchLib" />
         <type api="T:XPatchLib.AttributeMissException" />
@@ -147,7 +147,7 @@
       </elements>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
         </library>
         <namespace api="N:XPatchLib" />
         <type api="T:XPatchLib.AttributeMissException" ref="true" />
@@ -160,7 +160,7 @@
       <memberdata visibility="public" special="true" overload="Overload:XPatchLib.AttributeMissException.#ctor" />
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
           <noAptca />
         </library>
         <namespace api="N:XPatchLib" />
@@ -190,7 +190,7 @@
       </parameters>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
           <noAptca />
         </library>
         <namespace api="N:XPatchLib" />
@@ -223,7 +223,7 @@
       </parameters>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
           <noAptca />
         </library>
         <namespace api="N:XPatchLib" />
@@ -256,7 +256,7 @@
       </parameters>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
           <noAptca />
         </library>
         <namespace api="N:XPatchLib" />
@@ -287,7 +287,7 @@
       </returns>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
           <noAptca />
         </library>
         <namespace api="N:XPatchLib" />
@@ -318,7 +318,7 @@
       </returns>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
           <noAptca />
         </library>
         <namespace api="N:XPatchLib" />
@@ -365,7 +365,7 @@
       </implements>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
           <noAptca />
         </library>
         <namespace api="N:XPatchLib" />
@@ -403,7 +403,7 @@
       </implements>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
           <noAptca />
         </library>
         <namespace api="N:XPatchLib" />
@@ -434,7 +434,7 @@
       </elements>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
         </library>
         <namespace api="N:XPatchLib" />
       </containers>
@@ -462,7 +462,7 @@
       <value>0</value>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
           <noAptca />
         </library>
         <namespace api="N:XPatchLib" />
@@ -492,7 +492,7 @@
       <value>3</value>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
           <noAptca />
         </library>
         <namespace api="N:XPatchLib" />
@@ -522,7 +522,7 @@
       <value>2</value>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
           <noAptca />
         </library>
         <namespace api="N:XPatchLib" />
@@ -552,7 +552,7 @@
       <value>1</value>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
           <noAptca />
         </library>
         <namespace api="N:XPatchLib" />
@@ -581,7 +581,7 @@
       </elements>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
         </library>
         <namespace api="N:XPatchLib" />
       </containers>
@@ -609,7 +609,7 @@
       <value>1</value>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
           <noAptca />
         </library>
         <namespace api="N:XPatchLib" />
@@ -639,7 +639,7 @@
       <value>0</value>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
           <noAptca />
         </library>
         <namespace api="N:XPatchLib" />
@@ -670,7 +670,7 @@
       </implementors>
       <elements>
         <element api="P:XPatchLib.ISerializeSetting.ActionName" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" SHFB_VBPI_Lbl_4CFFD8A2="SHFB_VBPI_370927D6" />
-        <element api="P:XPatchLib.ISerializeSetting.AssemblyQualifiedName" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" />
+        <element api="P:XPatchLib.ISerializeSetting.AssemblyQualifiedName" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" SHFB_VBPI_Lbl_4CFFD8A2="SHFB_VBPI_370927D6" />
         <element api="P:XPatchLib.ISerializeSetting.EnableOnDeserializedAttribute" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" />
         <element api="P:XPatchLib.ISerializeSetting.EnableOnDeserializingAttribute" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" />
         <element api="P:XPatchLib.ISerializeSetting.EnableOnSerializedAttribute" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" />
@@ -683,7 +683,7 @@
       </elements>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
         </library>
         <namespace api="N:XPatchLib" />
       </containers>
@@ -706,7 +706,7 @@
       <typedata visibility="public" abstract="true" serializable="false" />
       <elements>
         <element api="P:XPatchLib.ISerializeSetting.ActionName" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" SHFB_VBPI_Lbl_4CFFD8A2="SHFB_VBPI_370927D6" />
-        <element api="P:XPatchLib.ISerializeSetting.AssemblyQualifiedName" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" />
+        <element api="P:XPatchLib.ISerializeSetting.AssemblyQualifiedName" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" SHFB_VBPI_Lbl_4CFFD8A2="SHFB_VBPI_370927D6" />
         <element api="P:XPatchLib.ISerializeSetting.EnableOnDeserializedAttribute" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" />
         <element api="P:XPatchLib.ISerializeSetting.EnableOnDeserializingAttribute" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" />
         <element api="P:XPatchLib.ISerializeSetting.EnableOnSerializedAttribute" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" />
@@ -719,7 +719,7 @@
       </elements>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
         </library>
         <namespace api="N:XPatchLib" />
         <type api="T:XPatchLib.ISerializeSetting" />
@@ -739,7 +739,7 @@
       </returns>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
           <noAptca />
         </library>
         <namespace api="N:XPatchLib" />
@@ -771,7 +771,7 @@
       </returns>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
           <noAptca />
         </library>
         <namespace api="N:XPatchLib" />
@@ -780,8 +780,13 @@
       <versions>
         <versions name="SHFB_VBPI_Lbl_19BC2879">
           <version name="SHFB_VBPI_7AAB446" />
+          <version name="SHFB_VBPI_A9D4B446" />
+          <version name="SHFB_VBPI_1E74B446" />
         </versions>
-        <versions name="SHFB_VBPI_Lbl_4CFFD8A2" />
+        <versions name="SHFB_VBPI_Lbl_4CFFD8A2">
+          <version name="SHFB_VBPI_370927D6" />
+          <version name="SHFB_VBPI_370927D5" />
+        </versions>
       </versions>
       <file name="b86326c9-a2ec-f636-f280-9c47cd86ea27" />
     </api>
@@ -798,7 +803,7 @@
       </returns>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
           <noAptca />
         </library>
         <namespace api="N:XPatchLib" />
@@ -827,7 +832,7 @@
       </returns>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
           <noAptca />
         </library>
         <namespace api="N:XPatchLib" />
@@ -856,7 +861,7 @@
       </returns>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
           <noAptca />
         </library>
         <namespace api="N:XPatchLib" />
@@ -885,7 +890,7 @@
       </returns>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
           <noAptca />
         </library>
         <namespace api="N:XPatchLib" />
@@ -914,7 +919,7 @@
       </returns>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
           <noAptca />
         </library>
         <namespace api="N:XPatchLib" />
@@ -946,7 +951,7 @@
       </returns>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
           <noAptca />
         </library>
         <namespace api="N:XPatchLib" />
@@ -978,7 +983,7 @@
       </returns>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
           <noAptca />
         </library>
         <namespace api="N:XPatchLib" />
@@ -1010,7 +1015,7 @@
       </returns>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
           <noAptca />
         </library>
         <namespace api="N:XPatchLib" />
@@ -1042,7 +1047,7 @@
       </returns>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
           <noAptca />
         </library>
         <namespace api="N:XPatchLib" />
@@ -1083,7 +1088,7 @@
       </elements>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
         </library>
         <namespace api="N:XPatchLib" />
       </containers>
@@ -1111,7 +1116,7 @@
       </elements>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
         </library>
         <namespace api="N:XPatchLib" />
         <type api="T:XPatchLib.ITextReader" />
@@ -1131,7 +1136,7 @@
       </elements>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
         </library>
         <namespace api="N:XPatchLib" />
         <type api="T:XPatchLib.ITextReader" />
@@ -1150,7 +1155,7 @@
       </returns>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
           <noAptca />
         </library>
         <namespace api="N:XPatchLib" />
@@ -1181,7 +1186,7 @@
       </returns>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
           <noAptca />
         </library>
         <namespace api="N:XPatchLib" />
@@ -1210,7 +1215,7 @@
       </returns>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
           <noAptca />
         </library>
         <namespace api="N:XPatchLib" />
@@ -1241,7 +1246,7 @@
       </returns>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
           <noAptca />
         </library>
         <namespace api="N:XPatchLib" />
@@ -1272,7 +1277,7 @@
       </returns>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
           <noAptca />
         </library>
         <namespace api="N:XPatchLib" />
@@ -1301,7 +1306,7 @@
       </returns>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
           <noAptca />
         </library>
         <namespace api="N:XPatchLib" />
@@ -1332,7 +1337,7 @@
       </returns>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
           <noAptca />
         </library>
         <namespace api="N:XPatchLib" />
@@ -1364,7 +1369,7 @@
       </returns>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
           <noAptca />
         </library>
         <namespace api="N:XPatchLib" />
@@ -1416,7 +1421,7 @@
       </elements>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
         </library>
         <namespace api="N:XPatchLib" />
       </containers>
@@ -1455,7 +1460,7 @@
       </elements>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
         </library>
         <namespace api="N:XPatchLib" />
         <type api="T:XPatchLib.ITextWriter" />
@@ -1475,7 +1480,7 @@
       </elements>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
         </library>
         <namespace api="N:XPatchLib" />
         <type api="T:XPatchLib.ITextWriter" />
@@ -1489,7 +1494,7 @@
       <proceduredata abstract="true" virtual="true" />
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
           <noAptca />
         </library>
         <namespace api="N:XPatchLib" />
@@ -1521,7 +1526,7 @@
       </returns>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
           <noAptca />
         </library>
         <namespace api="N:XPatchLib" />
@@ -1553,7 +1558,7 @@
       </returns>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
           <noAptca />
         </library>
         <namespace api="N:XPatchLib" />
@@ -1585,7 +1590,7 @@
       </returns>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
           <noAptca />
         </library>
         <namespace api="N:XPatchLib" />
@@ -1617,7 +1622,7 @@
       </returns>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
           <noAptca />
         </library>
         <namespace api="N:XPatchLib" />
@@ -1649,7 +1654,7 @@
       </returns>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
           <noAptca />
         </library>
         <namespace api="N:XPatchLib" />
@@ -1683,7 +1688,7 @@
       </parameters>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
           <noAptca />
         </library>
         <namespace api="N:XPatchLib" />
@@ -1709,7 +1714,7 @@
       <proceduredata abstract="true" virtual="true" />
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
           <noAptca />
         </library>
         <namespace api="N:XPatchLib" />
@@ -1735,7 +1740,7 @@
       <proceduredata abstract="true" virtual="true" />
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
           <noAptca />
         </library>
         <namespace api="N:XPatchLib" />
@@ -1761,7 +1766,7 @@
       <proceduredata abstract="true" virtual="true" />
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
           <noAptca />
         </library>
         <namespace api="N:XPatchLib" />
@@ -1787,7 +1792,7 @@
       <proceduredata abstract="true" virtual="true" />
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
           <noAptca />
         </library>
         <namespace api="N:XPatchLib" />
@@ -1813,7 +1818,7 @@
       <proceduredata abstract="true" virtual="true" />
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
           <noAptca />
         </library>
         <namespace api="N:XPatchLib" />
@@ -1847,7 +1852,7 @@
       </parameters>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
           <noAptca />
         </library>
         <namespace api="N:XPatchLib" />
@@ -1878,7 +1883,7 @@
       </parameters>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
           <noAptca />
         </library>
         <namespace api="N:XPatchLib" />
@@ -1909,7 +1914,7 @@
       </parameters>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
           <noAptca />
         </library>
         <namespace api="N:XPatchLib" />
@@ -1935,7 +1940,7 @@
       <proceduredata abstract="true" virtual="true" />
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
           <noAptca />
         </library>
         <namespace api="N:XPatchLib" />
@@ -1966,7 +1971,7 @@
       </parameters>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
           <noAptca />
         </library>
         <namespace api="N:XPatchLib" />
@@ -1997,7 +2002,7 @@
       </parameters>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
           <noAptca />
         </library>
         <namespace api="N:XPatchLib" />
@@ -2028,7 +2033,7 @@
       </parameters>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
           <noAptca />
         </library>
         <namespace api="N:XPatchLib" />
@@ -2061,7 +2066,7 @@
       </elements>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
         </library>
         <namespace api="N:XPatchLib" />
       </containers>
@@ -2089,7 +2094,7 @@
       <value>0</value>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
           <noAptca />
         </library>
         <namespace api="N:XPatchLib" />
@@ -2119,7 +2124,7 @@
       <value>1</value>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
           <noAptca />
         </library>
         <namespace api="N:XPatchLib" />
@@ -2149,7 +2154,7 @@
       <value>2</value>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
           <noAptca />
         </library>
         <namespace api="N:XPatchLib" />
@@ -2179,7 +2184,7 @@
       <value>3</value>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
           <noAptca />
         </library>
         <namespace api="N:XPatchLib" />
@@ -2209,7 +2214,7 @@
       <value>4</value>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
           <noAptca />
         </library>
         <namespace api="N:XPatchLib" />
@@ -2239,7 +2244,7 @@
       <value>5</value>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
           <noAptca />
         </library>
         <namespace api="N:XPatchLib" />
@@ -2274,7 +2279,7 @@
       </elements>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
         </library>
         <namespace api="N:XPatchLib" />
       </containers>
@@ -2300,7 +2305,7 @@
       </elements>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
         </library>
         <namespace api="N:XPatchLib" />
         <type api="T:XPatchLib.PrimaryKeyAttribute" />
@@ -2320,7 +2325,7 @@
       </parameters>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
           <noAptca />
         </library>
         <namespace api="N:XPatchLib" />
@@ -2351,7 +2356,7 @@
       </returns>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
           <noAptca />
         </library>
         <namespace api="N:XPatchLib" />
@@ -2394,7 +2399,7 @@
       </elements>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
         </library>
         <namespace api="N:XPatchLib" />
       </containers>
@@ -2420,7 +2425,7 @@
       </elements>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
         </library>
         <namespace api="N:XPatchLib" />
         <type api="T:XPatchLib.PrimaryKeyException" />
@@ -2438,7 +2443,7 @@
       </elements>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
         </library>
         <namespace api="N:XPatchLib" />
         <type api="T:XPatchLib.PrimaryKeyException" />
@@ -2456,7 +2461,7 @@
       </elements>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
         </library>
         <namespace api="N:XPatchLib" />
         <type api="T:XPatchLib.PrimaryKeyException" ref="true" />
@@ -2469,7 +2474,7 @@
       <memberdata visibility="public" special="true" overload="Overload:XPatchLib.PrimaryKeyException.#ctor" />
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
           <noAptca />
         </library>
         <namespace api="N:XPatchLib" />
@@ -2499,7 +2504,7 @@
       </parameters>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
           <noAptca />
         </library>
         <namespace api="N:XPatchLib" />
@@ -2532,7 +2537,7 @@
       </parameters>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
           <noAptca />
         </library>
         <namespace api="N:XPatchLib" />
@@ -2565,7 +2570,7 @@
       </parameters>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
           <noAptca />
         </library>
         <namespace api="N:XPatchLib" />
@@ -2597,7 +2602,7 @@
       </returns>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
           <noAptca />
         </library>
         <namespace api="N:XPatchLib" />
@@ -2644,7 +2649,7 @@
       </implements>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
           <noAptca />
         </library>
         <namespace api="N:XPatchLib" />
@@ -2682,7 +2687,7 @@
       </implements>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
           <noAptca />
         </library>
         <namespace api="N:XPatchLib" />
@@ -2714,7 +2719,7 @@
       </returns>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
           <noAptca />
         </library>
         <namespace api="N:XPatchLib" />
@@ -2746,7 +2751,7 @@
       </elements>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
         </library>
         <namespace api="N:XPatchLib" />
       </containers>
@@ -2774,7 +2779,7 @@
       <value>0</value>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
           <noAptca />
         </library>
         <namespace api="N:XPatchLib" />
@@ -2804,7 +2809,7 @@
       <value>1</value>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
           <noAptca />
         </library>
         <namespace api="N:XPatchLib" />
@@ -2834,7 +2839,7 @@
       <value>2</value>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
           <noAptca />
         </library>
         <namespace api="N:XPatchLib" />
@@ -2864,7 +2869,7 @@
       <value>3</value>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
           <noAptca />
         </library>
         <namespace api="N:XPatchLib" />
@@ -2894,7 +2899,7 @@
       <value>4</value>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
           <noAptca />
         </library>
         <namespace api="N:XPatchLib" />
@@ -2927,7 +2932,7 @@
       </elements>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
         </library>
         <namespace api="N:XPatchLib" />
       </containers>
@@ -2960,7 +2965,7 @@
       <value>15</value>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
           <noAptca />
         </library>
         <namespace api="N:XPatchLib" />
@@ -2990,7 +2995,7 @@
       <value>8</value>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
           <noAptca />
         </library>
         <namespace api="N:XPatchLib" />
@@ -3020,7 +3025,7 @@
       <value>14</value>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
           <noAptca />
         </library>
         <namespace api="N:XPatchLib" />
@@ -3050,7 +3055,7 @@
       <value>2</value>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
           <noAptca />
         </library>
         <namespace api="N:XPatchLib" />
@@ -3080,7 +3085,7 @@
       <value>4</value>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
           <noAptca />
         </library>
         <namespace api="N:XPatchLib" />
@@ -3110,7 +3115,7 @@
       <value>1</value>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
           <noAptca />
         </library>
         <namespace api="N:XPatchLib" />
@@ -3140,7 +3145,7 @@
       </elements>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
         </library>
         <namespace api="N:XPatchLib" />
       </containers>
@@ -3173,7 +3178,7 @@
       <value>20</value>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
           <noAptca />
         </library>
         <namespace api="N:XPatchLib" />
@@ -3203,7 +3208,7 @@
       <value>16</value>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
           <noAptca />
         </library>
         <namespace api="N:XPatchLib" />
@@ -3233,7 +3238,7 @@
       <value>4</value>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
           <noAptca />
         </library>
         <namespace api="N:XPatchLib" />
@@ -3276,7 +3281,7 @@
       </elements>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
         </library>
         <namespace api="N:XPatchLib" />
       </containers>
@@ -3308,7 +3313,7 @@
       </elements>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
         </library>
         <namespace api="N:XPatchLib" />
         <type api="T:XPatchLib.Serializer" />
@@ -3324,7 +3329,7 @@
       </elements>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
         </library>
         <namespace api="N:XPatchLib" />
         <type api="T:XPatchLib.Serializer" ref="true" />
@@ -3342,7 +3347,7 @@
       </parameters>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
           <noAptca />
         </library>
         <namespace api="N:XPatchLib" />
@@ -3379,7 +3384,7 @@
       </returns>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
           <noAptca />
         </library>
         <namespace api="N:XPatchLib" />
@@ -3419,7 +3424,7 @@
       </returns>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
           <noAptca />
         </library>
         <namespace api="N:XPatchLib" />
@@ -3450,7 +3455,7 @@
       </implements>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
           <noAptca />
         </library>
         <namespace api="N:XPatchLib" />
@@ -3487,7 +3492,7 @@
       </parameters>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
           <noAptca />
         </library>
         <namespace api="N:XPatchLib" />
@@ -3523,7 +3528,7 @@
       </parameters>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
           <noAptca />
         </library>
         <namespace api="N:XPatchLib" />
@@ -3561,7 +3566,7 @@
       </implements>
       <elements>
         <element api="P:XPatchLib.SerializeSetting.ActionName" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" SHFB_VBPI_Lbl_4CFFD8A2="SHFB_VBPI_370927D6" />
-        <element api="P:XPatchLib.SerializeSetting.AssemblyQualifiedName" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" />
+        <element api="P:XPatchLib.SerializeSetting.AssemblyQualifiedName" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" SHFB_VBPI_Lbl_4CFFD8A2="SHFB_VBPI_370927D6" />
         <element api="M:XPatchLib.SerializeSetting.Clone" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" SHFB_VBPI_Lbl_4CFFD8A2="SHFB_VBPI_370927D6" />
         <element api="P:XPatchLib.SerializeSetting.EnableOnDeserializedAttribute" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" />
         <element api="P:XPatchLib.SerializeSetting.EnableOnDeserializingAttribute" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" />
@@ -3576,7 +3581,7 @@
       </elements>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
         </library>
         <namespace api="N:XPatchLib" />
       </containers>
@@ -3602,7 +3607,7 @@
       </elements>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
         </library>
         <namespace api="N:XPatchLib" />
         <type api="T:XPatchLib.SerializeSetting" />
@@ -3615,7 +3620,7 @@
       <typedata visibility="public" abstract="true" serializable="false" />
       <elements>
         <element api="P:XPatchLib.SerializeSetting.ActionName" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" SHFB_VBPI_Lbl_4CFFD8A2="SHFB_VBPI_370927D6" />
-        <element api="P:XPatchLib.SerializeSetting.AssemblyQualifiedName" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" />
+        <element api="P:XPatchLib.SerializeSetting.AssemblyQualifiedName" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" SHFB_VBPI_Lbl_4CFFD8A2="SHFB_VBPI_370927D6" />
         <element api="P:XPatchLib.SerializeSetting.EnableOnDeserializedAttribute" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" />
         <element api="P:XPatchLib.SerializeSetting.EnableOnDeserializingAttribute" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" />
         <element api="P:XPatchLib.SerializeSetting.EnableOnSerializedAttribute" SHFB_VBPI_Lbl_19BC2879="SHFB_VBPI_7AAB446" />
@@ -3628,7 +3633,7 @@
       </elements>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
         </library>
         <namespace api="N:XPatchLib" />
         <type api="T:XPatchLib.SerializeSetting" />
@@ -3644,7 +3649,7 @@
       </elements>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
         </library>
         <namespace api="N:XPatchLib" />
         <type api="T:XPatchLib.SerializeSetting" />
@@ -3669,7 +3674,7 @@
       </implements>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
           <noAptca />
         </library>
         <namespace api="N:XPatchLib" />
@@ -3706,7 +3711,7 @@
       </implements>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
           <noAptca />
         </library>
         <namespace api="N:XPatchLib" />
@@ -3715,8 +3720,13 @@
       <versions>
         <versions name="SHFB_VBPI_Lbl_19BC2879">
           <version name="SHFB_VBPI_7AAB446" />
+          <version name="SHFB_VBPI_A9D4B446" />
+          <version name="SHFB_VBPI_1E74B446" />
         </versions>
-        <versions name="SHFB_VBPI_Lbl_4CFFD8A2" />
+        <versions name="SHFB_VBPI_Lbl_4CFFD8A2">
+          <version name="SHFB_VBPI_370927D6" />
+          <version name="SHFB_VBPI_370927D5" />
+        </versions>
       </versions>
       <file name="95dddc9a-5421-8e3b-8cf0-bd8a3106c765" />
     </api>
@@ -3735,7 +3745,7 @@
       </implements>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
           <noAptca />
         </library>
         <namespace api="N:XPatchLib" />
@@ -3772,7 +3782,7 @@
       </implements>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
           <noAptca />
         </library>
         <namespace api="N:XPatchLib" />
@@ -3806,7 +3816,7 @@
       </implements>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
           <noAptca />
         </library>
         <namespace api="N:XPatchLib" />
@@ -3840,7 +3850,7 @@
       </implements>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
           <noAptca />
         </library>
         <namespace api="N:XPatchLib" />
@@ -3874,7 +3884,7 @@
       </implements>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
           <noAptca />
         </library>
         <namespace api="N:XPatchLib" />
@@ -3908,7 +3918,7 @@
       </implements>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
           <noAptca />
         </library>
         <namespace api="N:XPatchLib" />
@@ -3945,7 +3955,7 @@
       </implements>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
           <noAptca />
         </library>
         <namespace api="N:XPatchLib" />
@@ -3982,7 +3992,7 @@
       </implements>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
           <noAptca />
         </library>
         <namespace api="N:XPatchLib" />
@@ -4019,7 +4029,7 @@
       </implements>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
           <noAptca />
         </library>
         <namespace api="N:XPatchLib" />
@@ -4059,7 +4069,7 @@
       </implements>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
           <noAptca />
         </library>
         <namespace api="N:XPatchLib" />
@@ -4096,7 +4106,7 @@
       </implements>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
           <noAptca />
         </library>
         <namespace api="N:XPatchLib" />
@@ -4132,7 +4142,7 @@
       </elements>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
         </library>
         <namespace api="N:XPatchLib" />
       </containers>
@@ -4158,7 +4168,7 @@
       </elements>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
         </library>
         <namespace api="N:XPatchLib" />
         <type api="T:XPatchLib.XmlSerializeSetting" />
@@ -4174,7 +4184,7 @@
       </elements>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
         </library>
         <namespace api="N:XPatchLib" />
         <type api="T:XPatchLib.XmlSerializeSetting" />
@@ -4187,7 +4197,7 @@
       <memberdata visibility="public" special="true" />
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
           <noAptca />
         </library>
         <namespace api="N:XPatchLib" />
@@ -4226,7 +4236,7 @@
       </implements>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
           <noAptca />
         </library>
         <namespace api="N:XPatchLib" />
@@ -4268,7 +4278,7 @@
       </implements>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
           <noAptca />
         </library>
         <namespace api="N:XPatchLib" />
@@ -4318,7 +4328,7 @@
       </elements>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
         </library>
         <namespace api="N:XPatchLib" />
       </containers>
@@ -4347,7 +4357,7 @@
       </elements>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
         </library>
         <namespace api="N:XPatchLib" />
         <type api="T:XPatchLib.XmlTextReader" />
@@ -4367,7 +4377,7 @@
       </elements>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
         </library>
         <namespace api="N:XPatchLib" />
         <type api="T:XPatchLib.XmlTextReader" />
@@ -4384,7 +4394,7 @@
       </elements>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
         </library>
         <namespace api="N:XPatchLib" />
         <type api="T:XPatchLib.XmlTextReader" ref="true" />
@@ -4402,7 +4412,7 @@
       </parameters>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
           <noAptca />
         </library>
         <namespace api="N:XPatchLib" />
@@ -4432,7 +4442,7 @@
       </parameters>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
           <noAptca />
         </library>
         <namespace api="N:XPatchLib" />
@@ -4462,7 +4472,7 @@
       </parameters>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
           <noAptca />
         </library>
         <namespace api="N:XPatchLib" />
@@ -4493,7 +4503,7 @@
       </implements>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
           <noAptca />
         </library>
         <namespace api="N:XPatchLib" />
@@ -4529,7 +4539,7 @@
       </implements>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
           <noAptca />
         </library>
         <namespace api="N:XPatchLib" />
@@ -4565,7 +4575,7 @@
       </implements>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
           <noAptca />
         </library>
         <namespace api="N:XPatchLib" />
@@ -4599,7 +4609,7 @@
       </implements>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
           <noAptca />
         </library>
         <namespace api="N:XPatchLib" />
@@ -4635,7 +4645,7 @@
       </implements>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
           <noAptca />
         </library>
         <namespace api="N:XPatchLib" />
@@ -4671,7 +4681,7 @@
       </implements>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
           <noAptca />
         </library>
         <namespace api="N:XPatchLib" />
@@ -4705,7 +4715,7 @@
       </implements>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
           <noAptca />
         </library>
         <namespace api="N:XPatchLib" />
@@ -4741,7 +4751,7 @@
       </implements>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
           <noAptca />
         </library>
         <namespace api="N:XPatchLib" />
@@ -4778,7 +4788,7 @@
       </implements>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
           <noAptca />
         </library>
         <namespace api="N:XPatchLib" />
@@ -4839,7 +4849,7 @@
       </elements>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
         </library>
         <namespace api="N:XPatchLib" />
       </containers>
@@ -4879,7 +4889,7 @@
       </elements>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
         </library>
         <namespace api="N:XPatchLib" />
         <type api="T:XPatchLib.XmlTextWriter" />
@@ -4899,7 +4909,7 @@
       </elements>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
         </library>
         <namespace api="N:XPatchLib" />
         <type api="T:XPatchLib.XmlTextWriter" />
@@ -4916,7 +4926,7 @@
       </elements>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
         </library>
         <namespace api="N:XPatchLib" />
         <type api="T:XPatchLib.XmlTextWriter" ref="true" />
@@ -4937,7 +4947,7 @@
       </parameters>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
           <noAptca />
         </library>
         <namespace api="N:XPatchLib" />
@@ -4967,7 +4977,7 @@
       </parameters>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
           <noAptca />
         </library>
         <namespace api="N:XPatchLib" />
@@ -5000,7 +5010,7 @@
       </parameters>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
           <noAptca />
         </library>
         <namespace api="N:XPatchLib" />
@@ -5030,7 +5040,7 @@
       </implements>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
           <noAptca />
         </library>
         <namespace api="N:XPatchLib" />
@@ -5061,7 +5071,7 @@
       </implements>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
           <noAptca />
         </library>
         <namespace api="N:XPatchLib" />
@@ -5098,7 +5108,7 @@
       </implements>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
           <noAptca />
         </library>
         <namespace api="N:XPatchLib" />
@@ -5135,7 +5145,7 @@
       </implements>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
           <noAptca />
         </library>
         <namespace api="N:XPatchLib" />
@@ -5172,7 +5182,7 @@
       </implements>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
           <noAptca />
         </library>
         <namespace api="N:XPatchLib" />
@@ -5209,7 +5219,7 @@
       </implements>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
           <noAptca />
         </library>
         <namespace api="N:XPatchLib" />
@@ -5246,7 +5256,7 @@
       </implements>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
           <noAptca />
         </library>
         <namespace api="N:XPatchLib" />
@@ -5285,7 +5295,7 @@
       </implements>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
           <noAptca />
         </library>
         <namespace api="N:XPatchLib" />
@@ -5316,7 +5326,7 @@
       </implements>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
           <noAptca />
         </library>
         <namespace api="N:XPatchLib" />
@@ -5347,7 +5357,7 @@
       </implements>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
           <noAptca />
         </library>
         <namespace api="N:XPatchLib" />
@@ -5378,7 +5388,7 @@
       </implements>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
           <noAptca />
         </library>
         <namespace api="N:XPatchLib" />
@@ -5409,7 +5419,7 @@
       </implements>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
           <noAptca />
         </library>
         <namespace api="N:XPatchLib" />
@@ -5440,7 +5450,7 @@
       </implements>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
           <noAptca />
         </library>
         <namespace api="N:XPatchLib" />
@@ -5479,7 +5489,7 @@
       </implements>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
           <noAptca />
         </library>
         <namespace api="N:XPatchLib" />
@@ -5515,7 +5525,7 @@
       </implements>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
           <noAptca />
         </library>
         <namespace api="N:XPatchLib" />
@@ -5551,7 +5561,7 @@
       </implements>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
           <noAptca />
         </library>
         <namespace api="N:XPatchLib" />
@@ -5582,7 +5592,7 @@
       </implements>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
           <noAptca />
         </library>
         <namespace api="N:XPatchLib" />
@@ -5618,7 +5628,7 @@
       </implements>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
           <noAptca />
         </library>
         <namespace api="N:XPatchLib" />
@@ -5654,7 +5664,7 @@
       </implements>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
           <noAptca />
         </library>
         <namespace api="N:XPatchLib" />
@@ -5690,7 +5700,7 @@
       </implements>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
           <noAptca />
         </library>
         <namespace api="N:XPatchLib" />
@@ -5722,7 +5732,7 @@
       </elements>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
         </library>
         <namespace api="N:XPatchLib" />
       </containers>
@@ -5744,7 +5754,7 @@
       </elements>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
         </library>
         <namespace api="N:XPatchLib" />
         <type api="T:XPatchLib.ICloneable" />
@@ -5761,7 +5771,7 @@
       </returns>
       <containers>
         <library assembly="XPatchLib" module="XPatchLib" kind="DynamicallyLinkedLibrary">
-          <assemblydata version="4.0.2.3" />
+          <assemblydata version="4.1.0.4" />
           <noAptca />
         </library>
         <namespace api="N:XPatchLib" />

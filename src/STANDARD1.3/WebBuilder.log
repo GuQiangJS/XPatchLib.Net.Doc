@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<shfbBuild product="Sandcastle Help File Builder and Tools" version="2017.5.15.0" projectFile="D:\GitHub\XPatchLib.Net.Doc\src\STANDARD1.3\STANDARD1.3.shfbproj" started="2018/2/5 17:24:52">
+<shfbBuild product="Sandcastle Help File Builder and Tools" version="2017.5.15.0" projectFile="D:\GitHub\XPatchLib.Net.Doc\src\STANDARD1.3\STANDARD1.3.shfbproj" started="2018/4/10 10:30:27">
 <buildStep step="Initializing">
 Finding tools...
 The Sandcastle tools are located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\&#39;
@@ -20,21 +20,21 @@ Source: D:\GitHub\XPatchLib.Output\Release\netstandard1.3\XPatchLib.dll
 Source: D:\GitHub\XPatchLib.Output\Release\netstandard1.3\XPatchLib.xml
 
 Copying XML comments files
-    D:\GitHub\XPatchLib.Output\Release\netstandard1.3\XPatchLib.xml -&gt; D:\GitHub\XPatchLib.Net.Doc\src\NET40\WorkingPath\BFAA7393\XPatchLib.xml
+    D:\GitHub\XPatchLib.Output\Release\netstandard1.3\XPatchLib.xml -&gt; D:\GitHub\XPatchLib.Net.Doc\src\NET45\WorkingPath\BFAA7393\XPatchLib.xml
 </buildStep>
 <buildStep step="GenerateSharedContent">
 Generating shared content files (zh-CN, 中文(简体，中国))...
-    Last step completed in 00:00:00.0060
+    Last step completed in 00:00:00.0080
 </buildStep>
 <buildStep step="GenerateApiFilter">
 Generating API filter for MRefBuilder...
-    Last step completed in 00:00:00.0050
+    Last step completed in 00:00:00.0030
 </buildStep>
 <buildStep step="GenerateReflectionInfo">
 Generating reflection information...
 [C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\MSBuild\15.0\bin\MSBuild.exe - GenerateRefInfo.proj]
-生成启动时间为 2018/2/5 17:24:55。
-节点 1 上的项目“D:\GitHub\XPatchLib.Net.Doc\src\NET40\WorkingPath\BFAA7393\GenerateRefInfo.proj”(默认目标)。
+生成启动时间为 2018/4/10 10:30:29。
+节点 1 上的项目“D:\GitHub\XPatchLib.Net.Doc\src\NET45\WorkingPath\BFAA7393\GenerateRefInfo.proj”(默认目标)。
 PrepareForBuild:
   正在创建目录“obj\Debug\”。
 GenerateRefInfo:
@@ -43,28 +43,28 @@ GenerateRefInfo:
   Portions Copyright ? 2006-2016, Eric Woodruff, All Rights Reserved.
   No source code context base path specified.  Source context information is unavailable.
   Loaded 1 assemblies for reflection and 1 dependency assemblies.
-MRefBuilder : warning : Ignoring unresolved assembly reference: System.ObjectModel (System.ObjectModel, Version=4.0.10.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a) required by XPatchLib [D:\GitHub\XPatchLib.Net.Doc\src\NET40\WorkingPath\BFAA7393\GenerateRefInfo.proj]
-MRefBuilder : warning : Ignoring unresolved assembly reference: System.Reflection (System.Reflection, Version=4.0.10.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a) required by XPatchLib [D:\GitHub\XPatchLib.Net.Doc\src\NET40\WorkingPath\BFAA7393\GenerateRefInfo.proj]
-MRefBuilder : warning : Ignoring unresolved assembly reference: System.Linq.Expressions (System.Linq.Expressions, Version=4.0.10.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a) required by XPatchLib [D:\GitHub\XPatchLib.Net.Doc\src\NET40\WorkingPath\BFAA7393\GenerateRefInfo.proj]
-MRefBuilder : warning : Ignoring unresolved assembly reference: System.Collections (System.Collections, Version=4.0.10.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a) required by XPatchLib [D:\GitHub\XPatchLib.Net.Doc\src\NET40\WorkingPath\BFAA7393\GenerateRefInfo.proj]
-MRefBuilder : warning : Ignoring unresolved assembly reference: System.Xml.ReaderWriter (System.Xml.ReaderWriter, Version=4.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a) required by XPatchLib [D:\GitHub\XPatchLib.Net.Doc\src\NET40\WorkingPath\BFAA7393\GenerateRefInfo.proj]
-MRefBuilder : warning : Ignoring unresolved assembly reference: System.Diagnostics.Debug (System.Diagnostics.Debug, Version=4.0.10.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a) required by XPatchLib [D:\GitHub\XPatchLib.Net.Doc\src\NET40\WorkingPath\BFAA7393\GenerateRefInfo.proj]
-MRefBuilder : warning : Ignoring unresolved assembly reference: System.Globalization (System.Globalization, Version=4.0.10.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a) required by XPatchLib [D:\GitHub\XPatchLib.Net.Doc\src\NET40\WorkingPath\BFAA7393\GenerateRefInfo.proj]
-MRefBuilder : warning : Ignoring unresolved assembly reference: System.Text.RegularExpressions (System.Text.RegularExpressions, Version=4.0.10.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a) required by XPatchLib [D:\GitHub\XPatchLib.Net.Doc\src\NET40\WorkingPath\BFAA7393\GenerateRefInfo.proj]
-MRefBuilder : warning : Ignoring unresolved assembly reference: System.IO (System.IO, Version=4.0.10.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a) required by XPatchLib [D:\GitHub\XPatchLib.Net.Doc\src\NET40\WorkingPath\BFAA7393\GenerateRefInfo.proj]
-MRefBuilder : warning : Ignoring unresolved assembly reference: System.Text.Encoding (System.Text.Encoding, Version=4.0.10.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a) required by XPatchLib [D:\GitHub\XPatchLib.Net.Doc\src\NET40\WorkingPath\BFAA7393\GenerateRefInfo.proj]
-  Wrote information on 1 namespaces, 18 types, and 128 members
+MRefBuilder : warning : Ignoring unresolved assembly reference: System.ObjectModel (System.ObjectModel, Version=4.0.10.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a) required by XPatchLib [D:\GitHub\XPatchLib.Net.Doc\src\NET45\WorkingPath\BFAA7393\GenerateRefInfo.proj]
+MRefBuilder : warning : Ignoring unresolved assembly reference: System.Reflection (System.Reflection, Version=4.0.10.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a) required by XPatchLib [D:\GitHub\XPatchLib.Net.Doc\src\NET45\WorkingPath\BFAA7393\GenerateRefInfo.proj]
+MRefBuilder : warning : Ignoring unresolved assembly reference: System.Linq.Expressions (System.Linq.Expressions, Version=4.0.10.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a) required by XPatchLib [D:\GitHub\XPatchLib.Net.Doc\src\NET45\WorkingPath\BFAA7393\GenerateRefInfo.proj]
+MRefBuilder : warning : Ignoring unresolved assembly reference: System.Collections (System.Collections, Version=4.0.10.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a) required by XPatchLib [D:\GitHub\XPatchLib.Net.Doc\src\NET45\WorkingPath\BFAA7393\GenerateRefInfo.proj]
+MRefBuilder : warning : Ignoring unresolved assembly reference: System.Text.RegularExpressions (System.Text.RegularExpressions, Version=4.0.10.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a) required by XPatchLib [D:\GitHub\XPatchLib.Net.Doc\src\NET45\WorkingPath\BFAA7393\GenerateRefInfo.proj]
+MRefBuilder : warning : Ignoring unresolved assembly reference: System.Xml.ReaderWriter (System.Xml.ReaderWriter, Version=4.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a) required by XPatchLib [D:\GitHub\XPatchLib.Net.Doc\src\NET45\WorkingPath\BFAA7393\GenerateRefInfo.proj]
+MRefBuilder : warning : Ignoring unresolved assembly reference: System.Diagnostics.Debug (System.Diagnostics.Debug, Version=4.0.10.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a) required by XPatchLib [D:\GitHub\XPatchLib.Net.Doc\src\NET45\WorkingPath\BFAA7393\GenerateRefInfo.proj]
+MRefBuilder : warning : Ignoring unresolved assembly reference: System.Globalization (System.Globalization, Version=4.0.10.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a) required by XPatchLib [D:\GitHub\XPatchLib.Net.Doc\src\NET45\WorkingPath\BFAA7393\GenerateRefInfo.proj]
+MRefBuilder : warning : Ignoring unresolved assembly reference: System.IO (System.IO, Version=4.0.10.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a) required by XPatchLib [D:\GitHub\XPatchLib.Net.Doc\src\NET45\WorkingPath\BFAA7393\GenerateRefInfo.proj]
+MRefBuilder : warning : Ignoring unresolved assembly reference: System.Text.Encoding (System.Text.Encoding, Version=4.0.10.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a) required by XPatchLib [D:\GitHub\XPatchLib.Net.Doc\src\NET45\WorkingPath\BFAA7393\GenerateRefInfo.proj]
+  Wrote information on 1 namespaces, 18 types, and 130 members
   正在将文件从“reflection.org”复制到“reflection.all”。
   XslTransform (v2017.5.15.0)
   Copyright ? 2006-2017, Microsoft Corporation, All Rights Reserved.
   Portions Copyright ? 2006-2016, Eric Woodruff, All Rights Reserved.
   Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\ProductionTransforms\MergeDuplicates.xsl&#39;.
-已完成生成项目“D:\GitHub\XPatchLib.Net.Doc\src\NET40\WorkingPath\BFAA7393\GenerateRefInfo.proj”(默认目标)的操作。
-    Last step completed in 00:00:48.4711
+已完成生成项目“D:\GitHub\XPatchLib.Net.Doc\src\NET45\WorkingPath\BFAA7393\GenerateRefInfo.proj”(默认目标)的操作。
+    Last step completed in 00:01:17.2810
 </buildStep>
 <buildStep step="Completed">
 
-Build completed successfully at 2018/2/5 17:25:42.  Total time: 00:00:50.0801
+Build completed successfully at 2018/4/10 10:31:45.  Total time: 00:01:18.2410
 
 </buildStep>
 </shfbBuild>
